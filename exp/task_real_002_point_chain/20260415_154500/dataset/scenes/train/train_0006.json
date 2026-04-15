@@ -1,0 +1,28 @@
+{
+  "sample_id": "train_0006",
+  "split": "train",
+  "seed": 20260421,
+  "smoke": true,
+  "scatter_rule": {
+    "amplitude_range": [
+      0.8,
+      1.2
+    ],
+    "phase_randomized": false
+  },
+  "point_count": 1,
+  "points": [
+    {
+      "x_m": 0.227087,
+      "y_m": -0.021822,
+      "z_m": 0.049086,
+      "rho_m": 0.228133,
+      "theta_rad": -0.0958,
+      "amplitude": 1.016529,
+      "phase_rad": 0.0,
+      "grid_x": 105,
+      "grid_y": 56,
+      "grid_z": 262
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "sample_id": "val_0013",
+  "split": "val",
+  "seed": 20260492,
+  "smoke": true,
+  "scatter_rule": {
+    "amplitude_range": [
+      0.8,
+      1.2
+    ],
+    "phase_randomized": false
+  },
+  "point_count": 2,
+  "points": [
+    {
+      "x_m": 0.098557,
+      "y_m": -0.249287,
+      "z_m": -0.25316,
+      "rho_m": 0.268063,
+      "theta_rad": -1.194302,
+      "amplitude": 0.803203,
+      "phase_rad": 0.0,
+      "grid_x": 80,
+      "grid_y": 10,
+      "grid_z": 187
+    },
+    {
+      "x_m": 0.078557,
+      "y_m": -0.269287,
+      "z_m": -0.25316,
+      "rho_m": 0.280512,
+      "theta_rad": -1.286953,
+      "amplitude": 0.842466,
+      "phase_rad": 0.0,
+      "grid_x": 76,
+      "grid_y": 6,
+      "grid_z": 187
+    }
+  ]
+}

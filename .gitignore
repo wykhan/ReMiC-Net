@@ -20,6 +20,9 @@ exp/**/ckpt/
 exp/**/tmp/
 exp/**/cache/
 exp/**/artifacts/
+exp/**/recon_cache/
+exp/**/learning_cache/
+exp/**/dataset/echoes/
 
 *.pt
 *.pth

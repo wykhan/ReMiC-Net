@@ -1,0 +1,17 @@
+{
+  "mode": "smoke",
+  "split_sizes": {
+    "train": 64,
+    "val": 16,
+    "test": 16
+  },
+  "total_samples": 96,
+  "point_count_histogram": {
+    "1": 23,
+    "2": 28,
+    "3": 27,
+    "4": 11,
+    "5": 7
+  },
+  "index_path": "dataset/index.json"
+}

@@ -1,0 +1,52 @@
+{
+  "sample_id": "train_0032",
+  "split": "train",
+  "seed": 20260447,
+  "smoke": true,
+  "scatter_rule": {
+    "amplitude_range": [
+      0.8,
+      1.2
+    ],
+    "phase_randomized": false
+  },
+  "point_count": 3,
+  "points": [
+    {
+      "x_m": -0.030809,
+      "y_m": 0.161369,
+      "z_m": -0.497687,
+      "rho_m": 0.164283,
+      "theta_rad": 1.759447,
+      "amplitude": 1.182399,
+      "phase_rad": 0.0,
+      "grid_x": 54,
+      "grid_y": 92,
+      "grid_z": 126
+    },
+    {
+      "x_m": -0.005809,
+      "y_m": 0.166369,
+      "z_m": -0.505687,
+      "rho_m": 0.16647,
+      "theta_rad": 1.605696,
+      "amplitude": 0.95707,
+      "phase_rad": 0.0,
+      "grid_x": 59,
+      "grid_y": 93,
+      "grid_z": 124
+    },
+    {
+      "x_m": -0.050809,
+      "y_m": 0.181369,
+      "z_m": -0.481687,
+      "rho_m": 0.188351,
+      "theta_rad": 1.843935,
+      "amplitude": 0.932128,
+      "phase_rad": 0.0,
+      "grid_x": 50,
+      "grid_y": 96,
+      "grid_z": 130
+    }
+  ]
+}

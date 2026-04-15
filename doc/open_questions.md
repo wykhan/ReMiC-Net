@@ -8,3 +8,4 @@ The following items remain open and must be resolved in later tasks rather than 
 - What granularity the first version of physics consistency should target
 - How the final point-target dataset scale should be frozen
 - How ET family balance and hard-case coverage should be quantified before main experiments
+- Whether the next task should replace the current smoke-time visibility subsampling with a more faithful fast cylindrical reconstruction implementation

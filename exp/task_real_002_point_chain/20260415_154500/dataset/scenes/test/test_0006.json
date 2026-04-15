@@ -1,0 +1,28 @@
+{
+  "sample_id": "test_0006",
+  "split": "test",
+  "seed": 20260501,
+  "smoke": true,
+  "scatter_rule": {
+    "amplitude_range": [
+      0.8,
+      1.2
+    ],
+    "phase_randomized": false
+  },
+  "point_count": 1,
+  "points": [
+    {
+      "x_m": 0.201317,
+      "y_m": -0.119649,
+      "z_m": -0.459718,
+      "rho_m": 0.234189,
+      "theta_rad": -0.536239,
+      "amplitude": 1.035059,
+      "phase_rad": 0.0,
+      "grid_x": 100,
+      "grid_y": 36,
+      "grid_z": 135
+    }
+  ]
+}

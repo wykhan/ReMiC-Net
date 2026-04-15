@@ -1,0 +1,13 @@
+{
+  "total_samples": 96,
+  "splits": {
+    "train": 64,
+    "val": 16,
+    "test": 16
+  },
+  "average_active_measurements": {
+    "train": 7561.9375,
+    "val": 6156.875,
+    "test": 6863.3125
+  }
+}

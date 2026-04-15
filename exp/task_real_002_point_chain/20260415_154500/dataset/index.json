@@ -1,0 +1,674 @@
+[
+  {
+    "sample_id": "train_0000",
+    "split": "train",
+    "seed": 20260415,
+    "scene_path": "dataset/scenes/train/train_0000.json",
+    "point_count": 3
+  },
+  {
+    "sample_id": "train_0001",
+    "split": "train",
+    "seed": 20260416,
+    "scene_path": "dataset/scenes/train/train_0001.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "train_0002",
+    "split": "train",
+    "seed": 20260417,
+    "scene_path": "dataset/scenes/train/train_0002.json",
+    "point_count": 3
+  },
+  {
+    "sample_id": "train_0003",
+    "split": "train",
+    "seed": 20260418,
+    "scene_path": "dataset/scenes/train/train_0003.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "train_0004",
+    "split": "train",
+    "seed": 20260419,
+    "scene_path": "dataset/scenes/train/train_0004.json",
+    "point_count": 4
+  },
+  {
+    "sample_id": "train_0005",
+    "split": "train",
+    "seed": 20260420,
+    "scene_path": "dataset/scenes/train/train_0005.json",
+    "point_count": 3
+  },
+  {
+    "sample_id": "train_0006",
+    "split": "train",
+    "seed": 20260421,
+    "scene_path": "dataset/scenes/train/train_0006.json",
+    "point_count": 1
+  },
+  {
+    "sample_id": "train_0007",
+    "split": "train",
+    "seed": 20260422,
+    "scene_path": "dataset/scenes/train/train_0007.json",
+    "point_count": 1
+  },
+  {
+    "sample_id": "train_0008",
+    "split": "train",
+    "seed": 20260423,
+    "scene_path": "dataset/scenes/train/train_0008.json",
+    "point_count": 3
+  },
+  {
+    "sample_id": "train_0009",
+    "split": "train",
+    "seed": 20260424,
+    "scene_path": "dataset/scenes/train/train_0009.json",
+    "point_count": 5
+  },
+  {
+    "sample_id": "train_0010",
+    "split": "train",
+    "seed": 20260425,
+    "scene_path": "dataset/scenes/train/train_0010.json",
+    "point_count": 3
+  },
+  {
+    "sample_id": "train_0011",
+    "split": "train",
+    "seed": 20260426,
+    "scene_path": "dataset/scenes/train/train_0011.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "train_0012",
+    "split": "train",
+    "seed": 20260427,
+    "scene_path": "dataset/scenes/train/train_0012.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "train_0013",
+    "split": "train",
+    "seed": 20260428,
+    "scene_path": "dataset/scenes/train/train_0013.json",
+    "point_count": 3
+  },
+  {
+    "sample_id": "train_0014",
+    "split": "train",
+    "seed": 20260429,
+    "scene_path": "dataset/scenes/train/train_0014.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "train_0015",
+    "split": "train",
+    "seed": 20260430,
+    "scene_path": "dataset/scenes/train/train_0015.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "train_0016",
+    "split": "train",
+    "seed": 20260431,
+    "scene_path": "dataset/scenes/train/train_0016.json",
+    "point_count": 1
+  },
+  {
+    "sample_id": "train_0017",
+    "split": "train",
+    "seed": 20260432,
+    "scene_path": "dataset/scenes/train/train_0017.json",
+    "point_count": 5
+  },
+  {
+    "sample_id": "train_0018",
+    "split": "train",
+    "seed": 20260433,
+    "scene_path": "dataset/scenes/train/train_0018.json",
+    "point_count": 3
+  },
+  {
+    "sample_id": "train_0019",
+    "split": "train",
+    "seed": 20260434,
+    "scene_path": "dataset/scenes/train/train_0019.json",
+    "point_count": 4
+  },
+  {
+    "sample_id": "train_0020",
+    "split": "train",
+    "seed": 20260435,
+    "scene_path": "dataset/scenes/train/train_0020.json",
+    "point_count": 4
+  },
+  {
+    "sample_id": "train_0021",
+    "split": "train",
+    "seed": 20260436,
+    "scene_path": "dataset/scenes/train/train_0021.json",
+    "point_count": 3
+  },
+  {
+    "sample_id": "train_0022",
+    "split": "train",
+    "seed": 20260437,
+    "scene_path": "dataset/scenes/train/train_0022.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "train_0023",
+    "split": "train",
+    "seed": 20260438,
+    "scene_path": "dataset/scenes/train/train_0023.json",
+    "point_count": 1
+  },
+  {
+    "sample_id": "train_0024",
+    "split": "train",
+    "seed": 20260439,
+    "scene_path": "dataset/scenes/train/train_0024.json",
+    "point_count": 3
+  },
+  {
+    "sample_id": "train_0025",
+    "split": "train",
+    "seed": 20260440,
+    "scene_path": "dataset/scenes/train/train_0025.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "train_0026",
+    "split": "train",
+    "seed": 20260441,
+    "scene_path": "dataset/scenes/train/train_0026.json",
+    "point_count": 3
+  },
+  {
+    "sample_id": "train_0027",
+    "split": "train",
+    "seed": 20260442,
+    "scene_path": "dataset/scenes/train/train_0027.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "train_0028",
+    "split": "train",
+    "seed": 20260443,
+    "scene_path": "dataset/scenes/train/train_0028.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "train_0029",
+    "split": "train",
+    "seed": 20260444,
+    "scene_path": "dataset/scenes/train/train_0029.json",
+    "point_count": 3
+  },
+  {
+    "sample_id": "train_0030",
+    "split": "train",
+    "seed": 20260445,
+    "scene_path": "dataset/scenes/train/train_0030.json",
+    "point_count": 4
+  },
+  {
+    "sample_id": "train_0031",
+    "split": "train",
+    "seed": 20260446,
+    "scene_path": "dataset/scenes/train/train_0031.json",
+    "point_count": 5
+  },
+  {
+    "sample_id": "train_0032",
+    "split": "train",
+    "seed": 20260447,
+    "scene_path": "dataset/scenes/train/train_0032.json",
+    "point_count": 3
+  },
+  {
+    "sample_id": "train_0033",
+    "split": "train",
+    "seed": 20260448,
+    "scene_path": "dataset/scenes/train/train_0033.json",
+    "point_count": 3
+  },
+  {
+    "sample_id": "train_0034",
+    "split": "train",
+    "seed": 20260449,
+    "scene_path": "dataset/scenes/train/train_0034.json",
+    "point_count": 3
+  },
+  {
+    "sample_id": "train_0035",
+    "split": "train",
+    "seed": 20260450,
+    "scene_path": "dataset/scenes/train/train_0035.json",
+    "point_count": 1
+  },
+  {
+    "sample_id": "train_0036",
+    "split": "train",
+    "seed": 20260451,
+    "scene_path": "dataset/scenes/train/train_0036.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "train_0037",
+    "split": "train",
+    "seed": 20260452,
+    "scene_path": "dataset/scenes/train/train_0037.json",
+    "point_count": 3
+  },
+  {
+    "sample_id": "train_0038",
+    "split": "train",
+    "seed": 20260453,
+    "scene_path": "dataset/scenes/train/train_0038.json",
+    "point_count": 1
+  },
+  {
+    "sample_id": "train_0039",
+    "split": "train",
+    "seed": 20260454,
+    "scene_path": "dataset/scenes/train/train_0039.json",
+    "point_count": 1
+  },
+  {
+    "sample_id": "train_0040",
+    "split": "train",
+    "seed": 20260455,
+    "scene_path": "dataset/scenes/train/train_0040.json",
+    "point_count": 1
+  },
+  {
+    "sample_id": "train_0041",
+    "split": "train",
+    "seed": 20260456,
+    "scene_path": "dataset/scenes/train/train_0041.json",
+    "point_count": 1
+  },
+  {
+    "sample_id": "train_0042",
+    "split": "train",
+    "seed": 20260457,
+    "scene_path": "dataset/scenes/train/train_0042.json",
+    "point_count": 3
+  },
+  {
+    "sample_id": "train_0043",
+    "split": "train",
+    "seed": 20260458,
+    "scene_path": "dataset/scenes/train/train_0043.json",
+    "point_count": 1
+  },
+  {
+    "sample_id": "train_0044",
+    "split": "train",
+    "seed": 20260459,
+    "scene_path": "dataset/scenes/train/train_0044.json",
+    "point_count": 3
+  },
+  {
+    "sample_id": "train_0045",
+    "split": "train",
+    "seed": 20260460,
+    "scene_path": "dataset/scenes/train/train_0045.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "train_0046",
+    "split": "train",
+    "seed": 20260461,
+    "scene_path": "dataset/scenes/train/train_0046.json",
+    "point_count": 4
+  },
+  {
+    "sample_id": "train_0047",
+    "split": "train",
+    "seed": 20260462,
+    "scene_path": "dataset/scenes/train/train_0047.json",
+    "point_count": 1
+  },
+  {
+    "sample_id": "train_0048",
+    "split": "train",
+    "seed": 20260463,
+    "scene_path": "dataset/scenes/train/train_0048.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "train_0049",
+    "split": "train",
+    "seed": 20260464,
+    "scene_path": "dataset/scenes/train/train_0049.json",
+    "point_count": 5
+  },
+  {
+    "sample_id": "train_0050",
+    "split": "train",
+    "seed": 20260465,
+    "scene_path": "dataset/scenes/train/train_0050.json",
+    "point_count": 3
+  },
+  {
+    "sample_id": "train_0051",
+    "split": "train",
+    "seed": 20260466,
+    "scene_path": "dataset/scenes/train/train_0051.json",
+    "point_count": 3
+  },
+  {
+    "sample_id": "train_0052",
+    "split": "train",
+    "seed": 20260467,
+    "scene_path": "dataset/scenes/train/train_0052.json",
+    "point_count": 1
+  },
+  {
+    "sample_id": "train_0053",
+    "split": "train",
+    "seed": 20260468,
+    "scene_path": "dataset/scenes/train/train_0053.json",
+    "point_count": 5
+  },
+  {
+    "sample_id": "train_0054",
+    "split": "train",
+    "seed": 20260469,
+    "scene_path": "dataset/scenes/train/train_0054.json",
+    "point_count": 1
+  },
+  {
+    "sample_id": "train_0055",
+    "split": "train",
+    "seed": 20260470,
+    "scene_path": "dataset/scenes/train/train_0055.json",
+    "point_count": 3
+  },
+  {
+    "sample_id": "train_0056",
+    "split": "train",
+    "seed": 20260471,
+    "scene_path": "dataset/scenes/train/train_0056.json",
+    "point_count": 1
+  },
+  {
+    "sample_id": "train_0057",
+    "split": "train",
+    "seed": 20260472,
+    "scene_path": "dataset/scenes/train/train_0057.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "train_0058",
+    "split": "train",
+    "seed": 20260473,
+    "scene_path": "dataset/scenes/train/train_0058.json",
+    "point_count": 1
+  },
+  {
+    "sample_id": "train_0059",
+    "split": "train",
+    "seed": 20260474,
+    "scene_path": "dataset/scenes/train/train_0059.json",
+    "point_count": 1
+  },
+  {
+    "sample_id": "train_0060",
+    "split": "train",
+    "seed": 20260475,
+    "scene_path": "dataset/scenes/train/train_0060.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "train_0061",
+    "split": "train",
+    "seed": 20260476,
+    "scene_path": "dataset/scenes/train/train_0061.json",
+    "point_count": 1
+  },
+  {
+    "sample_id": "train_0062",
+    "split": "train",
+    "seed": 20260477,
+    "scene_path": "dataset/scenes/train/train_0062.json",
+    "point_count": 4
+  },
+  {
+    "sample_id": "train_0063",
+    "split": "train",
+    "seed": 20260478,
+    "scene_path": "dataset/scenes/train/train_0063.json",
+    "point_count": 3
+  },
+  {
+    "sample_id": "val_0000",
+    "split": "val",
+    "seed": 20260479,
+    "scene_path": "dataset/scenes/val/val_0000.json",
+    "point_count": 1
+  },
+  {
+    "sample_id": "val_0001",
+    "split": "val",
+    "seed": 20260480,
+    "scene_path": "dataset/scenes/val/val_0001.json",
+    "point_count": 4
+  },
+  {
+    "sample_id": "val_0002",
+    "split": "val",
+    "seed": 20260481,
+    "scene_path": "dataset/scenes/val/val_0002.json",
+    "point_count": 5
+  },
+  {
+    "sample_id": "val_0003",
+    "split": "val",
+    "seed": 20260482,
+    "scene_path": "dataset/scenes/val/val_0003.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "val_0004",
+    "split": "val",
+    "seed": 20260483,
+    "scene_path": "dataset/scenes/val/val_0004.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "val_0005",
+    "split": "val",
+    "seed": 20260484,
+    "scene_path": "dataset/scenes/val/val_0005.json",
+    "point_count": 1
+  },
+  {
+    "sample_id": "val_0006",
+    "split": "val",
+    "seed": 20260485,
+    "scene_path": "dataset/scenes/val/val_0006.json",
+    "point_count": 3
+  },
+  {
+    "sample_id": "val_0007",
+    "split": "val",
+    "seed": 20260486,
+    "scene_path": "dataset/scenes/val/val_0007.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "val_0008",
+    "split": "val",
+    "seed": 20260487,
+    "scene_path": "dataset/scenes/val/val_0008.json",
+    "point_count": 3
+  },
+  {
+    "sample_id": "val_0009",
+    "split": "val",
+    "seed": 20260488,
+    "scene_path": "dataset/scenes/val/val_0009.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "val_0010",
+    "split": "val",
+    "seed": 20260489,
+    "scene_path": "dataset/scenes/val/val_0010.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "val_0011",
+    "split": "val",
+    "seed": 20260490,
+    "scene_path": "dataset/scenes/val/val_0011.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "val_0012",
+    "split": "val",
+    "seed": 20260491,
+    "scene_path": "dataset/scenes/val/val_0012.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "val_0013",
+    "split": "val",
+    "seed": 20260492,
+    "scene_path": "dataset/scenes/val/val_0013.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "val_0014",
+    "split": "val",
+    "seed": 20260493,
+    "scene_path": "dataset/scenes/val/val_0014.json",
+    "point_count": 5
+  },
+  {
+    "sample_id": "val_0015",
+    "split": "val",
+    "seed": 20260494,
+    "scene_path": "dataset/scenes/val/val_0015.json",
+    "point_count": 4
+  },
+  {
+    "sample_id": "test_0000",
+    "split": "test",
+    "seed": 20260495,
+    "scene_path": "dataset/scenes/test/test_0000.json",
+    "point_count": 3
+  },
+  {
+    "sample_id": "test_0001",
+    "split": "test",
+    "seed": 20260496,
+    "scene_path": "dataset/scenes/test/test_0001.json",
+    "point_count": 4
+  },
+  {
+    "sample_id": "test_0002",
+    "split": "test",
+    "seed": 20260497,
+    "scene_path": "dataset/scenes/test/test_0002.json",
+    "point_count": 3
+  },
+  {
+    "sample_id": "test_0003",
+    "split": "test",
+    "seed": 20260498,
+    "scene_path": "dataset/scenes/test/test_0003.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "test_0004",
+    "split": "test",
+    "seed": 20260499,
+    "scene_path": "dataset/scenes/test/test_0004.json",
+    "point_count": 3
+  },
+  {
+    "sample_id": "test_0005",
+    "split": "test",
+    "seed": 20260500,
+    "scene_path": "dataset/scenes/test/test_0005.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "test_0006",
+    "split": "test",
+    "seed": 20260501,
+    "scene_path": "dataset/scenes/test/test_0006.json",
+    "point_count": 1
+  },
+  {
+    "sample_id": "test_0007",
+    "split": "test",
+    "seed": 20260502,
+    "scene_path": "dataset/scenes/test/test_0007.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "test_0008",
+    "split": "test",
+    "seed": 20260503,
+    "scene_path": "dataset/scenes/test/test_0008.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "test_0009",
+    "split": "test",
+    "seed": 20260504,
+    "scene_path": "dataset/scenes/test/test_0009.json",
+    "point_count": 3
+  },
+  {
+    "sample_id": "test_0010",
+    "split": "test",
+    "seed": 20260505,
+    "scene_path": "dataset/scenes/test/test_0010.json",
+    "point_count": 1
+  },
+  {
+    "sample_id": "test_0011",
+    "split": "test",
+    "seed": 20260506,
+    "scene_path": "dataset/scenes/test/test_0011.json",
+    "point_count": 4
+  },
+  {
+    "sample_id": "test_0012",
+    "split": "test",
+    "seed": 20260507,
+    "scene_path": "dataset/scenes/test/test_0012.json",
+    "point_count": 1
+  },
+  {
+    "sample_id": "test_0013",
+    "split": "test",
+    "seed": 20260508,
+    "scene_path": "dataset/scenes/test/test_0013.json",
+    "point_count": 2
+  },
+  {
+    "sample_id": "test_0014",
+    "split": "test",
+    "seed": 20260509,
+    "scene_path": "dataset/scenes/test/test_0014.json",
+    "point_count": 1
+  },
+  {
+    "sample_id": "test_0015",
+    "split": "test",
+    "seed": 20260510,
+    "scene_path": "dataset/scenes/test/test_0015.json",
+    "point_count": 4
+  }
+]
