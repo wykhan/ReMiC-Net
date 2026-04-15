@@ -79,10 +79,11 @@ def simulate_sample(scene: dict, output_dir: Path) -> dict:
 def batch_simulate(output_root: Path) -> dict:
     dataset_index = read_json(output_root / "dataset" / "index.json")
     echo_dir = ensure_dir(output_root / "dataset" / "echoes")
-    by_split: dict[str, list[dict]] = {"train": [], "val": [], "test": []}
+    by_split: dict[str, list[dict]] = {}
     for item in dataset_index:
         scene = read_json(output_root / item["scene_path"])
         meta = simulate_sample(scene, echo_dir)
+        by_split.setdefault(item["split"], [])
         by_split[item["split"]].append(meta)
     summary = {
         "total_samples": len(dataset_index),

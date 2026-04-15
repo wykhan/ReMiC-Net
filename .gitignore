@@ -23,6 +23,7 @@ exp/**/artifacts/
 exp/**/recon_cache/
 exp/**/learning_cache/
 exp/**/dataset/echoes/
+exp/**/faithful_recon_cache/
 
 *.pt
 *.pth

@@ -1,0 +1,9 @@
+{
+  "total_samples": 46,
+  "splits": {
+    "controlled": 46
+  },
+  "average_active_measurements": {
+    "controlled": 5325.065217391304
+  }
+}

@@ -41,3 +41,15 @@
   - `scripts/run_point_learning_smoke.sh`
 - Generated `task_real_002` artifacts under `exp/task_real_002_point_chain/20260415_154500/`
 - Ran smoke point-target dataset generation, sparse echo simulation, baseline evaluation, and minimal learning smoke
+
+## 2026-04-15 task_real_003
+
+- Added controlled radial mismatch dataset builder and hard proof files for true 3D cylindrical simulation origin
+- Added faithful echo-driven reconstruction modules to replace the old point-scene analytic verifier as the main validation path
+- Added faithful baseline evaluation, radial mismatch analysis, and standardized visualization renderers
+- Added scripts:
+  - `scripts/run_point_faithful_baselines.sh`
+  - `scripts/run_radial_mismatch_analysis.sh`
+  - `scripts/render_point_viz.sh`
+- Generated `task_real_003` artifacts under `exp/task_real_003_faithful_point_validation/20260415_165500/`
+- Verified faithful `ref3/ref5/ref7/ref9/BP` chain on the controlled point dataset and produced standardized curves and sample visualizations

@@ -9,3 +9,4 @@ The following items remain open and must be resolved in later tasks rather than 
 - How the final point-target dataset scale should be frozen
 - How ET family balance and hard-case coverage should be quantified before main experiments
 - Whether the next task should replace the current smoke-time visibility subsampling with a more faithful fast cylindrical reconstruction implementation
+- How to turn the current faithful echo-driven recon into a genuinely faster reference-surface implementation with clear wall-time separation from BP
