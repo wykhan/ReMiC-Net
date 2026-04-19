@@ -248,3 +248,18 @@
   - `scripts/update_git_and_record_007.sh`
 - Reused frozen baseline artifacts from `task_real_006d` and comprehensive six-method positioning from `task_real_006e`.
 - Scoped the comparison strictly to `Baseline-Ours` vs `Ours-PC-P1`, with no front-end or backbone changes.
+
+## 2026-04-19 task_real_007b
+
+- Added geometry-aware support-weighted consistency refinement on top of the frozen 800-scale baseline:
+  - `workspace/train/train_pc_p2a.py`
+  - `workspace/eval/task_real_007b_geometry_aware.py`
+- Extended physics-consistency helpers with prediction-support weighting for measurement-domain consistency.
+- Added task scripts:
+  - `scripts/run_pc_training_P2A.sh`
+  - `scripts/run_pc_training_P2B.sh`
+  - `scripts/run_p2_eval_main.sh`
+  - `scripts/run_p2_eval_ood.sh`
+  - `scripts/render_p2_comparison_viz.sh`
+  - `scripts/update_git_and_record_007b.sh`
+- Scoped the comparison strictly to `Baseline-Ours`, `Ours-PC-P1`, and `Ours-PC-P2A`, with `P2B` kept as an explicit placeholder path only.

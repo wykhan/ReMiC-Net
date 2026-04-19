@@ -365,3 +365,18 @@
 - execution notes:
   - `P2` remains optional and is expected to be skipped unless `P1` shows clear benefit
   - 007 evaluation writes aggregate comparison CSVs across main test plus all three OOD sets
+
+## 2026-04-19 task_real_007b
+
+- planned output_root:
+  - `exp/task_real_007b_geometry_aware_consistency/<timestamp>`
+- frozen references:
+  - baseline checkpoint reused from `task_real_006d`
+  - P1 checkpoint reused from `task_real_007`
+- implementation scope:
+  - `P2A` adds support-mask weighted consistency only
+  - no data protocol change
+  - no Variant B / `ref3` / `UNet3DSmall` structure change
+- execution notes:
+  - `P2B` is left as a non-executed placeholder unless `P2A` justifies a second refinement round
+  - 007b evaluation writes only `Baseline/P1/P2A` comparison outputs across main test plus all three OOD sets
