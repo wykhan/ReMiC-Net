@@ -1,0 +1,26 @@
+[
+  {
+    "target_key": "point",
+    "sample_id": "draw001_two_points",
+    "scene_path": "dataset/scenes/draw001_two_points.json",
+    "gt_path": "dataset/gt_volumes/draw001_two_points_gt.npz",
+    "echo_path": "dataset/echoes/draw001_two_points_echo_sparse.npz",
+    "point_count": 2
+  },
+  {
+    "target_key": "y",
+    "sample_id": "draw001_y_target",
+    "scene_path": "dataset/scenes/draw001_y_target.json",
+    "gt_path": "dataset/gt_volumes/draw001_y_target_gt.npz",
+    "echo_path": "dataset/echoes/draw001_y_target_echo_sparse.npz",
+    "point_count": 34
+  },
+  {
+    "target_key": "random_ext",
+    "sample_id": "draw001_random_extended",
+    "scene_path": "dataset/scenes/draw001_random_extended.json",
+    "gt_path": "dataset/gt_volumes/draw001_random_extended_gt.npz",
+    "echo_path": "dataset/echoes/draw001_random_extended_echo_sparse.npz",
+    "point_count": 45
+  }
+]

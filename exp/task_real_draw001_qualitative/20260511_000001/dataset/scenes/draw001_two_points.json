@@ -1,0 +1,44 @@
+{
+  "sample_id": "draw001_two_points",
+  "split": "draw",
+  "seed": 20260511,
+  "scene_type": "two_isolated_points",
+  "family": "two_isolated_points",
+  "shape_params": {
+    "purpose": "one point lies on ref3 rho=0.15 m, the other lies midway between ref3 rho=0.15 and 0.30 m",
+    "nearest_ref_distance_m": [
+      0.0,
+      0.075
+    ]
+  },
+  "point_count": 2,
+  "scatter_rule": {
+    "phase_randomized": false
+  },
+  "points": [
+    {
+      "x_m": 0.147577,
+      "y_m": -0.026854,
+      "z_m": -0.12,
+      "rho_m": 0.15,
+      "theta_rad": -0.18,
+      "amplitude": 1.0,
+      "phase_rad": 0.0,
+      "grid_x": 90,
+      "grid_y": 55,
+      "grid_z": 220
+    },
+    {
+      "x_m": 0.218551,
+      "y_m": 0.053483,
+      "z_m": 0.18,
+      "rho_m": 0.225,
+      "theta_rad": 0.24,
+      "amplitude": 0.95,
+      "phase_rad": 0.0,
+      "grid_x": 104,
+      "grid_y": 71,
+      "grid_z": 295
+    }
+  ]
+}
