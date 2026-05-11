@@ -218,6 +218,37 @@
     - `learned_nmse_mean = 0.8579`
     - `nmse_gain_vs_ref3 = 4.8757`
     - `learned_ssim_mean = 0.6009`
+
+## 2026-05-11 task_real_008
+
+- Artifact root:
+  - `exp/task_real_008_remicnet_eval/20260511_082329`
+- Protocol usage:
+  - reused the frozen `006d` main split and the existing OOD sets only
+  - reused the updated RSB-FiLM master/context documents without editing them
+  - enforced `delta_rho_input = raw_meter`
+- Baseline alignment issue:
+  - the prior `006d` checkpoint was trained as direct image prediction rather than a residual-only head
+  - to satisfy the `008` comparison boundary, baseline was retrained as an aligned residual 3D U-Net instead of reusing the old checkpoint directly
+- Geometry metadata issue fixed:
+  - first metadata pass zero-padded `m_rsb` to `0` outside the centered crop
+  - fixed by filling padded `m_rsb` voxels with `epsilon_m = 0.05` to preserve the frozen range
+- Execution status:
+  - metadata cache build: pass
+  - residual baseline training: pass
+  - ReMiC-Net training: pass
+  - Main Test evaluation: pass
+  - Unseen-Parameter OOD evaluation: pass
+  - Leave-One-Family-Out OOD evaluation: pass
+  - Random-ET OOD evaluation: pass
+  - visualization generation: pass
+- Main findings:
+  - ReMiC-Net slightly beat the aligned baseline on Main Test and Unseen-Parameter OOD
+  - ReMiC-Net underperformed on Leave-One-Family-Out OOD and Random-ET OOD
+  - grouped `|delta_rho|` and grouped `|Pcyc|` diagnostics did not show a stable advantage for ReMiC-Net in stronger mismatch bins
+- Current judgment:
+  - `ReMiC-Net as main method`: not yet justified as a default replacement
+  - next step should be targeted ablation / simplification rather than immediate promotion
   - `M2`:
     - `learned_nmse_mean = 0.8159`
     - `nmse_gain_vs_ref3 = 4.9534`

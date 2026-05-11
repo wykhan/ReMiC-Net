@@ -1,0 +1,93 @@
+{
+  "main_summary": [
+    {
+      "dataset": "Main Test",
+      "method": "Baseline-U-Net",
+      "NMSE_mean": 1.0002546301811395,
+      "PSNR_mean": 30.158862104713503,
+      "SSIM_mean": 0.4941027712190263,
+      "runtime_mean": 0.38211554143473675,
+      "speedup_vs_BP": 5.166031292907792,
+      "num_samples": 100
+    },
+    {
+      "dataset": "Main Test",
+      "method": "ReMiC-Net",
+      "NMSE_mean": 0.9986431509032545,
+      "PSNR_mean": 30.168659101512375,
+      "SSIM_mean": 0.49791392905255194,
+      "runtime_mean": 0.382579436784722,
+      "speedup_vs_BP": 5.1597672398400185,
+      "num_samples": 100
+    }
+  ],
+  "ood_summaries": {
+    "Unseen-Parameter OOD": [
+      {
+        "dataset": "Unseen-Parameter OOD",
+        "method": "Baseline-U-Net",
+        "NMSE_mean": 0.9780945769277153,
+        "PSNR_mean": 27.09095340443282,
+        "SSIM_mean": 0.3283020241911921,
+        "runtime_mean": 0.5650105115000043,
+        "speedup_vs_BP": 5.772100375828831,
+        "num_samples": 100
+      },
+      {
+        "dataset": "Unseen-Parameter OOD",
+        "method": "ReMiC-Net",
+        "NMSE_mean": 0.96929915196645,
+        "PSNR_mean": 27.130095628426467,
+        "SSIM_mean": 0.3353451777174927,
+        "runtime_mean": 0.5660350404399924,
+        "speedup_vs_BP": 5.761652817891505,
+        "num_samples": 100
+      }
+    ],
+    "Leave-One-Family-Out Focused OOD": [
+      {
+        "dataset": "Leave-One-Family-Out Focused OOD",
+        "method": "Baseline-U-Net",
+        "NMSE_mean": 1.0174783631864124,
+        "PSNR_mean": 31.41709694156296,
+        "SSIM_mean": 0.5629134932765609,
+        "runtime_mean": 0.3790007395699422,
+        "speedup_vs_BP": 4.711097765422603,
+        "num_samples": 100
+      },
+      {
+        "dataset": "Leave-One-Family-Out Focused OOD",
+        "method": "ReMiC-Net",
+        "NMSE_mean": 1.0333975934252673,
+        "PSNR_mean": 31.351391744085323,
+        "SSIM_mean": 0.5599386751182819,
+        "runtime_mean": 0.3800280336699734,
+        "speedup_vs_BP": 4.69836269719,
+        "num_samples": 100
+      }
+    ],
+    "Random-ET OOD": [
+      {
+        "dataset": "Random-ET OOD",
+        "method": "Baseline-U-Net",
+        "NMSE_mean": 1.094637620481279,
+        "PSNR_mean": 28.913163272074108,
+        "SSIM_mean": 0.39105909347502704,
+        "runtime_mean": 1.6937276681100046,
+        "speedup_vs_BP": 3.9146446084320217,
+        "num_samples": 100
+      },
+      {
+        "dataset": "Random-ET OOD",
+        "method": "ReMiC-Net",
+        "NMSE_mean": 1.1578222151536786,
+        "PSNR_mean": 28.70740519023358,
+        "SSIM_mean": 0.3679816511710711,
+        "runtime_mean": 1.6947592642599967,
+        "speedup_vs_BP": 3.912261773069025,
+        "num_samples": 100
+      }
+    ]
+  },
+  "num_rows": 400
+}

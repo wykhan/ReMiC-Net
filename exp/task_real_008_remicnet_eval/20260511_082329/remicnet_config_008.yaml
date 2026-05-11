@@ -1,0 +1,10 @@
+model: ReMiC-Net with RSB-FiLM
+main_input: X_ref3
+geometry_input: [Mshell, delta_rho_raw, Pcyc]
+delta_rho_input: raw_meter
+fusion: RSB-FiLM
+epsilon_m: 0.05
+alpha_gamma: 0.5
+alpha_beta: 0.1
+loss: residual_l1
+output: residual_only

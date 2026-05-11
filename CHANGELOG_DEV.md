@@ -218,6 +218,26 @@
   - formal-scale completion audit
   - split-integrity / duplicate / nearest-neighbor checks on the currently available shape-family set
   - model audit for the frozen 3D U-Net
+
+## 2026-05-11 task_real_008
+
+- Added frozen ReMiC-Net metadata utilities:
+  - `workspace/common/remic_metadata.py`
+- Added ReMiC-Net with RSB-FiLM and residual baseline models:
+  - `workspace/models/remicnet_rsb_film.py`
+- Added the `task_real_008` build/train/eval/render pipeline:
+  - `workspace/eval/task_real_008_pipeline.py`
+- Added task scripts:
+  - `scripts/build_remicnet_inputs_008.sh`
+  - `scripts/run_remicnet_training_008.sh`
+  - `scripts/run_remicnet_eval_main.sh`
+  - `scripts/run_remicnet_eval_ood.sh`
+  - `scripts/render_remicnet_comparison_viz.sh`
+  - `scripts/update_git_and_record_008.sh`
+- Generated `task_real_008` artifacts under `exp/task_real_008_remicnet_eval/20260511_082329/`
+- Built frozen `Mshell + delta_rho_raw + Pcyc` metadata with explicit `delta_rho_input = raw_meter`
+- Retrained an aligned residual 3D U-Net baseline and a ReMiC-Net with RSB-FiLM under the same frozen `ref3` protocol
+- Completed Main Test + 3 OOD baseline-vs-remic comparison, grouped mismatch diagnostics, hardest-family summaries, qualitative panels, and git-record artifacts
   - placeholder not-run outputs for forbidden downstream stages
 - Concluded that `task_real_006c` fails at the formal-scale gate and that `task_real_007` should not start yet
 
