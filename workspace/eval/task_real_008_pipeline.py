@@ -828,9 +828,11 @@ If ReMiC-Net shows consistent gains, the next task should be a controlled ablati
     _panel_case(output_root, worst_case, "remicnet_failure_case_panel.png", "Worst gain case")
 
 
-def _write_git_summary(output_root: Path, commit_hash: str = "pending") -> None:
+def _write_git_summary(output_root: Path, commit_hash: str | None = None) -> None:
     status = subprocess.run(["git", "status", "--short", "--branch"], cwd=PROJECT_ROOT, check=True, capture_output=True, text=True).stdout.strip()
     remotes = subprocess.run(["git", "remote", "-v"], cwd=PROJECT_ROOT, check=True, capture_output=True, text=True).stdout.strip()
+    if commit_hash is None:
+        commit_hash = subprocess.run(["git", "rev-parse", "HEAD"], cwd=PROJECT_ROOT, check=True, capture_output=True, text=True).stdout.strip()
     summary = [
         "# git_update_summary_008",
         "",
