@@ -1,0 +1,12 @@
+[
+  {
+    "target_key": "dense_manisali_y",
+    "sample_id": "draw005_dense_manisali_y",
+    "dense_volume_path": "dataset/dense_volumes/draw005_dense_manisali_y_dense_volume.npz",
+    "scene_path": "dataset/scenes/draw005_dense_manisali_y.json",
+    "gt_path": "dataset/gt_volumes/draw005_dense_manisali_y_gt_from_dense_voxels.npz",
+    "echo_path": "dataset/echoes/draw005_dense_manisali_y_echo_sparse.npz",
+    "primary_representation": "dense reflectivity volume",
+    "derived_nonzero_voxels": 278
+  }
+]

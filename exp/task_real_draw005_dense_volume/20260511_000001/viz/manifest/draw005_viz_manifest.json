@@ -1,0 +1,274 @@
+{
+  "task": "task_real_draw005",
+  "created_at": "2026-05-11T15:30:10",
+  "prompt": "PROMPTS/task_real_draw005.md",
+  "paper": "doc/\uff08U1\uff09Efficient physics-based learned reconstruction methods for real-time 3D near-field MIMO radar imaging.pdf",
+  "source_repo_studied": "git@github.com:wykhan/Efficient-Learned-3D-Near-Field-MIMO-Imaging.git",
+  "source_files_studied": [
+    "/tmp/Efficient-Learned-3D-Near-Field-MIMO-Imaging/src/misc.py"
+  ],
+  "methods": [
+    "ref3",
+    "ref9",
+    "BP",
+    "U-Net"
+  ],
+  "unet_definition": "ordinary residual 3D U-Net baseline checkpoint from task_real_008; not RSB-FiLM/ReMiC-Net",
+  "unet_checkpoint": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_008_remicnet_eval/20260511_082329/checkpoints/baseline/best.pt",
+  "dense_forward_operator": "workspace.eval.task_real_draw005_dense_volume.simulate_dense_volume",
+  "target_stats": {
+    "dense_grid_shape": [
+      24,
+      24,
+      24
+    ],
+    "nonzero_voxels": 278,
+    "nonzero_fraction": 0.020109953703703703,
+    "rho_min_m": 0.167668,
+    "rho_max_m": 0.234121,
+    "theta_span_deg": 8.116863900500322,
+    "nearest_ref3_distance_mean_m": 0.05433053597122303,
+    "nearest_ref3_distance_max_m": 0.07419300000000001,
+    "forward_operator": "direct dense-voxel projection into protocol-v1 sparse cylindrical echoes",
+    "fit_validation": {
+      "raw_shape": [
+        17,
+        11,
+        23
+      ],
+      "fit_shape": [
+        24,
+        24,
+        24
+      ],
+      "raw_nonzero_voxels": 267,
+      "fit_nonzero_voxels": 267,
+      "support_lost_voxels": 0,
+      "fits_without_crop": true
+    }
+  },
+  "simulate_meta": {
+    "sample_id": "draw005_dense_manisali_y",
+    "split": "draw",
+    "operator": "dense_volume_forward_operator",
+    "echo_path": "exp/task_real_draw005_dense_volume/20260511_000001/dataset/echoes/draw005_dense_manisali_y_echo_sparse.npz",
+    "wall_time_sec": 10.343505095999717,
+    "active_measurement_count": 8294,
+    "dense_shape": [
+      1101,
+      181,
+      501
+    ],
+    "nonzero_voxel_count": 278,
+    "voxel_summary_preview": [
+      {
+        "x_m": 0.16749999999999998,
+        "y_m": 0.0075,
+        "z_m": 0.026000000000000002,
+        "rho_m": 0.16766782637107214,
+        "theta_rad": 0.044746231454615426,
+        "amplitude": 0.20834174752235413,
+        "visible_azimuth_count": 91,
+        "visible_height_count": 58
+      },
+      {
+        "x_m": 0.16749999999999998,
+        "y_m": 0.0075,
+        "z_m": 0.03,
+        "rho_m": 0.16766782637107214,
+        "theta_rad": 0.044746231454615426,
+        "amplitude": 0.1980249434709549,
+        "visible_azimuth_count": 91,
+        "visible_height_count": 58
+      },
+      {
+        "x_m": 0.1725,
+        "y_m": 0.0024999999999999988,
+        "z_m": 0.022,
+        "rho_m": 0.17251811499086117,
+        "theta_rad": 0.014491739065499942,
+        "amplitude": 0.06973733752965927,
+        "visible_azimuth_count": 92,
+        "visible_height_count": 58
+      },
+      {
+        "x_m": 0.1725,
+        "y_m": 0.0024999999999999988,
+        "z_m": 0.026000000000000002,
+        "rho_m": 0.17251811499086117,
+        "theta_rad": 0.014491739065499942,
+        "amplitude": 0.4630149006843567,
+        "visible_azimuth_count": 92,
+        "visible_height_count": 58
+      },
+      {
+        "x_m": 0.1725,
+        "y_m": 0.0024999999999999988,
+        "z_m": 0.03,
+        "rho_m": 0.17251811499086117,
+        "theta_rad": 0.014491739065499942,
+        "amplitude": 0.4558611512184143,
+        "visible_azimuth_count": 92,
+        "visible_height_count": 58
+      },
+      {
+        "x_m": 0.1725,
+        "y_m": 0.0024999999999999988,
+        "z_m": 0.034,
+        "rho_m": 0.17251811499086117,
+        "theta_rad": 0.014491739065499942,
+        "amplitude": 0.0648554116487503,
+        "visible_azimuth_count": 92,
+        "visible_height_count": 58
+      },
+      {
+        "x_m": 0.1725,
+        "y_m": 0.0075,
+        "z_m": 0.022,
+        "rho_m": 0.17266296649832005,
+        "theta_rad": 0.043450895391530686,
+        "amplitude": 0.48226678371429443,
+        "visible_azimuth_count": 92,
+        "visible_height_count": 58
+      },
+      {
+        "x_m": 0.1725,
+        "y_m": 0.0075,
+        "z_m": 0.026000000000000002,
+        "rho_m": 0.17266296649832005,
+        "theta_rad": 0.043450895391530686,
+        "amplitude": 0.854269802570343,
+        "visible_azimuth_count": 92,
+        "visible_height_count": 58
+      },
+      {
+        "x_m": 0.1725,
+        "y_m": 0.0075,
+        "z_m": 0.03,
+        "rho_m": 0.17266296649832005,
+        "theta_rad": 0.043450895391530686,
+        "amplitude": 0.8490837812423706,
+        "visible_azimuth_count": 92,
+        "visible_height_count": 58
+      },
+      {
+        "x_m": 0.1725,
+        "y_m": 0.0075,
+        "z_m": 0.034,
+        "rho_m": 0.17266296649832005,
+        "theta_rad": 0.043450895391530686,
+        "amplitude": 0.3608892560005188,
+        "visible_azimuth_count": 92,
+        "visible_height_count": 58
+      },
+      {
+        "x_m": 0.1725,
+        "y_m": 0.0125,
+        "z_m": 0.022,
+        "rho_m": 0.17295230556427976,
+        "theta_rad": 0.07233733053859481,
+        "amplitude": 0.2655596435070038,
+        "visible_azimuth_count": 92,
+        "visible_height_count": 58
+      },
+      {
+        "x_m": 0.1725,
+        "y_m": 0.0125,
+        "z_m": 0.026000000000000002,
+        "rho_m": 0.17295230556427976,
+        "theta_rad": 0.07233733053859481,
+        "amplitude": 0.5216701030731201,
+        "visible_azimuth_count": 92,
+        "visible_height_count": 58
+      }
+    ]
+  },
+  "runtime_rows": [
+    {
+      "method": "ref3",
+      "runtime_sec": 0.6017905760018039,
+      "quality_raw": {
+        "nmse": 1.8607035877050577,
+        "psnr": 18.888736227498605,
+        "ssim": 0.135574631485157
+      },
+      "tensor_shape": [
+        117,
+        181,
+        73
+      ],
+      "active_coverage_ratio": 0.9710806697108066
+    },
+    {
+      "method": "ref9",
+      "runtime_sec": 0.9070032939998782,
+      "quality_raw": {
+        "nmse": 1.0348305524786066,
+        "psnr": 21.43681567822255,
+        "ssim": 0.35170107215740426
+      },
+      "tensor_shape": [
+        117,
+        181,
+        73
+      ],
+      "active_coverage_ratio": 0.9710806697108066
+    },
+    {
+      "method": "BP",
+      "runtime_sec": 2.0099583489973156,
+      "quality_raw": {
+        "nmse": 0.6284297299676465,
+        "psnr": 23.602941024202742,
+        "ssim": 0.49098587888067036
+      },
+      "tensor_shape": [
+        117,
+        181,
+        73
+      ],
+      "active_coverage_ratio": 0.9710806697108066
+    }
+  ],
+  "metrics": [
+    {
+      "target": "dense_manisali_y",
+      "method": "ref3",
+      "nmse": 1.8607035449661204,
+      "psnr": 23.959379417070497,
+      "ssim": 0.2136947333079582,
+      "peak_value": 0.6069861650466919,
+      "support_voxels_ge_0p10": 1062
+    },
+    {
+      "target": "dense_manisali_y",
+      "method": "ref9",
+      "nmse": 1.0348304704997662,
+      "psnr": 26.507459045693736,
+      "ssim": 0.47309811642208127,
+      "peak_value": 0.6069861650466919,
+      "support_voxels_ge_0p10": 476
+    },
+    {
+      "target": "dense_manisali_y",
+      "method": "BP",
+      "nmse": 0.6284297494472619,
+      "psnr": 28.67358355408882,
+      "ssim": 0.5821627779776055,
+      "peak_value": 0.6069861650466919,
+      "support_voxels_ge_0p10": 454
+    },
+    {
+      "target": "dense_manisali_y",
+      "method": "U-Net",
+      "nmse": 0.9928297235347443,
+      "psnr": 26.687403143670846,
+      "ssim": 0.25864093555845086,
+      "peak_value": 0.02173978090286255,
+      "support_voxels_ge_0p10": 0
+    }
+  ],
+  "main_composite": "viz/paper_candidates/manisali_style/dense_y_manisali_3x5.png",
+  "individual_3d_dir": "viz/paper_candidates/manisali_style/single_3d",
+  "individual_mip_dir": "viz/paper_candidates/manisali_style/single_mip"
+}
