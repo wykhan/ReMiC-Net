@@ -1,0 +1,29 @@
+{
+  "task": "task_real_draw003",
+  "created_at": "2026-05-11T11:31:30",
+  "prompt": "PROMPTS/task_real_draw003.md",
+  "source_draw002": "exp/task_real_draw002_qualitative/20260511_000001",
+  "methods": [
+    "ref3",
+    "ref9",
+    "BP",
+    "ref3 + U-Net"
+  ],
+  "unet_definition": "ordinary residual 3D U-Net baseline applied as final ref3 + U-Net compensation; not RSB-FiLM/ReMiC-Net",
+  "unet_checkpoint": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_008_remicnet_eval/20260511_082329/checkpoints/baseline/best.pt",
+  "target": "thick_rotated_y",
+  "rotation_deg": {
+    "x": 18.0,
+    "y": -22.0,
+    "z": 28.0
+  },
+  "roi": {
+    "rho_min": 0.17,
+    "rho_max": 0.265,
+    "z_min": -0.055,
+    "z_max": 0.105
+  },
+  "familyA": "viz/paper_candidates/familyA",
+  "familyB": "viz/paper_candidates/familyB",
+  "familyC": "viz/paper_candidates/familyC"
+}

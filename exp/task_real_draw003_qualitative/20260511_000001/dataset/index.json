@@ -1,0 +1,15 @@
+[
+  {
+    "target_key": "thickY",
+    "sample_id": "draw003_thick_rotated_y",
+    "scene_path": "dataset/scenes/draw003_thick_rotated_y.json",
+    "gt_path": "dataset/gt_volumes/draw003_thick_rotated_y_gt.npz",
+    "echo_path": "dataset/echoes/draw003_thick_rotated_y_echo_sparse.npz",
+    "point_count": 299,
+    "rotation_deg": {
+      "x": 18.0,
+      "y": -22.0,
+      "z": 28.0
+    }
+  }
+]
