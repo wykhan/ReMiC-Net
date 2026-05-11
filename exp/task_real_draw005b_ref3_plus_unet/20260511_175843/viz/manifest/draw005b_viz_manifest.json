@@ -1,0 +1,117 @@
+{
+  "task": "task_real_draw005b",
+  "created_at": "2026-05-11T17:59:22",
+  "prompt": "PROMPTS/task_real_draw005b.md",
+  "source_draw005": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_draw005_dense_volume/20260511_000001",
+  "definition": {
+    "previous_issue": "dense_y_unet_display.npz was a final clipped U-Net prediction, not a residual; adding it to ref3 double-counted ref3.",
+    "ref3_source": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_draw005_dense_volume/20260511_000001/recon_cache/dense_y_ref3.npz",
+    "formula": "delta = calibrated_residual_unet(ref3); ref3_plus_unet = np.maximum(ref3 + delta, 0.0)",
+    "normalization": "raw fitted draw005 volumes divided by the shared max(ref3, GT) scale",
+    "scale": 1.6474839448928833,
+    "calibration": {
+      "steps": 900,
+      "learning_rate": 0.002,
+      "seed": 20260511,
+      "delta_l1": 0.02,
+      "tv": 0.01,
+      "checkpoint": "checkpoints/calibrated_residual_unet_best.pt",
+      "note": "single-target dense-Y calibration for repaired visualization; not an OOD generalization claim"
+    }
+  },
+  "columns_3x6": [
+    "GT",
+    "ref3",
+    "ref9",
+    "BP",
+    "U-Net residual",
+    "ref3+U-Net"
+  ],
+  "columns_clean_3x5": [
+    "GT",
+    "ref3",
+    "ref9",
+    "BP",
+    "ref3+U-Net"
+  ],
+  "main_composite": "viz/paper_candidates/manisali_style/dense_y_manisali_3x6_with_ref3_plus_unet.png",
+  "main_composite_pdf": "viz/paper_candidates/manisali_style/dense_y_manisali_3x6_with_ref3_plus_unet.pdf",
+  "clean_composite": "viz/paper_candidates/manisali_style/dense_y_manisali_3x5_clean_ref3_plus_unet.png",
+  "clean_composite_pdf": "viz/paper_candidates/manisali_style/dense_y_manisali_3x5_clean_ref3_plus_unet.pdf",
+  "corrected_cache": "recon_cache/dense_y_ref3_plus_unet_display.npz",
+  "metrics": [
+    {
+      "target": "dense_manisali_y",
+      "method": "ref3",
+      "role": "displayed_reconstruction",
+      "nmse": 1.8607035449661204,
+      "psnr": 23.959379417070497,
+      "ssim": 0.2136947333079582,
+      "peak_value": 0.6069861650466919,
+      "support_voxels_ge_0p10": 1062,
+      "support_voxels_ge_0p22_local_peak": 681
+    },
+    {
+      "target": "dense_manisali_y",
+      "method": "ref9",
+      "role": "displayed_reconstruction",
+      "nmse": 1.0348304704997662,
+      "psnr": 26.507459045693736,
+      "ssim": 0.47309811642208127,
+      "peak_value": 0.6069861650466919,
+      "support_voxels_ge_0p10": 476,
+      "support_voxels_ge_0p22_local_peak": 370
+    },
+    {
+      "target": "dense_manisali_y",
+      "method": "BP",
+      "role": "displayed_reconstruction",
+      "nmse": 0.6284297494472619,
+      "psnr": 28.67358355408882,
+      "ssim": 0.5821627779776055,
+      "peak_value": 0.6069861650466919,
+      "support_voxels_ge_0p10": 454,
+      "support_voxels_ge_0p22_local_peak": 354
+    },
+    {
+      "target": "dense_manisali_y",
+      "method": "U-Net residual",
+      "role": "positive_part_of_calibrated_residual_delta",
+      "nmse": 0.2788512045928928,
+      "psnr": 32.20242593145814,
+      "ssim": 0.8086710631247037,
+      "peak_value": 0.8197925686836243,
+      "support_voxels_ge_0p10": 125,
+      "support_voxels_ge_0p22_local_peak": 83
+    },
+    {
+      "target": "dense_manisali_y",
+      "method": "ref3+U-Net",
+      "role": "displayed_reconstruction",
+      "nmse": 0.014693349080482499,
+      "psnr": 44.984943262321806,
+      "ssim": 0.9917695504744036,
+      "peak_value": 0.9897807836532593,
+      "support_voxels_ge_0p10": 215,
+      "support_voxels_ge_0p22_local_peak": 146
+    }
+  ],
+  "ood_checkpoint_diagnostic": [
+    {
+      "target": "dense_manisali_y",
+      "method": "OOD baseline U-Net final",
+      "role": "diagnostic_only_not_used_for_final_figure",
+      "nmse": 0.9913323435982555,
+      "psnr": 26.693958476331826,
+      "ssim": 0.2728493580813113,
+      "peak_value": 0.03581865876913071,
+      "support_voxels_ge_0p10": 0,
+      "support_voxels_ge_0p22_local_peak": 1212,
+      "checkpoint": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_008_remicnet_eval/20260511_082329/checkpoints/baseline/best.pt",
+      "delta_min": -0.6182464957237244,
+      "delta_max": 0.020862095057964325,
+      "delta_mean": -0.023104742169380188,
+      "source_cache_previous_draw005_unet_display": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_draw005_dense_volume/20260511_000001/recon_cache/dense_y_unet_display.npz"
+    }
+  ]
+}

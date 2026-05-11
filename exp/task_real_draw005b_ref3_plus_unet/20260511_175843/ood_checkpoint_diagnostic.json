@@ -1,0 +1,18 @@
+[
+  {
+    "target": "dense_manisali_y",
+    "method": "OOD baseline U-Net final",
+    "role": "diagnostic_only_not_used_for_final_figure",
+    "nmse": 0.9913323435982555,
+    "psnr": 26.693958476331826,
+    "ssim": 0.2728493580813113,
+    "peak_value": 0.03581865876913071,
+    "support_voxels_ge_0p10": 0,
+    "support_voxels_ge_0p22_local_peak": 1212,
+    "checkpoint": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_008_remicnet_eval/20260511_082329/checkpoints/baseline/best.pt",
+    "delta_min": -0.6182464957237244,
+    "delta_max": 0.020862095057964325,
+    "delta_mean": -0.023104742169380188,
+    "source_cache_previous_draw005_unet_display": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_draw005_dense_volume/20260511_000001/recon_cache/dense_y_unet_display.npz"
+  }
+]
