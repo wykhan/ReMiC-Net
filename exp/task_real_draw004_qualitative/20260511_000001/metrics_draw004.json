@@ -1,0 +1,38 @@
+[
+  {
+    "target": "manisali_y",
+    "method": "ref3",
+    "nmse": 2.1731731794315423,
+    "psnr": 16.23655307397485,
+    "ssim": 0.1025995692619662,
+    "peak_value": 0.9615384936332703,
+    "support_voxels_at_threshold": 3253
+  },
+  {
+    "target": "manisali_y",
+    "method": "ref9",
+    "nmse": 1.0978252889994389,
+    "psnr": 19.202164092644175,
+    "ssim": 0.283987078594098,
+    "peak_value": 0.9615384936332703,
+    "support_voxels_at_threshold": 2400
+  },
+  {
+    "target": "manisali_y",
+    "method": "BP",
+    "nmse": 0.7195291585002436,
+    "psnr": 21.03701256562711,
+    "ssim": 0.47296132170104105,
+    "peak_value": 0.9615384936332703,
+    "support_voxels_at_threshold": 1540
+  },
+  {
+    "target": "manisali_y",
+    "method": "U-Net",
+    "nmse": 0.974038150871439,
+    "psnr": 19.72173663445932,
+    "ssim": 0.07110400009039886,
+    "peak_value": 0.07661942392587662,
+    "support_voxels_at_threshold": 190
+  }
+]

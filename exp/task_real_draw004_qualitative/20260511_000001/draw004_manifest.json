@@ -1,0 +1,130 @@
+{
+  "task": "task_real_draw004",
+  "created_at": "2026-05-11T14:49:04",
+  "prompt": "PROMPTS/task_real_draw004.md",
+  "context": [
+    "CONTEXT/manisali_inspired_target_protocol.md",
+    "CONTEXT/remic_net_effect_figure_design_recommendations.md",
+    "CONTEXT/visualization_protocol.md"
+  ],
+  "methods": [
+    "ref3",
+    "ref9",
+    "BP",
+    "U-Net"
+  ],
+  "unet_definition": "ordinary residual 3D U-Net baseline checkpoint from task_real_008; not RSB-FiLM/ReMiC-Net",
+  "unet_checkpoint": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_008_remicnet_eval/20260511_082329/checkpoints/baseline/best.pt",
+  "target_stats": {
+    "point_count": 188,
+    "rho_min_m": 0.174314,
+    "rho_max_m": 0.230646,
+    "z_min_m": -0.026625,
+    "z_max_m": 0.037894,
+    "theta_span_deg": 6.4391861805777575,
+    "nearest_ref3_distance_mean_m": 0.05439881914893618,
+    "nearest_ref3_distance_max_m": 0.07485900000000001,
+    "raw_gt_shape": [
+      16,
+      10,
+      21
+    ],
+    "target_shape_for_unet": [
+      24,
+      24,
+      24
+    ],
+    "raw_gt_nonzero_voxels": 188,
+    "fit_gt_nonzero_voxels": 188,
+    "fit_support_lost_voxels": 0,
+    "fits_24_cube_without_crop": true
+  },
+  "runtime_rows": [
+    {
+      "method": "ref3",
+      "runtime_sec": 0.5111682429997018,
+      "quality_raw": {
+        "nmse": 2.173173268552594,
+        "psnr": 10.093608213033342,
+        "ssim": 0.04788801070574674
+      },
+      "tensor_shape": [
+        111,
+        181,
+        70
+      ],
+      "active_coverage_ratio": 0.9803088803088803
+    },
+    {
+      "method": "ref9",
+      "runtime_sec": 0.8039198449987452,
+      "quality_raw": {
+        "nmse": 1.0978253046106228,
+        "psnr": 13.059219652882888,
+        "ssim": 0.20709944159069427
+      },
+      "tensor_shape": [
+        111,
+        181,
+        70
+      ],
+      "active_coverage_ratio": 0.9803088803088803
+    },
+    {
+      "method": "BP",
+      "runtime_sec": 1.862210799998138,
+      "quality_raw": {
+        "nmse": 0.7195291475974203,
+        "psnr": 14.894068161667633,
+        "ssim": 0.4003651270016063
+      },
+      "tensor_shape": [
+        111,
+        181,
+        70
+      ],
+      "active_coverage_ratio": 0.9803088803088803
+    }
+  ],
+  "main_composite": "viz/paper_candidates/qualitative/manisali_y_3x5.png",
+  "individual_3d_dir": "viz/paper_candidates/qualitative/single_3d",
+  "individual_mip_dir": "viz/paper_candidates/qualitative/single_mip",
+  "metrics": [
+    {
+      "target": "manisali_y",
+      "method": "ref3",
+      "nmse": 2.1731731794315423,
+      "psnr": 16.23655307397485,
+      "ssim": 0.1025995692619662,
+      "peak_value": 0.9615384936332703,
+      "support_voxels_at_threshold": 3253
+    },
+    {
+      "target": "manisali_y",
+      "method": "ref9",
+      "nmse": 1.0978252889994389,
+      "psnr": 19.202164092644175,
+      "ssim": 0.283987078594098,
+      "peak_value": 0.9615384936332703,
+      "support_voxels_at_threshold": 2400
+    },
+    {
+      "target": "manisali_y",
+      "method": "BP",
+      "nmse": 0.7195291585002436,
+      "psnr": 21.03701256562711,
+      "ssim": 0.47296132170104105,
+      "peak_value": 0.9615384936332703,
+      "support_voxels_at_threshold": 1540
+    },
+    {
+      "target": "manisali_y",
+      "method": "U-Net",
+      "nmse": 0.974038150871439,
+      "psnr": 19.72173663445932,
+      "ssim": 0.07110400009039886,
+      "peak_value": 0.07661942392587662,
+      "support_voxels_at_threshold": 190
+    }
+  ]
+}

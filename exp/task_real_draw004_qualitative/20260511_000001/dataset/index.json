@@ -1,0 +1,10 @@
+[
+  {
+    "target_key": "manisali_y",
+    "sample_id": "draw004_manisali_inspired_y",
+    "scene_path": "dataset/scenes/draw004_manisali_inspired_y.json",
+    "gt_path": "dataset/gt_volumes/draw004_manisali_inspired_y_gt.npz",
+    "echo_path": "dataset/echoes/draw004_manisali_inspired_y_echo_sparse.npz",
+    "point_count": 188
+  }
+]
