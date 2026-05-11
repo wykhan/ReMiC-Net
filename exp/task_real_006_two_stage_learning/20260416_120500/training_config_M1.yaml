@@ -1,0 +1,7 @@
+epochs: 5
+batch_size: 4
+lr: 0.001
+train_count: 768
+val_count: 192
+test_count: 192
+device: cuda

@@ -1,0 +1,29 @@
+{
+  "dataset_name": "task_real_004b_azimuth_edge_stress_set",
+  "split_names": [
+    "edge_stress"
+  ],
+  "counts_by_group": {
+    "azimuth_edge_stress": 54
+  },
+  "total_samples": 54,
+  "index_path": "dataset/index.json",
+  "radius_groups": [
+    "inner",
+    "mid",
+    "outer"
+  ],
+  "height_groups": [
+    "mid",
+    "high",
+    "low"
+  ],
+  "offsets": [
+    "negpi_exact",
+    "negpi_p1",
+    "negpi_p2",
+    "pi_m2",
+    "pi_m1",
+    "pi_exact"
+  ]
+}

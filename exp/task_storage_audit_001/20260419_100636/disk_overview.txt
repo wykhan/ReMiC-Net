@@ -1,0 +1,19 @@
+## df -h
+文件系统        大小  已用  可用 已用% 挂载点
+tmpfs            13G  3.4M   13G    1% /run
+/dev/nvme0n1p5  961G  893G   20G   98% /
+tmpfs            63G   66M   63G    1% /dev/shm
+tmpfs           5.0M  4.0K  5.0M    1% /run/lock
+efivarfs        512K   94K  414K   19% /sys/firmware/efi/efivars
+/dev/nvme0n1p1   96M   33M   64M   34% /boot/efi
+tmpfs            13G  212K   13G    1% /run/user/1000
+
+## df -i
+文件系统         Inodes   已用I    可用I 已用I% 挂载点
+tmpfs          16438168    1756 16436412     1% /run
+/dev/nvme0n1p5 64004096 3274522 60729574     6% /
+tmpfs          16438168    3061 16435107     1% /dev/shm
+tmpfs          16438168       4 16438164     1% /run/lock
+efivarfs              0       0        0      - /sys/firmware/efi/efivars
+/dev/nvme0n1p1        0       0        0      - /boot/efi
+tmpfs           3287633     197  3287436     1% /run/user/1000

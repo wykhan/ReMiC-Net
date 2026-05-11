@@ -1,0 +1,3176 @@
+[
+  {
+    "sample_id": "random_et_test_00000",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 2.804995952623638,
+    "ref3_psnr": 24.008739286520544,
+    "ref3_ssim": 0.11977104687628262,
+    "learned_nmse": 0.9740136042493545,
+    "learned_psnr": 28.60241161985636,
+    "learned_ssim": 0.4049567224663983,
+    "ref3_failure_tags": [
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00001",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 15.753795757975904,
+    "ref3_psnr": 18.805850696073236,
+    "ref3_ssim": 0.01017917209052625,
+    "learned_nmse": 1.008504023461679,
+    "learned_psnr": 30.74292622639247,
+    "learned_ssim": 0.5210759893919195,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00002",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 3.047211276558265,
+    "ref3_psnr": 22.446135763607348,
+    "ref3_ssim": 0.047435648909291535,
+    "learned_nmse": 0.9914111840176203,
+    "learned_psnr": 27.32262330158282,
+    "learned_ssim": 0.3316599750883504,
+    "ref3_failure_tags": [
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00003",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 8.003280439106545,
+    "ref3_psnr": 19.3530034402908,
+    "ref3_ssim": 0.016732718782399746,
+    "learned_nmse": 1.0145954803768726,
+    "learned_psnr": 28.32275459356636,
+    "learned_ssim": 0.3824261131030398,
+    "ref3_failure_tags": [
+      "F1",
+      "F5"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00004",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 2.3309009477191296,
+    "ref3_psnr": 23.245300891737777,
+    "ref3_ssim": 0.06911767741535019,
+    "learned_nmse": 0.9952784460723365,
+    "learned_psnr": 26.941092877004287,
+    "learned_ssim": 0.30807632786251793,
+    "ref3_failure_tags": [
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00005",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 3.9445173416278014,
+    "ref3_psnr": 23.391059588150085,
+    "ref3_ssim": 0.06534672708177981,
+    "learned_nmse": 0.9902435407569499,
+    "learned_psnr": 29.393578119241027,
+    "learned_ssim": 0.4475286976179395,
+    "ref3_failure_tags": [
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00006",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 11.71434362410335,
+    "ref3_psnr": 16.763731338197097,
+    "ref3_ssim": 0.006453827213851971,
+    "learned_nmse": 1.0142678437804875,
+    "learned_psnr": 27.38938404409589,
+    "learned_ssim": 0.3399866630916061,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00007",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 10.62494211294872,
+    "ref3_psnr": 20.545673639389964,
+    "ref3_ssim": 0.017994652904937253,
+    "learned_nmse": 1.0088902541311275,
+    "learned_psnr": 30.770500013965055,
+    "learned_ssim": 0.5214920085928978,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00008",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 15.00905471342411,
+    "ref3_psnr": 17.28019514541436,
+    "ref3_ssim": 0.006373266239348941,
+    "learned_nmse": 1.010045416930687,
+    "learned_psnr": 29.000319261603167,
+    "learned_ssim": 0.4189168613595819,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00009",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 4.783412813676443,
+    "ref3_psnr": 22.350487949240044,
+    "ref3_ssim": 0.06328187427288169,
+    "learned_nmse": 0.975370996463014,
+    "learned_psnr": 29.256168124200155,
+    "learned_ssim": 0.4518453365468117,
+    "ref3_failure_tags": [
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00010",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 7.111112741784318,
+    "ref3_psnr": 18.568122542752775,
+    "ref3_ssim": 0.013262199032645203,
+    "learned_nmse": 0.9938975808488323,
+    "learned_psnr": 27.114081940077092,
+    "learned_ssim": 0.32135647191519906,
+    "ref3_failure_tags": [
+      "F1",
+      "F5"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00011",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 2.9783196516041097,
+    "ref3_psnr": 22.200135453829702,
+    "ref3_ssim": 0.04529223175511222,
+    "learned_nmse": 0.9920841521819667,
+    "learned_psnr": 26.974363222800456,
+    "learned_ssim": 0.3123683790592488,
+    "ref3_failure_tags": [
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00012",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 5.119417799451418,
+    "ref3_psnr": 21.590485556243713,
+    "ref3_ssim": 0.01931901825143466,
+    "learned_nmse": 1.015932458835771,
+    "learned_psnr": 28.614043106350636,
+    "learned_ssim": 0.3901614184056363,
+    "ref3_failure_tags": [
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00013",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 5.4971574751015595,
+    "ref3_psnr": 22.11390942555851,
+    "ref3_ssim": 0.04113891746395191,
+    "learned_nmse": 1.0101917249693462,
+    "learned_psnr": 29.471253189056156,
+    "learned_ssim": 0.44608095681719245,
+    "ref3_failure_tags": [],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00014",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 10.73484121580958,
+    "ref3_psnr": 18.519882155125714,
+    "ref3_ssim": 0.006635603032327515,
+    "learned_nmse": 1.0934981166303372,
+    "learned_psnr": 28.439658074420983,
+    "learned_ssim": 0.36613542399316845,
+    "ref3_failure_tags": [
+      "F1",
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00015",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 3.120962439325611,
+    "ref3_psnr": 23.800963005736385,
+    "ref3_ssim": 0.07232683815339977,
+    "learned_nmse": 1.0085690906047142,
+    "learned_psnr": 28.706791704500553,
+    "learned_ssim": 0.41786896984542754,
+    "ref3_failure_tags": [
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00016",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 3.455831159547129,
+    "ref3_psnr": 22.638620588943922,
+    "ref3_ssim": 0.058630252679178096,
+    "learned_nmse": 0.990763999056614,
+    "learned_psnr": 28.064443436980206,
+    "learned_ssim": 0.37206946253796963,
+    "ref3_failure_tags": [],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00017",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 5.350817513622033,
+    "ref3_psnr": 22.32899564844483,
+    "ref3_ssim": 0.045189868589791925,
+    "learned_nmse": 0.9895486441793258,
+    "learned_psnr": 29.65882572067409,
+    "learned_ssim": 0.4601344744603464,
+    "ref3_failure_tags": [
+      "F5"
+    ],
+    "learned_failure_tags": [
+      "F5"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00018",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 3.9582198699320195,
+    "ref3_psnr": 21.996256919711264,
+    "ref3_ssim": 0.03697597938608265,
+    "learned_nmse": 0.9943283866057389,
+    "learned_psnr": 27.99595751974165,
+    "learned_ssim": 0.3741258644283083,
+    "ref3_failure_tags": [
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00019",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 11.322878753384398,
+    "ref3_psnr": 20.033591330782482,
+    "ref3_ssim": 0.017139273761084744,
+    "learned_nmse": 1.0023802416562009,
+    "learned_psnr": 30.56283502030559,
+    "learned_ssim": 0.5092654921722258,
+    "ref3_failure_tags": [
+      "F1",
+      "F5"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00020",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 22.526420484763722,
+    "ref3_psnr": 16.552516531137506,
+    "ref3_ssim": 0.0036650590762508147,
+    "learned_nmse": 1.015618731460858,
+    "learned_psnr": 30.01213155747571,
+    "learned_ssim": 0.47484462534483773,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00021",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 3.4895588419084103,
+    "ref3_psnr": 21.280347971251864,
+    "ref3_ssim": 0.03629237417666952,
+    "learned_nmse": 0.9958179247148525,
+    "learned_psnr": 26.72625386994076,
+    "learned_ssim": 0.30127718771393014,
+    "ref3_failure_tags": [
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00022",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 1.4623869774828222,
+    "ref3_psnr": 26.63971370721006,
+    "ref3_ssim": 0.22152162720827465,
+    "learned_nmse": 0.995680605295994,
+    "learned_psnr": 28.309136239403216,
+    "learned_ssim": 0.3769001239512214,
+    "ref3_failure_tags": [
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F5"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00023",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 3.4030693238426206,
+    "ref3_psnr": 26.203398380880905,
+    "ref3_ssim": 0.17442615775747838,
+    "learned_nmse": 0.9876328313908103,
+    "learned_psnr": 31.57615097423252,
+    "learned_ssim": 0.5672260801765701,
+    "ref3_failure_tags": [
+      "F5"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00024",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 8.35961953802157,
+    "ref3_psnr": 21.394292619466437,
+    "ref3_ssim": 0.024766486879326862,
+    "learned_nmse": 1.0304927214440782,
+    "learned_psnr": 30.485708478914578,
+    "learned_ssim": 0.5034157783438744,
+    "ref3_failure_tags": [
+      "F1",
+      "F5"
+    ],
+    "learned_failure_tags": [
+      "F5"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00025",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 4.97248074342363,
+    "ref3_psnr": 21.072749482891282,
+    "ref3_ssim": 0.029640394443535487,
+    "learned_nmse": 0.9934878215807577,
+    "learned_psnr": 28.066855233900153,
+    "learned_ssim": 0.373850275296859,
+    "ref3_failure_tags": [
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00026",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 1.1763520234833864,
+    "ref3_psnr": 28.369204697032497,
+    "ref3_ssim": 0.35050289119163536,
+    "learned_nmse": 0.9980791696946181,
+    "learned_psnr": 29.08292770250649,
+    "learned_ssim": 0.4192651351721251,
+    "ref3_failure_tags": [
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F4",
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00027",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 5.091242359659944,
+    "ref3_psnr": 23.985027656043503,
+    "ref3_ssim": 0.046030474067494616,
+    "learned_nmse": 1.0577235129031963,
+    "learned_psnr": 30.809543583594895,
+    "learned_ssim": 0.5134123816568484,
+    "ref3_failure_tags": [
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00028",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 2.2193113242705165,
+    "ref3_psnr": 26.424631260422842,
+    "ref3_ssim": 0.1458278283111288,
+    "learned_nmse": 0.9936561151450762,
+    "learned_psnr": 29.914452482265528,
+    "learned_ssim": 0.47145511777677135,
+    "ref3_failure_tags": [
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00029",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 1.1447735686748781,
+    "ref3_psnr": 27.30702971030791,
+    "ref3_ssim": 0.23181569661702706,
+    "learned_nmse": 0.9979571160033965,
+    "learned_psnr": 27.903106883480486,
+    "learned_ssim": 0.3601317468919102,
+    "ref3_failure_tags": [
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00030",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 1.0179309831811933,
+    "ref3_psnr": 26.921713302257487,
+    "ref3_ssim": 0.29657948067933443,
+    "learned_nmse": 0.9995937047674723,
+    "learned_psnr": 27.000661603390668,
+    "learned_ssim": 0.31220150519395123,
+    "ref3_failure_tags": [
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00031",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 2.1078875516919577,
+    "ref3_psnr": 27.749092015648834,
+    "ref3_ssim": 0.2122204315079731,
+    "learned_nmse": 1.104619575571761,
+    "learned_psnr": 30.555439259544027,
+    "learned_ssim": 0.5000938569403345,
+    "ref3_failure_tags": [
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00032",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 3.392400660273659,
+    "ref3_psnr": 23.15254298412869,
+    "ref3_ssim": 0.0389971434582202,
+    "learned_nmse": 1.0083169739996114,
+    "learned_psnr": 28.421643668113134,
+    "learned_ssim": 0.3817271402578704,
+    "ref3_failure_tags": [
+      "F5"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00033",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 2.5342610243637727,
+    "ref3_psnr": 25.53917901297035,
+    "ref3_ssim": 0.1154285286741406,
+    "learned_nmse": 0.9963816669707058,
+    "learned_psnr": 29.593435215200007,
+    "learned_ssim": 0.4535332156224405,
+    "ref3_failure_tags": [
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00034",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 5.5999182394782485,
+    "ref3_psnr": 21.262793335700323,
+    "ref3_ssim": 0.03639641536739973,
+    "learned_nmse": 1.0035907666825745,
+    "learned_psnr": 28.729043457807357,
+    "learned_ssim": 0.40539172854038585,
+    "ref3_failure_tags": [],
+    "learned_failure_tags": [
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00035",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 8.742561341633042,
+    "ref3_psnr": 19.835116333661826,
+    "ref3_ssim": 0.01346057401752874,
+    "learned_nmse": 1.0475204085009284,
+    "learned_psnr": 29.049878172679367,
+    "learned_ssim": 0.4179005727832526,
+    "ref3_failure_tags": [
+      "F1",
+      "F5"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00036",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 3.7658867712556034,
+    "ref3_psnr": 24.985605614338517,
+    "ref3_ssim": 0.06431090967601001,
+    "learned_nmse": 1.0046517778658524,
+    "learned_psnr": 30.72412257703224,
+    "learned_ssim": 0.5135232616265002,
+    "ref3_failure_tags": [
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00037",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 2.3108550060051876,
+    "ref3_psnr": 24.479840181150692,
+    "ref3_ssim": 0.05670423236440851,
+    "learned_nmse": 1.0031547033612371,
+    "learned_psnr": 28.103888075703903,
+    "learned_ssim": 0.3687729496818555,
+    "ref3_failure_tags": [
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00038",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 2.40763316040429,
+    "ref3_psnr": 25.44014187281356,
+    "ref3_ssim": 0.09213321397472715,
+    "learned_nmse": 1.022449213519501,
+    "learned_psnr": 29.15962745282475,
+    "learned_ssim": 0.4273000704982541,
+    "ref3_failure_tags": [
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00039",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 1.9658286231906505,
+    "ref3_psnr": 25.188714454061785,
+    "ref3_ssim": 0.09191106404363472,
+    "learned_nmse": 0.9968417499585671,
+    "learned_psnr": 28.137908968328578,
+    "learned_ssim": 0.37167930832770574,
+    "ref3_failure_tags": [
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00040",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 1.963362969103606,
+    "ref3_psnr": 23.864892987658266,
+    "ref3_ssim": 0.06260240139134901,
+    "learned_nmse": 0.9912310985884827,
+    "learned_psnr": 26.833149643965957,
+    "learned_ssim": 0.30680291487844996,
+    "ref3_failure_tags": [
+      "F5"
+    ],
+    "learned_failure_tags": [
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00041",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 1.353828717005834,
+    "ref3_psnr": 26.377314269003044,
+    "ref3_ssim": 0.13900636889813925,
+    "learned_nmse": 1.0196267154729712,
+    "learned_psnr": 27.608539287702403,
+    "learned_ssim": 0.3478779155837506,
+    "ref3_failure_tags": [
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00042",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 5.878269555543686,
+    "ref3_psnr": 22.57068645198073,
+    "ref3_ssim": 0.03546103156400893,
+    "learned_nmse": 0.998324070705742,
+    "learned_psnr": 30.270465823555615,
+    "learned_ssim": 0.4904919780754857,
+    "ref3_failure_tags": [
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00043",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 11.020948683202548,
+    "ref3_psnr": 20.623262426732524,
+    "ref3_ssim": 0.014212001224349778,
+    "learned_nmse": 0.997383959727211,
+    "learned_psnr": 31.05682855217811,
+    "learned_ssim": 0.5332407759184558,
+    "ref3_failure_tags": [
+      "F1",
+      "F5"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00044",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 4.148775766677949,
+    "ref3_psnr": 23.803871498365353,
+    "ref3_ssim": 0.051012931168381036,
+    "learned_nmse": 0.9962148491271486,
+    "learned_psnr": 29.999541252066816,
+    "learned_ssim": 0.4747395258604662,
+    "ref3_failure_tags": [
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00045",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 4.606161973660496,
+    "ref3_psnr": 21.201740525706146,
+    "ref3_ssim": 0.03105597655685829,
+    "learned_nmse": 0.9928975477421608,
+    "learned_psnr": 27.866088296457274,
+    "learned_ssim": 0.3600670228616125,
+    "ref3_failure_tags": [
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00046",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 5.749747112002345,
+    "ref3_psnr": 22.520274212567664,
+    "ref3_ssim": 0.048889485894788504,
+    "learned_nmse": 0.9984078367286032,
+    "learned_psnr": 30.123681663526906,
+    "learned_ssim": 0.48789993307226887,
+    "ref3_failure_tags": [
+      "F5"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "random_et_test_00047",
+    "family": "random_et",
+    "dataset_source": "random_et",
+    "ref3_nmse": 10.999345650643859,
+    "ref3_psnr": 23.352481426469698,
+    "ref3_ssim": 0.04174326924809134,
+    "learned_nmse": 1.0077629478658348,
+    "learned_psnr": 33.732566162729164,
+    "learned_ssim": 0.6790002153064933,
+    "ref3_failure_tags": [
+      "F1",
+      "F5"
+    ],
+    "learned_failure_tags": [
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "L_shape_test_0000",
+    "family": "L-shape",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 2.0258658631546087,
+    "ref3_psnr": 24.24261739615021,
+    "ref3_ssim": 0.26440117193194684,
+    "learned_nmse": 0.5958646722605789,
+    "learned_psnr": 29.55724772668634,
+    "learned_ssim": 0.6590038570041492,
+    "ref3_failure_tags": [
+      "F2"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "L_shape_test_0001",
+    "family": "L-shape",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 2.946982128297104,
+    "ref3_psnr": 22.450781369039305,
+    "ref3_ssim": 0.14537503616639164,
+    "learned_nmse": 0.5941055230092098,
+    "learned_psnr": 29.405920312076024,
+    "learned_ssim": 0.6304631527318825,
+    "ref3_failure_tags": [
+      "F2"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "L_shape_test_0002",
+    "family": "L-shape",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 2.9956191209529375,
+    "ref3_psnr": 22.509292674544735,
+    "ref3_ssim": 0.14235067629351264,
+    "learned_nmse": 0.610454727687873,
+    "learned_psnr": 29.417623811086948,
+    "learned_ssim": 0.6265955153771252,
+    "ref3_failure_tags": [
+      "F2",
+      "F4"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "L_shape_test_0003",
+    "family": "L-shape",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 5.916689233385009,
+    "ref3_psnr": 19.658010953864693,
+    "ref3_ssim": 0.05906247353613006,
+    "learned_nmse": 0.5669995751244391,
+    "learned_psnr": 29.842971207951997,
+    "learned_ssim": 0.6825103542214696,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "L_shape_test_0004",
+    "family": "L-shape",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 16.1599383613144,
+    "ref3_psnr": 20.47305738914257,
+    "ref3_ssim": 0.03273679132829822,
+    "learned_nmse": 1.0189538578810822,
+    "learned_psnr": 32.47590905945009,
+    "learned_ssim": 0.684159739034002,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "L_shape_test_0005",
+    "family": "L-shape",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 4.718133553453184,
+    "ref3_psnr": 20.507766405043867,
+    "ref3_ssim": 0.0787330147534452,
+    "learned_nmse": 0.5540651534121624,
+    "learned_psnr": 29.809860312044258,
+    "learned_ssim": 0.6735858218188251,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "L_shape_test_0006",
+    "family": "L-shape",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 13.524820184969625,
+    "ref3_psnr": 20.64591165447222,
+    "ref3_ssim": 0.03566200644377659,
+    "learned_nmse": 0.8794042163896334,
+    "learned_psnr": 32.515341137988784,
+    "learned_ssim": 0.6900883094783565,
+    "ref3_failure_tags": [
+      "F1",
+      "F2"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "L_shape_test_0007",
+    "family": "L-shape",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 11.213629066068318,
+    "ref3_psnr": 21.041552182618442,
+    "ref3_ssim": 0.04371010350628141,
+    "learned_nmse": 1.1006951245315604,
+    "learned_psnr": 31.122343569968358,
+    "learned_ssim": 0.6136082820160363,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "L_shape_test_0008",
+    "family": "L-shape",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 1.8624182539444418,
+    "ref3_psnr": 23.681252332547867,
+    "ref3_ssim": 0.22247036004252063,
+    "learned_nmse": 0.637868055555119,
+    "learned_psnr": 28.33471607854306,
+    "learned_ssim": 0.6059240911919128,
+    "ref3_failure_tags": [
+      "F2",
+      "F3",
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "L_shape_test_0009",
+    "family": "L-shape",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 16.769232443429573,
+    "ref3_psnr": 19.32048597480034,
+    "ref3_ssim": 0.023860803994393564,
+    "learned_nmse": 1.111979793738682,
+    "learned_psnr": 31.104648978051387,
+    "learned_ssim": 0.6152220472375481,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "L_shape_test_0010",
+    "family": "L-shape",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 1.6861775341215794,
+    "ref3_psnr": 30.53133037337811,
+    "ref3_ssim": 0.5171606751949999,
+    "learned_nmse": 0.8180454435144227,
+    "learned_psnr": 33.67258887899426,
+    "learned_ssim": 0.7138813525530292,
+    "ref3_failure_tags": [
+      "F3",
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "L_shape_test_0011",
+    "family": "L-shape",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 1.882421208413823,
+    "ref3_psnr": 23.019211131590822,
+    "ref3_ssim": 0.2404800956875713,
+    "learned_nmse": 0.5757358954669956,
+    "learned_psnr": 28.164146283417438,
+    "learned_ssim": 0.608333440683824,
+    "ref3_failure_tags": [
+      "F2",
+      "F3",
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "L_shape_test_0012",
+    "family": "L-shape",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 3.2845249578022915,
+    "ref3_psnr": 24.972124741744857,
+    "ref3_ssim": 0.18602969245483736,
+    "learned_nmse": 1.199099407740322,
+    "learned_psnr": 29.348298559654644,
+    "learned_ssim": 0.5043133414722436,
+    "ref3_failure_tags": [
+      "F2",
+      "F3"
+    ],
+    "learned_failure_tags": [
+      "F2",
+      "F5"
+    ]
+  },
+  {
+    "sample_id": "L_shape_test_0013",
+    "family": "L-shape",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 2.570807673446174,
+    "ref3_psnr": 22.660842782303515,
+    "ref3_ssim": 0.17227156751035919,
+    "learned_nmse": 0.583010918341385,
+    "learned_psnr": 29.104771455743638,
+    "learned_ssim": 0.6637468636607932,
+    "ref3_failure_tags": [
+      "F2",
+      "F4"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "L_shape_test_0014",
+    "family": "L-shape",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 2.095689140654941,
+    "ref3_psnr": 23.291287723440917,
+    "ref3_ssim": 0.18356458175333512,
+    "learned_nmse": 0.6156177666133791,
+    "learned_psnr": 28.611444906780093,
+    "learned_ssim": 0.6201321361980835,
+    "ref3_failure_tags": [
+      "F2",
+      "F4",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "L_shape_test_0015",
+    "family": "L-shape",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 2.52668137474546,
+    "ref3_psnr": 28.24858691577716,
+    "ref3_ssim": 0.33785537400473686,
+    "learned_nmse": 0.9224718703327663,
+    "learned_psnr": 32.624560238667016,
+    "learned_ssim": 0.6774339391791465,
+    "ref3_failure_tags": [
+      "F3",
+      "F5"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "L_shape_test_0016",
+    "family": "L-shape",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 3.2499000115760612,
+    "ref3_psnr": 22.94628813192319,
+    "ref3_ssim": 0.16749890677763274,
+    "learned_nmse": 0.5762026667703252,
+    "learned_psnr": 30.459235302700208,
+    "learned_ssim": 0.6777792207653962,
+    "ref3_failure_tags": [
+      "F2"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "L_shape_test_0017",
+    "family": "L-shape",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 1.0338704305646877,
+    "ref3_psnr": 25.45817190991626,
+    "ref3_ssim": 0.26180739303081585,
+    "learned_nmse": 0.7865130239344553,
+    "learned_psnr": 26.64577372422407,
+    "learned_ssim": 0.4198370971313624,
+    "ref3_failure_tags": [
+      "F3",
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F2"
+    ]
+  },
+  {
+    "sample_id": "L_shape_test_0018",
+    "family": "L-shape",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 2.630002718261247,
+    "ref3_psnr": 24.873268620770514,
+    "ref3_ssim": 0.26618993209257075,
+    "learned_nmse": 0.5434522833674071,
+    "learned_psnr": 31.721216441532057,
+    "learned_ssim": 0.7330593978697798,
+    "ref3_failure_tags": [],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "L_shape_test_0019",
+    "family": "L-shape",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 16.077356860399732,
+    "ref3_psnr": 19.5071110831342,
+    "ref3_ssim": 0.023465895689530576,
+    "learned_nmse": 0.8725352451550558,
+    "learned_psnr": 32.16142801670713,
+    "learned_ssim": 0.6697691345885035,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "L_shape_test_0020",
+    "family": "L-shape",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 2.066835511994682,
+    "ref3_psnr": 23.260878584289635,
+    "ref3_ssim": 0.17650401582077374,
+    "learned_nmse": 0.5949733218782404,
+    "learned_psnr": 28.66896263335402,
+    "learned_ssim": 0.6270404776328043,
+    "ref3_failure_tags": [
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "L_shape_test_0021",
+    "family": "L-shape",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 2.4966985488135247,
+    "ref3_psnr": 21.30681847314282,
+    "ref3_ssim": 0.13179455327501277,
+    "learned_nmse": 0.6497044634540109,
+    "learned_psnr": 27.15332089014868,
+    "learned_ssim": 0.5351982540946588,
+    "ref3_failure_tags": [
+      "F2"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "L_shape_test_0022",
+    "family": "L-shape",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 2.6947187904492655,
+    "ref3_psnr": 22.06715276744206,
+    "ref3_ssim": 0.1278443791314581,
+    "learned_nmse": 0.6375888460647268,
+    "learned_psnr": 28.326880255293435,
+    "learned_ssim": 0.6028314498024584,
+    "ref3_failure_tags": [
+      "F2"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "L_shape_test_0023",
+    "family": "L-shape",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 5.36806714660642,
+    "ref3_psnr": 24.631772490333375,
+    "ref3_ssim": 0.14024083536042606,
+    "learned_nmse": 0.9031504397204893,
+    "learned_psnr": 32.37235096189409,
+    "learned_ssim": 0.6702118544792861,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "cross_test_0000",
+    "family": "cross",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 5.020085950277147,
+    "ref3_psnr": 24.379484604250493,
+    "ref3_ssim": 0.17894311031068907,
+    "learned_nmse": 0.8009462543047441,
+    "learned_psnr": 32.35056247977933,
+    "learned_ssim": 0.6799509406951545,
+    "ref3_failure_tags": [],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "cross_test_0001",
+    "family": "cross",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 3.114410540634972,
+    "ref3_psnr": 26.44747898885171,
+    "ref3_ssim": 0.2740048248972192,
+    "learned_nmse": 0.8062787813667325,
+    "learned_psnr": 32.31638517493832,
+    "learned_ssim": 0.6754833490326074,
+    "ref3_failure_tags": [
+      "F2",
+      "F3",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F2"
+    ]
+  },
+  {
+    "sample_id": "cross_test_0002",
+    "family": "cross",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 10.681169512427394,
+    "ref3_psnr": 22.304895173275284,
+    "ref3_ssim": 0.07408451270870765,
+    "learned_nmse": 0.8471135862139002,
+    "learned_psnr": 33.31166693961298,
+    "learned_ssim": 0.7209360406047529,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "cross_test_0003",
+    "family": "cross",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 4.471302268543773,
+    "ref3_psnr": 20.38201464162818,
+    "ref3_ssim": 0.07120734633487169,
+    "learned_nmse": 0.7224028716728024,
+    "learned_psnr": 28.298560266577123,
+    "learned_ssim": 0.5561412050925025,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "cross_test_0004",
+    "family": "cross",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 2.4561469112568073,
+    "ref3_psnr": 22.802246161651524,
+    "ref3_ssim": 0.17572576633113138,
+    "learned_nmse": 0.6173403097009286,
+    "learned_psnr": 28.799543306157098,
+    "learned_ssim": 0.6037972491542429,
+    "ref3_failure_tags": [],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "cross_test_0005",
+    "family": "cross",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 1.9157335195021228,
+    "ref3_psnr": 24.183463297795775,
+    "ref3_ssim": 0.2849836559832016,
+    "learned_nmse": 0.6787096725041578,
+    "learned_psnr": 28.689973780409467,
+    "learned_ssim": 0.5778860922237024,
+    "ref3_failure_tags": [
+      "F2"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "cross_test_0006",
+    "family": "cross",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 2.0873669762947626,
+    "ref3_psnr": 23.247843740327063,
+    "ref3_ssim": 0.22512317520944267,
+    "learned_nmse": 0.6709344573070654,
+    "learned_psnr": 28.177031047500947,
+    "learned_ssim": 0.5684430961886069,
+    "ref3_failure_tags": [],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "cross_test_0007",
+    "family": "cross",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 10.188254608270812,
+    "ref3_psnr": 22.08560624616527,
+    "ref3_ssim": 0.07440347606647991,
+    "learned_nmse": 0.8844737489397464,
+    "learned_psnr": 32.69975476515598,
+    "learned_ssim": 0.7023215496247411,
+    "ref3_failure_tags": [
+      "F1",
+      "F2"
+    ],
+    "learned_failure_tags": [
+      "F2"
+    ]
+  },
+  {
+    "sample_id": "cross_test_0008",
+    "family": "cross",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 1.0525230276792386,
+    "ref3_psnr": 25.981622111097508,
+    "ref3_ssim": 0.37849250464952433,
+    "learned_nmse": 0.7304370653525317,
+    "learned_psnr": 27.568110108105557,
+    "learned_ssim": 0.48622154400543993,
+    "ref3_failure_tags": [
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "cross_test_0009",
+    "family": "cross",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 1.4484820790604644,
+    "ref3_psnr": 26.830192841095712,
+    "ref3_ssim": 0.37689026019278804,
+    "learned_nmse": 0.6664832360890866,
+    "learned_psnr": 30.20143168869144,
+    "learned_ssim": 0.617799948842186,
+    "ref3_failure_tags": [
+      "F2",
+      "F4"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "cross_test_0010",
+    "family": "cross",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 9.467804913174378,
+    "ref3_psnr": 23.530711278259876,
+    "ref3_ssim": 0.11935683453655144,
+    "learned_nmse": 0.7425602800543541,
+    "learned_psnr": 34.58588734100792,
+    "learned_ssim": 0.7696759484177321,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "cross_test_0011",
+    "family": "cross",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 4.8799425703257615,
+    "ref3_psnr": 24.73285581310868,
+    "ref3_ssim": 0.1895920730775136,
+    "learned_nmse": 0.9397525002098769,
+    "learned_psnr": 31.886867692438404,
+    "learned_ssim": 0.6430741612011327,
+    "ref3_failure_tags": [],
+    "learned_failure_tags": [
+      "F2"
+    ]
+  },
+  {
+    "sample_id": "cross_test_0012",
+    "family": "cross",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 1.168280205275442,
+    "ref3_psnr": 25.44809591734062,
+    "ref3_ssim": 0.28972704019738654,
+    "learned_nmse": 0.715586665412797,
+    "learned_psnr": 27.576943827052087,
+    "learned_ssim": 0.48289398304788234,
+    "ref3_failure_tags": [
+      "F3",
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "cross_test_0013",
+    "family": "cross",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 4.214983587161289,
+    "ref3_psnr": 21.21152889363447,
+    "ref3_ssim": 0.10393001835434997,
+    "learned_nmse": 0.5696185460155745,
+    "learned_psnr": 29.903646766063964,
+    "learned_ssim": 0.676581370274173,
+    "ref3_failure_tags": [
+      "F4"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "cross_test_0014",
+    "family": "cross",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 2.3736781478282207,
+    "ref3_psnr": 23.21435283451438,
+    "ref3_ssim": 0.19937619490410383,
+    "learned_nmse": 0.6608833499505364,
+    "learned_psnr": 28.767323036144074,
+    "learned_ssim": 0.5948013830941613,
+    "ref3_failure_tags": [],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "cross_test_0015",
+    "family": "cross",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 1.1489918526048133,
+    "ref3_psnr": 26.482934159397185,
+    "ref3_ssim": 0.32688807164714506,
+    "learned_nmse": 0.6421961260302507,
+    "learned_psnr": 29.009426934187506,
+    "learned_ssim": 0.5813883134120229,
+    "ref3_failure_tags": [
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "cross_test_0016",
+    "family": "cross",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 1.0539834896347073,
+    "ref3_psnr": 26.212447333097195,
+    "ref3_ssim": 0.36909896900271355,
+    "learned_nmse": 0.7248551915666013,
+    "learned_psnr": 27.83827287082595,
+    "learned_ssim": 0.5166130336392368,
+    "ref3_failure_tags": [
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "cross_test_0017",
+    "family": "cross",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 4.6322801549229835,
+    "ref3_psnr": 24.242168072100753,
+    "ref3_ssim": 0.15202925736665313,
+    "learned_nmse": 0.8099391779770612,
+    "learned_psnr": 31.815592444107345,
+    "learned_ssim": 0.6558557073643794,
+    "ref3_failure_tags": [
+      "F1",
+      "F2"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "cross_test_0018",
+    "family": "cross",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 1.387445134443615,
+    "ref3_psnr": 25.62196718940271,
+    "ref3_ssim": 0.35534003897851335,
+    "learned_nmse": 0.6868460003330523,
+    "learned_psnr": 28.675531539878172,
+    "learned_ssim": 0.5538647965338463,
+    "ref3_failure_tags": [
+      "F2",
+      "F3",
+      "F5"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "cross_test_0019",
+    "family": "cross",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 3.450968888868811,
+    "ref3_psnr": 24.15977303212877,
+    "ref3_ssim": 0.1842468591775335,
+    "learned_nmse": 0.8041932097186288,
+    "learned_psnr": 30.485579284110717,
+    "learned_ssim": 0.6231659880448969,
+    "ref3_failure_tags": [
+      "F2",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F2"
+    ]
+  },
+  {
+    "sample_id": "cross_test_0020",
+    "family": "cross",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 2.104954064504217,
+    "ref3_psnr": 26.24563089113108,
+    "ref3_ssim": 0.34857076395032666,
+    "learned_nmse": 0.5943532172831945,
+    "learned_psnr": 31.73761115051284,
+    "learned_ssim": 0.6911894657201575,
+    "ref3_failure_tags": [
+      "F2"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "cross_test_0021",
+    "family": "cross",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 5.7122503435982495,
+    "ref3_psnr": 23.33935414187813,
+    "ref3_ssim": 0.10127400799608008,
+    "learned_nmse": 0.9006430393598526,
+    "learned_psnr": 31.3618995641953,
+    "learned_ssim": 0.6261200163395317,
+    "ref3_failure_tags": [
+      "F1",
+      "F2",
+      "F4"
+    ],
+    "learned_failure_tags": [
+      "F2"
+    ]
+  },
+  {
+    "sample_id": "cross_test_0022",
+    "family": "cross",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 3.574112674682377,
+    "ref3_psnr": 23.01452799545951,
+    "ref3_ssim": 0.18607287280897852,
+    "learned_nmse": 0.6028270848721435,
+    "learned_psnr": 30.744282837811,
+    "learned_ssim": 0.6716575321119695,
+    "ref3_failure_tags": [],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "cross_test_0023",
+    "family": "cross",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 1.9373732132673727,
+    "ref3_psnr": 24.330106108901198,
+    "ref3_ssim": 0.3024702743874736,
+    "learned_nmse": 0.6093995312245865,
+    "learned_psnr": 29.353217938449045,
+    "learned_ssim": 0.6263093860477823,
+    "ref3_failure_tags": [],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "double_line_test_0000",
+    "family": "double-line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 3.9606480315790624,
+    "ref3_psnr": 21.90717435461986,
+    "ref3_ssim": 0.16144427707144565,
+    "learned_nmse": 0.47484468358448223,
+    "learned_psnr": 31.119320984282645,
+    "learned_ssim": 0.7119513765549537,
+    "ref3_failure_tags": [],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "double_line_test_0001",
+    "family": "double-line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 1.040351371888357,
+    "ref3_psnr": 25.20621281889687,
+    "ref3_ssim": 0.2588896577686166,
+    "learned_nmse": 0.7409225406509413,
+    "learned_psnr": 26.680285138553156,
+    "learned_ssim": 0.4471105761323123,
+    "ref3_failure_tags": [
+      "F3",
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F2"
+    ]
+  },
+  {
+    "sample_id": "double_line_test_0002",
+    "family": "double-line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 5.996190735915808,
+    "ref3_psnr": 24.09467892033932,
+    "ref3_ssim": 0.15573750426048813,
+    "learned_nmse": 0.9049109134512316,
+    "learned_psnr": 32.30737524051766,
+    "learned_ssim": 0.6588729268127032,
+    "ref3_failure_tags": [
+      "F2"
+    ],
+    "learned_failure_tags": [
+      "F2"
+    ]
+  },
+  {
+    "sample_id": "double_line_test_0003",
+    "family": "double-line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 1.4414166389627265,
+    "ref3_psnr": 24.169563019126553,
+    "ref3_ssim": 0.30147518745328633,
+    "learned_nmse": 0.6475042594747163,
+    "learned_psnr": 27.645031973677142,
+    "learned_ssim": 0.5320320788832729,
+    "ref3_failure_tags": [
+      "F2",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "double_line_test_0004",
+    "family": "double-line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 8.319313034437403,
+    "ref3_psnr": 21.468918471452888,
+    "ref3_ssim": 0.04695968608213598,
+    "learned_nmse": 1.1717788991382965,
+    "learned_psnr": 29.981336331212212,
+    "learned_ssim": 0.5382530085366486,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "double_line_test_0005",
+    "family": "double-line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 15.369232896944627,
+    "ref3_psnr": 18.57250086563245,
+    "ref3_ssim": 0.017605428418055426,
+    "learned_nmse": 1.1341237379988975,
+    "learned_psnr": 29.892418526795794,
+    "learned_ssim": 0.5532478806443696,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "double_line_test_0006",
+    "family": "double-line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 2.415639724844559,
+    "ref3_psnr": 21.616616358200886,
+    "ref3_ssim": 0.13660616660422867,
+    "learned_nmse": 0.7437578047691128,
+    "learned_psnr": 26.732622734776022,
+    "learned_ssim": 0.5269330434211152,
+    "ref3_failure_tags": [
+      "F5"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "double_line_test_0007",
+    "family": "double-line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 13.996283024403382,
+    "ref3_psnr": 20.81728871221256,
+    "ref3_ssim": 0.040314907029426694,
+    "learned_nmse": 1.0244317836143666,
+    "learned_psnr": 32.17258552965228,
+    "learned_ssim": 0.6646372250303241,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "double_line_test_0008",
+    "family": "double-line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 10.592443469884486,
+    "ref3_psnr": 22.184897815475694,
+    "ref3_ssim": 0.07960096520808246,
+    "learned_nmse": 0.6842757241354838,
+    "learned_psnr": 34.08254813263084,
+    "learned_ssim": 0.7624178562661599,
+    "ref3_failure_tags": [
+      "F1",
+      "F2"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "double_line_test_0009",
+    "family": "double-line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 3.6446630956621373,
+    "ref3_psnr": 22.66877262720132,
+    "ref3_ssim": 0.1642142141527064,
+    "learned_nmse": 0.5056256938278002,
+    "learned_psnr": 31.247055183980326,
+    "learned_ssim": 0.7409285117440899,
+    "ref3_failure_tags": [],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "double_line_test_0010",
+    "family": "double-line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 13.41754182362436,
+    "ref3_psnr": 20.732402982918174,
+    "ref3_ssim": 0.03703980660167218,
+    "learned_nmse": 1.2512421880125955,
+    "learned_psnr": 31.03571860357796,
+    "learned_ssim": 0.584624952896237,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": [
+      "F2"
+    ]
+  },
+  {
+    "sample_id": "double_line_test_0011",
+    "family": "double-line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 3.487549042086882,
+    "ref3_psnr": 22.186715347525098,
+    "ref3_ssim": 0.16179157418483367,
+    "learned_nmse": 0.665961646858731,
+    "learned_psnr": 29.3774265078668,
+    "learned_ssim": 0.6057216853622381,
+    "ref3_failure_tags": [
+      "F4"
+    ],
+    "learned_failure_tags": [
+      "F2"
+    ]
+  },
+  {
+    "sample_id": "double_line_test_0012",
+    "family": "double-line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 2.4978481783526423,
+    "ref3_psnr": 22.25064414502284,
+    "ref3_ssim": 0.18740779684031678,
+    "learned_nmse": 0.6976994963072894,
+    "learned_psnr": 27.789620349097284,
+    "learned_ssim": 0.5315757773694194,
+    "ref3_failure_tags": [
+      "F2"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "double_line_test_0013",
+    "family": "double-line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 1.61749801162562,
+    "ref3_psnr": 24.04922284783806,
+    "ref3_ssim": 0.279701742145475,
+    "learned_nmse": 0.6566629193530598,
+    "learned_psnr": 27.964235248935793,
+    "learned_ssim": 0.5720898494082829,
+    "ref3_failure_tags": [
+      "F2",
+      "F3"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "double_line_test_0014",
+    "family": "double-line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 4.583331819039035,
+    "ref3_psnr": 21.04305358665496,
+    "ref3_ssim": 0.07919946638339298,
+    "learned_nmse": 0.5757392556008673,
+    "learned_psnr": 30.052608319562122,
+    "learned_ssim": 0.6765450590223141,
+    "ref3_failure_tags": [
+      "F2"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "double_line_test_0015",
+    "family": "double-line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 2.1437531198598454,
+    "ref3_psnr": 22.37834146352441,
+    "ref3_ssim": 0.15624800965892627,
+    "learned_nmse": 0.872711557188543,
+    "learned_psnr": 26.281381761177126,
+    "learned_ssim": 0.44465111578617844,
+    "ref3_failure_tags": [
+      "F2",
+      "F3",
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F2"
+    ]
+  },
+  {
+    "sample_id": "double_line_test_0016",
+    "family": "double-line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 1.7618591010461888,
+    "ref3_psnr": 23.219304140390005,
+    "ref3_ssim": 0.2796245148855382,
+    "learned_nmse": 0.512422051623498,
+    "learned_psnr": 28.58273772577114,
+    "learned_ssim": 0.6441516269464822,
+    "ref3_failure_tags": [
+      "F2"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "double_line_test_0017",
+    "family": "double-line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 3.759706058130015,
+    "ref3_psnr": 21.55014894126702,
+    "ref3_ssim": 0.09121998144272779,
+    "learned_nmse": 0.842090359363275,
+    "learned_psnr": 28.048100757961883,
+    "learned_ssim": 0.47081112319714996,
+    "ref3_failure_tags": [
+      "F2",
+      "F3"
+    ],
+    "learned_failure_tags": [
+      "F2"
+    ]
+  },
+  {
+    "sample_id": "double_line_test_0018",
+    "family": "double-line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 2.276858254529165,
+    "ref3_psnr": 23.67294763665128,
+    "ref3_ssim": 0.23764723621028822,
+    "learned_nmse": 0.5288060226682714,
+    "learned_psnr": 30.013343455575672,
+    "learned_ssim": 0.655602776204441,
+    "ref3_failure_tags": [
+      "F2",
+      "F3",
+      "F4"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "double_line_test_0019",
+    "family": "double-line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 3.223377339594456,
+    "ref3_psnr": 24.410854065567932,
+    "ref3_ssim": 0.19034249241594467,
+    "learned_nmse": 0.7797358470014171,
+    "learned_psnr": 30.574490721483457,
+    "learned_ssim": 0.6234501719776515,
+    "ref3_failure_tags": [],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "double_line_test_0020",
+    "family": "double-line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 3.90397693165675,
+    "ref3_psnr": 26.077200055658743,
+    "ref3_ssim": 0.23403174267777707,
+    "learned_nmse": 0.9313329345995699,
+    "learned_psnr": 32.30122281520693,
+    "learned_ssim": 0.6522546964098106,
+    "ref3_failure_tags": [
+      "F2",
+      "F3",
+      "F4"
+    ],
+    "learned_failure_tags": [
+      "F2"
+    ]
+  },
+  {
+    "sample_id": "double_line_test_0021",
+    "family": "double-line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 1.053168045721791,
+    "ref3_psnr": 24.801551358804343,
+    "ref3_ssim": 0.2557573933157583,
+    "learned_nmse": 0.6546712690971273,
+    "learned_psnr": 26.866295498831537,
+    "learned_ssim": 0.5131691309883148,
+    "ref3_failure_tags": [
+      "F3",
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "double_line_test_0022",
+    "family": "double-line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 5.613514723508546,
+    "ref3_psnr": 22.537613073508297,
+    "ref3_ssim": 0.06474662107848364,
+    "learned_nmse": 1.1286363331666522,
+    "learned_psnr": 29.504421377434625,
+    "learned_ssim": 0.526190135650639,
+    "ref3_failure_tags": [
+      "F2"
+    ],
+    "learned_failure_tags": [
+      "F2"
+    ]
+  },
+  {
+    "sample_id": "double_line_test_0023",
+    "family": "double-line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 9.00152245258465,
+    "ref3_psnr": 23.10968361998541,
+    "ref3_ssim": 0.11965801351933229,
+    "learned_nmse": 0.6972064056101976,
+    "learned_psnr": 34.21922961782236,
+    "learned_ssim": 0.7692632198858151,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "line_test_0000",
+    "family": "line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 4.814311549584622,
+    "ref3_psnr": 25.198978846376818,
+    "ref3_ssim": 0.21694997582855863,
+    "learned_nmse": 0.9738668909075713,
+    "learned_psnr": 32.13932479903674,
+    "learned_ssim": 0.6619938917873592,
+    "ref3_failure_tags": [
+      "F2",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "line_test_0001",
+    "family": "line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 2.4768402456762524,
+    "ref3_psnr": 24.853277723838477,
+    "ref3_ssim": 0.2895055817182059,
+    "learned_nmse": 0.5105761371862488,
+    "learned_psnr": 31.7116524028369,
+    "learned_ssim": 0.7214590758039572,
+    "ref3_failure_tags": [],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "line_test_0002",
+    "family": "line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 4.338418278397395,
+    "ref3_psnr": 21.453525312544556,
+    "ref3_ssim": 0.10130135956434118,
+    "learned_nmse": 0.7309823168922142,
+    "learned_psnr": 29.187770990074466,
+    "learned_ssim": 0.6366726282139683,
+    "ref3_failure_tags": [
+      "F2"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "line_test_0003",
+    "family": "line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 3.4005072759664774,
+    "ref3_psnr": 23.354556704571525,
+    "ref3_ssim": 0.13552953560252176,
+    "learned_nmse": 0.6406847209778689,
+    "learned_psnr": 30.60355014022974,
+    "learned_ssim": 0.6613421313006688,
+    "ref3_failure_tags": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "line_test_0004",
+    "family": "line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 0.9244020637410766,
+    "ref3_psnr": 26.166968246158223,
+    "ref3_ssim": 0.4024416383636976,
+    "learned_nmse": 0.7240257578224585,
+    "learned_psnr": 27.228036956699402,
+    "learned_ssim": 0.480497605629299,
+    "ref3_failure_tags": [
+      "F3",
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "line_test_0005",
+    "family": "line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 1.2633221811465438,
+    "ref3_psnr": 26.567996466398874,
+    "ref3_ssim": 0.34977460777781255,
+    "learned_nmse": 0.6475958816392158,
+    "learned_psnr": 29.470096665573973,
+    "learned_ssim": 0.6180723533277295,
+    "ref3_failure_tags": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "line_test_0006",
+    "family": "line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 10.15862264000164,
+    "ref3_psnr": 23.052548493544453,
+    "ref3_ssim": 0.14200951468242734,
+    "learned_nmse": 0.4268717086988338,
+    "learned_psnr": 36.81792293579703,
+    "learned_ssim": 0.8715475959335439,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "line_test_0007",
+    "family": "line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 1.8784214524689624,
+    "ref3_psnr": 25.3320624546385,
+    "ref3_ssim": 0.2678369315246941,
+    "learned_nmse": 0.7310173854891477,
+    "learned_psnr": 29.4307157460856,
+    "learned_ssim": 0.5919968830264899,
+    "ref3_failure_tags": [
+      "F2",
+      "F3",
+      "F5"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "line_test_0008",
+    "family": "line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 11.27520706106649,
+    "ref3_psnr": 24.575894050385592,
+    "ref3_ssim": 0.13637631943392373,
+    "learned_nmse": 1.055013347479973,
+    "learned_psnr": 34.86455974538791,
+    "learned_ssim": 0.7617906904622918,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "line_test_0009",
+    "family": "line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 4.676104807611769,
+    "ref3_psnr": 24.040426096869567,
+    "ref3_ssim": 0.17755176066690787,
+    "learned_nmse": 0.606598089040175,
+    "learned_psnr": 32.91025789714531,
+    "learned_ssim": 0.7366302556641339,
+    "ref3_failure_tags": [
+      "F2"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "line_test_0010",
+    "family": "line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 0.8948956840447883,
+    "ref3_psnr": 26.558447400187614,
+    "ref3_ssim": 0.5262229904879191,
+    "learned_nmse": 0.6814112434790799,
+    "learned_psnr": 27.7420785532966,
+    "learned_ssim": 0.5158914920377072,
+    "ref3_failure_tags": [],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "line_test_0011",
+    "family": "line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 5.178817804960268,
+    "ref3_psnr": 29.27977686237461,
+    "ref3_ssim": 0.44276166501981346,
+    "learned_nmse": 0.7242594179945689,
+    "learned_psnr": 37.82314162041632,
+    "learned_ssim": 0.8596682525358724,
+    "ref3_failure_tags": [
+      "F2"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "line_test_0012",
+    "family": "line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 3.180158622962266,
+    "ref3_psnr": 23.081793850011042,
+    "ref3_ssim": 0.12998255888402907,
+    "learned_nmse": 0.6910152194326813,
+    "learned_psnr": 29.711405525332477,
+    "learned_ssim": 0.6269721569112063,
+    "ref3_failure_tags": [
+      "F2",
+      "F3",
+      "F4"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "line_test_0013",
+    "family": "line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 4.7625219655098086,
+    "ref3_psnr": 28.118266543787968,
+    "ref3_ssim": 0.3398218969309937,
+    "learned_nmse": 0.9807832535305058,
+    "learned_psnr": 34.98090570793971,
+    "learned_ssim": 0.7627439627729526,
+    "ref3_failure_tags": [
+      "F2",
+      "F3",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "line_test_0014",
+    "family": "line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 2.4426117792706963,
+    "ref3_psnr": 27.415407217304,
+    "ref3_ssim": 0.34066164966895074,
+    "learned_nmse": 0.67295778349422,
+    "learned_psnr": 33.01407356140099,
+    "learned_ssim": 0.7075107020849928,
+    "ref3_failure_tags": [
+      "F2",
+      "F3",
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "line_test_0015",
+    "family": "line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 2.9929534004965133,
+    "ref3_psnr": 28.722572879034193,
+    "ref3_ssim": 0.46587644115894233,
+    "learned_nmse": 0.8866345090588584,
+    "learned_psnr": 34.00612597606146,
+    "learned_ssim": 0.7122241987346187,
+    "ref3_failure_tags": [
+      "F2"
+    ],
+    "learned_failure_tags": [
+      "F2",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "line_test_0016",
+    "family": "line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 2.9894127754341446,
+    "ref3_psnr": 26.663170393161156,
+    "ref3_ssim": 0.3291963345481829,
+    "learned_nmse": 0.6491541169712313,
+    "learned_psnr": 33.29555080148358,
+    "learned_ssim": 0.7343869965696364,
+    "ref3_failure_tags": [
+      "F2",
+      "F3",
+      "F5"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "line_test_0017",
+    "family": "line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 8.804527459881566,
+    "ref3_psnr": 19.44436805356443,
+    "ref3_ssim": 0.050863816134603196,
+    "learned_nmse": 0.6566232726641548,
+    "learned_psnr": 30.718265906026545,
+    "learned_ssim": 0.6991375272758769,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "line_test_0018",
+    "family": "line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 8.33901844384176,
+    "ref3_psnr": 26.122582797853777,
+    "ref3_ssim": 0.24111661026811682,
+    "learned_nmse": 1.1012153369589615,
+    "learned_psnr": 34.915009944114644,
+    "learned_ssim": 0.7633811321248112,
+    "ref3_failure_tags": [
+      "F1",
+      "F2"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "line_test_0019",
+    "family": "line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 9.447664503850396,
+    "ref3_psnr": 23.025418667387104,
+    "ref3_ssim": 0.10060149176381773,
+    "learned_nmse": 0.7244097670827401,
+    "learned_psnr": 34.178820140341685,
+    "learned_ssim": 0.7659805943057811,
+    "ref3_failure_tags": [
+      "F1",
+      "F2"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "line_test_0020",
+    "family": "line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 10.596145589970648,
+    "ref3_psnr": 22.023952964530366,
+    "ref3_ssim": 0.06044310813581515,
+    "learned_nmse": 1.2720945042391874,
+    "learned_psnr": 31.230238355172272,
+    "learned_ssim": 0.6085499157991795,
+    "ref3_failure_tags": [
+      "F1",
+      "F2",
+      "F4"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "line_test_0021",
+    "family": "line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 1.9077125329049296,
+    "ref3_psnr": 24.509657820552828,
+    "ref3_ssim": 0.23587348741385894,
+    "learned_nmse": 0.6473946404192674,
+    "learned_psnr": 29.20309612544149,
+    "learned_ssim": 0.6247649938497986,
+    "ref3_failure_tags": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "line_test_0022",
+    "family": "line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 2.3905201762762704,
+    "ref3_psnr": 23.344704786622245,
+    "ref3_ssim": 0.17522765701035037,
+    "learned_nmse": 0.687159120014594,
+    "learned_psnr": 28.759055941677623,
+    "learned_ssim": 0.6034933862200218,
+    "ref3_failure_tags": [
+      "F4"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "line_test_0023",
+    "family": "line",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 11.4704768286887,
+    "ref3_psnr": 21.470584527448597,
+    "ref3_ssim": 0.08900897318343884,
+    "learned_nmse": 0.573153485496833,
+    "learned_psnr": 34.483689968570744,
+    "learned_ssim": 0.7832316153750787,
+    "ref3_failure_tags": [
+      "F1",
+      "F2"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "point_cluster_test_0000",
+    "family": "point_cluster",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 16.530440543720943,
+    "ref3_psnr": 19.98307715992575,
+    "ref3_ssim": 0.03144294988832264,
+    "learned_nmse": 1.0052837870608182,
+    "learned_psnr": 32.14303430356935,
+    "learned_ssim": 0.6337158663476452,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "point_cluster_test_0001",
+    "family": "point_cluster",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 14.144671058631854,
+    "ref3_psnr": 22.91316753292658,
+    "ref3_ssim": 0.14604001982108444,
+    "learned_nmse": 0.9909033765027138,
+    "learned_psnr": 34.45878302468973,
+    "learned_ssim": 0.7752907946126046,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "point_cluster_test_0002",
+    "family": "point_cluster",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 7.61461751647387,
+    "ref3_psnr": 24.158195667344124,
+    "ref3_ssim": 0.14705357724418971,
+    "learned_nmse": 1.0140723469684012,
+    "learned_psnr": 32.9139872712241,
+    "learned_ssim": 0.6532563856192369,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "point_cluster_test_0003",
+    "family": "point_cluster",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 11.72076058254455,
+    "ref3_psnr": 22.541086114226182,
+    "ref3_ssim": 0.12587284116898023,
+    "learned_nmse": 0.9060752763912987,
+    "learned_psnr": 33.65900151383015,
+    "learned_ssim": 0.7582071888022722,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "point_cluster_test_0004",
+    "family": "point_cluster",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 19.121959759836827,
+    "ref3_psnr": 24.18779321716471,
+    "ref3_ssim": 0.12933471204395436,
+    "learned_nmse": 1.0252141728123638,
+    "learned_psnr": 36.894971271652885,
+    "learned_ssim": 0.8199635223728262,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "point_cluster_test_0005",
+    "family": "point_cluster",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 4.5199914242472605,
+    "ref3_psnr": 26.70116906519606,
+    "ref3_ssim": 0.322875991892493,
+    "learned_nmse": 0.973820703993849,
+    "learned_psnr": 33.36775506629028,
+    "learned_ssim": 0.6997287368580246,
+    "ref3_failure_tags": [],
+    "learned_failure_tags": [
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "point_cluster_test_0006",
+    "family": "point_cluster",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 14.18254538723819,
+    "ref3_psnr": 22.29193974143907,
+    "ref3_ssim": 0.07284056112957797,
+    "learned_nmse": 0.9099812125530671,
+    "learned_psnr": 34.219157489211256,
+    "learned_ssim": 0.7251816385814931,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "point_cluster_test_0007",
+    "family": "point_cluster",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 26.597484541306166,
+    "ref3_psnr": 19.959282529378676,
+    "ref3_ssim": 0.03769624570339102,
+    "learned_nmse": 1.0679398413316348,
+    "learned_psnr": 33.92222029727944,
+    "learned_ssim": 0.7219503212887909,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "point_cluster_test_0008",
+    "family": "point_cluster",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 16.875387533685743,
+    "ref3_psnr": 24.33972450921796,
+    "ref3_ssim": 0.20768442638387952,
+    "learned_nmse": 0.8593367502486887,
+    "learned_psnr": 37.27062812628637,
+    "learned_ssim": 0.8691396176457705,
+    "ref3_failure_tags": [
+      "F1",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "point_cluster_test_0009",
+    "family": "point_cluster",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 15.694162159119333,
+    "ref3_psnr": 20.982543972670097,
+    "ref3_ssim": 0.032489534176998625,
+    "learned_nmse": 0.9744456422898358,
+    "learned_psnr": 33.05234917265999,
+    "learned_ssim": 0.6747267120876861,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "point_cluster_test_0010",
+    "family": "point_cluster",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 4.061430864857104,
+    "ref3_psnr": 30.270128465014807,
+    "ref3_ssim": 0.462283314519675,
+    "learned_nmse": 0.9241114333207128,
+    "learned_psnr": 36.69967562277441,
+    "learned_ssim": 0.812681550041525,
+    "ref3_failure_tags": [
+      "F4",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "point_cluster_test_0011",
+    "family": "point_cluster",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 14.529945691254301,
+    "ref3_psnr": 22.9962152311516,
+    "ref3_ssim": 0.119197078701539,
+    "learned_nmse": 1.0268322405111898,
+    "learned_psnr": 34.50385979836909,
+    "learned_ssim": 0.7704295179195572,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "point_cluster_test_0012",
+    "family": "point_cluster",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 11.304677708087787,
+    "ref3_psnr": 21.395033438790914,
+    "ref3_ssim": 0.04280318984256475,
+    "learned_nmse": 0.9526274203828526,
+    "learned_psnr": 32.13838453600709,
+    "learned_ssim": 0.6103542775517616,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "point_cluster_test_0013",
+    "family": "point_cluster",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 11.411085922131539,
+    "ref3_psnr": 24.339104647717758,
+    "ref3_ssim": 0.15126026326987047,
+    "learned_nmse": 0.886700273586513,
+    "learned_psnr": 35.43460589839658,
+    "learned_ssim": 0.7688217925442552,
+    "ref3_failure_tags": [
+      "F1",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "point_cluster_test_0014",
+    "family": "point_cluster",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 4.810567146636361,
+    "ref3_psnr": 26.690630019098304,
+    "ref3_ssim": 0.3119177000897922,
+    "learned_nmse": 0.9454607776973047,
+    "learned_psnr": 33.756157739166895,
+    "learned_ssim": 0.7000300861586664,
+    "ref3_failure_tags": [],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "point_cluster_test_0015",
+    "family": "point_cluster",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 7.167540912919242,
+    "ref3_psnr": 23.80383459607321,
+    "ref3_ssim": 0.10180582568425857,
+    "learned_nmse": 0.973731179486766,
+    "learned_psnr": 32.47314583322176,
+    "learned_ssim": 0.6293556930819847,
+    "ref3_failure_tags": [
+      "F5"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "point_cluster_test_0016",
+    "family": "point_cluster",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 1.9038166124408877,
+    "ref3_psnr": 29.990042591782903,
+    "ref3_ssim": 0.4747682989591638,
+    "learned_nmse": 1.0185109523138585,
+    "learned_psnr": 32.706636603564604,
+    "learned_ssim": 0.6356407247387279,
+    "ref3_failure_tags": [
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "point_cluster_test_0017",
+    "family": "point_cluster",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 3.80814128659517,
+    "ref3_psnr": 28.533608089582366,
+    "ref3_ssim": 0.37404204120476,
+    "learned_nmse": 0.947568384713621,
+    "learned_psnr": 34.57463304992472,
+    "learned_ssim": 0.7279042606706428,
+    "ref3_failure_tags": [
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "point_cluster_test_0018",
+    "family": "point_cluster",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 7.90160813774215,
+    "ref3_psnr": 24.95117917484002,
+    "ref3_ssim": 0.2031684035155299,
+    "learned_nmse": 1.0996493650865817,
+    "learned_psnr": 33.51579168914614,
+    "learned_ssim": 0.6824668001990818,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": [
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "point_cluster_test_0019",
+    "family": "point_cluster",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 5.321515508266764,
+    "ref3_psnr": 25.760475050623548,
+    "ref3_ssim": 0.1587740484002103,
+    "learned_nmse": 1.0320337948782272,
+    "learned_psnr": 32.88388944554296,
+    "learned_ssim": 0.6444515096585073,
+    "ref3_failure_tags": [
+      "F6"
+    ],
+    "learned_failure_tags": [
+      "F5",
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "point_cluster_test_0020",
+    "family": "point_cluster",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 7.644388747915886,
+    "ref3_psnr": 27.151308519264337,
+    "ref3_ssim": 0.3046942804279235,
+    "learned_nmse": 0.8458891468378211,
+    "learned_psnr": 36.71160170505067,
+    "learned_ssim": 0.8202172766918451,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "point_cluster_test_0021",
+    "family": "point_cluster",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 16.32862296546034,
+    "ref3_psnr": 19.768149918625674,
+    "ref3_ssim": 0.02535546082504567,
+    "learned_nmse": 1.0044302930980662,
+    "learned_psnr": 31.87844748053907,
+    "learned_ssim": 0.5940680955616219,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": [
+      "F6"
+    ]
+  },
+  {
+    "sample_id": "point_cluster_test_0022",
+    "family": "point_cluster",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 4.278273595146562,
+    "ref3_psnr": 27.8814426651329,
+    "ref3_ssim": 0.3614520669664573,
+    "learned_nmse": 0.8940293887989904,
+    "learned_psnr": 34.68061022706051,
+    "learned_ssim": 0.7392671288580104,
+    "ref3_failure_tags": [],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "point_cluster_test_0023",
+    "family": "point_cluster",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 24.631617233049113,
+    "ref3_psnr": 22.716953056896685,
+    "ref3_ssim": 0.06908288381033602,
+    "learned_nmse": 1.0714752892833408,
+    "learned_psnr": 36.33206067420283,
+    "learned_ssim": 0.7984031982661737,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "small_rect_edge_test_0000",
+    "family": "small_rect_edge",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 3.458125589522655,
+    "ref3_psnr": 24.02721240401042,
+    "ref3_ssim": 0.16978582689951735,
+    "learned_nmse": 0.8856925323664909,
+    "learned_psnr": 29.94279007881984,
+    "learned_ssim": 0.5597952144760171,
+    "ref3_failure_tags": [
+      "F2",
+      "F5"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "small_rect_edge_test_0001",
+    "family": "small_rect_edge",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 8.45401705465257,
+    "ref3_psnr": 20.922884043586095,
+    "ref3_ssim": 0.05924453367198493,
+    "learned_nmse": 0.881827941284867,
+    "learned_psnr": 30.73967689561065,
+    "learned_ssim": 0.6398092113328171,
+    "ref3_failure_tags": [
+      "F1",
+      "F2",
+      "F4"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "small_rect_edge_test_0002",
+    "family": "small_rect_edge",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 1.6899263854015303,
+    "ref3_psnr": 26.111127549068584,
+    "ref3_ssim": 0.33800387929621795,
+    "learned_nmse": 0.7942402993048864,
+    "learned_psnr": 29.39028623995996,
+    "learned_ssim": 0.5756164348375941,
+    "ref3_failure_tags": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "small_rect_edge_test_0003",
+    "family": "small_rect_edge",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 1.4494003556442427,
+    "ref3_psnr": 26.983128662979674,
+    "ref3_ssim": 0.3253682222638929,
+    "learned_nmse": 0.7535520752557441,
+    "learned_psnr": 29.823879556117344,
+    "learned_ssim": 0.5829741525449678,
+    "ref3_failure_tags": [
+      "F3",
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "small_rect_edge_test_0004",
+    "family": "small_rect_edge",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 7.821971315054408,
+    "ref3_psnr": 21.870530026085156,
+    "ref3_ssim": 0.07176667935655422,
+    "learned_nmse": 0.7960344488957932,
+    "learned_psnr": 31.79437343752553,
+    "learned_ssim": 0.6750135587574089,
+    "ref3_failure_tags": [
+      "F1",
+      "F2",
+      "F4"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "small_rect_edge_test_0005",
+    "family": "small_rect_edge",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 2.2185162516883192,
+    "ref3_psnr": 25.981486624421798,
+    "ref3_ssim": 0.2816974934772043,
+    "learned_nmse": 0.6979190985429411,
+    "learned_psnr": 31.00406214716522,
+    "learned_ssim": 0.6412357681582926,
+    "ref3_failure_tags": [
+      "F2",
+      "F4"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "small_rect_edge_test_0006",
+    "family": "small_rect_edge",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 4.328560378026776,
+    "ref3_psnr": 24.24058742613296,
+    "ref3_ssim": 0.19439425826341364,
+    "learned_nmse": 0.7136383984809596,
+    "learned_psnr": 32.069240110910485,
+    "learned_ssim": 0.7144184757548405,
+    "ref3_failure_tags": [
+      "F2",
+      "F4"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "small_rect_edge_test_0007",
+    "family": "small_rect_edge",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 8.264481474275094,
+    "ref3_psnr": 21.458459031431158,
+    "ref3_ssim": 0.0742902115773668,
+    "learned_nmse": 0.7090388699958143,
+    "learned_psnr": 32.123914962701654,
+    "learned_ssim": 0.6958708931739019,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "small_rect_edge_test_0008",
+    "family": "small_rect_edge",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 2.971558296622071,
+    "ref3_psnr": 24.16311302359378,
+    "ref3_ssim": 0.20228378434289487,
+    "learned_nmse": 0.7250853473511414,
+    "learned_psnr": 30.28906452923919,
+    "learned_ssim": 0.607120386556201,
+    "ref3_failure_tags": [
+      "F2",
+      "F5"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "small_rect_edge_test_0009",
+    "family": "small_rect_edge",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 5.542922742346094,
+    "ref3_psnr": 22.53392576375734,
+    "ref3_ssim": 0.09982360885256737,
+    "learned_nmse": 0.7825807998682514,
+    "learned_psnr": 31.036022162242347,
+    "learned_ssim": 0.6446098924726408,
+    "ref3_failure_tags": [
+      "F1",
+      "F2"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "small_rect_edge_test_0010",
+    "family": "small_rect_edge",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 3.988962767333237,
+    "ref3_psnr": 24.48140857423926,
+    "ref3_ssim": 0.17948957547045125,
+    "learned_nmse": 0.7037530915757667,
+    "learned_psnr": 32.01580494937283,
+    "learned_ssim": 0.6797645279759318,
+    "ref3_failure_tags": [
+      "F2"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "small_rect_edge_test_0011",
+    "family": "small_rect_edge",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 1.4634285294640104,
+    "ref3_psnr": 28.587522306280025,
+    "ref3_ssim": 0.4284746542079193,
+    "learned_nmse": 0.7779859041747875,
+    "learned_psnr": 31.331520244447976,
+    "learned_ssim": 0.6296219870875237,
+    "ref3_failure_tags": [
+      "F3",
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "small_rect_edge_test_0012",
+    "family": "small_rect_edge",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 2.088019425316075,
+    "ref3_psnr": 26.054139478050292,
+    "ref3_ssim": 0.25826199514233666,
+    "learned_nmse": 0.7266331987423597,
+    "learned_psnr": 30.638332538214836,
+    "learned_ssim": 0.626269364165843,
+    "ref3_failure_tags": [
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "small_rect_edge_test_0013",
+    "family": "small_rect_edge",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 1.4998685301110182,
+    "ref3_psnr": 28.487342520362397,
+    "ref3_ssim": 0.41647627846888036,
+    "learned_nmse": 0.7129994066325136,
+    "learned_psnr": 31.716982426306608,
+    "learned_ssim": 0.6556638144252691,
+    "ref3_failure_tags": [
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "small_rect_edge_test_0014",
+    "family": "small_rect_edge",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 3.0836427561117015,
+    "ref3_psnr": 24.277754254833127,
+    "ref3_ssim": 0.20280729824320204,
+    "learned_nmse": 0.6683734811073312,
+    "learned_psnr": 30.918202821456244,
+    "learned_ssim": 0.6452390911944066,
+    "ref3_failure_tags": [
+      "F2"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "small_rect_edge_test_0015",
+    "family": "small_rect_edge",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 4.692347051674991,
+    "ref3_psnr": 22.1340850859402,
+    "ref3_ssim": 0.12170876740931062,
+    "learned_nmse": 0.7045022460115403,
+    "learned_psnr": 30.369162389002774,
+    "learned_ssim": 0.6108117580357757,
+    "ref3_failure_tags": [
+      "F2"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "small_rect_edge_test_0016",
+    "family": "small_rect_edge",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 5.2179400065113954,
+    "ref3_psnr": 23.113765081244964,
+    "ref3_ssim": 0.13600341257125595,
+    "learned_nmse": 0.7564839293044531,
+    "learned_psnr": 31.5007584898189,
+    "learned_ssim": 0.6383400771026931,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "small_rect_edge_test_0017",
+    "family": "small_rect_edge",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 1.5741853670424184,
+    "ref3_psnr": 28.288865667024858,
+    "ref3_ssim": 0.4170884524012476,
+    "learned_nmse": 0.79588375936575,
+    "learned_psnr": 31.250927951486382,
+    "learned_ssim": 0.6216402763017864,
+    "ref3_failure_tags": [
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "small_rect_edge_test_0018",
+    "family": "small_rect_edge",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 1.5276196150860797,
+    "ref3_psnr": 26.958192185066572,
+    "ref3_ssim": 0.327118622954077,
+    "learned_nmse": 0.8335497196388848,
+    "learned_psnr": 29.58902920222739,
+    "learned_ssim": 0.5698858480683548,
+    "ref3_failure_tags": [
+      "F3",
+      "F5",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "small_rect_edge_test_0019",
+    "family": "small_rect_edge",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 3.0344736882970165,
+    "ref3_psnr": 25.161991118549572,
+    "ref3_ssim": 0.22262006817592975,
+    "learned_nmse": 0.6846330992319004,
+    "learned_psnr": 31.62824603751432,
+    "learned_ssim": 0.675829195723466,
+    "ref3_failure_tags": [],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "small_rect_edge_test_0020",
+    "family": "small_rect_edge",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 7.829349884424703,
+    "ref3_psnr": 21.273242333290135,
+    "ref3_ssim": 0.05785582407167674,
+    "learned_nmse": 0.9218637386534531,
+    "learned_psnr": 30.563831975615724,
+    "learned_ssim": 0.5918966890549238,
+    "ref3_failure_tags": [
+      "F1"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "small_rect_edge_test_0021",
+    "family": "small_rect_edge",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 2.2067651412166036,
+    "ref3_psnr": 26.053301117622,
+    "ref3_ssim": 0.27434026283296087,
+    "learned_nmse": 0.7660649831898065,
+    "learned_psnr": 30.64820615522414,
+    "learned_ssim": 0.6051081455686796,
+    "ref3_failure_tags": [
+      "F2",
+      "F3",
+      "F4",
+      "F6"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "small_rect_edge_test_0022",
+    "family": "small_rect_edge",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 3.5910562613108703,
+    "ref3_psnr": 24.553842956346745,
+    "ref3_ssim": 0.21929057711317118,
+    "learned_nmse": 0.7259760680771155,
+    "learned_psnr": 31.496842013022373,
+    "learned_ssim": 0.673783500325832,
+    "ref3_failure_tags": [
+      "F2"
+    ],
+    "learned_failure_tags": []
+  },
+  {
+    "sample_id": "small_rect_edge_test_0023",
+    "family": "small_rect_edge",
+    "dataset_source": "shape_family_full",
+    "ref3_nmse": 7.620910208420429,
+    "ref3_psnr": 21.087286595391006,
+    "ref3_ssim": 0.07151726753560304,
+    "learned_nmse": 0.8133789175204628,
+    "learned_psnr": 30.80442579568624,
+    "learned_ssim": 0.5990904417456413,
+    "ref3_failure_tags": [
+      "F1",
+      "F2"
+    ],
+    "learned_failure_tags": []
+  }
+]

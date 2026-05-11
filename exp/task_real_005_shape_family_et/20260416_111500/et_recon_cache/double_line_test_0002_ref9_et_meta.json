@@ -1,0 +1,33 @@
+{
+  "sample_id": "double_line_test_0002",
+  "family": "double-line",
+  "method": "ref9",
+  "tensor_mode": "active",
+  "geom_mode": "sinc",
+  "tensor_shape": [
+    158,
+    181,
+    69
+  ],
+  "active_coverage_ratio": 0.9880755824619336,
+  "estimated_peak_memory_mb": 33.436614990234375,
+  "quality": {
+    "nmse": 1.6776437353565705,
+    "psnr": 13.190659908177185,
+    "ssim": 0.09705274701333154
+  },
+  "wall_time_sec": 0.9265257988590747,
+  "failure_tags": [
+    "F2",
+    "F6"
+  ],
+  "failure_diagnostics": {
+    "gt_recall": 0.4918032786885246,
+    "recon_precision": 0.0898876404494382,
+    "support_ratio": 2.918032786885246,
+    "components_gt": 1,
+    "components_recon": 1,
+    "center_shift_vox": 2.085261280209646,
+    "weak_recall": 0.3333333333333333
+  }
+}

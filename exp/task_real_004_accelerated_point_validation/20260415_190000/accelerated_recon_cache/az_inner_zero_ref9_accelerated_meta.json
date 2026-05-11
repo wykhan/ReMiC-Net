@@ -1,0 +1,21 @@
+{
+  "sample_id": "az_inner_zero",
+  "method": "ref9",
+  "wall_time_sec": 0.4060507321264595,
+  "window_shape": [
+    91,
+    181,
+    67
+  ],
+  "reference_count": 9,
+  "runtime_repeats_sec": [
+    0.4060507321264595,
+    0.4058388948906213,
+    0.40600573807023466
+  ],
+  "quality": {
+    "nmse": 7.57288026808935,
+    "psnr": 12.17648910415011,
+    "ssim": 0.01264804865866659
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "sample_id": "az_inner_negpi",
+  "method": "ref9",
+  "wall_time_sec": 0.4167490859981626,
+  "window_shape": [
+    92,
+    181,
+    67
+  ],
+  "reference_count": 9,
+  "runtime_repeats_sec": [
+    0.4167490859981626,
+    0.4174893188755959,
+    0.41743151587434113
+  ],
+  "quality": {
+    "nmse": 48.4571914672367,
+    "psnr": 4.115517833877754,
+    "ssim": 0.0020010732895330147
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "sample_id": "outer_low_negpi_p2",
+  "method": "ref9",
+  "variant": "A",
+  "tensor_mode": "active",
+  "geom_mode": "linear",
+  "tensor_shape": [
+    92,
+    181,
+    43
+  ],
+  "active_coverage_ratio": 1.0,
+  "estimated_peak_memory_mb": 11.197479248046875,
+  "reference_count": 9,
+  "runtime_repeats_sec": [
+    0.2736687569413334
+  ],
+  "quality": {
+    "nmse": 22.748540878273147,
+    "psnr": 7.399564633652634,
+    "ssim": 0.0035657558176589886
+  }
+}

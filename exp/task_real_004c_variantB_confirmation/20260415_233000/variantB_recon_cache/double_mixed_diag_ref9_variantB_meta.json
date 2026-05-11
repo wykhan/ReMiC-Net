@@ -1,0 +1,19 @@
+{
+  "sample_id": "double_mixed_diag",
+  "method": "ref9",
+  "tensor_mode": "active",
+  "geom_mode": "sinc",
+  "tensor_shape": [
+    917,
+    181,
+    236
+  ],
+  "active_coverage_ratio": 0.04709535515590633,
+  "estimated_peak_memory_mb": 663.6833801269531,
+  "quality": {
+    "nmse": 27.856680133130194,
+    "psnr": 37.18378661211968,
+    "ssim": 0.769312605630876
+  },
+  "wall_time_sec": 35.57202174095437
+}

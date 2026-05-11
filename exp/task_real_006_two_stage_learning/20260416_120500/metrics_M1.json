@@ -1,0 +1,135 @@
+{
+  "mode": "M1",
+  "config": {
+    "epochs": 5,
+    "batch_size": 4,
+    "lr": 0.001,
+    "train_count": 768,
+    "val_count": 192,
+    "test_count": 192,
+    "device": "cuda"
+  },
+  "history": {
+    "train_losses": [
+      0.09664263219262163,
+      0.0890772471902892,
+      0.08564804121851921,
+      0.08395986344354849,
+      0.08282290608622134
+    ],
+    "val_losses": [
+      0.09010522936781247,
+      0.08542859833687544,
+      0.08423517365008593,
+      0.08591646002605557,
+      0.08277678838931024
+    ],
+    "smoke_train_loss": 0.23730938881635666,
+    "smoke_val_loss": 0.1742091402411461,
+    "best_val_loss": 0.08277678838931024,
+    "epochs": 5
+  },
+  "overall": {
+    "mode": "M1",
+    "num_test_samples": 192,
+    "ref3_nmse_mean": 5.733651152550693,
+    "ref3_psnr_mean": 23.614743312534006,
+    "ref3_ssim_mean": 0.16591646380015862,
+    "learned_nmse_mean": 0.8579094655150635,
+    "learned_psnr_mean": 30.647236047711534,
+    "learned_ssim_mean": 0.6008934985933851,
+    "nmse_gain_vs_ref3": 4.87574168703563,
+    "psnr_gain_vs_ref3": 7.032492735177527,
+    "ssim_gain_vs_ref3": 0.4349770347932265,
+    "avg_inference_time_sec": 0.0010552632447797805
+  },
+  "family_metrics": {
+    "random_et": {
+      "count": 48,
+      "ref3_nmse_mean": 5.626600678628656,
+      "learned_nmse_mean": 1.0048149142926965,
+      "ref3_psnr_mean": 22.709985735158558,
+      "learned_psnr_mean": 29.033151015060877,
+      "ref3_ssim_mean": 0.07260856756937133,
+      "learned_ssim_mean": 0.4134935642630331,
+      "nmse_gain_vs_ref3": 4.62178576433596
+    },
+    "L-shape": {
+      "count": 24,
+      "ref3_nmse_mean": 5.324878338200795,
+      "learned_nmse_mean": 0.785966833753197,
+      "ref3_psnr_mean": 22.97106558589216,
+      "learned_psnr_mean": 30.00298701589327,
+      "ref3_ssim_mean": 0.16587793065753154,
+      "learned_ssim_mean": 0.6501189791326879,
+      "nmse_gain_vs_ref3": 4.538911504447598
+    },
+    "cross": {
+      "count": 24,
+      "ref3_nmse_mean": 3.7309385264266552,
+      "learned_nmse_mean": 0.7281865268588542,
+      "ref3_psnr_mean": 24.18463756110388,
+      "learned_psnr_mean": 30.27912586911077,
+      "ref3_ssim_mean": 0.22257632954455744,
+      "learned_ssim_mean": 0.6301680067112104,
+      "nmse_gain_vs_ref3": 3.0027519995678014
+    },
+    "double-line": {
+      "count": 24,
+      "ref3_nmse_mean": 5.213236955245104,
+      "learned_nmse_mean": 0.7871647188444305,
+      "ref3_psnr_mean": 22.696929467853124,
+      "learned_psnr_mean": 29.86503084347503,
+      "ref3_ssim_mean": 0.15571934939203916,
+      "learned_ssim_mean": 0.6220514396043825,
+      "nmse_gain_vs_ref3": 4.426072236400674
+    },
+    "line": {
+      "count": 24,
+      "ref3_nmse_mean": 5.025149796823082,
+      "learned_nmse_mean": 0.7837388303031748,
+      "ref3_psnr_mean": 24.765705798297773,
+      "learned_psnr_mean": 31.903493880649567,
+      "ref3_ssim_mean": 0.23945566274049682,
+      "learned_ssim_mean": 0.6952185843449117,
+      "nmse_gain_vs_ref3": 4.241410966519908
+    },
+    "point_cluster": {
+      "count": 24,
+      "ref3_nmse_mean": 11.3377188683045,
+      "learned_nmse_mean": 1.035063433778918,
+      "ref3_psnr_mean": 24.346086873920175,
+      "learned_psnr_mean": 33.91427221981781,
+      "ref3_ssim_mean": 0.1839139881529166,
+      "learned_ssim_mean": 0.7127681853279113,
+      "nmse_gain_vs_ref3": 10.30265543452558
+    },
+    "small_rect_edge": {
+      "count": 24,
+      "ref3_nmse_mean": 3.9840853781480963,
+      "learned_nmse_mean": 0.7335255519965402,
+      "ref3_psnr_mean": 24.53354974288784,
+      "learned_psnr_mean": 31.146676522624062,
+      "ref3_ssim_mean": 0.21457131477498484,
+      "learned_ssim_mean": 0.6698356650999111,
+      "nmse_gain_vs_ref3": 3.2505598261515556
+    }
+  },
+  "failure_counts": {
+    "ref3": {
+      "F6": 63,
+      "F1": 63,
+      "F5": 70,
+      "F2": 66,
+      "F4": 29,
+      "F3": 37
+    },
+    "M1": {
+      "F6": 40,
+      "F1": 13,
+      "F5": 35,
+      "F2": 10
+    }
+  },
+  "best_checkpoint": "checkpoints/M1/best.pt"
+}

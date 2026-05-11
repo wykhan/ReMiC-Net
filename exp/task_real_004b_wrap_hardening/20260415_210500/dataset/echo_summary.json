@@ -1,0 +1,9 @@
+{
+  "total_samples": 6,
+  "splits": {
+    "edge_stress": 6
+  },
+  "average_active_measurements": {
+    "edge_stress": 5428.0
+  }
+}

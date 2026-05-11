@@ -1,0 +1,21 @@
+{
+  "sample_id": "az_outer_halfpi",
+  "method": "ref3",
+  "wall_time_sec": 0.10148987802676857,
+  "window_shape": [
+    91,
+    181,
+    43
+  ],
+  "reference_count": 3,
+  "runtime_repeats_sec": [
+    0.10148987802676857,
+    0.10164536209776998,
+    0.10172382206656039
+  ],
+  "quality": {
+    "nmse": 31.92392921444561,
+    "psnr": 5.927936989765863,
+    "ssim": 6.499155061114458e-06
+  }
+}

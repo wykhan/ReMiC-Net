@@ -1,0 +1,37 @@
+dataset,model,failure_label,count
+Leave-One-Family-Out Focused OOD,Baseline-Ours,F2,0
+Leave-One-Family-Out Focused OOD,Baseline-Ours,F3,0
+Leave-One-Family-Out Focused OOD,Baseline-Ours,F4,1
+Leave-One-Family-Out Focused OOD,Ours-PC-P1,F2,0
+Leave-One-Family-Out Focused OOD,Ours-PC-P1,F3,0
+Leave-One-Family-Out Focused OOD,Ours-PC-P1,F4,0
+Leave-One-Family-Out Focused OOD,Ours-PC-P2A,F2,0
+Leave-One-Family-Out Focused OOD,Ours-PC-P2A,F3,0
+Leave-One-Family-Out Focused OOD,Ours-PC-P2A,F4,0
+Main Test,Baseline-Ours,F2,41
+Main Test,Baseline-Ours,F3,23
+Main Test,Baseline-Ours,F4,20
+Main Test,Ours-PC-P1,F2,8
+Main Test,Ours-PC-P1,F3,0
+Main Test,Ours-PC-P1,F4,0
+Main Test,Ours-PC-P2A,F2,8
+Main Test,Ours-PC-P2A,F3,0
+Main Test,Ours-PC-P2A,F4,0
+Random-ET OOD,Baseline-Ours,F2,0
+Random-ET OOD,Baseline-Ours,F3,0
+Random-ET OOD,Baseline-Ours,F4,4
+Random-ET OOD,Ours-PC-P1,F2,0
+Random-ET OOD,Ours-PC-P1,F3,0
+Random-ET OOD,Ours-PC-P1,F4,3
+Random-ET OOD,Ours-PC-P2A,F2,0
+Random-ET OOD,Ours-PC-P2A,F3,0
+Random-ET OOD,Ours-PC-P2A,F4,5
+Unseen-Parameter OOD,Baseline-Ours,F2,55
+Unseen-Parameter OOD,Baseline-Ours,F3,31
+Unseen-Parameter OOD,Baseline-Ours,F4,22
+Unseen-Parameter OOD,Ours-PC-P1,F2,1
+Unseen-Parameter OOD,Ours-PC-P1,F3,0
+Unseen-Parameter OOD,Ours-PC-P1,F4,0
+Unseen-Parameter OOD,Ours-PC-P2A,F2,4
+Unseen-Parameter OOD,Ours-PC-P2A,F3,0
+Unseen-Parameter OOD,Ours-PC-P2A,F4,0

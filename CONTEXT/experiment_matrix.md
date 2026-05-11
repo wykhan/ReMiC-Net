@@ -20,6 +20,9 @@
 - Input / Output: input is validated simulation and reconstruction pipeline; output is baseline images, metrics, and runtime comparisons
 - In current task: no
 - Status: not started, only prepared by bootstrap
+- Current frozen front-end for post-`task_real_004b` traditional baselines:
+  - `Variant B = active windows + full-library sinc geometry correction`
+  - `dense_global` is audit/debug-only and not the default experimental path
 
 ## Phase 3: Minimal Two-Stage Learned Imaging Mainline
 

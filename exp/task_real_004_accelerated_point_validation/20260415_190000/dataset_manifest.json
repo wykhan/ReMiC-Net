@@ -1,0 +1,13 @@
+{
+  "dataset_name": "task_real_004_controlled_accelerated_point_set",
+  "split_names": [
+    "controlled"
+  ],
+  "counts_by_group": {
+    "rho_sweep": 31,
+    "azimuth_control": 9,
+    "height_control": 6
+  },
+  "total_samples": 46,
+  "index_path": "dataset/index.json"
+}

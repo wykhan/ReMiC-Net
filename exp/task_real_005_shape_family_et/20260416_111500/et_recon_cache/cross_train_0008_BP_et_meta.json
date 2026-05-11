@@ -1,0 +1,30 @@
+{
+  "sample_id": "cross_train_0008",
+  "family": "cross",
+  "method": "BP",
+  "tensor_mode": "active",
+  "geom_mode": "sinc",
+  "tensor_shape": [
+    139,
+    181,
+    65
+  ],
+  "active_coverage_ratio": 0.9977863862755949,
+  "estimated_peak_memory_mb": 29.22698974609375,
+  "quality": {
+    "nmse": 1.145450322891346,
+    "psnr": 14.67508590911108,
+    "ssim": 0.24753848685097646
+  },
+  "wall_time_sec": 2.1663720661308616,
+  "failure_tags": [],
+  "failure_diagnostics": {
+    "gt_recall": 0.8372093023255814,
+    "recon_precision": 0.256198347107438,
+    "support_ratio": 2.813953488372093,
+    "components_gt": 1,
+    "components_recon": 2,
+    "center_shift_vox": 1.2242307359320874,
+    "weak_recall": 1.0
+  }
+}

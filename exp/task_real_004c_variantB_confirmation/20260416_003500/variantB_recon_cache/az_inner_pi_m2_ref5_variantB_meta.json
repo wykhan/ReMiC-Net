@@ -1,0 +1,19 @@
+{
+  "sample_id": "az_inner_pi_m2",
+  "method": "ref5",
+  "tensor_mode": "active",
+  "geom_mode": "sinc",
+  "tensor_shape": [
+    92,
+    181,
+    67
+  ],
+  "active_coverage_ratio": 1.0,
+  "estimated_peak_memory_mb": 18.701133728027344,
+  "quality": {
+    "nmse": 15.268115043624867,
+    "psnr": 9.131245813021717,
+    "ssim": 0.006460030145499866
+  },
+  "wall_time_sec": 0.27027580607682467
+}

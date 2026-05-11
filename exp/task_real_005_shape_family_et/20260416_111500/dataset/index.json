@@ -1,0 +1,3236 @@
+[
+  {
+    "sample_id": "line_train_0000",
+    "split": "train",
+    "seed": 20260416,
+    "family": "line",
+    "scene_path": "dataset/scenes/train/line/line_train_0000.json",
+    "gt_volume_path": "dataset/gt_volumes/line_train_0000_gt.npz",
+    "point_count": 24,
+    "center_rho_m": 0.235053,
+    "center_theta_rad": -2.472042,
+    "center_z_m": 0.52,
+    "orientation_rad": 0.0,
+    "near_edge": true,
+    "shape_params": {
+      "length_vox": 8,
+      "width_vox": 2,
+      "z_layers": 1,
+      "gap_enabled": true,
+      "family": "line"
+    }
+  },
+  {
+    "sample_id": "line_train_0001",
+    "split": "train",
+    "seed": 20260417,
+    "family": "line",
+    "scene_path": "dataset/scenes/train/line/line_train_0001.json",
+    "gt_volume_path": "dataset/gt_volumes/line_train_0001_gt.npz",
+    "point_count": 33,
+    "center_rho_m": 0.141421,
+    "center_theta_rad": -1.729109,
+    "center_z_m": 0.036,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "length_vox": 11,
+      "width_vox": 2,
+      "z_layers": 1,
+      "gap_enabled": true,
+      "family": "line"
+    }
+  },
+  {
+    "sample_id": "line_train_0002",
+    "split": "train",
+    "seed": 20260418,
+    "family": "line",
+    "scene_path": "dataset/scenes/train/line/line_train_0002.json",
+    "gt_volume_path": "dataset/gt_volumes/line_train_0002_gt.npz",
+    "point_count": 33,
+    "center_rho_m": 0.160078,
+    "center_theta_rad": -1.605944,
+    "center_z_m": -0.516,
+    "orientation_rad": 0.0,
+    "near_edge": false,
+    "shape_params": {
+      "length_vox": 10,
+      "width_vox": 2,
+      "z_layers": 1,
+      "gap_enabled": false,
+      "family": "line"
+    }
+  },
+  {
+    "sample_id": "line_train_0003",
+    "split": "train",
+    "seed": 20260419,
+    "family": "line",
+    "scene_path": "dataset/scenes/train/line/line_train_0003.json",
+    "gt_volume_path": "dataset/gt_volumes/line_train_0003_gt.npz",
+    "point_count": 5,
+    "center_rho_m": 0.079057,
+    "center_theta_rad": 2.20421,
+    "center_z_m": 0.052,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "length_vox": 8,
+      "width_vox": 1,
+      "z_layers": 1,
+      "gap_enabled": true,
+      "family": "line"
+    }
+  },
+  {
+    "sample_id": "line_train_0004",
+    "split": "train",
+    "seed": 20260420,
+    "family": "line",
+    "scene_path": "dataset/scenes/train/line/line_train_0004.json",
+    "gt_volume_path": "dataset/gt_volumes/line_train_0004_gt.npz",
+    "point_count": 14,
+    "center_rho_m": 0.17,
+    "center_theta_rad": 2.648009,
+    "center_z_m": 0.208,
+    "orientation_rad": 1.047198,
+    "near_edge": false,
+    "shape_params": {
+      "length_vox": 8,
+      "width_vox": 1,
+      "z_layers": 2,
+      "gap_enabled": false,
+      "family": "line"
+    }
+  },
+  {
+    "sample_id": "line_train_0005",
+    "split": "train",
+    "seed": 20260421,
+    "family": "line",
+    "scene_path": "dataset/scenes/train/line/line_train_0005.json",
+    "gt_volume_path": "dataset/gt_volumes/line_train_0005_gt.npz",
+    "point_count": 10,
+    "center_rho_m": 0.248847,
+    "center_theta_rad": -2.739274,
+    "center_z_m": -0.58,
+    "orientation_rad": 1.570796,
+    "near_edge": true,
+    "shape_params": {
+      "length_vox": 12,
+      "width_vox": 1,
+      "z_layers": 1,
+      "gap_enabled": true,
+      "family": "line"
+    }
+  },
+  {
+    "sample_id": "line_train_0006",
+    "split": "train",
+    "seed": 20260422,
+    "family": "line",
+    "scene_path": "dataset/scenes/train/line/line_train_0006.json",
+    "gt_volume_path": "dataset/gt_volumes/line_train_0006_gt.npz",
+    "point_count": 5,
+    "center_rho_m": 0.219146,
+    "center_theta_rad": -2.056561,
+    "center_z_m": 0.128,
+    "orientation_rad": 0.523599,
+    "near_edge": false,
+    "shape_params": {
+      "length_vox": 9,
+      "width_vox": 1,
+      "z_layers": 1,
+      "gap_enabled": true,
+      "family": "line"
+    }
+  },
+  {
+    "sample_id": "line_train_0007",
+    "split": "train",
+    "seed": 20260423,
+    "family": "line",
+    "scene_path": "dataset/scenes/train/line/line_train_0007.json",
+    "gt_volume_path": "dataset/gt_volumes/line_train_0007_gt.npz",
+    "point_count": 8,
+    "center_rho_m": 0.096047,
+    "center_theta_rad": -0.893788,
+    "center_z_m": 0.272,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "length_vox": 11,
+      "width_vox": 1,
+      "z_layers": 1,
+      "gap_enabled": true,
+      "family": "line"
+    }
+  },
+  {
+    "sample_id": "line_train_0008",
+    "split": "train",
+    "seed": 20260424,
+    "family": "line",
+    "scene_path": "dataset/scenes/train/line/line_train_0008.json",
+    "gt_volume_path": "dataset/gt_volumes/line_train_0008_gt.npz",
+    "point_count": 66,
+    "center_rho_m": 0.194165,
+    "center_theta_rad": -0.21828,
+    "center_z_m": -0.08,
+    "orientation_rad": 1.047198,
+    "near_edge": false,
+    "shape_params": {
+      "length_vox": 13,
+      "width_vox": 2,
+      "z_layers": 2,
+      "gap_enabled": true,
+      "family": "line"
+    }
+  },
+  {
+    "sample_id": "line_train_0009",
+    "split": "train",
+    "seed": 20260425,
+    "family": "line",
+    "scene_path": "dataset/scenes/train/line/line_train_0009.json",
+    "gt_volume_path": "dataset/gt_volumes/line_train_0009_gt.npz",
+    "point_count": 6,
+    "center_rho_m": 0.136473,
+    "center_theta_rad": 1.704446,
+    "center_z_m": -0.516,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "length_vox": 8,
+      "width_vox": 1,
+      "z_layers": 1,
+      "gap_enabled": true,
+      "family": "line"
+    }
+  },
+  {
+    "sample_id": "line_train_0010",
+    "split": "train",
+    "seed": 20260426,
+    "family": "line",
+    "scene_path": "dataset/scenes/train/line/line_train_0010.json",
+    "gt_volume_path": "dataset/gt_volumes/line_train_0010_gt.npz",
+    "point_count": 13,
+    "center_rho_m": 0.066708,
+    "center_theta_rad": -1.351305,
+    "center_z_m": -0.296,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "length_vox": 13,
+      "width_vox": 1,
+      "z_layers": 1,
+      "gap_enabled": true,
+      "family": "line"
+    }
+  },
+  {
+    "sample_id": "line_train_0011",
+    "split": "train",
+    "seed": 20260427,
+    "family": "line",
+    "scene_path": "dataset/scenes/train/line/line_train_0011.json",
+    "gt_volume_path": "dataset/gt_volumes/line_train_0011_gt.npz",
+    "point_count": 19,
+    "center_rho_m": 0.205183,
+    "center_theta_rad": 0.82587,
+    "center_z_m": 0.58,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "length_vox": 6,
+      "width_vox": 2,
+      "z_layers": 1,
+      "gap_enabled": false,
+      "family": "line"
+    }
+  },
+  {
+    "sample_id": "line_train_0012",
+    "split": "train",
+    "seed": 20260428,
+    "family": "line",
+    "scene_path": "dataset/scenes/train/line/line_train_0012.json",
+    "gt_volume_path": "dataset/gt_volumes/line_train_0012_gt.npz",
+    "point_count": 8,
+    "center_rho_m": 0.075166,
+    "center_theta_rad": -1.489597,
+    "center_z_m": -0.164,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "length_vox": 8,
+      "width_vox": 1,
+      "z_layers": 1,
+      "gap_enabled": true,
+      "family": "line"
+    }
+  },
+  {
+    "sample_id": "line_train_0013",
+    "split": "train",
+    "seed": 20260429,
+    "family": "line",
+    "scene_path": "dataset/scenes/train/line/line_train_0013.json",
+    "gt_volume_path": "dataset/gt_volumes/line_train_0013_gt.npz",
+    "point_count": 4,
+    "center_rho_m": 0.230217,
+    "center_theta_rad": 0.971702,
+    "center_z_m": -0.108,
+    "orientation_rad": 0.0,
+    "near_edge": true,
+    "shape_params": {
+      "length_vox": 7,
+      "width_vox": 1,
+      "z_layers": 1,
+      "gap_enabled": true,
+      "family": "line"
+    }
+  },
+  {
+    "sample_id": "line_train_0014",
+    "split": "train",
+    "seed": 20260430,
+    "family": "line",
+    "scene_path": "dataset/scenes/train/line/line_train_0014.json",
+    "gt_volume_path": "dataset/gt_volumes/line_train_0014_gt.npz",
+    "point_count": 21,
+    "center_rho_m": 0.096177,
+    "center_theta_rad": 1.71282,
+    "center_z_m": -0.388,
+    "orientation_rad": 0.0,
+    "near_edge": false,
+    "shape_params": {
+      "length_vox": 6,
+      "width_vox": 2,
+      "z_layers": 1,
+      "gap_enabled": false,
+      "family": "line"
+    }
+  },
+  {
+    "sample_id": "line_train_0015",
+    "split": "train",
+    "seed": 20260431,
+    "family": "line",
+    "scene_path": "dataset/scenes/train/line/line_train_0015.json",
+    "gt_volume_path": "dataset/gt_volumes/line_train_0015_gt.npz",
+    "point_count": 60,
+    "center_rho_m": 0.224722,
+    "center_theta_rad": 1.211605,
+    "center_z_m": 0.248,
+    "orientation_rad": 1.570796,
+    "near_edge": true,
+    "shape_params": {
+      "length_vox": 10,
+      "width_vox": 2,
+      "z_layers": 2,
+      "gap_enabled": true,
+      "family": "line"
+    }
+  },
+  {
+    "sample_id": "line_val_0000",
+    "split": "val",
+    "seed": 20260432,
+    "family": "line",
+    "scene_path": "dataset/scenes/val/line/line_val_0000.json",
+    "gt_volume_path": "dataset/gt_volumes/line_val_0000_gt.npz",
+    "point_count": 12,
+    "center_rho_m": 0.208866,
+    "center_theta_rad": -0.726255,
+    "center_z_m": 0.008,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "length_vox": 7,
+      "width_vox": 2,
+      "z_layers": 1,
+      "gap_enabled": true,
+      "family": "line"
+    }
+  },
+  {
+    "sample_id": "line_val_0001",
+    "split": "val",
+    "seed": 20260433,
+    "family": "line",
+    "scene_path": "dataset/scenes/val/line/line_val_0001.json",
+    "gt_volume_path": "dataset/gt_volumes/line_val_0001_gt.npz",
+    "point_count": 32,
+    "center_rho_m": 0.087464,
+    "center_theta_rad": 2.113101,
+    "center_z_m": 0.624,
+    "orientation_rad": 0.523599,
+    "near_edge": false,
+    "shape_params": {
+      "length_vox": 13,
+      "width_vox": 2,
+      "z_layers": 1,
+      "gap_enabled": true,
+      "family": "line"
+    }
+  },
+  {
+    "sample_id": "line_val_0002",
+    "split": "val",
+    "seed": 20260434,
+    "family": "line",
+    "scene_path": "dataset/scenes/val/line/line_val_0002.json",
+    "gt_volume_path": "dataset/gt_volumes/line_val_0002_gt.npz",
+    "point_count": 22,
+    "center_rho_m": 0.057009,
+    "center_theta_rad": -2.892036,
+    "center_z_m": 0.256,
+    "orientation_rad": 1.047198,
+    "near_edge": false,
+    "shape_params": {
+      "length_vox": 9,
+      "width_vox": 2,
+      "z_layers": 1,
+      "gap_enabled": true,
+      "family": "line"
+    }
+  },
+  {
+    "sample_id": "line_val_0003",
+    "split": "val",
+    "seed": 20260435,
+    "family": "line",
+    "scene_path": "dataset/scenes/val/line/line_val_0003.json",
+    "gt_volume_path": "dataset/gt_volumes/line_val_0003_gt.npz",
+    "point_count": 6,
+    "center_rho_m": 0.174929,
+    "center_theta_rad": 0.55389,
+    "center_z_m": -0.584,
+    "orientation_rad": 0.0,
+    "near_edge": false,
+    "shape_params": {
+      "length_vox": 9,
+      "width_vox": 1,
+      "z_layers": 1,
+      "gap_enabled": true,
+      "family": "line"
+    }
+  },
+  {
+    "sample_id": "line_test_0000",
+    "split": "test",
+    "seed": 20260436,
+    "family": "line",
+    "scene_path": "dataset/scenes/test/line/line_test_0000.json",
+    "gt_volume_path": "dataset/gt_volumes/line_test_0000_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.200562,
+    "center_theta_rad": 1.639397,
+    "center_z_m": 0.368,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "length_vox": 9,
+      "width_vox": 1,
+      "z_layers": 2,
+      "gap_enabled": true,
+      "family": "line"
+    }
+  },
+  {
+    "sample_id": "line_test_0001",
+    "split": "test",
+    "seed": 20260437,
+    "family": "line",
+    "scene_path": "dataset/scenes/test/line/line_test_0001.json",
+    "gt_volume_path": "dataset/gt_volumes/line_test_0001_gt.npz",
+    "point_count": 31,
+    "center_rho_m": 0.122577,
+    "center_theta_rad": 0.200781,
+    "center_z_m": -0.172,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "length_vox": 11,
+      "width_vox": 2,
+      "z_layers": 1,
+      "gap_enabled": true,
+      "family": "line"
+    }
+  },
+  {
+    "sample_id": "line_test_0002",
+    "split": "test",
+    "seed": 20260438,
+    "family": "line",
+    "scene_path": "dataset/scenes/test/line/line_test_0002.json",
+    "gt_volume_path": "dataset/gt_volumes/line_test_0002_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.233452,
+    "center_theta_rad": -1.398487,
+    "center_z_m": 0.228,
+    "orientation_rad": 1.570796,
+    "near_edge": true,
+    "shape_params": {
+      "length_vox": 7,
+      "width_vox": 2,
+      "z_layers": 1,
+      "gap_enabled": true,
+      "family": "line"
+    }
+  },
+  {
+    "sample_id": "line_test_0003",
+    "split": "test",
+    "seed": 20260439,
+    "family": "line",
+    "scene_path": "dataset/scenes/test/line/line_test_0003.json",
+    "gt_volume_path": "dataset/gt_volumes/line_test_0003_gt.npz",
+    "point_count": 9,
+    "center_rho_m": 0.132004,
+    "center_theta_rad": -2.703466,
+    "center_z_m": 0.292,
+    "orientation_rad": 1.047198,
+    "near_edge": false,
+    "shape_params": {
+      "length_vox": 11,
+      "width_vox": 1,
+      "z_layers": 1,
+      "gap_enabled": true,
+      "family": "line"
+    }
+  },
+  {
+    "sample_id": "cross_train_0000",
+    "split": "train",
+    "seed": 20260440,
+    "family": "cross",
+    "scene_path": "dataset/scenes/train/cross/cross_train_0000.json",
+    "gt_volume_path": "dataset/gt_volumes/cross_train_0000_gt.npz",
+    "point_count": 34,
+    "center_rho_m": 0.071589,
+    "center_theta_rad": 1.158345,
+    "center_z_m": -0.16,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "cross",
+      "arm_a_vox": 6,
+      "arm_b_vox": 7,
+      "width_vox": 2
+    }
+  },
+  {
+    "sample_id": "cross_train_0001",
+    "split": "train",
+    "seed": 20260441,
+    "family": "cross",
+    "scene_path": "dataset/scenes/train/cross/cross_train_0001.json",
+    "gt_volume_path": "dataset/gt_volumes/cross_train_0001_gt.npz",
+    "point_count": 47,
+    "center_rho_m": 0.149164,
+    "center_theta_rad": -2.265964,
+    "center_z_m": -0.084,
+    "orientation_rad": 0.523599,
+    "near_edge": false,
+    "shape_params": {
+      "family": "cross",
+      "arm_a_vox": 10,
+      "arm_b_vox": 6,
+      "width_vox": 2
+    }
+  },
+  {
+    "sample_id": "cross_train_0002",
+    "split": "train",
+    "seed": 20260442,
+    "family": "cross",
+    "scene_path": "dataset/scenes/train/cross/cross_train_0002.json",
+    "gt_volume_path": "dataset/gt_volumes/cross_train_0002_gt.npz",
+    "point_count": 7,
+    "center_rho_m": 0.216333,
+    "center_theta_rad": 2.547631,
+    "center_z_m": -0.208,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "cross",
+      "arm_a_vox": 5,
+      "arm_b_vox": 5,
+      "width_vox": 1
+    }
+  },
+  {
+    "sample_id": "cross_train_0003",
+    "split": "train",
+    "seed": 20260443,
+    "family": "cross",
+    "scene_path": "dataset/scenes/train/cross/cross_train_0003.json",
+    "gt_volume_path": "dataset/gt_volumes/cross_train_0003_gt.npz",
+    "point_count": 50,
+    "center_rho_m": 0.23817,
+    "center_theta_rad": -2.469296,
+    "center_z_m": 0.468,
+    "orientation_rad": 0.0,
+    "near_edge": true,
+    "shape_params": {
+      "family": "cross",
+      "arm_a_vox": 9,
+      "arm_b_vox": 9,
+      "width_vox": 2
+    }
+  },
+  {
+    "sample_id": "cross_train_0004",
+    "split": "train",
+    "seed": 20260444,
+    "family": "cross",
+    "scene_path": "dataset/scenes/train/cross/cross_train_0004.json",
+    "gt_volume_path": "dataset/gt_volumes/cross_train_0004_gt.npz",
+    "point_count": 44,
+    "center_rho_m": 0.202485,
+    "center_theta_rad": -0.351876,
+    "center_z_m": 0.444,
+    "orientation_rad": 0.0,
+    "near_edge": false,
+    "shape_params": {
+      "family": "cross",
+      "arm_a_vox": 8,
+      "arm_b_vox": 6,
+      "width_vox": 2
+    }
+  },
+  {
+    "sample_id": "cross_train_0005",
+    "split": "train",
+    "seed": 20260445,
+    "family": "cross",
+    "scene_path": "dataset/scenes/train/cross/cross_train_0005.json",
+    "gt_volume_path": "dataset/gt_volumes/cross_train_0005_gt.npz",
+    "point_count": 20,
+    "center_rho_m": 0.20573,
+    "center_theta_rad": 2.686159,
+    "center_z_m": -0.16,
+    "orientation_rad": 0.0,
+    "near_edge": false,
+    "shape_params": {
+      "family": "cross",
+      "arm_a_vox": 10,
+      "arm_b_vox": 8,
+      "width_vox": 1
+    }
+  },
+  {
+    "sample_id": "cross_train_0006",
+    "split": "train",
+    "seed": 20260446,
+    "family": "cross",
+    "scene_path": "dataset/scenes/train/cross/cross_train_0006.json",
+    "gt_volume_path": "dataset/gt_volumes/cross_train_0006_gt.npz",
+    "point_count": 19,
+    "center_rho_m": 0.115974,
+    "center_theta_rad": 1.423275,
+    "center_z_m": -0.236,
+    "orientation_rad": 0.0,
+    "near_edge": false,
+    "shape_params": {
+      "family": "cross",
+      "arm_a_vox": 10,
+      "arm_b_vox": 9,
+      "width_vox": 1
+    }
+  },
+  {
+    "sample_id": "cross_train_0007",
+    "split": "train",
+    "seed": 20260447,
+    "family": "cross",
+    "scene_path": "dataset/scenes/train/cross/cross_train_0007.json",
+    "gt_volume_path": "dataset/gt_volumes/cross_train_0007_gt.npz",
+    "point_count": 15,
+    "center_rho_m": 0.134629,
+    "center_theta_rad": 1.028134,
+    "center_z_m": -0.036,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "family": "cross",
+      "arm_a_vox": 5,
+      "arm_b_vox": 10,
+      "width_vox": 1
+    }
+  },
+  {
+    "sample_id": "cross_train_0008",
+    "split": "train",
+    "seed": 20260448,
+    "family": "cross",
+    "scene_path": "dataset/scenes/train/cross/cross_train_0008.json",
+    "gt_volume_path": "dataset/gt_volumes/cross_train_0008_gt.npz",
+    "point_count": 43,
+    "center_rho_m": 0.132382,
+    "center_theta_rad": 0.202633,
+    "center_z_m": 0.58,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "cross",
+      "arm_a_vox": 9,
+      "arm_b_vox": 6,
+      "width_vox": 2
+    }
+  },
+  {
+    "sample_id": "cross_train_0009",
+    "split": "train",
+    "seed": 20260449,
+    "family": "cross",
+    "scene_path": "dataset/scenes/train/cross/cross_train_0009.json",
+    "gt_volume_path": "dataset/gt_volumes/cross_train_0009_gt.npz",
+    "point_count": 14,
+    "center_rho_m": 0.117686,
+    "center_theta_rad": 0.215444,
+    "center_z_m": -0.248,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "cross",
+      "arm_a_vox": 8,
+      "arm_b_vox": 8,
+      "width_vox": 1
+    }
+  },
+  {
+    "sample_id": "cross_train_0010",
+    "split": "train",
+    "seed": 20260450,
+    "family": "cross",
+    "scene_path": "dataset/scenes/train/cross/cross_train_0010.json",
+    "gt_volume_path": "dataset/gt_volumes/cross_train_0010_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.240832,
+    "center_theta_rad": -0.84407,
+    "center_z_m": 0.32,
+    "orientation_rad": 2.356194,
+    "near_edge": true,
+    "shape_params": {
+      "family": "cross",
+      "arm_a_vox": 10,
+      "arm_b_vox": 8,
+      "width_vox": 1
+    }
+  },
+  {
+    "sample_id": "cross_train_0011",
+    "split": "train",
+    "seed": 20260451,
+    "family": "cross",
+    "scene_path": "dataset/scenes/train/cross/cross_train_0011.json",
+    "gt_volume_path": "dataset/gt_volumes/cross_train_0011_gt.npz",
+    "point_count": 26,
+    "center_rho_m": 0.096566,
+    "center_theta_rad": 2.772599,
+    "center_z_m": -0.268,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "family": "cross",
+      "arm_a_vox": 5,
+      "arm_b_vox": 5,
+      "width_vox": 2
+    }
+  },
+  {
+    "sample_id": "cross_train_0012",
+    "split": "train",
+    "seed": 20260452,
+    "family": "cross",
+    "scene_path": "dataset/scenes/train/cross/cross_train_0012.json",
+    "gt_volume_path": "dataset/gt_volumes/cross_train_0012_gt.npz",
+    "point_count": 13,
+    "center_rho_m": 0.056569,
+    "center_theta_rad": 0.823942,
+    "center_z_m": 0.332,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "family": "cross",
+      "arm_a_vox": 6,
+      "arm_b_vox": 7,
+      "width_vox": 1
+    }
+  },
+  {
+    "sample_id": "cross_train_0013",
+    "split": "train",
+    "seed": 20260453,
+    "family": "cross",
+    "scene_path": "dataset/scenes/train/cross/cross_train_0013.json",
+    "gt_volume_path": "dataset/gt_volumes/cross_train_0013_gt.npz",
+    "point_count": 12,
+    "center_rho_m": 0.256125,
+    "center_theta_rad": 0.895201,
+    "center_z_m": 0.5,
+    "orientation_rad": 1.047198,
+    "near_edge": true,
+    "shape_params": {
+      "family": "cross",
+      "arm_a_vox": 8,
+      "arm_b_vox": 5,
+      "width_vox": 1
+    }
+  },
+  {
+    "sample_id": "cross_train_0014",
+    "split": "train",
+    "seed": 20260454,
+    "family": "cross",
+    "scene_path": "dataset/scenes/train/cross/cross_train_0014.json",
+    "gt_volume_path": "dataset/gt_volumes/cross_train_0014_gt.npz",
+    "point_count": 15,
+    "center_rho_m": 0.243977,
+    "center_theta_rad": 2.331766,
+    "center_z_m": -0.592,
+    "orientation_rad": 0.0,
+    "near_edge": true,
+    "shape_params": {
+      "family": "cross",
+      "arm_a_vox": 9,
+      "arm_b_vox": 7,
+      "width_vox": 1
+    }
+  },
+  {
+    "sample_id": "cross_train_0015",
+    "split": "train",
+    "seed": 20260455,
+    "family": "cross",
+    "scene_path": "dataset/scenes/train/cross/cross_train_0015.json",
+    "gt_volume_path": "dataset/gt_volumes/cross_train_0015_gt.npz",
+    "point_count": 48,
+    "center_rho_m": 0.199812,
+    "center_theta_rad": -0.564086,
+    "center_z_m": 0.18,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "cross",
+      "arm_a_vox": 8,
+      "arm_b_vox": 8,
+      "width_vox": 2
+    }
+  },
+  {
+    "sample_id": "cross_val_0000",
+    "split": "val",
+    "seed": 20260456,
+    "family": "cross",
+    "scene_path": "dataset/scenes/val/cross/cross_val_0000.json",
+    "gt_volume_path": "dataset/gt_volumes/cross_val_0000_gt.npz",
+    "point_count": 13,
+    "center_rho_m": 0.207183,
+    "center_theta_rad": 1.905001,
+    "center_z_m": 0.592,
+    "orientation_rad": 0.523599,
+    "near_edge": false,
+    "shape_params": {
+      "family": "cross",
+      "arm_a_vox": 8,
+      "arm_b_vox": 5,
+      "width_vox": 1
+    }
+  },
+  {
+    "sample_id": "cross_val_0001",
+    "split": "val",
+    "seed": 20260457,
+    "family": "cross",
+    "scene_path": "dataset/scenes/val/cross/cross_val_0001.json",
+    "gt_volume_path": "dataset/gt_volumes/cross_val_0001_gt.npz",
+    "point_count": 12,
+    "center_rho_m": 0.173925,
+    "center_theta_rad": -1.235598,
+    "center_z_m": 0.436,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "cross",
+      "arm_a_vox": 10,
+      "arm_b_vox": 5,
+      "width_vox": 1
+    }
+  },
+  {
+    "sample_id": "cross_val_0002",
+    "split": "val",
+    "seed": 20260458,
+    "family": "cross",
+    "scene_path": "dataset/scenes/val/cross/cross_val_0002.json",
+    "gt_volume_path": "dataset/gt_volumes/cross_val_0002_gt.npz",
+    "point_count": 31,
+    "center_rho_m": 0.212191,
+    "center_theta_rad": -0.610195,
+    "center_z_m": -0.124,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "cross",
+      "arm_a_vox": 6,
+      "arm_b_vox": 6,
+      "width_vox": 2
+    }
+  },
+  {
+    "sample_id": "cross_val_0003",
+    "split": "val",
+    "seed": 20260459,
+    "family": "cross",
+    "scene_path": "dataset/scenes/val/cross/cross_val_0003.json",
+    "gt_volume_path": "dataset/gt_volumes/cross_val_0003_gt.npz",
+    "point_count": 42,
+    "center_rho_m": 0.210238,
+    "center_theta_rad": 0.043257,
+    "center_z_m": 0.24,
+    "orientation_rad": 1.047198,
+    "near_edge": false,
+    "shape_params": {
+      "family": "cross",
+      "arm_a_vox": 8,
+      "arm_b_vox": 8,
+      "width_vox": 2
+    }
+  },
+  {
+    "sample_id": "cross_test_0000",
+    "split": "test",
+    "seed": 20260460,
+    "family": "cross",
+    "scene_path": "dataset/scenes/test/cross/cross_test_0000.json",
+    "gt_volume_path": "dataset/gt_volumes/cross_test_0000_gt.npz",
+    "point_count": 50,
+    "center_rho_m": 0.203531,
+    "center_theta_rad": -2.667285,
+    "center_z_m": -0.3,
+    "orientation_rad": 0.0,
+    "near_edge": false,
+    "shape_params": {
+      "family": "cross",
+      "arm_a_vox": 10,
+      "arm_b_vox": 7,
+      "width_vox": 2
+    }
+  },
+  {
+    "sample_id": "cross_test_0001",
+    "split": "test",
+    "seed": 20260461,
+    "family": "cross",
+    "scene_path": "dataset/scenes/test/cross/cross_test_0001.json",
+    "gt_volume_path": "dataset/gt_volumes/cross_test_0001_gt.npz",
+    "point_count": 42,
+    "center_rho_m": 0.087321,
+    "center_theta_rad": -1.975898,
+    "center_z_m": -0.592,
+    "orientation_rad": 1.047198,
+    "near_edge": false,
+    "shape_params": {
+      "family": "cross",
+      "arm_a_vox": 6,
+      "arm_b_vox": 10,
+      "width_vox": 2
+    }
+  },
+  {
+    "sample_id": "cross_test_0002",
+    "split": "test",
+    "seed": 20260462,
+    "family": "cross",
+    "scene_path": "dataset/scenes/test/cross/cross_test_0002.json",
+    "gt_volume_path": "dataset/gt_volumes/cross_test_0002_gt.npz",
+    "point_count": 20,
+    "center_rho_m": 0.260768,
+    "center_theta_rad": -0.078434,
+    "center_z_m": -0.636,
+    "orientation_rad": 0.0,
+    "near_edge": true,
+    "shape_params": {
+      "family": "cross",
+      "arm_a_vox": 10,
+      "arm_b_vox": 9,
+      "width_vox": 1
+    }
+  },
+  {
+    "sample_id": "cross_test_0003",
+    "split": "test",
+    "seed": 20260463,
+    "family": "cross",
+    "scene_path": "dataset/scenes/test/cross/cross_test_0003.json",
+    "gt_volume_path": "dataset/gt_volumes/cross_test_0003_gt.npz",
+    "point_count": 32,
+    "center_rho_m": 0.251645,
+    "center_theta_rad": -2.286518,
+    "center_z_m": 0.348,
+    "orientation_rad": 0.0,
+    "near_edge": true,
+    "shape_params": {
+      "family": "cross",
+      "arm_a_vox": 5,
+      "arm_b_vox": 6,
+      "width_vox": 2
+    }
+  },
+  {
+    "sample_id": "L_shape_train_0000",
+    "split": "train",
+    "seed": 20260464,
+    "family": "L-shape",
+    "scene_path": "dataset/scenes/train/L-shape/L_shape_train_0000.json",
+    "gt_volume_path": "dataset/gt_volumes/L_shape_train_0000_gt.npz",
+    "point_count": 9,
+    "center_rho_m": 0.180278,
+    "center_theta_rad": -0.985485,
+    "center_z_m": 0.076,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "L-shape",
+      "arm_x_vox": 7,
+      "arm_y_vox": 4,
+      "width_vox": 1
+    }
+  },
+  {
+    "sample_id": "L_shape_train_0001",
+    "split": "train",
+    "seed": 20260465,
+    "family": "L-shape",
+    "scene_path": "dataset/scenes/train/L-shape/L_shape_train_0001.json",
+    "gt_volume_path": "dataset/gt_volumes/L_shape_train_0001_gt.npz",
+    "point_count": 48,
+    "center_rho_m": 0.060415,
+    "center_theta_rad": 1.976559,
+    "center_z_m": 0.5,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "L-shape",
+      "arm_x_vox": 9,
+      "arm_y_vox": 8,
+      "width_vox": 2
+    }
+  },
+  {
+    "sample_id": "L_shape_train_0002",
+    "split": "train",
+    "seed": 20260466,
+    "family": "L-shape",
+    "scene_path": "dataset/scenes/train/L-shape/L_shape_train_0002.json",
+    "gt_volume_path": "dataset/gt_volumes/L_shape_train_0002_gt.npz",
+    "point_count": 15,
+    "center_rho_m": 0.140801,
+    "center_theta_rad": 1.850862,
+    "center_z_m": -0.152,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "family": "L-shape",
+      "arm_x_vox": 8,
+      "arm_y_vox": 6,
+      "width_vox": 1
+    }
+  },
+  {
+    "sample_id": "L_shape_train_0003",
+    "split": "train",
+    "seed": 20260467,
+    "family": "L-shape",
+    "scene_path": "dataset/scenes/train/L-shape/L_shape_train_0003.json",
+    "gt_volume_path": "dataset/gt_volumes/L_shape_train_0003_gt.npz",
+    "point_count": 14,
+    "center_rho_m": 0.241661,
+    "center_theta_rad": -2.725703,
+    "center_z_m": -0.448,
+    "orientation_rad": 0.0,
+    "near_edge": true,
+    "shape_params": {
+      "family": "L-shape",
+      "arm_x_vox": 8,
+      "arm_y_vox": 5,
+      "width_vox": 1
+    }
+  },
+  {
+    "sample_id": "L_shape_train_0004",
+    "split": "train",
+    "seed": 20260468,
+    "family": "L-shape",
+    "scene_path": "dataset/scenes/train/L-shape/L_shape_train_0004.json",
+    "gt_volume_path": "dataset/gt_volumes/L_shape_train_0004_gt.npz",
+    "point_count": 38,
+    "center_rho_m": 0.219146,
+    "center_theta_rad": -2.044098,
+    "center_z_m": 0.444,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "L-shape",
+      "arm_x_vox": 8,
+      "arm_y_vox": 5,
+      "width_vox": 2
+    }
+  },
+  {
+    "sample_id": "L_shape_train_0005",
+    "split": "train",
+    "seed": 20260469,
+    "family": "L-shape",
+    "scene_path": "dataset/scenes/train/L-shape/L_shape_train_0005.json",
+    "gt_volume_path": "dataset/gt_volumes/L_shape_train_0005_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.226108,
+    "center_theta_rad": -0.959092,
+    "center_z_m": -0.128,
+    "orientation_rad": 1.047198,
+    "near_edge": true,
+    "shape_params": {
+      "family": "L-shape",
+      "arm_x_vox": 9,
+      "arm_y_vox": 8,
+      "width_vox": 1
+    }
+  },
+  {
+    "sample_id": "L_shape_train_0006",
+    "split": "train",
+    "seed": 20260470,
+    "family": "L-shape",
+    "scene_path": "dataset/scenes/train/L-shape/L_shape_train_0006.json",
+    "gt_volume_path": "dataset/gt_volumes/L_shape_train_0006_gt.npz",
+    "point_count": 12,
+    "center_rho_m": 0.139014,
+    "center_theta_rad": -2.228602,
+    "center_z_m": 0.224,
+    "orientation_rad": 0.523599,
+    "near_edge": false,
+    "shape_params": {
+      "family": "L-shape",
+      "arm_x_vox": 7,
+      "arm_y_vox": 5,
+      "width_vox": 1
+    }
+  },
+  {
+    "sample_id": "L_shape_train_0007",
+    "split": "train",
+    "seed": 20260471,
+    "family": "L-shape",
+    "scene_path": "dataset/scenes/train/L-shape/L_shape_train_0007.json",
+    "gt_volume_path": "dataset/gt_volumes/L_shape_train_0007_gt.npz",
+    "point_count": 36,
+    "center_rho_m": 0.216449,
+    "center_theta_rad": -3.029746,
+    "center_z_m": -0.1,
+    "orientation_rad": 0.523599,
+    "near_edge": false,
+    "shape_params": {
+      "family": "L-shape",
+      "arm_x_vox": 5,
+      "arm_y_vox": 8,
+      "width_vox": 2
+    }
+  },
+  {
+    "sample_id": "L_shape_train_0008",
+    "split": "train",
+    "seed": 20260472,
+    "family": "L-shape",
+    "scene_path": "dataset/scenes/train/L-shape/L_shape_train_0008.json",
+    "gt_volume_path": "dataset/gt_volumes/L_shape_train_0008_gt.npz",
+    "point_count": 33,
+    "center_rho_m": 0.101119,
+    "center_theta_rad": -1.442817,
+    "center_z_m": -0.028,
+    "orientation_rad": 1.047198,
+    "near_edge": false,
+    "shape_params": {
+      "family": "L-shape",
+      "arm_x_vox": 5,
+      "arm_y_vox": 8,
+      "width_vox": 2
+    }
+  },
+  {
+    "sample_id": "L_shape_train_0009",
+    "split": "train",
+    "seed": 20260473,
+    "family": "L-shape",
+    "scene_path": "dataset/scenes/train/L-shape/L_shape_train_0009.json",
+    "gt_volume_path": "dataset/gt_volumes/L_shape_train_0009_gt.npz",
+    "point_count": 10,
+    "center_rho_m": 0.222036,
+    "center_theta_rad": -2.994252,
+    "center_z_m": -0.14,
+    "orientation_rad": 0.785398,
+    "near_edge": true,
+    "shape_params": {
+      "family": "L-shape",
+      "arm_x_vox": 5,
+      "arm_y_vox": 7,
+      "width_vox": 1
+    }
+  },
+  {
+    "sample_id": "L_shape_train_0010",
+    "split": "train",
+    "seed": 20260474,
+    "family": "L-shape",
+    "scene_path": "dataset/scenes/train/L-shape/L_shape_train_0010.json",
+    "gt_volume_path": "dataset/gt_volumes/L_shape_train_0010_gt.npz",
+    "point_count": 14,
+    "center_rho_m": 0.258118,
+    "center_theta_rad": 0.768493,
+    "center_z_m": 0.328,
+    "orientation_rad": 1.047198,
+    "near_edge": true,
+    "shape_params": {
+      "family": "L-shape",
+      "arm_x_vox": 6,
+      "arm_y_vox": 8,
+      "width_vox": 1
+    }
+  },
+  {
+    "sample_id": "L_shape_train_0011",
+    "split": "train",
+    "seed": 20260475,
+    "family": "L-shape",
+    "scene_path": "dataset/scenes/train/L-shape/L_shape_train_0011.json",
+    "gt_volume_path": "dataset/gt_volumes/L_shape_train_0011_gt.npz",
+    "point_count": 45,
+    "center_rho_m": 0.102956,
+    "center_theta_rad": -2.100665,
+    "center_z_m": -0.124,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "L-shape",
+      "arm_x_vox": 7,
+      "arm_y_vox": 9,
+      "width_vox": 2
+    }
+  },
+  {
+    "sample_id": "L_shape_train_0012",
+    "split": "train",
+    "seed": 20260476,
+    "family": "L-shape",
+    "scene_path": "dataset/scenes/train/L-shape/L_shape_train_0012.json",
+    "gt_volume_path": "dataset/gt_volumes/L_shape_train_0012_gt.npz",
+    "point_count": 35,
+    "center_rho_m": 0.21225,
+    "center_theta_rad": 2.392747,
+    "center_z_m": -0.228,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "L-shape",
+      "arm_x_vox": 5,
+      "arm_y_vox": 7,
+      "width_vox": 2
+    }
+  },
+  {
+    "sample_id": "L_shape_train_0013",
+    "split": "train",
+    "seed": 20260477,
+    "family": "L-shape",
+    "scene_path": "dataset/scenes/train/L-shape/L_shape_train_0013.json",
+    "gt_volume_path": "dataset/gt_volumes/L_shape_train_0013_gt.npz",
+    "point_count": 13,
+    "center_rho_m": 0.065,
+    "center_theta_rad": 0.006364,
+    "center_z_m": -0.648,
+    "orientation_rad": 0.523599,
+    "near_edge": false,
+    "shape_params": {
+      "family": "L-shape",
+      "arm_x_vox": 6,
+      "arm_y_vox": 7,
+      "width_vox": 1
+    }
+  },
+  {
+    "sample_id": "L_shape_train_0014",
+    "split": "train",
+    "seed": 20260478,
+    "family": "L-shape",
+    "scene_path": "dataset/scenes/train/L-shape/L_shape_train_0014.json",
+    "gt_volume_path": "dataset/gt_volumes/L_shape_train_0014_gt.npz",
+    "point_count": 12,
+    "center_rho_m": 0.135093,
+    "center_theta_rad": 2.258749,
+    "center_z_m": 0.596,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "L-shape",
+      "arm_x_vox": 7,
+      "arm_y_vox": 9,
+      "width_vox": 1
+    }
+  },
+  {
+    "sample_id": "L_shape_train_0015",
+    "split": "train",
+    "seed": 20260479,
+    "family": "L-shape",
+    "scene_path": "dataset/scenes/train/L-shape/L_shape_train_0015.json",
+    "gt_volume_path": "dataset/gt_volumes/L_shape_train_0015_gt.npz",
+    "point_count": 9,
+    "center_rho_m": 0.21006,
+    "center_theta_rad": 0.655125,
+    "center_z_m": 0.124,
+    "orientation_rad": 1.047198,
+    "near_edge": false,
+    "shape_params": {
+      "family": "L-shape",
+      "arm_x_vox": 5,
+      "arm_y_vox": 4,
+      "width_vox": 1
+    }
+  },
+  {
+    "sample_id": "L_shape_val_0000",
+    "split": "val",
+    "seed": 20260480,
+    "family": "L-shape",
+    "scene_path": "dataset/scenes/val/L-shape/L_shape_val_0000.json",
+    "gt_volume_path": "dataset/gt_volumes/L_shape_val_0000_gt.npz",
+    "point_count": 11,
+    "center_rho_m": 0.215232,
+    "center_theta_rad": 0.052469,
+    "center_z_m": -0.5,
+    "orientation_rad": 0.523599,
+    "near_edge": false,
+    "shape_params": {
+      "family": "L-shape",
+      "arm_x_vox": 7,
+      "arm_y_vox": 4,
+      "width_vox": 1
+    }
+  },
+  {
+    "sample_id": "L_shape_val_0001",
+    "split": "val",
+    "seed": 20260481,
+    "family": "L-shape",
+    "scene_path": "dataset/scenes/val/L-shape/L_shape_val_0001.json",
+    "gt_volume_path": "dataset/gt_volumes/L_shape_val_0001_gt.npz",
+    "point_count": 32,
+    "center_rho_m": 0.158902,
+    "center_theta_rad": -1.995144,
+    "center_z_m": 0.248,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "L-shape",
+      "arm_x_vox": 5,
+      "arm_y_vox": 6,
+      "width_vox": 2
+    }
+  },
+  {
+    "sample_id": "L_shape_val_0002",
+    "split": "val",
+    "seed": 20260482,
+    "family": "L-shape",
+    "scene_path": "dataset/scenes/val/L-shape/L_shape_val_0002.json",
+    "gt_volume_path": "dataset/gt_volumes/L_shape_val_0002_gt.npz",
+    "point_count": 29,
+    "center_rho_m": 0.165605,
+    "center_theta_rad": 0.505778,
+    "center_z_m": -0.416,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "L-shape",
+      "arm_x_vox": 6,
+      "arm_y_vox": 4,
+      "width_vox": 2
+    }
+  },
+  {
+    "sample_id": "L_shape_val_0003",
+    "split": "val",
+    "seed": 20260483,
+    "family": "L-shape",
+    "scene_path": "dataset/scenes/val/L-shape/L_shape_val_0003.json",
+    "gt_volume_path": "dataset/gt_volumes/L_shape_val_0003_gt.npz",
+    "point_count": 10,
+    "center_rho_m": 0.118533,
+    "center_theta_rad": -2.060929,
+    "center_z_m": -0.216,
+    "orientation_rad": 1.047198,
+    "near_edge": false,
+    "shape_params": {
+      "family": "L-shape",
+      "arm_x_vox": 5,
+      "arm_y_vox": 4,
+      "width_vox": 1
+    }
+  },
+  {
+    "sample_id": "L_shape_test_0000",
+    "split": "test",
+    "seed": 20260484,
+    "family": "L-shape",
+    "scene_path": "dataset/scenes/test/L-shape/L_shape_test_0000.json",
+    "gt_volume_path": "dataset/gt_volumes/L_shape_test_0000_gt.npz",
+    "point_count": 45,
+    "center_rho_m": 0.270416,
+    "center_theta_rad": -0.33992,
+    "center_z_m": -0.136,
+    "orientation_rad": 2.356194,
+    "near_edge": true,
+    "shape_params": {
+      "family": "L-shape",
+      "arm_x_vox": 7,
+      "arm_y_vox": 9,
+      "width_vox": 2
+    }
+  },
+  {
+    "sample_id": "L_shape_test_0001",
+    "split": "test",
+    "seed": 20260485,
+    "family": "L-shape",
+    "scene_path": "dataset/scenes/test/L-shape/L_shape_test_0001.json",
+    "gt_volume_path": "dataset/gt_volumes/L_shape_test_0001_gt.npz",
+    "point_count": 42,
+    "center_rho_m": 0.077621,
+    "center_theta_rad": 1.831433,
+    "center_z_m": -0.052,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "L-shape",
+      "arm_x_vox": 6,
+      "arm_y_vox": 9,
+      "width_vox": 2
+    }
+  },
+  {
+    "sample_id": "L_shape_test_0002",
+    "split": "test",
+    "seed": 20260486,
+    "family": "L-shape",
+    "scene_path": "dataset/scenes/test/L-shape/L_shape_test_0002.json",
+    "gt_volume_path": "dataset/gt_volumes/L_shape_test_0002_gt.npz",
+    "point_count": 10,
+    "center_rho_m": 0.257148,
+    "center_theta_rad": -2.669524,
+    "center_z_m": -0.388,
+    "orientation_rad": 0.785398,
+    "near_edge": true,
+    "shape_params": {
+      "family": "L-shape",
+      "arm_x_vox": 7,
+      "arm_y_vox": 5,
+      "width_vox": 1
+    }
+  },
+  {
+    "sample_id": "L_shape_test_0003",
+    "split": "test",
+    "seed": 20260487,
+    "family": "L-shape",
+    "scene_path": "dataset/scenes/test/L-shape/L_shape_test_0003.json",
+    "gt_volume_path": "dataset/gt_volumes/L_shape_test_0003_gt.npz",
+    "point_count": 38,
+    "center_rho_m": 0.105119,
+    "center_theta_rad": 2.70677,
+    "center_z_m": 0.1,
+    "orientation_rad": 0.0,
+    "near_edge": false,
+    "shape_params": {
+      "family": "L-shape",
+      "arm_x_vox": 8,
+      "arm_y_vox": 4,
+      "width_vox": 2
+    }
+  },
+  {
+    "sample_id": "double_line_train_0000",
+    "split": "train",
+    "seed": 20260488,
+    "family": "double-line",
+    "scene_path": "dataset/scenes/train/double-line/double_line_train_0000.json",
+    "gt_volume_path": "dataset/gt_volumes/double_line_train_0000_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.155081,
+    "center_theta_rad": -1.529486,
+    "center_z_m": 0.004,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "double-line",
+      "length_vox": 10,
+      "width_vox": 1,
+      "gap_vox": 4,
+      "secondary_amp_scale": 0.8612
+    }
+  },
+  {
+    "sample_id": "double_line_train_0001",
+    "split": "train",
+    "seed": 20260489,
+    "family": "double-line",
+    "scene_path": "dataset/scenes/train/double-line/double_line_train_0001.json",
+    "gt_volume_path": "dataset/gt_volumes/double_line_train_0001_gt.npz",
+    "point_count": 41,
+    "center_rho_m": 0.099247,
+    "center_theta_rad": -2.250869,
+    "center_z_m": -0.108,
+    "orientation_rad": 0.523599,
+    "near_edge": false,
+    "shape_params": {
+      "family": "double-line",
+      "length_vox": 9,
+      "width_vox": 2,
+      "gap_vox": 2,
+      "secondary_amp_scale": 0.9068
+    }
+  },
+  {
+    "sample_id": "double_line_train_0002",
+    "split": "train",
+    "seed": 20260490,
+    "family": "double-line",
+    "scene_path": "dataset/scenes/train/double-line/double_line_train_0002.json",
+    "gt_volume_path": "dataset/gt_volumes/double_line_train_0002_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.176777,
+    "center_theta_rad": 0.127516,
+    "center_z_m": -0.232,
+    "orientation_rad": 1.047198,
+    "near_edge": false,
+    "shape_params": {
+      "family": "double-line",
+      "length_vox": 9,
+      "width_vox": 1,
+      "gap_vox": 3,
+      "secondary_amp_scale": 0.8194
+    }
+  },
+  {
+    "sample_id": "double_line_train_0003",
+    "split": "train",
+    "seed": 20260491,
+    "family": "double-line",
+    "scene_path": "dataset/scenes/train/double-line/double_line_train_0003.json",
+    "gt_volume_path": "dataset/gt_volumes/double_line_train_0003_gt.npz",
+    "point_count": 44,
+    "center_rho_m": 0.218689,
+    "center_theta_rad": 0.18272,
+    "center_z_m": -0.404,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "double-line",
+      "length_vox": 9,
+      "width_vox": 2,
+      "gap_vox": 2,
+      "secondary_amp_scale": 0.7343
+    }
+  },
+  {
+    "sample_id": "double_line_train_0004",
+    "split": "train",
+    "seed": 20260492,
+    "family": "double-line",
+    "scene_path": "dataset/scenes/train/double-line/double_line_train_0004.json",
+    "gt_volume_path": "dataset/gt_volumes/double_line_train_0004_gt.npz",
+    "point_count": 46,
+    "center_rho_m": 0.175855,
+    "center_theta_rad": 1.324962,
+    "center_z_m": -0.028,
+    "orientation_rad": 0.523599,
+    "near_edge": false,
+    "shape_params": {
+      "family": "double-line",
+      "length_vox": 9,
+      "width_vox": 2,
+      "gap_vox": 2,
+      "secondary_amp_scale": 0.9511
+    }
+  },
+  {
+    "sample_id": "double_line_train_0005",
+    "split": "train",
+    "seed": 20260493,
+    "family": "double-line",
+    "scene_path": "dataset/scenes/train/double-line/double_line_train_0005.json",
+    "gt_volume_path": "dataset/gt_volumes/double_line_train_0005_gt.npz",
+    "point_count": 41,
+    "center_rho_m": 0.186078,
+    "center_theta_rad": -3.041868,
+    "center_z_m": 0.584,
+    "orientation_rad": 1.047198,
+    "near_edge": false,
+    "shape_params": {
+      "family": "double-line",
+      "length_vox": 6,
+      "width_vox": 2,
+      "gap_vox": 4,
+      "secondary_amp_scale": 0.9388
+    }
+  },
+  {
+    "sample_id": "double_line_train_0006",
+    "split": "train",
+    "seed": 20260494,
+    "family": "double-line",
+    "scene_path": "dataset/scenes/train/double-line/double_line_train_0006.json",
+    "gt_volume_path": "dataset/gt_volumes/double_line_train_0006_gt.npz",
+    "point_count": 62,
+    "center_rho_m": 0.080777,
+    "center_theta_rad": 1.21544,
+    "center_z_m": 0.576,
+    "orientation_rad": 1.047198,
+    "near_edge": false,
+    "shape_params": {
+      "family": "double-line",
+      "length_vox": 10,
+      "width_vox": 2,
+      "gap_vox": 3,
+      "secondary_amp_scale": 0.7929
+    }
+  },
+  {
+    "sample_id": "double_line_train_0007",
+    "split": "train",
+    "seed": 20260495,
+    "family": "double-line",
+    "scene_path": "dataset/scenes/train/double-line/double_line_train_0007.json",
+    "gt_volume_path": "dataset/gt_volumes/double_line_train_0007_gt.npz",
+    "point_count": 28,
+    "center_rho_m": 0.130384,
+    "center_theta_rad": 2.150615,
+    "center_z_m": -0.324,
+    "orientation_rad": 0.0,
+    "near_edge": false,
+    "shape_params": {
+      "family": "double-line",
+      "length_vox": 7,
+      "width_vox": 2,
+      "gap_vox": 5,
+      "secondary_amp_scale": 0.8346
+    }
+  },
+  {
+    "sample_id": "double_line_train_0008",
+    "split": "train",
+    "seed": 20260496,
+    "family": "double-line",
+    "scene_path": "dataset/scenes/train/double-line/double_line_train_0008.json",
+    "gt_volume_path": "dataset/gt_volumes/double_line_train_0008_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.070711,
+    "center_theta_rad": 2.344197,
+    "center_z_m": -0.576,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "double-line",
+      "length_vox": 11,
+      "width_vox": 1,
+      "gap_vox": 4,
+      "secondary_amp_scale": 0.9428
+    }
+  },
+  {
+    "sample_id": "double_line_train_0009",
+    "split": "train",
+    "seed": 20260497,
+    "family": "double-line",
+    "scene_path": "dataset/scenes/train/double-line/double_line_train_0009.json",
+    "gt_volume_path": "dataset/gt_volumes/double_line_train_0009_gt.npz",
+    "point_count": 22,
+    "center_rho_m": 0.185607,
+    "center_theta_rad": 0.480869,
+    "center_z_m": -0.648,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "double-line",
+      "length_vox": 12,
+      "width_vox": 1,
+      "gap_vox": 3,
+      "secondary_amp_scale": 0.8033
+    }
+  },
+  {
+    "sample_id": "double_line_train_0010",
+    "split": "train",
+    "seed": 20260498,
+    "family": "double-line",
+    "scene_path": "dataset/scenes/train/double-line/double_line_train_0010.json",
+    "gt_volume_path": "dataset/gt_volumes/double_line_train_0010_gt.npz",
+    "point_count": 45,
+    "center_rho_m": 0.208866,
+    "center_theta_rad": -0.205134,
+    "center_z_m": 0.604,
+    "orientation_rad": 0.0,
+    "near_edge": false,
+    "shape_params": {
+      "family": "double-line",
+      "length_vox": 8,
+      "width_vox": 2,
+      "gap_vox": 2,
+      "secondary_amp_scale": 0.9246
+    }
+  },
+  {
+    "sample_id": "double_line_train_0011",
+    "split": "train",
+    "seed": 20260499,
+    "family": "double-line",
+    "scene_path": "dataset/scenes/train/double-line/double_line_train_0011.json",
+    "gt_volume_path": "dataset/gt_volumes/double_line_train_0011_gt.npz",
+    "point_count": 22,
+    "center_rho_m": 0.206155,
+    "center_theta_rad": 2.895507,
+    "center_z_m": -0.08,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "family": "double-line",
+      "length_vox": 11,
+      "width_vox": 1,
+      "gap_vox": 3,
+      "secondary_amp_scale": 0.7373
+    }
+  },
+  {
+    "sample_id": "double_line_train_0012",
+    "split": "train",
+    "seed": 20260500,
+    "family": "double-line",
+    "scene_path": "dataset/scenes/train/double-line/double_line_train_0012.json",
+    "gt_volume_path": "dataset/gt_volumes/double_line_train_0012_gt.npz",
+    "point_count": 24,
+    "center_rho_m": 0.161941,
+    "center_theta_rad": 1.411143,
+    "center_z_m": -0.388,
+    "orientation_rad": 0.523599,
+    "near_edge": false,
+    "shape_params": {
+      "family": "double-line",
+      "length_vox": 12,
+      "width_vox": 1,
+      "gap_vox": 4,
+      "secondary_amp_scale": 0.8382
+    }
+  },
+  {
+    "sample_id": "double_line_train_0013",
+    "split": "train",
+    "seed": 20260501,
+    "family": "double-line",
+    "scene_path": "dataset/scenes/train/double-line/double_line_train_0013.json",
+    "gt_volume_path": "dataset/gt_volumes/double_line_train_0013_gt.npz",
+    "point_count": 26,
+    "center_rho_m": 0.228254,
+    "center_theta_rad": 0.510312,
+    "center_z_m": 0.12,
+    "orientation_rad": 0.0,
+    "near_edge": true,
+    "shape_params": {
+      "family": "double-line",
+      "length_vox": 12,
+      "width_vox": 1,
+      "gap_vox": 4,
+      "secondary_amp_scale": 0.9661
+    }
+  },
+  {
+    "sample_id": "double_line_train_0014",
+    "split": "train",
+    "seed": 20260502,
+    "family": "double-line",
+    "scene_path": "dataset/scenes/train/double-line/double_line_train_0014.json",
+    "gt_volume_path": "dataset/gt_volumes/double_line_train_0014_gt.npz",
+    "point_count": 42,
+    "center_rho_m": 0.170294,
+    "center_theta_rad": 0.695019,
+    "center_z_m": 0.288,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "family": "double-line",
+      "length_vox": 6,
+      "width_vox": 2,
+      "gap_vox": 4,
+      "secondary_amp_scale": 0.8363
+    }
+  },
+  {
+    "sample_id": "double_line_train_0015",
+    "split": "train",
+    "seed": 20260503,
+    "family": "double-line",
+    "scene_path": "dataset/scenes/train/double-line/double_line_train_0015.json",
+    "gt_volume_path": "dataset/gt_volumes/double_line_train_0015_gt.npz",
+    "point_count": 78,
+    "center_rho_m": 0.185068,
+    "center_theta_rad": -3.121339,
+    "center_z_m": -0.392,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "family": "double-line",
+      "length_vox": 12,
+      "width_vox": 2,
+      "gap_vox": 2,
+      "secondary_amp_scale": 0.8535
+    }
+  },
+  {
+    "sample_id": "double_line_val_0000",
+    "split": "val",
+    "seed": 20260504,
+    "family": "double-line",
+    "scene_path": "dataset/scenes/val/double-line/double_line_val_0000.json",
+    "gt_volume_path": "dataset/gt_volumes/double_line_val_0000_gt.npz",
+    "point_count": 48,
+    "center_rho_m": 0.091241,
+    "center_theta_rad": -1.755851,
+    "center_z_m": 0.272,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "double-line",
+      "length_vox": 8,
+      "width_vox": 2,
+      "gap_vox": 4,
+      "secondary_amp_scale": 0.8959
+    }
+  },
+  {
+    "sample_id": "double_line_val_0001",
+    "split": "val",
+    "seed": 20260505,
+    "family": "double-line",
+    "scene_path": "dataset/scenes/val/double-line/double_line_val_0001.json",
+    "gt_volume_path": "dataset/gt_volumes/double_line_val_0001_gt.npz",
+    "point_count": 50,
+    "center_rho_m": 0.22,
+    "center_theta_rad": -1.571673,
+    "center_z_m": 0.324,
+    "orientation_rad": 1.047198,
+    "near_edge": false,
+    "shape_params": {
+      "family": "double-line",
+      "length_vox": 9,
+      "width_vox": 2,
+      "gap_vox": 4,
+      "secondary_amp_scale": 0.9832
+    }
+  },
+  {
+    "sample_id": "double_line_val_0002",
+    "split": "val",
+    "seed": 20260506,
+    "family": "double-line",
+    "scene_path": "dataset/scenes/val/double-line/double_line_val_0002.json",
+    "gt_volume_path": "dataset/gt_volumes/double_line_val_0002_gt.npz",
+    "point_count": 14,
+    "center_rho_m": 0.103078,
+    "center_theta_rad": 1.974115,
+    "center_z_m": 0.56,
+    "orientation_rad": 0.523599,
+    "near_edge": false,
+    "shape_params": {
+      "family": "double-line",
+      "length_vox": 7,
+      "width_vox": 1,
+      "gap_vox": 4,
+      "secondary_amp_scale": 0.9061
+    }
+  },
+  {
+    "sample_id": "double_line_val_0003",
+    "split": "val",
+    "seed": 20260507,
+    "family": "double-line",
+    "scene_path": "dataset/scenes/val/double-line/double_line_val_0003.json",
+    "gt_volume_path": "dataset/gt_volumes/double_line_val_0003_gt.npz",
+    "point_count": 26,
+    "center_rho_m": 0.213776,
+    "center_theta_rad": -0.185838,
+    "center_z_m": 0.412,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "family": "double-line",
+      "length_vox": 12,
+      "width_vox": 1,
+      "gap_vox": 5,
+      "secondary_amp_scale": 0.7069
+    }
+  },
+  {
+    "sample_id": "double_line_test_0000",
+    "split": "test",
+    "seed": 20260508,
+    "family": "double-line",
+    "scene_path": "dataset/scenes/test/double-line/double_line_test_0000.json",
+    "gt_volume_path": "dataset/gt_volumes/double_line_test_0000_gt.npz",
+    "point_count": 45,
+    "center_rho_m": 0.095,
+    "center_theta_rad": 1.54601,
+    "center_z_m": -0.036,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "family": "double-line",
+      "length_vox": 9,
+      "width_vox": 2,
+      "gap_vox": 3,
+      "secondary_amp_scale": 0.9355
+    }
+  },
+  {
+    "sample_id": "double_line_test_0001",
+    "split": "test",
+    "seed": 20260509,
+    "family": "double-line",
+    "scene_path": "dataset/scenes/test/double-line/double_line_test_0001.json",
+    "gt_volume_path": "dataset/gt_volumes/double_line_test_0001_gt.npz",
+    "point_count": 14,
+    "center_rho_m": 0.269119,
+    "center_theta_rad": 0.95625,
+    "center_z_m": 0.592,
+    "orientation_rad": 2.356194,
+    "near_edge": true,
+    "shape_params": {
+      "family": "double-line",
+      "length_vox": 7,
+      "width_vox": 1,
+      "gap_vox": 2,
+      "secondary_amp_scale": 0.749
+    }
+  },
+  {
+    "sample_id": "double_line_test_0002",
+    "split": "test",
+    "seed": 20260510,
+    "family": "double-line",
+    "scene_path": "dataset/scenes/test/double-line/double_line_test_0002.json",
+    "gt_volume_path": "dataset/gt_volumes/double_line_test_0002_gt.npz",
+    "point_count": 61,
+    "center_rho_m": 0.116726,
+    "center_theta_rad": 0.82178,
+    "center_z_m": 0.128,
+    "orientation_rad": 0.523599,
+    "near_edge": false,
+    "shape_params": {
+      "family": "double-line",
+      "length_vox": 10,
+      "width_vox": 2,
+      "gap_vox": 3,
+      "secondary_amp_scale": 0.7781
+    }
+  },
+  {
+    "sample_id": "double_line_test_0003",
+    "split": "test",
+    "seed": 20260511,
+    "family": "double-line",
+    "scene_path": "dataset/scenes/test/double-line/double_line_test_0003.json",
+    "gt_volume_path": "dataset/gt_volumes/double_line_test_0003_gt.npz",
+    "point_count": 26,
+    "center_rho_m": 0.198116,
+    "center_theta_rad": -0.171285,
+    "center_z_m": -0.264,
+    "orientation_rad": 0.0,
+    "near_edge": false,
+    "shape_params": {
+      "family": "double-line",
+      "length_vox": 12,
+      "width_vox": 1,
+      "gap_vox": 3,
+      "secondary_amp_scale": 0.7204
+    }
+  },
+  {
+    "sample_id": "small_rect_edge_train_0000",
+    "split": "train",
+    "seed": 20260512,
+    "family": "small_rect_edge",
+    "scene_path": "dataset/scenes/train/small_rect_edge/small_rect_edge_train_0000.json",
+    "gt_volume_path": "dataset/gt_volumes/small_rect_edge_train_0000_gt.npz",
+    "point_count": 19,
+    "center_rho_m": 0.257391,
+    "center_theta_rad": -1.441781,
+    "center_z_m": -0.112,
+    "orientation_rad": 0.785398,
+    "near_edge": true,
+    "shape_params": {
+      "family": "small_rect_edge",
+      "rect_width_vox": 7,
+      "rect_height_vox": 6,
+      "open_edge": "right"
+    }
+  },
+  {
+    "sample_id": "small_rect_edge_train_0001",
+    "split": "train",
+    "seed": 20260513,
+    "family": "small_rect_edge",
+    "scene_path": "dataset/scenes/train/small_rect_edge/small_rect_edge_train_0001.json",
+    "gt_volume_path": "dataset/gt_volumes/small_rect_edge_train_0001_gt.npz",
+    "point_count": 14,
+    "center_rho_m": 0.231138,
+    "center_theta_rad": 2.252066,
+    "center_z_m": 0.228,
+    "orientation_rad": 1.047198,
+    "near_edge": true,
+    "shape_params": {
+      "family": "small_rect_edge",
+      "rect_width_vox": 6,
+      "rect_height_vox": 4,
+      "open_edge": "top"
+    }
+  },
+  {
+    "sample_id": "small_rect_edge_train_0002",
+    "split": "train",
+    "seed": 20260514,
+    "family": "small_rect_edge",
+    "scene_path": "dataset/scenes/train/small_rect_edge/small_rect_edge_train_0002.json",
+    "gt_volume_path": "dataset/gt_volumes/small_rect_edge_train_0002_gt.npz",
+    "point_count": 24,
+    "center_rho_m": 0.264008,
+    "center_theta_rad": 2.224975,
+    "center_z_m": -0.58,
+    "orientation_rad": 0.0,
+    "near_edge": true,
+    "shape_params": {
+      "family": "small_rect_edge",
+      "rect_width_vox": 6,
+      "rect_height_vox": 6,
+      "open_edge": "none"
+    }
+  },
+  {
+    "sample_id": "small_rect_edge_train_0003",
+    "split": "train",
+    "seed": 20260515,
+    "family": "small_rect_edge",
+    "scene_path": "dataset/scenes/train/small_rect_edge/small_rect_edge_train_0003.json",
+    "gt_volume_path": "dataset/gt_volumes/small_rect_edge_train_0003_gt.npz",
+    "point_count": 19,
+    "center_rho_m": 0.201804,
+    "center_theta_rad": -0.827264,
+    "center_z_m": -0.54,
+    "orientation_rad": 0.0,
+    "near_edge": true,
+    "shape_params": {
+      "family": "small_rect_edge",
+      "rect_width_vox": 6,
+      "rect_height_vox": 7,
+      "open_edge": "right"
+    }
+  },
+  {
+    "sample_id": "small_rect_edge_train_0004",
+    "split": "train",
+    "seed": 20260516,
+    "family": "small_rect_edge",
+    "scene_path": "dataset/scenes/train/small_rect_edge/small_rect_edge_train_0004.json",
+    "gt_volume_path": "dataset/gt_volumes/small_rect_edge_train_0004_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.254804,
+    "center_theta_rad": -1.845244,
+    "center_z_m": -0.344,
+    "orientation_rad": 0.523599,
+    "near_edge": true,
+    "shape_params": {
+      "family": "small_rect_edge",
+      "rect_width_vox": 6,
+      "rect_height_vox": 4,
+      "open_edge": "right"
+    }
+  },
+  {
+    "sample_id": "small_rect_edge_train_0005",
+    "split": "train",
+    "seed": 20260517,
+    "family": "small_rect_edge",
+    "scene_path": "dataset/scenes/train/small_rect_edge/small_rect_edge_train_0005.json",
+    "gt_volume_path": "dataset/gt_volumes/small_rect_edge_train_0005_gt.npz",
+    "point_count": 15,
+    "center_rho_m": 0.258118,
+    "center_theta_rad": 0.767733,
+    "center_z_m": 0.484,
+    "orientation_rad": 0.523599,
+    "near_edge": true,
+    "shape_params": {
+      "family": "small_rect_edge",
+      "rect_width_vox": 6,
+      "rect_height_vox": 5,
+      "open_edge": "top"
+    }
+  },
+  {
+    "sample_id": "small_rect_edge_train_0006",
+    "split": "train",
+    "seed": 20260518,
+    "family": "small_rect_edge",
+    "scene_path": "dataset/scenes/train/small_rect_edge/small_rect_edge_train_0006.json",
+    "gt_volume_path": "dataset/gt_volumes/small_rect_edge_train_0006_gt.npz",
+    "point_count": 16,
+    "center_rho_m": 0.242332,
+    "center_theta_rad": 2.765909,
+    "center_z_m": 0.46,
+    "orientation_rad": 0.785398,
+    "near_edge": true,
+    "shape_params": {
+      "family": "small_rect_edge",
+      "rect_width_vox": 5,
+      "rect_height_vox": 4,
+      "open_edge": "none"
+    }
+  },
+  {
+    "sample_id": "small_rect_edge_train_0007",
+    "split": "train",
+    "seed": 20260519,
+    "family": "small_rect_edge",
+    "scene_path": "dataset/scenes/train/small_rect_edge/small_rect_edge_train_0007.json",
+    "gt_volume_path": "dataset/gt_volumes/small_rect_edge_train_0007_gt.npz",
+    "point_count": 15,
+    "center_rho_m": 0.201308,
+    "center_theta_rad": 1.811857,
+    "center_z_m": 0.224,
+    "orientation_rad": 2.356194,
+    "near_edge": true,
+    "shape_params": {
+      "family": "small_rect_edge",
+      "rect_width_vox": 8,
+      "rect_height_vox": 5,
+      "open_edge": "top"
+    }
+  },
+  {
+    "sample_id": "small_rect_edge_train_0008",
+    "split": "train",
+    "seed": 20260520,
+    "family": "small_rect_edge",
+    "scene_path": "dataset/scenes/train/small_rect_edge/small_rect_edge_train_0008.json",
+    "gt_volume_path": "dataset/gt_volumes/small_rect_edge_train_0008_gt.npz",
+    "point_count": 16,
+    "center_rho_m": 0.237118,
+    "center_theta_rad": -1.126769,
+    "center_z_m": 0.504,
+    "orientation_rad": 0.523599,
+    "near_edge": true,
+    "shape_params": {
+      "family": "small_rect_edge",
+      "rect_width_vox": 5,
+      "rect_height_vox": 5,
+      "open_edge": "none"
+    }
+  },
+  {
+    "sample_id": "small_rect_edge_train_0009",
+    "split": "train",
+    "seed": 20260521,
+    "family": "small_rect_edge",
+    "scene_path": "dataset/scenes/train/small_rect_edge/small_rect_edge_train_0009.json",
+    "gt_volume_path": "dataset/gt_volumes/small_rect_edge_train_0009_gt.npz",
+    "point_count": 22,
+    "center_rho_m": 0.235637,
+    "center_theta_rad": 1.873175,
+    "center_z_m": -0.484,
+    "orientation_rad": 1.047198,
+    "near_edge": true,
+    "shape_params": {
+      "family": "small_rect_edge",
+      "rect_width_vox": 8,
+      "rect_height_vox": 5,
+      "open_edge": "none"
+    }
+  },
+  {
+    "sample_id": "small_rect_edge_train_0010",
+    "split": "train",
+    "seed": 20260522,
+    "family": "small_rect_edge",
+    "scene_path": "dataset/scenes/train/small_rect_edge/small_rect_edge_train_0010.json",
+    "gt_volume_path": "dataset/gt_volumes/small_rect_edge_train_0010_gt.npz",
+    "point_count": 27,
+    "center_rho_m": 0.264433,
+    "center_theta_rad": -1.31128,
+    "center_z_m": -0.504,
+    "orientation_rad": 1.047198,
+    "near_edge": true,
+    "shape_params": {
+      "family": "small_rect_edge",
+      "rect_width_vox": 8,
+      "rect_height_vox": 7,
+      "open_edge": "none"
+    }
+  },
+  {
+    "sample_id": "small_rect_edge_train_0011",
+    "split": "train",
+    "seed": 20260523,
+    "family": "small_rect_edge",
+    "scene_path": "dataset/scenes/train/small_rect_edge/small_rect_edge_train_0011.json",
+    "gt_volume_path": "dataset/gt_volumes/small_rect_edge_train_0011_gt.npz",
+    "point_count": 19,
+    "center_rho_m": 0.234094,
+    "center_theta_rad": -0.34681,
+    "center_z_m": -0.288,
+    "orientation_rad": 2.356194,
+    "near_edge": true,
+    "shape_params": {
+      "family": "small_rect_edge",
+      "rect_width_vox": 7,
+      "rect_height_vox": 7,
+      "open_edge": "top"
+    }
+  },
+  {
+    "sample_id": "small_rect_edge_train_0012",
+    "split": "train",
+    "seed": 20260524,
+    "family": "small_rect_edge",
+    "scene_path": "dataset/scenes/train/small_rect_edge/small_rect_edge_train_0012.json",
+    "gt_volume_path": "dataset/gt_volumes/small_rect_edge_train_0012_gt.npz",
+    "point_count": 19,
+    "center_rho_m": 0.255441,
+    "center_theta_rad": 1.632075,
+    "center_z_m": 0.28,
+    "orientation_rad": 0.523599,
+    "near_edge": true,
+    "shape_params": {
+      "family": "small_rect_edge",
+      "rect_width_vox": 5,
+      "rect_height_vox": 6,
+      "open_edge": "none"
+    }
+  },
+  {
+    "sample_id": "small_rect_edge_train_0013",
+    "split": "train",
+    "seed": 20260525,
+    "family": "small_rect_edge",
+    "scene_path": "dataset/scenes/train/small_rect_edge/small_rect_edge_train_0013.json",
+    "gt_volume_path": "dataset/gt_volumes/small_rect_edge_train_0013_gt.npz",
+    "point_count": 15,
+    "center_rho_m": 0.245815,
+    "center_theta_rad": -1.481956,
+    "center_z_m": 0.576,
+    "orientation_rad": 2.356194,
+    "near_edge": true,
+    "shape_params": {
+      "family": "small_rect_edge",
+      "rect_width_vox": 8,
+      "rect_height_vox": 4,
+      "open_edge": "top"
+    }
+  },
+  {
+    "sample_id": "small_rect_edge_train_0014",
+    "split": "train",
+    "seed": 20260526,
+    "family": "small_rect_edge",
+    "scene_path": "dataset/scenes/train/small_rect_edge/small_rect_edge_train_0014.json",
+    "gt_volume_path": "dataset/gt_volumes/small_rect_edge_train_0014_gt.npz",
+    "point_count": 15,
+    "center_rho_m": 0.251247,
+    "center_theta_rad": 0.822433,
+    "center_z_m": 0.46,
+    "orientation_rad": 0.0,
+    "near_edge": true,
+    "shape_params": {
+      "family": "small_rect_edge",
+      "rect_width_vox": 5,
+      "rect_height_vox": 6,
+      "open_edge": "right"
+    }
+  },
+  {
+    "sample_id": "small_rect_edge_train_0015",
+    "split": "train",
+    "seed": 20260527,
+    "family": "small_rect_edge",
+    "scene_path": "dataset/scenes/train/small_rect_edge/small_rect_edge_train_0015.json",
+    "gt_volume_path": "dataset/gt_volumes/small_rect_edge_train_0015_gt.npz",
+    "point_count": 16,
+    "center_rho_m": 0.251098,
+    "center_theta_rad": 0.954568,
+    "center_z_m": -0.052,
+    "orientation_rad": 0.785398,
+    "near_edge": true,
+    "shape_params": {
+      "family": "small_rect_edge",
+      "rect_width_vox": 5,
+      "rect_height_vox": 4,
+      "open_edge": "none"
+    }
+  },
+  {
+    "sample_id": "small_rect_edge_val_0000",
+    "split": "val",
+    "seed": 20260528,
+    "family": "small_rect_edge",
+    "scene_path": "dataset/scenes/val/small_rect_edge/small_rect_edge_val_0000.json",
+    "gt_volume_path": "dataset/gt_volumes/small_rect_edge_val_0000_gt.npz",
+    "point_count": 19,
+    "center_rho_m": 0.258699,
+    "center_theta_rad": -0.715957,
+    "center_z_m": 0.532,
+    "orientation_rad": 0.0,
+    "near_edge": true,
+    "shape_params": {
+      "family": "small_rect_edge",
+      "rect_width_vox": 7,
+      "rect_height_vox": 6,
+      "open_edge": "top"
+    }
+  },
+  {
+    "sample_id": "small_rect_edge_val_0001",
+    "split": "val",
+    "seed": 20260529,
+    "family": "small_rect_edge",
+    "scene_path": "dataset/scenes/val/small_rect_edge/small_rect_edge_val_0001.json",
+    "gt_volume_path": "dataset/gt_volumes/small_rect_edge_val_0001_gt.npz",
+    "point_count": 13,
+    "center_rho_m": 0.258118,
+    "center_theta_rad": -2.592117,
+    "center_z_m": -0.132,
+    "orientation_rad": 2.356194,
+    "near_edge": true,
+    "shape_params": {
+      "family": "small_rect_edge",
+      "rect_width_vox": 5,
+      "rect_height_vox": 4,
+      "open_edge": "top"
+    }
+  },
+  {
+    "sample_id": "small_rect_edge_val_0002",
+    "split": "val",
+    "seed": 20260530,
+    "family": "small_rect_edge",
+    "scene_path": "dataset/scenes/val/small_rect_edge/small_rect_edge_val_0002.json",
+    "gt_volume_path": "dataset/gt_volumes/small_rect_edge_val_0002_gt.npz",
+    "point_count": 24,
+    "center_rho_m": 0.227431,
+    "center_theta_rad": 2.564916,
+    "center_z_m": -0.256,
+    "orientation_rad": 1.570796,
+    "near_edge": true,
+    "shape_params": {
+      "family": "small_rect_edge",
+      "rect_width_vox": 8,
+      "rect_height_vox": 5,
+      "open_edge": "none"
+    }
+  },
+  {
+    "sample_id": "small_rect_edge_val_0003",
+    "split": "val",
+    "seed": 20260531,
+    "family": "small_rect_edge",
+    "scene_path": "dataset/scenes/val/small_rect_edge/small_rect_edge_val_0003.json",
+    "gt_volume_path": "dataset/gt_volumes/small_rect_edge_val_0003_gt.npz",
+    "point_count": 28,
+    "center_rho_m": 0.230489,
+    "center_theta_rad": -0.227414,
+    "center_z_m": -0.584,
+    "orientation_rad": 0.0,
+    "near_edge": true,
+    "shape_params": {
+      "family": "small_rect_edge",
+      "rect_width_vox": 8,
+      "rect_height_vox": 6,
+      "open_edge": "none"
+    }
+  },
+  {
+    "sample_id": "small_rect_edge_test_0000",
+    "split": "test",
+    "seed": 20260532,
+    "family": "small_rect_edge",
+    "scene_path": "dataset/scenes/test/small_rect_edge/small_rect_edge_test_0000.json",
+    "gt_volume_path": "dataset/gt_volumes/small_rect_edge_test_0000_gt.npz",
+    "point_count": 13,
+    "center_rho_m": 0.205244,
+    "center_theta_rad": 0.973598,
+    "center_z_m": 0.104,
+    "orientation_rad": 0.0,
+    "near_edge": true,
+    "shape_params": {
+      "family": "small_rect_edge",
+      "rect_width_vox": 5,
+      "rect_height_vox": 4,
+      "open_edge": "top"
+    }
+  },
+  {
+    "sample_id": "small_rect_edge_test_0001",
+    "split": "test",
+    "seed": 20260533,
+    "family": "small_rect_edge",
+    "scene_path": "dataset/scenes/test/small_rect_edge/small_rect_edge_test_0001.json",
+    "gt_volume_path": "dataset/gt_volumes/small_rect_edge_test_0001_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.234361,
+    "center_theta_rad": -0.598056,
+    "center_z_m": 0.352,
+    "orientation_rad": 2.356194,
+    "near_edge": true,
+    "shape_params": {
+      "family": "small_rect_edge",
+      "rect_width_vox": 7,
+      "rect_height_vox": 4,
+      "open_edge": "right"
+    }
+  },
+  {
+    "sample_id": "small_rect_edge_test_0002",
+    "split": "test",
+    "seed": 20260534,
+    "family": "small_rect_edge",
+    "scene_path": "dataset/scenes/test/small_rect_edge/small_rect_edge_test_0002.json",
+    "gt_volume_path": "dataset/gt_volumes/small_rect_edge_test_0002_gt.npz",
+    "point_count": 19,
+    "center_rho_m": 0.2136,
+    "center_theta_rad": -2.148644,
+    "center_z_m": -0.492,
+    "orientation_rad": 2.356194,
+    "near_edge": true,
+    "shape_params": {
+      "family": "small_rect_edge",
+      "rect_width_vox": 6,
+      "rect_height_vox": 7,
+      "open_edge": "right"
+    }
+  },
+  {
+    "sample_id": "small_rect_edge_test_0003",
+    "split": "test",
+    "seed": 20260535,
+    "family": "small_rect_edge",
+    "scene_path": "dataset/scenes/test/small_rect_edge/small_rect_edge_test_0003.json",
+    "gt_volume_path": "dataset/gt_volumes/small_rect_edge_test_0003_gt.npz",
+    "point_count": 16,
+    "center_rho_m": 0.205548,
+    "center_theta_rad": 1.493195,
+    "center_z_m": 0.62,
+    "orientation_rad": 0.523599,
+    "near_edge": true,
+    "shape_params": {
+      "family": "small_rect_edge",
+      "rect_width_vox": 6,
+      "rect_height_vox": 4,
+      "open_edge": "right"
+    }
+  },
+  {
+    "sample_id": "point_cluster_train_0000",
+    "split": "train",
+    "seed": 20260536,
+    "family": "point_cluster",
+    "scene_path": "dataset/scenes/train/point_cluster/point_cluster_train_0000.json",
+    "gt_volume_path": "dataset/gt_volumes/point_cluster_train_0000_gt.npz",
+    "point_count": 8,
+    "center_rho_m": 0.056569,
+    "center_theta_rad": 0.795365,
+    "center_z_m": -0.228,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 1,
+      "cluster_specs": [
+        {
+          "count": 8,
+          "center_offset_xy": [
+            -0.01,
+            -0.01
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.8112
+        }
+      ]
+    }
+  },
+  {
+    "sample_id": "point_cluster_train_0001",
+    "split": "train",
+    "seed": 20260537,
+    "family": "point_cluster",
+    "scene_path": "dataset/scenes/train/point_cluster/point_cluster_train_0001.json",
+    "gt_volume_path": "dataset/gt_volumes/point_cluster_train_0001_gt.npz",
+    "point_count": 5,
+    "center_rho_m": 0.093941,
+    "center_theta_rad": 2.728687,
+    "center_z_m": 0.556,
+    "orientation_rad": 1.047198,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 1,
+      "cluster_specs": [
+        {
+          "count": 5,
+          "center_offset_xy": [
+            0.015,
+            0.005
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.8021
+        }
+      ]
+    }
+  },
+  {
+    "sample_id": "point_cluster_train_0002",
+    "split": "train",
+    "seed": 20260538,
+    "family": "point_cluster",
+    "scene_path": "dataset/scenes/train/point_cluster/point_cluster_train_0002.json",
+    "gt_volume_path": "dataset/gt_volumes/point_cluster_train_0002_gt.npz",
+    "point_count": 13,
+    "center_rho_m": 0.120934,
+    "center_theta_rad": -1.444445,
+    "center_z_m": -0.304,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.01,
+            0.01
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.7713
+        },
+        {
+          "count": 5,
+          "center_offset_xy": [
+            0.0075,
+            0.015
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.9571
+        }
+      ]
+    }
+  },
+  {
+    "sample_id": "point_cluster_train_0003",
+    "split": "train",
+    "seed": 20260539,
+    "family": "point_cluster",
+    "scene_path": "dataset/scenes/train/point_cluster/point_cluster_train_0003.json",
+    "gt_volume_path": "dataset/gt_volumes/point_cluster_train_0003_gt.npz",
+    "point_count": 9,
+    "center_rho_m": 0.214009,
+    "center_theta_rad": 0.648104,
+    "center_z_m": -0.096,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 1,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.015,
+            -0.015
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.8051
+        }
+      ]
+    }
+  },
+  {
+    "sample_id": "point_cluster_train_0004",
+    "split": "train",
+    "seed": 20260540,
+    "family": "point_cluster",
+    "scene_path": "dataset/scenes/train/point_cluster/point_cluster_train_0004.json",
+    "gt_volume_path": "dataset/gt_volumes/point_cluster_train_0004_gt.npz",
+    "point_count": 16,
+    "center_rho_m": 0.247032,
+    "center_theta_rad": -2.52522,
+    "center_z_m": 0.02,
+    "orientation_rad": 2.356194,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.005,
+            0.01
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.9121
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.0225,
+            -0.0225
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.77
+        }
+      ]
+    }
+  },
+  {
+    "sample_id": "point_cluster_train_0005",
+    "split": "train",
+    "seed": 20260541,
+    "family": "point_cluster",
+    "scene_path": "dataset/scenes/train/point_cluster/point_cluster_train_0005.json",
+    "gt_volume_path": "dataset/gt_volumes/point_cluster_train_0005_gt.npz",
+    "point_count": 14,
+    "center_rho_m": 0.219146,
+    "center_theta_rad": 0.607799,
+    "center_z_m": 0.4,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.015,
+            -0.005
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.9073
+        },
+        {
+          "count": 8,
+          "center_offset_xy": [
+            -0.0075,
+            0.0075
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.983
+        }
+      ]
+    }
+  },
+  {
+    "sample_id": "point_cluster_train_0006",
+    "split": "train",
+    "seed": 20260542,
+    "family": "point_cluster",
+    "scene_path": "dataset/scenes/train/point_cluster/point_cluster_train_0006.json",
+    "gt_volume_path": "dataset/gt_volumes/point_cluster_train_0006_gt.npz",
+    "point_count": 4,
+    "center_rho_m": 0.23927,
+    "center_theta_rad": -0.183879,
+    "center_z_m": -0.44,
+    "orientation_rad": 0.0,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 1,
+      "cluster_specs": [
+        {
+          "count": 5,
+          "center_offset_xy": [
+            0.0,
+            0.0
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.8205
+        }
+      ]
+    }
+  },
+  {
+    "sample_id": "point_cluster_train_0007",
+    "split": "train",
+    "seed": 20260543,
+    "family": "point_cluster",
+    "scene_path": "dataset/scenes/train/point_cluster/point_cluster_train_0007.json",
+    "gt_volume_path": "dataset/gt_volumes/point_cluster_train_0007_gt.npz",
+    "point_count": 13,
+    "center_rho_m": 0.184391,
+    "center_theta_rad": 0.713755,
+    "center_z_m": -0.644,
+    "orientation_rad": 0.523599,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 7,
+          "center_offset_xy": [
+            -0.01,
+            0.0
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 1.0322
+        },
+        {
+          "count": 8,
+          "center_offset_xy": [
+            -0.015,
+            0.015
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.9639
+        }
+      ]
+    }
+  },
+  {
+    "sample_id": "point_cluster_train_0008",
+    "split": "train",
+    "seed": 20260544,
+    "family": "point_cluster",
+    "scene_path": "dataset/scenes/train/point_cluster/point_cluster_train_0008.json",
+    "gt_volume_path": "dataset/gt_volumes/point_cluster_train_0008_gt.npz",
+    "point_count": 5,
+    "center_rho_m": 0.257002,
+    "center_theta_rad": -2.501376,
+    "center_z_m": 0.56,
+    "orientation_rad": 0.785398,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 1,
+      "cluster_specs": [
+        {
+          "count": 5,
+          "center_offset_xy": [
+            0.01,
+            -0.01
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.7661
+        }
+      ]
+    }
+  },
+  {
+    "sample_id": "point_cluster_train_0009",
+    "split": "train",
+    "seed": 20260545,
+    "family": "point_cluster",
+    "scene_path": "dataset/scenes/train/point_cluster/point_cluster_train_0009.json",
+    "gt_volume_path": "dataset/gt_volumes/point_cluster_train_0009_gt.npz",
+    "point_count": 5,
+    "center_rho_m": 0.257099,
+    "center_theta_rad": -2.909603,
+    "center_z_m": 0.004,
+    "orientation_rad": 0.785398,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 1,
+      "cluster_specs": [
+        {
+          "count": 5,
+          "center_offset_xy": [
+            -0.005,
+            -0.015
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.7899
+        }
+      ]
+    }
+  },
+  {
+    "sample_id": "point_cluster_train_0010",
+    "split": "train",
+    "seed": 20260546,
+    "family": "point_cluster",
+    "scene_path": "dataset/scenes/train/point_cluster/point_cluster_train_0010.json",
+    "gt_volume_path": "dataset/gt_volumes/point_cluster_train_0010_gt.npz",
+    "point_count": 11,
+    "center_rho_m": 0.211009,
+    "center_theta_rad": 2.208049,
+    "center_z_m": 0.468,
+    "orientation_rad": 0.0,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 6,
+          "center_offset_xy": [
+            0.005,
+            0.01
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.8118
+        },
+        {
+          "count": 5,
+          "center_offset_xy": [
+            0.0,
+            0.0225
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.8611
+        }
+      ]
+    }
+  },
+  {
+    "sample_id": "point_cluster_train_0011",
+    "split": "train",
+    "seed": 20260547,
+    "family": "point_cluster",
+    "scene_path": "dataset/scenes/train/point_cluster/point_cluster_train_0011.json",
+    "gt_volume_path": "dataset/gt_volumes/point_cluster_train_0011_gt.npz",
+    "point_count": 6,
+    "center_rho_m": 0.156924,
+    "center_theta_rad": -1.971592,
+    "center_z_m": 0.456,
+    "orientation_rad": 0.0,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 1,
+      "cluster_specs": [
+        {
+          "count": 6,
+          "center_offset_xy": [
+            -0.01,
+            -0.005
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.9271
+        }
+      ]
+    }
+  },
+  {
+    "sample_id": "point_cluster_train_0012",
+    "split": "train",
+    "seed": 20260548,
+    "family": "point_cluster",
+    "scene_path": "dataset/scenes/train/point_cluster/point_cluster_train_0012.json",
+    "gt_volume_path": "dataset/gt_volumes/point_cluster_train_0012_gt.npz",
+    "point_count": 14,
+    "center_rho_m": 0.093005,
+    "center_theta_rad": -0.622796,
+    "center_z_m": 0.088,
+    "orientation_rad": 1.047198,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 6,
+          "center_offset_xy": [
+            0.01,
+            0.01
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.836
+        },
+        {
+          "count": 8,
+          "center_offset_xy": [
+            -0.0225,
+            0.0225
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 1.0952
+        }
+      ]
+    }
+  },
+  {
+    "sample_id": "point_cluster_train_0013",
+    "split": "train",
+    "seed": 20260549,
+    "family": "point_cluster",
+    "scene_path": "dataset/scenes/train/point_cluster/point_cluster_train_0013.json",
+    "gt_volume_path": "dataset/gt_volumes/point_cluster_train_0013_gt.npz",
+    "point_count": 8,
+    "center_rho_m": 0.083815,
+    "center_theta_rad": 0.277406,
+    "center_z_m": 0.324,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 1,
+      "cluster_specs": [
+        {
+          "count": 8,
+          "center_offset_xy": [
+            -0.005,
+            -0.01
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.8003
+        }
+      ]
+    }
+  },
+  {
+    "sample_id": "point_cluster_train_0014",
+    "split": "train",
+    "seed": 20260550,
+    "family": "point_cluster",
+    "scene_path": "dataset/scenes/train/point_cluster/point_cluster_train_0014.json",
+    "gt_volume_path": "dataset/gt_volumes/point_cluster_train_0014_gt.npz",
+    "point_count": 6,
+    "center_rho_m": 0.226385,
+    "center_theta_rad": -2.1036,
+    "center_z_m": -0.604,
+    "orientation_rad": 0.523599,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 1,
+      "cluster_specs": [
+        {
+          "count": 6,
+          "center_offset_xy": [
+            0.005,
+            -0.015
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.8517
+        }
+      ]
+    }
+  },
+  {
+    "sample_id": "point_cluster_train_0015",
+    "split": "train",
+    "seed": 20260551,
+    "family": "point_cluster",
+    "scene_path": "dataset/scenes/train/point_cluster/point_cluster_train_0015.json",
+    "gt_volume_path": "dataset/gt_volumes/point_cluster_train_0015_gt.npz",
+    "point_count": 8,
+    "center_rho_m": 0.112805,
+    "center_theta_rad": -1.782756,
+    "center_z_m": -0.416,
+    "orientation_rad": 1.047198,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 1,
+      "cluster_specs": [
+        {
+          "count": 8,
+          "center_offset_xy": [
+            0.015,
+            0.015
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 1.0471
+        }
+      ]
+    }
+  },
+  {
+    "sample_id": "point_cluster_val_0000",
+    "split": "val",
+    "seed": 20260552,
+    "family": "point_cluster",
+    "scene_path": "dataset/scenes/val/point_cluster/point_cluster_val_0000.json",
+    "gt_volume_path": "dataset/gt_volumes/point_cluster_val_0000_gt.npz",
+    "point_count": 7,
+    "center_rho_m": 0.196023,
+    "center_theta_rad": -0.099972,
+    "center_z_m": 0.58,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 1,
+      "cluster_specs": [
+        {
+          "count": 8,
+          "center_offset_xy": [
+            0.005,
+            -0.005
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.8352
+        }
+      ]
+    }
+  },
+  {
+    "sample_id": "point_cluster_val_0001",
+    "split": "val",
+    "seed": 20260553,
+    "family": "point_cluster",
+    "scene_path": "dataset/scenes/val/point_cluster/point_cluster_val_0001.json",
+    "gt_volume_path": "dataset/gt_volumes/point_cluster_val_0001_gt.npz",
+    "point_count": 12,
+    "center_rho_m": 0.098234,
+    "center_theta_rad": -1.326879,
+    "center_z_m": -0.188,
+    "orientation_rad": 0.523599,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 6,
+          "center_offset_xy": [
+            0.005,
+            0.01
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.7881
+        },
+        {
+          "count": 8,
+          "center_offset_xy": [
+            0.0225,
+            -0.0225
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.974
+        }
+      ]
+    }
+  },
+  {
+    "sample_id": "point_cluster_val_0002",
+    "split": "val",
+    "seed": 20260554,
+    "family": "point_cluster",
+    "scene_path": "dataset/scenes/val/point_cluster/point_cluster_val_0002.json",
+    "gt_volume_path": "dataset/gt_volumes/point_cluster_val_0002_gt.npz",
+    "point_count": 6,
+    "center_rho_m": 0.090139,
+    "center_theta_rad": -1.511656,
+    "center_z_m": 0.228,
+    "orientation_rad": 0.0,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 1,
+      "cluster_specs": [
+        {
+          "count": 6,
+          "center_offset_xy": [
+            -0.005,
+            -0.005
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.908
+        }
+      ]
+    }
+  },
+  {
+    "sample_id": "point_cluster_val_0003",
+    "split": "val",
+    "seed": 20260555,
+    "family": "point_cluster",
+    "scene_path": "dataset/scenes/val/point_cluster/point_cluster_val_0003.json",
+    "gt_volume_path": "dataset/gt_volumes/point_cluster_val_0003_gt.npz",
+    "point_count": 16,
+    "center_rho_m": 0.16225,
+    "center_theta_rad": 2.549977,
+    "center_z_m": -0.212,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 6,
+          "center_offset_xy": [
+            -0.015,
+            -0.015
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 1.0688
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.0075,
+            -0.0225
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 1.054
+        }
+      ]
+    }
+  },
+  {
+    "sample_id": "point_cluster_test_0000",
+    "split": "test",
+    "seed": 20260556,
+    "family": "point_cluster",
+    "scene_path": "dataset/scenes/test/point_cluster/point_cluster_test_0000.json",
+    "gt_volume_path": "dataset/gt_volumes/point_cluster_test_0000_gt.npz",
+    "point_count": 7,
+    "center_rho_m": 0.072111,
+    "center_theta_rad": -0.982888,
+    "center_z_m": -0.3,
+    "orientation_rad": 0.523599,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 1,
+      "cluster_specs": [
+        {
+          "count": 8,
+          "center_offset_xy": [
+            0.01,
+            0.01
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 1.0914
+        }
+      ]
+    }
+  },
+  {
+    "sample_id": "point_cluster_test_0001",
+    "split": "test",
+    "seed": 20260557,
+    "family": "point_cluster",
+    "scene_path": "dataset/scenes/test/point_cluster/point_cluster_test_0001.json",
+    "gt_volume_path": "dataset/gt_volumes/point_cluster_test_0001_gt.npz",
+    "point_count": 10,
+    "center_rho_m": 0.17066,
+    "center_theta_rad": 1.669186,
+    "center_z_m": 0.068,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 1,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.01,
+            0.0
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.8763
+        }
+      ]
+    }
+  },
+  {
+    "sample_id": "point_cluster_test_0002",
+    "split": "test",
+    "seed": 20260558,
+    "family": "point_cluster",
+    "scene_path": "dataset/scenes/test/point_cluster/point_cluster_test_0002.json",
+    "gt_volume_path": "dataset/gt_volumes/point_cluster_test_0002_gt.npz",
+    "point_count": 15,
+    "center_rho_m": 0.18527,
+    "center_theta_rad": -1.631681,
+    "center_z_m": 0.5,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.01,
+            -0.005
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.9188
+        },
+        {
+          "count": 6,
+          "center_offset_xy": [
+            0.0225,
+            -0.0225
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.8533
+        }
+      ]
+    }
+  },
+  {
+    "sample_id": "point_cluster_test_0003",
+    "split": "test",
+    "seed": 20260559,
+    "family": "point_cluster",
+    "scene_path": "dataset/scenes/test/point_cluster/point_cluster_test_0003.json",
+    "gt_volume_path": "dataset/gt_volumes/point_cluster_test_0003_gt.npz",
+    "point_count": 9,
+    "center_rho_m": 0.085147,
+    "center_theta_rad": 3.078669,
+    "center_z_m": -0.008,
+    "orientation_rad": 1.047198,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 5,
+          "center_offset_xy": [
+            0.0,
+            -0.005
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.9821
+        },
+        {
+          "count": 5,
+          "center_offset_xy": [
+            -0.015,
+            -0.015
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.9173
+        }
+      ]
+    }
+  }
+]

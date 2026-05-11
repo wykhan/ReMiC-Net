@@ -1,0 +1,25 @@
+{
+  "dataset_name": "task_real_006d_leave_one_family_out_ood",
+  "dataset_type": "true_3d_cylindrical_extended_target",
+  "protocol_snapshot_source": "CONTEXT/et_dataset_protocol_800.md",
+  "family_names": [
+    "point_cluster"
+  ],
+  "counts_by_family": {
+    "point_cluster": 100
+  },
+  "counts_by_split": {
+    "test": 100
+  },
+  "counts_by_family_split": {
+    "point_cluster": {
+      "test": 100
+    }
+  },
+  "total_samples": 100,
+  "gt_definition": "voxel truth amplitude volume",
+  "forward_simulator_entry": "workspace.sim.forward_cylindrical_point",
+  "reconstruction_entry": "workspace.recon.cyl_fast_reference_engine.reconstruct_cylindrical_reference(method='ref3')",
+  "index_path": "dataset/index.json",
+  "ood_statement": "leave_one_family_out_ood test-only OOD set for task_real_006d."
+}

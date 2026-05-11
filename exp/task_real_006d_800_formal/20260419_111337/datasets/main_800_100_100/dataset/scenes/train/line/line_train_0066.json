@@ -1,0 +1,88 @@
+{
+  "sample_id": "line_train_0066",
+  "split": "train",
+  "seed": 20261226,
+  "smoke": false,
+  "scene_type": "shape_family_extended_target",
+  "family": "line",
+  "shape_params": {
+    "length_vox": 6,
+    "width_vox": 1,
+    "z_layers": 1,
+    "gap_enabled": true,
+    "family": "line"
+  },
+  "placement": {
+    "center_x_m": -0.015,
+    "center_y_m": 0.105,
+    "center_z_m": -0.54,
+    "center_rho_m": 0.106066,
+    "center_theta_rad": 1.718288,
+    "orientation_rad": 1.047198,
+    "prefer_edge": false,
+    "radial_bucket": "center",
+    "azimuth_bucket": "high",
+    "height_bucket": "lower",
+    "size_bucket": "small",
+    "density_bucket": "sparse"
+  },
+  "scatter_rule": {
+    "amplitude_range": [
+      0.55,
+      1.25
+    ],
+    "phase_randomized": false
+  },
+  "point_count": 4,
+  "points": [
+    {
+      "x_m": -0.02,
+      "y_m": 0.09,
+      "z_m": -0.54,
+      "rho_m": 0.092195,
+      "theta_rad": 1.789465,
+      "amplitude": 0.773933,
+      "phase_rad": 0.0,
+      "grid_x": 56,
+      "grid_y": 78,
+      "grid_z": 115
+    },
+    {
+      "x_m": -0.02,
+      "y_m": 0.095,
+      "z_m": -0.54,
+      "rho_m": 0.097082,
+      "theta_rad": 1.778293,
+      "amplitude": 0.869919,
+      "phase_rad": 0.0,
+      "grid_x": 56,
+      "grid_y": 79,
+      "grid_z": 115
+    },
+    {
+      "x_m": -0.015,
+      "y_m": 0.1,
+      "z_m": -0.54,
+      "rho_m": 0.101119,
+      "theta_rad": 1.719686,
+      "amplitude": 0.957708,
+      "phase_rad": 0.0,
+      "grid_x": 57,
+      "grid_y": 80,
+      "grid_z": 115
+    },
+    {
+      "x_m": -0.005,
+      "y_m": 0.12,
+      "z_m": -0.54,
+      "rho_m": 0.120104,
+      "theta_rad": 1.612439,
+      "amplitude": 1.152058,
+      "phase_rad": 0.0,
+      "grid_x": 59,
+      "grid_y": 84,
+      "grid_z": 115
+    }
+  ],
+  "variant": "main"
+}

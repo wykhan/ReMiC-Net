@@ -1,0 +1,10 @@
+mode,failure_label,ref3_count,learned_count,improvement_count
+M1,F2,66,10,56
+M1,F3,37,0,37
+M1,F4,29,0,29
+M2,F2,66,21,45
+M2,F3,37,0,37
+M2,F4,29,0,29
+M3,F2,66,16,50
+M3,F3,37,0,37
+M3,F4,29,1,28

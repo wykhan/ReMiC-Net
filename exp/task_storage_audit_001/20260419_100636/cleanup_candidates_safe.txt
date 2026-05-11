@@ -1,0 +1,39 @@
+SAFE_DELETE
+
+1. /home/superws/.cache  [18G]
+Reason: 用户级缓存目录，主体为 pip/JetBrains/Chrome/torch 缓存，可再生。
+
+2. /home/superws/anaconda3/pkgs  [22G]
+Reason: conda package cache，可通过重新下载再生；不等同于 env 本体。
+
+3. /home/superws/.nv  [1.0G]
+Reason: NVIDIA compute cache，可再生。
+
+4. /tmp  [615M]
+Reason: 临时目录，当前可见主要为 smoke 产物、临时 clone、安装残留。
+
+5. /home/superws/.torch  [438M]
+Reason: torch 缓存目录，可再生。
+
+6. /home/superws/.npm  [339M]
+Reason: npm cache，可再生。
+
+7. /tmp/task006_smoke  [317M]
+Reason: 当前项目历史 smoke 产物，已不承担正式结论。
+
+8. /tmp/task006b_smoke  [22M]
+Reason: 当前项目历史 smoke 产物，已不承担正式结论。
+
+9. /tmp/task006c_smoke  [436K]
+Reason: 当前项目历史 smoke 产物，已不承担正式结论。
+
+10. /tmp/task005_smoke  [156M]
+Reason: 当前项目历史 smoke 产物，已不承担正式结论。
+
+11. /tmp/Efficient-Learned-3D-Near-Field-MIMO-Imaging  [43M]
+Reason: 为参考阅读临时 clone，可重新 clone。
+
+12. /tmp/manisali_ref  [43M]
+Reason: 为参考阅读临时 clone，可重新 clone。
+
+Conservative safe-only reclaim estimate: about 42G to 43G.

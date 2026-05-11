@@ -1,0 +1,122 @@
+{
+  "training_config": {
+    "epochs": 2,
+    "batch_size": 2,
+    "lr": 0.0002,
+    "lambda_pc": 0.06,
+    "device": "cuda",
+    "source_checkpoint_p1": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_007_physics_consistency/20260419_201254/checkpoints/pc_p1/best.pt",
+    "subset_config": {
+      "lambda_pc": 0.06,
+      "subset_sampling": {
+        "active_cells_per_sample": 12,
+        "frequencies_per_cell": 24,
+        "fixed_subset": true,
+        "subset_seed": 20260419
+      },
+      "physics_consistency": "sampled forward echo consistency on sparse measurement subset"
+    },
+    "geometry_config": {
+      "support_threshold_ratio": 0.18,
+      "support_weight": 2.0,
+      "boundary_weight": 1.35,
+      "dilation_radius": 1,
+      "use_boundary": false,
+      "mask_mode": "dynamic_prediction_support"
+    }
+  },
+  "history": {
+    "train_total": [
+      0.13654169969260693,
+      0.13581844504922627
+    ],
+    "train_image": [
+      0.0825014005601406,
+      0.0823462119139731
+    ],
+    "train_geo": [
+      0.9006716776639223,
+      0.8912039095908404
+    ],
+    "train_weight": [
+      1.6680370397865771,
+      1.6633185993134976
+    ],
+    "val_total": [
+      0.1346021880209446,
+      0.13229393631219863
+    ],
+    "val_image": [
+      0.08278828114271164,
+      0.08000709623098373
+    ],
+    "val_geo": [
+      0.8635651326179504,
+      0.8714473450183868
+    ],
+    "val_weight": [
+      1.6557570087909699,
+      1.6981446981430053
+    ]
+  },
+  "overall": {
+    "num_test_samples": 100,
+    "ref3_nmse_mean": 5.997081764777547,
+    "p2a_nmse_mean": 0.8035160626912993,
+    "nmse_gain_vs_ref3": 5.193565702086248,
+    "avg_inference_time_sec": 0.001010558595880866
+  },
+  "family_metrics": {
+    "line": {
+      "count": 20,
+      "baseline_nmse_mean": 5.207608052731839,
+      "p2a_nmse_mean": 0.7760657876662246,
+      "nmse_gain": 4.431542265065614
+    },
+    "cross": {
+      "count": 15,
+      "baseline_nmse_mean": 5.301341320507399,
+      "p2a_nmse_mean": 0.7981338182997398,
+      "nmse_gain": 4.503207502207658
+    },
+    "L-shape": {
+      "count": 20,
+      "baseline_nmse_mean": 3.3243850019688863,
+      "p2a_nmse_mean": 0.734093963145772,
+      "nmse_gain": 2.590291038823115
+    },
+    "double-line": {
+      "count": 15,
+      "baseline_nmse_mean": 3.155882342589904,
+      "p2a_nmse_mean": 0.7602967435756384,
+      "nmse_gain": 2.395585599014266
+    },
+    "small_rect_edge": {
+      "count": 10,
+      "baseline_nmse_mean": 4.158195671827727,
+      "p2a_nmse_mean": 0.772821001940397,
+      "nmse_gain": 3.385374669887331
+    },
+    "point_cluster": {
+      "count": 20,
+      "baseline_nmse_mean": 13.031400185950176,
+      "p2a_nmse_mean": 0.9521871402677687,
+      "nmse_gain": 12.07921304568241
+    }
+  },
+  "failure_counts": {
+    "baseline": {
+      "F2": 41,
+      "F5": 22,
+      "F6": 12,
+      "F4": 20,
+      "F1": 36,
+      "F3": 23
+    },
+    "p2a": {
+      "F2": 8,
+      "F6": 1
+    }
+  },
+  "best_checkpoint": "checkpoints/pc_p2a/best.pt"
+}

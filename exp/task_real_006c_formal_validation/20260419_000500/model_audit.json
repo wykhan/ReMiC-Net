@@ -1,0 +1,23 @@
+{
+  "model_name": "UNet3DSmall",
+  "total_params": 85017,
+  "trainable_params": 85017,
+  "input_tensor_shape": [
+    1,
+    1,
+    24,
+    24,
+    24
+  ],
+  "output_tensor_shape": [
+    1,
+    1,
+    24,
+    24,
+    24
+  ],
+  "device_used_for_audit": "cpu",
+  "estimated_train_memory_mb": null,
+  "estimated_inference_memory_mb": null,
+  "estimated_flops": null
+}

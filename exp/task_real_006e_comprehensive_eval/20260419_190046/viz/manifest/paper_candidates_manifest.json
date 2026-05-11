@@ -1,0 +1,9 @@
+{
+  "paper_candidate_figures": [
+    "fig_main_frontier.png",
+    "fig_main_metrics.png",
+    "fig_ood_metrics.png",
+    "fig_ood_case_best.png",
+    "fig_ood_case_failure.png"
+  ]
+}

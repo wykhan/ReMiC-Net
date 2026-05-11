@@ -1,0 +1,633 @@
+ % SAR三维成像研究
+% 参考文献：谭维贤  合成孔径雷达三维成像理论与方法研究  博士论文 中国科学院电子学研究所
+% Email: wxtannm@163.com
+% 
+
+% clear;
+% clc;
+% close all;
+load Echo_Human_Body_306.mat;
+
+tic                      %开始计时                                     
+%**************************************************************************
+%                        *********仿真参数*****
+%**************************************************************************
+C = 3e8;                   %光速
+pi2 = 2 * pi;
+
+% fc = 6.5e9;                 %载频
+% lambda = C/fc;             %波长
+
+R = 0.6;                   %轨道半径
+X0 = 0.3;                  %照射场景半径              只需强调主要区域
+H = 2;
+
+theta_h = 30/180*pi;
+theta_u = 30/180*pi;
+
+rmin = R-X0;
+rmax = (R+X0)/cos(theta_h/2);
+tmin = 2*rmin/C;                                    %最小回波到达时间
+tmax = 2*rmax/C;                                    %最大回波到达时间
+
+% 距离向
+fmin = 30e9;                                         %最小频率
+fmax = 39e9;                                         %最大频率
+kmin = 4*pi*fmin/C;                                 %距离向最小空间频率
+kmax = 4*pi*fmax/C;                                 %距离向最大空间频率
+Br = fmax-fmin;                                     %距离带宽
+delta_x = 0.886 * C/2/Br;
+
+% Nr = ceil(Br*(tmax-tmin)+40);
+Nr = 181;
+Kw = linspace(kmin,kmax,Nr);
+dk = (kmax-kmin)/(Nr-1);
+
+%高度向
+% Bz = 2*kmax*sin(theta_h/2);
+% delta_h = pi2/Bz;
+% Fsz = Bz*1.2;
+% dh = pi2/Fsz;
+dh = 0.004;
+% LH = R*tan(theta_h/2);             %1/2高度合成孔径
+
+% h = (-H/2-LH:dh:H/2+LH) + H/2;
+% h = (-H/2:dh:H/2)+ H/2;
+h = (-H/2:dh:H/2);
+Nh = length(h);
+dKz = pi2 / (Nh * dh);
+Kz = dKz * ((-Nh/2) : (Nh/2-1));   
+
+%方位向
+% pi*sqrt(2.25+0.09-2*0.3*1.5*cos(30*pi/180))/0.3/1.5/sin(30*pi/180)/(kmax)
+% Bu = 2*kmax*X0;               %慢时间空间频率带宽   
+% Fsu = 1.0*Bu;                                       %慢时间空间频率采样率
+% Na = ceil(Fsu);
+Na = 1101;
+% u = linspace(-pi,pi,Na+1);
+% u = u(1:end-1);
+u = linspace(-pi,pi,Na);
+du = pi2/(Na-1);
+
+
+Ntar = length(X1);            %目标数
+% Ntar = 1;
+
+%**************************************************************************
+%                        *********回波生成*****
+%**************************************************************************
+s3 = zeros(Na,Nr,Nh);
+
+Total_Len = Ntar;
+Pro_Percent = 0;
+Num_per = floor(linspace(1, Total_Len, 10));
+
+Text = strcat('人体成像回波生成开始.................... ', datestr(now, 21)); disp(Text)
+
+for ii = 1:Ntar
+ 	Pro_Percent = Pro_Percent + 1;
+    if ((sum(Pro_Percent == Num_per)==1) && (Pro_Percent >= 0))
+        Text = strcat('人体成像回波生成..........................', num2str( floor(Pro_Percent / Total_Len * 100) ),'%'); disp(Text)
+    end                %进度条
+    x = X1(ii);
+    y = Y1(ii);
+    z = Z1(ii);
+%     x = 0.15;
+%     y = 0;
+%     z = 0;
+    r = sqrt(x^2+y^2);
+%     fi = angle(x+y*1i);
+%     fi = fi+pi2*(fi<0);  
+    rn = sqrt(ones(Nh,1)*((x-R*cos(u)).^2+(y-R*sin(u)).^2)+((z-h).^2).'*ones(1,Na));
+    h_index = find(abs(z-h) <=  (R-r)*tan(theta_h/2));
+    un = u - angle((x+y*1i));
+%     if (abs(angle((x+y*1i)) - 40*pi/180)<2*pi/180)
+%     选取范围
+    if (1)
+        
+        if (angle(x+y*1i)<(-pi + theta_u/2)) | (angle(x+y*1i)>(pi - theta_u/2))
+            u_index = find( (abs(un) <= theta_u/2) | (abs(un) >= (pi2 - theta_u/2)) );
+        else
+            u_index = find(abs(un) <= theta_u/2);
+        end
+
+        Nu = length(u_index);
+        
+%         if Nu == 41
+%             a = 0;
+%     end
+        for jj = h_index
+            Rn = rn(jj,u_index).'*ones(1,Nr);
+            s3(u_index,:,jj) = s3(u_index,:,jj)+exp(-1i*(ones(Nu,1)*Kw).*Rn);      %将各点目标的回波相加，生成回波
+        end  
+    %     ii
+    end
+end
+Text = strcat('人体成像回波生成结束.................... ', datestr(now, 21)); disp(Text)
+
+
+% save Echo_Human_Body_306.mat
+
+% load Echo_Human_Body_306.mat
+Text = strcat('人体成像回波高程向傅里叶变换开始................. ', datestr(now, 21)); disp(Text)
+for jj = 1 : Nr
+    Temp(:,:) = s3(:, jj, :);
+    Temp(:,:) = fty(Temp);
+    s3(:, jj, :) = Temp(:,:);
+end
+Text = strcat('人体成像回波高程向傅里叶变换结束................. ', datestr(now, 21)); disp(Text)
+
+clear Temp;
+Text = strcat('人体成像回波方位向傅里叶变换开始................. ', datestr(now, 21)); disp(Text)
+for jj = 1 : Nr
+  	Temp(:,:) = s3(:, jj, :);
+    Temp(:,:) = ftx(Temp);
+    s3(:, jj, :) = Temp(:,:);   
+end
+Text = strcat('人体成像回波方位向傅里叶变换结束................. ', datestr(now, 21)); disp(Text)
+
+Kwz = sqrt((ones(Nh, 1)*Kw).^2 - (Kz.'*ones(1, Nr)).^2);
+
+Interval_rho = 0.01;
+rho_ref = 0 : Interval_rho : X0;
+Num_rho_ref = length(rho_ref);
+Three_Image = zeros(Na, Num_rho_ref, Nh);
+clear Temp;
+
+    
+%%
+
+Total_Len = Nh;
+Pro_Percent = 0;
+Num_per = floor(linspace(1, Total_Len, 10));
+
+Text = strcat('人体成像开始.................... ', datestr(now, 21)); disp(Text)
+for nhh = 1 : Nh
+	Pro_Percent = Pro_Percent + 1;
+    if ((sum(Pro_Percent == Num_per)==1) & (Pro_Percent >= 0))
+        Text = strcat('人体成像中..........................', num2str( floor(Pro_Percent / Total_Len * 100) ),'%'); disp(Text)
+    end
+% %     
+    for jj = 1 : Num_rho_ref    
+        rn_ref = sqrt(R.^2 + rho_ref(jj).^2 - 2 * R * rho_ref(jj) * cos(u) ).*(abs(u)<=theta_u/2);
+        FT_rn_ref = ftx(exp(1i*rn_ref.' * Kwz(nhh, :)).*(ones(Na, 1)*Kw/2));
+        Temp(:,:) = s3(:, :, nhh);
+        Temp(:,:) = Temp(:,:) .* FT_rn_ref;        
+        Three_Image(:, jj, nhh) = iftx(sum(Temp.').');        
+    end
+% %rn_ref = zeros(31,1006);
+% count1 = 0;count2 = 0;count3 = 0;
+%   for nn = [1,6,11,16,21,26,31]
+%     rn_ref = sqrt(R.^2 + rho_ref(nn).^2 - 2 * R * rho_ref(nn) * cos(u) ).*(abs(u)<=theta_u/2);
+%     for ii = 1:31
+%         if ( nn <= ii && ii < nn+3 )
+%             rn_est = (rn_ref + (nn - ii) * 0.00958).*(abs(u)<=theta_u/2);
+%             FT_rn_ref = ftx(exp(1i*rn_est.' .* Kwz(nhh, :)).*(ones(Na, 1)*Kw/2));
+%             Temp(:,:) = s3(:, :, nhh);
+%             Temp(:,:) = Temp(:,:) .* FT_rn_ref;
+%             Three_Image(:, ii, nhh) = iftx(sum(Temp.').');
+%          elseif ( nn - 3 < ii && ii < nn )
+%             rn_est = (rn_ref + (nn - ii) * 0.00958).*(abs(u)<=theta_u/2);
+%             FT_rn_ref = ftx(exp(1i*rn_est.' .* Kwz(nhh, :)).*(ones(Na, 1)*Kw/2));
+%             Temp(:,:) = s3(:, :, nhh);
+%             Temp(:,:) = Temp(:,:) .* FT_rn_ref;
+%             Three_Image(:, ii, nhh) = iftx(sum(Temp.').');
+%         else
+%              
+%         end        
+%     end
+% 
+%   end
+
+end
+Text = strcat('人体成像结束.................... ', datestr(now, 21)); disp(Text)
+
+clear Temp;
+
+Total_Len = Num_rho_ref;
+Pro_Percent = 0;
+Num_per = floor(linspace(1, Total_Len, 10));
+Text = strcat('高程向成像处理开始.................... ', datestr(now, 21)); disp(Text)
+for nrr = 1 : Num_rho_ref
+	Pro_Percent = Pro_Percent + 1;
+    if ((sum(Pro_Percent == Num_per)==1) & (Pro_Percent >= 0))
+        Text = strcat('高程向逆傅里叶变换..........................', num2str( floor(Pro_Percent / Total_Len * 100) ),'%'); disp(Text)
+    end
+    Temp(:,:) = Three_Image(:,nrr,:);
+    Temp(:,:) = ifty(Temp);
+    Three_Image(:,nrr,:) = Temp;
+end
+Text = strcat('高程向成像处理结束.................... ', datestr(now, 21)); disp(Text)
+
+%%  指标
+% %距离向（半径向）
+% range_ = Three_Image(551,:,276); 
+% range_fft = fft(range_); n = length(range_fft); range_ = ifft(range_fft,10*n); 
+% max_value = max(abs(range_));
+% Nr_max = find( abs(range_) == max_value ); 
+% L = length(range_); 
+% 
+% for ii = Nr_max:-1:1  
+%     if ( abs(range_(ii)) < abs(range_(ii + 1)) && abs(range_(ii)) < abs(range_(ii - 1)) )
+%         main_start = ii;
+%         break
+%     end
+% end
+% for ii = Nr_max:1:L 
+%     if ( abs(range_(ii)) < abs(range_(ii + 1)) && abs(range_(ii)) < abs(range_(ii - 1)) )
+%         main_stop = ii;
+%         break
+%     end
+% end
+% signal_power = (abs(range_)).^2;
+% signal_power_main = 0;
+% for ii = main_start:main_stop 
+%     signal_power_main = signal_power_main + signal_power(ii);
+% end
+% signal_power_all = sum(signal_power);
+% ISLR_range = 10 * log10((signal_power_all - signal_power_main) / signal_power_main);
+% range_ = 20 * log10( abs(range_) / max_value ); 
+% A = find( round(range_) == -3 );
+% IRW_range = 0.01 * (abs(A(end)-A(1)))/10;
+% x = linspace( rho_ref(1)-0.1456, rho_ref(end)-0.1456, L );
+% figure;plot(x,range_,'m','Linewidth',1.5);
+% xlabel('\fontname{宋体}距离向\fontname{Times new roman}(m)','FontSize',14);ylabel('\fontname{宋体}幅度\fontname{Times new roman}(dB)','FontSize',14)
+% axis([-0.15 0.15 -50 0])
+% % 
+% % % %方位向
+% azi_ = Three_Image(:,16,251); 
+% range_fft = fftshift(fft(azi_)); n = length(range_fft); azi_ = ifft(range_fft,10*n); 
+% max_value = max(abs(azi_));
+% L = length(azi_); 
+% Na_max = find( abs(azi_) == max_value );
+% 
+% for ii = Na_max:-1:1  
+%     if ( abs(azi_(ii)) < abs(azi_(ii + 1)) && abs(azi_(ii)) < abs(azi_(ii - 1)) )
+%         main_start = ii;
+%         break
+%     end
+% end
+% for ii = Na_max:1:L 
+%     if ( abs(azi_(ii)) < abs(azi_(ii + 1)) && abs(azi_(ii)) < abs(azi_(ii - 1)) )
+%         main_stop = ii;
+%         break
+%     end
+% end
+% signal_power = (abs(azi_)).^2;
+% signal_power_main = 0;
+% for ii = main_start:main_stop 
+%     signal_power_main = signal_power_main + signal_power(ii);
+% end
+% signal_power_all = sum(signal_power);
+% ISLR_azi = 10 * log10((signal_power_all - signal_power_main) / signal_power_main);
+% azi_ = 20 * log10( abs(azi_) / max_value ); 
+% B = find( round(azi_) == -3 );
+% IRW_azi = (du/pi*180) * (abs(B(end)-B(1)))/10;
+% x = linspace( u(1)/pi*180 , u(end)/pi*180 , L );
+% % IRW_azi = 0.3* (sin(du/pi*180)) * (abs(B(end)-B(1)))/10;
+% % x = linspace( 0.3* (sin(u(1)/pi*180)), 0.3* (sin(u(end)/pi*180)), L );
+% figure;plot(x,azi_,'m','Linewidth',1.5);
+% xlabel('\fontname{宋体}方位向\fontname{Times new roman}(m)','FontSize',14);ylabel('\fontname{宋体}幅度\fontname{Times new roman}(dB)','FontSize',14)
+% axis([-0.15 0.15 -50 0])
+% 
+% %高度向
+% ele_ = Three_Image(551,1,:); ele_ = reshape(ele_,[1,Nh]);
+% range_fft = fftshift(fft(ele_)); n = length(range_fft); ele_ = ifft(range_fft,10*n);
+% max_value = max(abs(ele_));
+% Ne_max = find( abs(ele_) == max_value );
+% L = length(ele_);
+% for ii = Ne_max:-1:1  
+%     if ( abs(ele_(ii)) < abs(ele_(ii + 1)) && abs(ele_(ii)) < abs(ele_(ii - 1)) )
+%         main_start = ii;
+%         break
+%     end
+% end
+% for ii = Ne_max:1:L 
+%     if ( abs(ele_(ii)) < abs(ele_(ii + 1)) && abs(ele_(ii)) < abs(ele_(ii - 1)) )
+%         main_stop = ii;
+%         break
+%     end
+% end
+% signal_power = (abs(ele_)).^2;
+% signal_power_main = 0;
+% for ii = main_start:main_stop 
+%     signal_power_main = signal_power_main + signal_power(ii);
+% end
+% signal_power_all = sum(signal_power);
+% ISLR_ele = 10 * log10((signal_power_all - signal_power_main) / signal_power_main);
+% ele_ = 20 * log10( abs(ele_) / max_value );
+% C = find( round(ele_) == -3 );
+% IRW_ele = dh * (abs(C(end)-C(1)))/10;
+% x = linspace( h(1)-0.8926, h(end)-0.8926, L );
+% figure;plot(x,ele_,'m','Linewidth',1.5);
+% xlabel('\fontname{宋体}高度向\fontname{Times new roman}(m)','FontSize',14);ylabel('\fontname{宋体}幅度\fontname{Times new roman}(dB)','FontSize',14)
+% axis([-0.05 0.25 -50 0])
+%%
+
+% clear Temp
+% X_label = u;
+% Y_label = h + 0.01;
+% for jj = 1 : Num_rho_ref 
+%     Temp(:,:)=Three_Image(:,jj,:);
+%     figure; imagesc(X_label, Y_label,abs(Temp.')); colorbar
+%     ylabel('Elevation Direction (m)');
+% xlabel('Azimuth Direction (rad.)');
+% set(gca, 'YDir', 'normal')
+% end
+ for naa = 1 : Na
+    for nhh = 1 : Nh
+       	Temp(naa,nhh)=max(abs(Three_Image(naa, :, nhh)));
+    end
+end
+aa = Temp.';
+[R1, C1] = size(aa);
+
+
+
+
+
+X_label = u;
+% X_label = u * 1;
+% Y_label = h + 0.01;
+Y_label = h ;
+% aa_expand = zeros(3*R1, 3*C1);
+% aa_expand(R1+1:2*R1, C1+1:C1*2) = ftx(fty(aa));
+% aa_expand = iftx(ifty(aa_expand));
+% hh2 = figure; imagesc(X_label, Y_label, abs(aa(:,:)), [0.1*max(max(abs(aa_expand(:,:)))) max(max(abs(aa_expand(:,:))))]);
+% hh2 =
+figure; 
+imagesc(X_label, Y_label, abs(aa(:,:)), [0.01*max(max(abs(aa(:,:)))) max(max(abs(aa(:,:))))]);
+ylabel('Elevation Direction (m)','FontSize', 10);
+xlabel('Azimuth Direction (rad)','FontSize', 10);
+set(gca, 'YDir', 'normal')
+% set(gca, 'YDir', 'reverse')
+% axis([-pi pi -0.05 1.76]);
+% axis([-pi pi 0 2]);
+% set(hh2, 'position',[200 300 260 420]);
+% % % Axes Properties
+
+% G = abs(aa(:,:));
+% xg=max(max(G)); ng=min(min(G)); cg=255/(xg-ng);
+% hh2 = figure; colormap(gray(256)), 
+% imagesc(X_label, Y_label, 256-cg*(G-ng), [0.01*256 256]);
+% ylabel('Elevation Direction (m)');
+% xlabel('Azimuth Direction (rad.)');
+% set(gca, 'YDir', 'normal')
+% set(gca, 'YDir', 'reverse')
+% axis([-pi pi -0.05 1.76]);
+% set(hh2, 'position',[200 300 260 400]);
+
+
+slice_66 = zeros(1,Na*5);
+slice_66(2*Na+1:3*Na) = ftx(aa(184,:));
+slice_66 = iftx(slice_66);
+% 
+% hh2 = figure; plot(linspace(Y_label(1), Y_label(end), Na*5), 20*log10(abs(slice_66)/max(abs(slice_66))));
+% ylabel('Elevation Direction (m)');
+% xlabel('Azimuth Direction (rad.)');
+% set(gca, 'YDir', 'normal')
+% % set(gca, 'YDir', 'reverse')
+% axis([-pi pi -0.05 1.76]);
+% set(hh2, 'position',[200 300 260 400]);
+
+Interval_3D_Image = 0.005;
+X_Image = -X0 : Interval_3D_Image : X0;
+N_X_Image = length(X_Image);
+Y_Image = -X0 : Interval_3D_Image : X0;
+N_Y_Image = length(Y_Image);
+X_Label = ones(N_Y_Image, 1) * X_Image;
+Y_Label = Y_Image.' * ones(1, N_Y_Image);
+
+R_XY = sqrt((X_Label).^2 + (Y_Label).^2);
+R_XY_angle = angle(X_Label + 1i * Y_Label);                                  %   需进行插值的角度值
+% R_XY_angle(find(R_XY_angle<0)) = R_XY_angle(find(R_XY_angle<0))+pi2;      %	需进行插值的角度值
+Inter_Serial_Num = -7:8;
+Num_Inter_Serial = length(Inter_Serial_Num);
+Na_Nr = N_X_Image * N_Y_Image;
+
+Interval_rho = 0.01;
+rho_ref_Inter = zeros(1, Num_rho_ref+Num_Inter_Serial);
+rho_ref_Inter = Interval_rho * (0:(Num_rho_ref+Num_Inter_Serial-1));
+Image_2D_Card = zeros(N_X_Image, N_Y_Image, Nh);
+
+% load Three_Image_306_OK.mat
+clear Kwz rn s3 Temp
+Image_2D = zeros(Na, Num_rho_ref+Num_Inter_Serial);
+
+Total_Len = Nh;
+Pro_Percent = 0;
+Num_per = floor(linspace(1, Total_Len, 10));
+
+Text = strcat('几何校正开始.................... ', datestr(now, 21)); disp(Text)    
+for nhh = 1:Nh
+	Pro_Percent = Pro_Percent + 1;
+    if ((sum(Pro_Percent == Num_per)==1) & (Pro_Percent >= 0))
+        Text = strcat('几何校正中..........................', num2str( floor(Pro_Percent / Total_Len * 100) ),'%'); disp(Text)
+    end
+    Image_Na_Nr = zeros(N_X_Image, N_Y_Image);
+    Image_2D(:,1:Num_rho_ref) = Three_Image(:,:,nhh);
+    for jj = 1:Na_Nr
+        ro_new = R_XY(jj);
+        k_new = R_XY_angle(jj);
+%         u_new = U_new(jj);
+        if (ro_new > X0)
+            Fxy(jj) = 0;
+        else
+            u_index = floor((k_new+pi2/2)/du+1) + Inter_Serial_Num;
+            u_index = u_index+Na*(u_index<1)-Na*(u_index>Na);
+            if ((floor(ro_new/Interval_rho+1) + Inter_Serial_Num(1))<1)
+                k_index = floor(ro_new/Interval_rho+1) + Inter_Serial_Num;
+                u_index_less_0 = (u_index+floor(Na/2)) - Na*((u_index+floor(Na/2))>Na) ;
+                Wu = u(u_index);
+                Wu(find(Wu<0)) = Wu(find(Wu<0)) + pi2;
+                k_new = k_new + (k_new<0)*pi2;
+                Wk = Interval_rho * k_index;
+                k_index0 = k_index;
+                k_index = k_index .* (k_index > 0) + (k_index - 2) * (-1) .* (k_index < 1);
+%                 Wk = rho_ref(abs(k_index));
+                WFp = Image_2D(u_index .* (k_index0 > 0) + u_index_less_0 .* (k_index0 < 1), k_index); 
+%                 k_index = k_index+Num_rho_ref*(k_index<1)-Num_rho_ref*(k_index>Num_rho_ref);
+%                 k_index = k_index+Num_rho_ref*(k_index<1)-Num_rho_ref*(k_index>Num_rho_ref);
+            else
+                k_index = floor(ro_new/Interval_rho+1) + Inter_Serial_Num;
+%                 k_index = k_index+Num_rho_ref*(k_index<1)-Num_rho_ref*(k_index>Num_rho_ref);
+                Wu = u(u_index);
+                Wu(find(Wu<0)) = Wu(find(Wu<0)) + pi2;
+                k_new = k_new + (k_new<0)*pi2;
+                Wk = rho_ref_Inter((k_index));
+                WFp = Image_2D(u_index,k_index);  
+            end
+            core = (ones(Num_Inter_Serial,1)*sinc((Wk-ro_new)/Interval_rho)).*(sinc((Wu-k_new)/du).'*ones(1,Num_Inter_Serial));
+            Image_Na_Nr(jj) = sum(sum(WFp.*core));
+        end
+    end
+    Image_2D_Card(:,:,nhh) = Image_Na_Nr;
+end
+Text = strcat('几何校正结束.................... ', datestr(now, 21)); disp(Text)
+
+
+
+
+
+% max_3D_image = max(max(max(abs(Image_2D_Card))))*0.5;
+% figure;
+% isosurface(X_Image, Y_Image, h, abs(Image_2D_Card) , max_3D_image );
+
+
+% max_3D_image = max(max(max(abs(Image_2D_Card))))*0.5;
+% hh=figure;p = patch(isosurface(X_Image, Y_Image, h, abs(Image_2D_Card), max_3D_image)); 
+% grid on; 
+% box on;
+% % xlabel('Azimuth Direction (m)','FontSize', 10);ylabel('Range Direction (m)','FontSize',10); zlabel('Elevation Direction (m)','FontSize',10);
+% xlabel('X (m)','FontSize', 10);ylabel('Y (m)','FontSize',10); zlabel('Z (m)','FontSize',10);
+% set(p,'FaceColor','red','EdgeColor','red');
+% % TEXT_title = strcat('\fontsize{12}', '\color{black}', '成像区域存在叠掩现象');
+% % title(TEXT_title, 'FontSize',12);
+% % daspect([1 1 1])
+% % set(p,'XMinorGrid','on')
+% % view([90 45]); axis tight
+% axis tight
+% % grid on 
+% camlight 
+% axis equal
+% lighting gouraud
+% lighting phong
+% colormap hsv
+% set(hh, 'position',[200 200 260 400]);
+% set(gca,'FontSize',10);
+% axis([-0.3 0.3 -0.3 0.3 0 2])
+% % axis([-0.3 0.3 -0.3 0.3 0.4 1.7])
+% view(46, 14); 
+max_3D_image = max(max(max(abs(Image_2D_Card))))*0.3;
+hh=figure;p = patch(isosurface(X_Image, Y_Image, h, abs(Image_2D_Card), max_3D_image)); 
+grid on; 
+box on;
+axis equal
+xlabel('X (m)','FontSize', 10);ylabel('Y (m)','FontSize',10); zlabel('Z (m)','FontSize',10);
+set(p,'FaceColor',[0.5,0,0],'EdgeColor',[0.5,0,0]);
+axis([-0.2 0.2 -0.2 0.2 -0.2 0.2])
+
+%Slice_height(:,:) = Image_2D_Card(:, :, 251); 
+Slice_height = Image_2D_Card(:, :, 251); 
+figure;  imagesc(X_Image-0.002-0.1-0.007-0.041, Y_Image-0.15+0.055, abs(Slice_height))
+xlabel('\fontname{宋体}距离向\fontname{Times new roman}(m)','FontSize', 14);
+ylabel('\fontname{宋体}方位向\fontname{Times new roman}(m)','FontSize',14);
+set(gca, 'YDir', 'normal')
+axis([-0.2 0.2 -0.3 0.1 ])
+
+%Sq(:,:) = Image_2D_Card(:, 131, :); 
+idx_y = round(size(Image_2D_Card,2)/2);
+Sq = squeeze(Image_2D_Card(:, idx_y, :));
+
+figure;  imagesc(h-0.008+0.1-0.016+0.032, X_Image-0.002-0.1-0.007+0.014, abs(Sq))
+xlabel('\fontname{宋体}高度向\fontname{Times new roman}(m)','FontSize', 14);
+ylabel('\fontname{宋体}方位向\fontname{Times new roman}(m)','FontSize',14);
+set(gca,'XAxisLocation','top'); 
+axis([-0.1 0.3 -0.3 0.1 ])
+
+%Sw(:,:) = Image_2D_Card(101, :, :); 
+idx_x = round(size(Image_2D_Card,1)/2);
+Sw = squeeze(Image_2D_Card(idx_x, :, :));
+
+figure;  imagesc(h-0.008+0.1-0.016+0.032, Y_Image-0.15, abs(Sw))
+xlabel('\fontname{宋体}高度向\fontname{Times new roman}(m)','FontSize', 14);
+ylabel('\fontname{宋体}距离向\fontname{Times new roman}(m)','FontSize',14);
+set(gca,'XAxisLocation','top'); 
+axis([-0.1 0.3 -0.2 0.2 ])
+% range_ = Image_2D_Card(81,:,184); 
+% range_fft = fft(range_); n = length(range_fft); range_ = ifft(range_fft,10*n); 
+% max_value = max(abs(range_));  
+% L = length(range_); 
+% range_ = 20 * log10( abs(range_) / max_value ); 
+% x = linspace( X_Image(1), X_Image(end), L );
+% figure;plot(x,range_,'m','Linewidth',1.5);
+% xlabel('距离向/m','FontSize',16);ylabel('幅度/dB','FontSize',16)
+% 
+% save Three_Image_306_OK.mat % Three_Image 
+
+%Y-Z
+bb=zeros(501,121); for jj=1:501, ttemp = Image_2D_Card(1:62,:,jj); bb(jj, :) = max(abs(ttemp(:,:))); end
+figure; imagesc(Y_Image, h, abs(bb(:,:)))
+ylabel('Z (m)','FontSize', 10);
+xlabel('Y (m)','FontSize', 10);
+set(gca, 'YDir', 'normal')
+axis equal
+axis([ -0.3 0.3 0 2])
+%X-Y
+bb=zeros(121,121); for jj=1:121, ttemp = Image_2D_Card(:,jj,1:501); bb(jj, :) = max(abs(ttemp(:,:)).'); end
+figure; imagesc(X_Image, Y_Image, abs(bb(:,:)))
+ylabel('Y (m)','FontSize', 10);
+xlabel('X (m)','FontSize', 10);
+set(gca, 'YDir', 'normal')
+axis equal
+axis([ -0.3 0.3 -0.3 0.3])
+%X-Z
+bb=zeros(501,121); for jj=1:501, ttemp = Image_2D_Card(:,1:62,jj); bb(jj, :) = max(abs(ttemp(:,:)).'); end
+figure; imagesc(X_Image, h, abs(bb(:,:)))
+ylabel('Z (m)','FontSize', 10);
+xlabel('X (m)','FontSize', 10);
+set(gca, 'YDir', 'normal')
+axis equal
+axis([ -0.3 0.3 0 2])
+
+bb=zeros(415,121); for jj=1:415, ttemp = Image_2D_Card(1:62,:,jj); bb(jj, :) = max(abs(ttemp(:,:))); end
+hh2 = figure; plot(Y_Image, 20*log10((abs(bb(200,:)+eps))/(eps+max(abs(bb(200,:))))))
+ylabel('Impulse Response (dB)');
+xlabel('Azimuth Direction (m)');
+set(gca, 'YDir', 'normal')
+% set(gca, 'YDir', 'reverse')
+set(hh2, 'position',[200 300 270 200]);
+% axis equal
+axis([ -0.3 0.3 -40 0])
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % 
+bb=zeros(501,121); for jj=1:501, ttemp = Image_2D_Card(:,1:62,jj); bb(jj, :) = max(abs(ttemp(:,:)).'); end
+figure; imagesc(X_Image, h, abs(bb(:,:)))
+ylabel('Height Direction (m)');
+xlabel('Azimuth Direction (m)');
+set(gca, 'YDir', 'normal')
+axis equal
+
+bb=zeros(415,121); for jj=1:415, ttemp = Image_2D_Card(:,1:62,jj); bb(jj, :) = max(abs(ttemp(:,:)).'); end
+hh2 = figure; plot(Y_Image, 20*log10((abs(bb(298,:)+eps))/(eps+max(abs(bb(298,:))))))
+ylabel('Impulse Response (dB)');
+xlabel('Azimuth Direction (m)');
+set(gca, 'YDir', 'normal')
+% set(gca, 'YDir', 'reverse')
+set(hh2, 'position',[200 300 270 200]);
+% axis equal
+axis([ -0.3 0.3 -40 0])
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+bb=zeros(415,121); for jj=1:415, ttemp = Image_2D_Card(:,1:62,jj); bb(jj, :) = max(abs(ttemp(:,:).')); end;
+hh2 = figure; imagesc(Y_Image, h, abs(bb(:,:)))
+ylabel('Height Direction (m)');
+xlabel('Azimuth Direction (m)');
+set(gca, 'YDir', 'normal')
+% set(gca, 'YDir', 'reverse')
+set(hh2, 'position',[200 300 200 400]);
+axis equal
+axis([ -0.3 0.3 -0.1 1.8])
+
+
+bb=zeros(415,121); for jj=1:415, ttemp = Image_2D_Card(:,1:62,jj); bb(jj, :) = max(abs(ttemp(:,:).')); end
+hh2 = figure; plot(Y_Image, 20*log10((abs(bb(298,:)+eps))/(eps+max(abs(bb(298,:))))))
+ylabel('Impulse Response (dB)');
+xlabel('Azimuth Direction (m)');
+set(gca, 'YDir', 'normal')
+% set(gca, 'YDir', 'reverse')
+set(hh2, 'position',[200 300 270 200]);
+% axis equal
+axis([ -0.3 0.3 -40 0])
+
+x=[-0.2,0,0,0.2,0,-0.2,0,0,0.2,0,-0.2,0,0,0.2,0,-0.2,0,0,0.2,0];
+y=[0,0.2,0,0,-0.2,0,0.2,0,0,-0.2,0,0.2,0,0,-0.2,0,0.2,0,0,-0.2];
+z=[0.25,0.25,0.25,0.25,0.25,0.75,0.75,0.75,0.75,0.75,1.25,1.25,1.25,1.25,1.25,1.75,1.75,1.75,1.75,1.75];figure;scatter3(x,y,z);grid on;
+box on;axis equal;xlabel('X (m)','FontSize', 10);ylabel('Y (m)','FontSize',10); zlabel('Z (m)','FontSize',10);
+axis([-0.3 0.3 -0.3 0.3 0 2]);
+

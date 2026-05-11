@@ -1,0 +1,19 @@
+{
+  "sample_id": "z_inner_low",
+  "method": "BP",
+  "tensor_mode": "active",
+  "geom_mode": "sinc",
+  "tensor_shape": [
+    91,
+    181,
+    67
+  ],
+  "active_coverage_ratio": 1.0,
+  "estimated_peak_memory_mb": 19.72296142578125,
+  "quality": {
+    "nmse": 7.5341043472214695,
+    "psnr": 12.198783791209188,
+    "ssim": 0.019939642923692533
+  },
+  "wall_time_sec": 1.1568401439581066
+}

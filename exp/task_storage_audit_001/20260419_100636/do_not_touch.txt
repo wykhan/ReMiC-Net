@@ -1,0 +1,37 @@
+DO_NOT_TOUCH
+
+1. /home/superws/2026_Projects/Codex_reference_plane_real/workspace
+Reason: 当前项目源码与执行逻辑主体。
+
+2. /home/superws/2026_Projects/Codex_reference_plane_real/CONTEXT
+Reason: 协议、主文档与上位约束。
+
+3. /home/superws/2026_Projects/Codex_reference_plane_real/PROMPTS
+Reason: 任务规则与审阅规范。
+
+4. /home/superws/2026_Projects/Codex_reference_plane_real/reference_plane_matlab_Tan
+Reason: MATLAB 原型与参考实现。
+
+5. /home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_006c_formal_validation
+Reason: 最新 formal-scale fail-fast 审计结论，体积极小且当前决策依赖它。
+
+6. /home/superws/software/MATLAB_R2018b
+Reason: 当前明确可用的 MATLAB 执行环境。
+
+7. /home/superws/anaconda3/envs
+Reason: 现有运行环境本体；与 pkgs cache 不同。
+
+8. /usr
+Reason: 系统关键目录。
+
+9. /usr/local/cuda-12.4
+Reason: CUDA 工具链，当前环境可能依赖。
+
+10. /opt/nvidia
+Reason: NVIDIA 工具链，当前环境可能依赖。
+
+11. /var/lib
+Reason: 系统状态目录。
+
+12. Unique raw datasets and irreplaceable data directories under /home/superws/dataset
+Reason: 未经逐项确认前，不应把原始数据目录当成可删对象。

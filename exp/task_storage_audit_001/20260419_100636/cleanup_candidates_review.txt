@@ -1,0 +1,57 @@
+REVIEW_FIRST
+
+1. /home/superws/下载  [22G]
+Reason: 下载目录通常包含可重下文件，但可能混有手工整理资料。
+
+2. /home/superws/software/Matlab99R2020b_Linux_64.iso  [18G]
+Reason: 大安装镜像；若已完成安装且不再需要重装介质，可删。
+
+3. /home/superws/software/MathWorks.MATLAB.R2018blinux(1).zip  [14G]
+Reason: 大安装压缩包；若 MATLAB_R2018b 已可用，此压缩包高度疑似冗余。
+
+4. /home/superws/dataset/OBE_stand_raw/standard_raw_v01.zip  [39G]
+Reason: 解压包与原始目录可能并存；需先确认是否已有完整解压版。
+
+5. /home/superws/dataset/SAR_competition_2024.zip  [14G]
+Reason: 大压缩包；需确认是否已有已解压副本或备份位置。
+
+6. /home/superws/dataset/S1SLC_CVDL.rar  [13G]
+Reason: 大压缩包；需确认是否已有对应目录版数据。
+
+7. /home/superws/dataset/kitti/data_object_image_2.zip  [12G]
+Reason: 大压缩包；需确认是否已有解压副本。
+
+8. /home/superws/2024_Projects/DINO-main  [55G]
+Reason: 历史项目，且包含大量超大 checkpoint；高回收潜力，但需用户确认是否仍使用。
+
+9. /home/superws/2024_Projects/CenterNet2-master  [16G]
+Reason: 历史项目，含多份 >1G checkpoint；应先确认是否还在复现实验。
+
+10. /home/superws/2026_Projects/z_backup_PriorModeling_VibeCoding  [2.5G]
+Reason: 目录名即备份副本，高概率冗余，但仍建议确认。
+
+11. /home/superws/2026_Projects/z_backup_useful_code_store  [979M]
+Reason: 备份代码仓，可能与其他项目内容重叠。
+
+12. /home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_006_two_stage_learning  [13G]
+Reason: 当前项目最大实验产物；如后续不需复用现有 dataset cache，可考虑迁移或重生。
+
+13. /home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_005_shape_family_et  [1.2G]
+Reason: 当前项目旧任务产物，可再生，但仍可能支撑数据 lineage。
+
+14. /home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_002_point_chain  [879M]
+Reason: 早期验证产物，保留价值主要在报告而非大体积数据。
+
+15. /home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_004c_variantB_confirmation  [600M]
+Reason: 旧阶段验证图与结果，可在确认报告已固化后清理大体积中间产物。
+
+16. /home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_004b_wrap_hardening  [345M]
+Reason: 同上。
+
+17. /var/log  [4.1G]
+Reason: 系统日志可裁剪，但涉及系统审计与排障，不建议未经确认处理。
+
+18. /var/lib/snapd  [8.7G]
+Reason: snap 包与历史 revision 可能有回收空间，但属于系统级内容。
+
+Review-first reclaim estimate if confirmed: about 200G+ additional space beyond safe-only cleanup.

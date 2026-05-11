@@ -20,6 +20,15 @@ Point targets are used to verify the physical chain, geometric consistency, and 
 
 The default first-stage backbone is `ref3`, because it is the most compressed baseline that still preserves physical meaning and therefore best tests the speed-quality trade-off. It is also the default reduced-reference backbone frozen by the reference-surface strategy.
 
+## Current Accelerated Front-End Freeze
+
+After wrap hardening, the repository-level default accelerated front-end is frozen as `Variant B`, meaning:
+
+- active azimuth-height windows
+- MATLAB-inspired full-library sinc geometry correction
+
+Dense global tensor mode is retained only for audit/debug comparisons and is not the default path for validation or ET entry.
+
 ## Why Stage Two Uses a Manisali-Style 3D U-Net
 
 The second stage is a Manisali-style 3D U-Net refiner because the project needs object-space compensation of approximation error rather than unconstrained hallucination. This aligns the learning stage with prior physics-guided 3D reconstruction logic while adapting the physical front end to cylindrical imaging.

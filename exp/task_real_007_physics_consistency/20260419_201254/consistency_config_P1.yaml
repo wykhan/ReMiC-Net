@@ -1,0 +1,9 @@
+mode: Ours-PC-P1
+epochs: 3
+batch_size: 2
+lr: 0.0005
+lambda_pc: 0.05
+active_cells_per_sample: 12
+frequencies_per_cell: 24
+fixed_subset: True
+subset_seed: 20260419

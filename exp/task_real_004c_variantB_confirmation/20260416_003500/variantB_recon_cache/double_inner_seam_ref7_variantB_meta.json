@@ -1,0 +1,19 @@
+{
+  "sample_id": "double_inner_seam",
+  "method": "ref7",
+  "tensor_mode": "active",
+  "geom_mode": "sinc",
+  "tensor_shape": [
+    93,
+    181,
+    69
+  ],
+  "active_coverage_ratio": 0.9993766557581424,
+  "estimated_peak_memory_mb": 19.566810607910156,
+  "quality": {
+    "nmse": 12.513939847378845,
+    "psnr": 11.56810753066276,
+    "ssim": 0.006369438303166782
+  },
+  "wall_time_sec": 0.3789538568817079
+}

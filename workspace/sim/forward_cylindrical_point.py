@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import multiprocessing as mp
 from pathlib import Path
 
 import numpy as np
@@ -76,15 +77,32 @@ def simulate_sample(scene: dict, output_dir: Path) -> dict:
     return metadata
 
 
-def batch_simulate(output_root: Path) -> dict:
-    dataset_index = read_json(output_root / "dataset" / "index.json")
+def _simulate_from_index_row(args: tuple[str, str]) -> dict:
+    output_root_str, scene_rel = args
+    output_root = Path(output_root_str)
     echo_dir = ensure_dir(output_root / "dataset" / "echoes")
+    scene = read_json(output_root / scene_rel)
+    return simulate_sample(scene, echo_dir)
+
+
+def batch_simulate(output_root: Path, workers: int | None = None) -> dict:
+    dataset_index = read_json(output_root / "dataset" / "index.json")
     by_split: dict[str, list[dict]] = {}
-    for item in dataset_index:
-        scene = read_json(output_root / item["scene_path"])
-        meta = simulate_sample(scene, echo_dir)
-        by_split.setdefault(item["split"], [])
-        by_split[item["split"]].append(meta)
+    workers = int(workers or min(max((mp.cpu_count() * 2) // 3, 1), 16))
+    if workers <= 1:
+        echo_dir = ensure_dir(output_root / "dataset" / "echoes")
+        for item in dataset_index:
+            scene = read_json(output_root / item["scene_path"])
+            meta = simulate_sample(scene, echo_dir)
+            by_split.setdefault(item["split"], [])
+            by_split[item["split"]].append(meta)
+    else:
+        tasks = [(str(output_root), item["scene_path"]) for item in dataset_index]
+        with mp.Pool(processes=workers) as pool:
+            metas = pool.map(_simulate_from_index_row, tasks)
+        for item, meta in zip(dataset_index, metas):
+            by_split.setdefault(item["split"], [])
+            by_split[item["split"]].append(meta)
     summary = {
         "total_samples": len(dataset_index),
         "splits": {key: len(value) for key, value in by_split.items()},
@@ -100,8 +118,9 @@ def batch_simulate(output_root: Path) -> dict:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Run protocol-v1 point forward simulation.")
     parser.add_argument("--output-root", required=True, help="Task artifact root.")
+    parser.add_argument("--workers", type=int, default=None)
     args = parser.parse_args()
-    summary = batch_simulate(Path(args.output_root))
+    summary = batch_simulate(Path(args.output_root), workers=args.workers)
     print(f"Simulated echoes for {summary['total_samples']} samples")
 
 

@@ -1,0 +1,19 @@
+{
+  "sample_id": "az_inner_pi_exact",
+  "method": "ref7",
+  "tensor_mode": "active",
+  "geom_mode": "sinc",
+  "tensor_shape": [
+    92,
+    181,
+    67
+  ],
+  "active_coverage_ratio": 1.0,
+  "estimated_peak_memory_mb": 18.795188903808594,
+  "quality": {
+    "nmse": 10.289501190175256,
+    "psnr": 10.84515682462866,
+    "ssim": 0.01261906949186246
+  },
+  "wall_time_sec": 0.3576576020568609
+}

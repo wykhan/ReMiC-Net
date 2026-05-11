@@ -1,0 +1,9 @@
+Model: UNet3DSmall
+Total params: 85017
+Trainable params: 85017
+Input shape: [1, 1, 24, 24, 24]
+Output shape: [1, 1, 24, 24, 24]
+Audit device: cpu
+Estimated train memory: not measured in this CPU-only audit
+Estimated inference memory: not measured in this CPU-only audit
+Estimated FLOPs: not measured

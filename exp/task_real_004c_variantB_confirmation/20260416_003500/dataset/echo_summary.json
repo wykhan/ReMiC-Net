@@ -1,0 +1,9 @@
+{
+  "total_samples": 70,
+  "splits": {
+    "controlled_broader": 70
+  },
+  "average_active_measurements": {
+    "controlled_broader": 5507.8
+  }
+}

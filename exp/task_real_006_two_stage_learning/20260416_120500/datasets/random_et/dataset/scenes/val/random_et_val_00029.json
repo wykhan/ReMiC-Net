@@ -1,0 +1,292 @@
+{
+  "sample_id": "random_et_val_00029",
+  "split": "val",
+  "seed": 20260638,
+  "smoke": false,
+  "scene_type": "manisali_style_random_extended_target",
+  "family": "random_et",
+  "shape_params": {
+    "local_center_count": 2,
+    "point_count": 22,
+    "generation_style": "local_centers + clustered points + sparse bridges"
+  },
+  "placement": {
+    "center_x_m": -0.2,
+    "center_y_m": -0.045,
+    "center_z_m": -0.188
+  },
+  "scatter_rule": {
+    "amplitude_range": [
+      0.55,
+      1.25
+    ],
+    "phase_randomized": false
+  },
+  "point_count": 22,
+  "points": [
+    {
+      "x_m": -0.23,
+      "y_m": -0.035,
+      "z_m": -0.172,
+      "rho_m": 0.232648,
+      "theta_rad": -2.990577,
+      "amplitude": 0.876691,
+      "phase_rad": 0.0,
+      "grid_x": 14,
+      "grid_y": 53,
+      "grid_z": 207
+    },
+    {
+      "x_m": -0.225,
+      "y_m": -0.065,
+      "z_m": -0.18,
+      "rho_m": 0.234201,
+      "theta_rad": -2.86036,
+      "amplitude": 1.20238,
+      "phase_rad": 0.0,
+      "grid_x": 15,
+      "grid_y": 47,
+      "grid_z": 205
+    },
+    {
+      "x_m": -0.21,
+      "y_m": -0.055,
+      "z_m": -0.168,
+      "rho_m": 0.217083,
+      "theta_rad": -2.885441,
+      "amplitude": 0.847168,
+      "phase_rad": 0.0,
+      "grid_x": 18,
+      "grid_y": 49,
+      "grid_z": 208
+    },
+    {
+      "x_m": -0.205,
+      "y_m": -0.035,
+      "z_m": -0.168,
+      "rho_m": 0.207966,
+      "theta_rad": -2.972491,
+      "amplitude": 1.159192,
+      "phase_rad": 0.0,
+      "grid_x": 19,
+      "grid_y": 53,
+      "grid_z": 208
+    },
+    {
+      "x_m": -0.215,
+      "y_m": -0.075,
+      "z_m": -0.176,
+      "rho_m": 0.227706,
+      "theta_rad": -2.805954,
+      "amplitude": 1.107252,
+      "phase_rad": 0.0,
+      "grid_x": 17,
+      "grid_y": 45,
+      "grid_z": 206
+    },
+    {
+      "x_m": -0.23,
+      "y_m": -0.055,
+      "z_m": -0.156,
+      "rho_m": 0.236485,
+      "theta_rad": -2.90687,
+      "amplitude": 1.233915,
+      "phase_rad": 0.0,
+      "grid_x": 14,
+      "grid_y": 49,
+      "grid_z": 211
+    },
+    {
+      "x_m": -0.225,
+      "y_m": -0.055,
+      "z_m": -0.188,
+      "rho_m": 0.231625,
+      "theta_rad": -2.90185,
+      "amplitude": 0.818689,
+      "phase_rad": 0.0,
+      "grid_x": 15,
+      "grid_y": 49,
+      "grid_z": 203
+    },
+    {
+      "x_m": -0.23,
+      "y_m": -0.05,
+      "z_m": -0.184,
+      "rho_m": 0.235372,
+      "theta_rad": -2.927532,
+      "amplitude": 0.583265,
+      "phase_rad": 0.0,
+      "grid_x": 14,
+      "grid_y": 50,
+      "grid_z": 204
+    },
+    {
+      "x_m": -0.21,
+      "y_m": -0.045,
+      "z_m": -0.168,
+      "rho_m": 0.214767,
+      "theta_rad": -2.930499,
+      "amplitude": 0.600542,
+      "phase_rad": 0.0,
+      "grid_x": 18,
+      "grid_y": 51,
+      "grid_z": 208
+    },
+    {
+      "x_m": -0.24,
+      "y_m": -0.055,
+      "z_m": -0.176,
+      "rho_m": 0.246221,
+      "theta_rad": -2.916316,
+      "amplitude": 0.932921,
+      "phase_rad": 0.0,
+      "grid_x": 12,
+      "grid_y": 49,
+      "grid_z": 206
+    },
+    {
+      "x_m": -0.22,
+      "y_m": -0.03,
+      "z_m": -0.18,
+      "rho_m": 0.222036,
+      "theta_rad": -3.006065,
+      "amplitude": 1.12443,
+      "phase_rad": 0.0,
+      "grid_x": 16,
+      "grid_y": 54,
+      "grid_z": 205
+    },
+    {
+      "x_m": -0.215,
+      "y_m": -0.07,
+      "z_m": -0.172,
+      "rho_m": 0.226108,
+      "theta_rad": -2.826835,
+      "amplitude": 0.623267,
+      "phase_rad": 0.0,
+      "grid_x": 17,
+      "grid_y": 46,
+      "grid_z": 207
+    },
+    {
+      "x_m": -0.21,
+      "y_m": -0.075,
+      "z_m": -0.116,
+      "rho_m": 0.222991,
+      "theta_rad": -2.798569,
+      "amplitude": 0.670053,
+      "phase_rad": 0.0,
+      "grid_x": 18,
+      "grid_y": 45,
+      "grid_z": 221
+    },
+    {
+      "x_m": -0.22,
+      "y_m": -0.065,
+      "z_m": -0.14,
+      "rho_m": 0.229401,
+      "theta_rad": -2.854311,
+      "amplitude": 1.228194,
+      "phase_rad": 0.0,
+      "grid_x": 16,
+      "grid_y": 47,
+      "grid_z": 215
+    },
+    {
+      "x_m": -0.22,
+      "y_m": -0.07,
+      "z_m": -0.12,
+      "rho_m": 0.230868,
+      "theta_rad": -2.83354,
+      "amplitude": 1.195269,
+      "phase_rad": 0.0,
+      "grid_x": 16,
+      "grid_y": 46,
+      "grid_z": 220
+    },
+    {
+      "x_m": -0.22,
+      "y_m": -0.065,
+      "z_m": -0.136,
+      "rho_m": 0.229401,
+      "theta_rad": -2.854311,
+      "amplitude": 1.228566,
+      "phase_rad": 0.0,
+      "grid_x": 16,
+      "grid_y": 47,
+      "grid_z": 216
+    },
+    {
+      "x_m": -0.215,
+      "y_m": -0.07,
+      "z_m": -0.108,
+      "rho_m": 0.226108,
+      "theta_rad": -2.826835,
+      "amplitude": 0.883928,
+      "phase_rad": 0.0,
+      "grid_x": 17,
+      "grid_y": 46,
+      "grid_z": 223
+    },
+    {
+      "x_m": -0.205,
+      "y_m": -0.07,
+      "z_m": -0.128,
+      "rho_m": 0.216622,
+      "theta_rad": -2.812543,
+      "amplitude": 0.834888,
+      "phase_rad": 0.0,
+      "grid_x": 19,
+      "grid_y": 46,
+      "grid_z": 218
+    },
+    {
+      "x_m": -0.21,
+      "y_m": -0.07,
+      "z_m": -0.144,
+      "rho_m": 0.221359,
+      "theta_rad": -2.819842,
+      "amplitude": 0.843005,
+      "phase_rad": 0.0,
+      "grid_x": 18,
+      "grid_y": 46,
+      "grid_z": 214
+    },
+    {
+      "x_m": -0.215,
+      "y_m": -0.05,
+      "z_m": -0.176,
+      "rho_m": 0.220737,
+      "theta_rad": -2.913096,
+      "amplitude": 0.611957,
+      "phase_rad": 0.0,
+      "grid_x": 17,
+      "grid_y": 50,
+      "grid_z": 206
+    },
+    {
+      "x_m": -0.215,
+      "y_m": -0.06,
+      "z_m": -0.152,
+      "rho_m": 0.223215,
+      "theta_rad": -2.869447,
+      "amplitude": 0.90057,
+      "phase_rad": 0.0,
+      "grid_x": 17,
+      "grid_y": 48,
+      "grid_z": 212
+    },
+    {
+      "x_m": -0.215,
+      "y_m": -0.07,
+      "z_m": -0.128,
+      "rho_m": 0.226108,
+      "theta_rad": -2.826835,
+      "amplitude": 0.975684,
+      "phase_rad": 0.0,
+      "grid_x": 17,
+      "grid_y": 46,
+      "grid_z": 218
+    }
+  ]
+}

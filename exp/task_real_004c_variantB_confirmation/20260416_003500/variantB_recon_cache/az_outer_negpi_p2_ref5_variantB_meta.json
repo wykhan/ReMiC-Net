@@ -1,0 +1,19 @@
+{
+  "sample_id": "az_outer_negpi_p2",
+  "method": "ref5",
+  "tensor_mode": "active",
+  "geom_mode": "sinc",
+  "tensor_shape": [
+    92,
+    181,
+    43
+  ],
+  "active_coverage_ratio": 1.0,
+  "estimated_peak_memory_mb": 12.002220153808594,
+  "quality": {
+    "nmse": 12.351175308215186,
+    "psnr": 10.052017107817237,
+    "ssim": 0.00332680222015754
+  },
+  "wall_time_sec": 0.17494063801132143
+}

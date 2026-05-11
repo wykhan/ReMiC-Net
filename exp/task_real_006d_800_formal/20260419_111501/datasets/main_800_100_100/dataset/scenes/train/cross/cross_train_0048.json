@@ -1,0 +1,195 @@
+{
+  "sample_id": "cross_train_0048",
+  "split": "train",
+  "seed": 20262707,
+  "smoke": false,
+  "scene_type": "shape_family_extended_target",
+  "family": "cross",
+  "shape_params": {
+    "family": "cross",
+    "arm_a_vox": 5,
+    "arm_b_vox": 9,
+    "width_vox": 1
+  },
+  "placement": {
+    "center_x_m": -0.055,
+    "center_y_m": 0.11,
+    "center_z_m": -0.616,
+    "center_rho_m": 0.122984,
+    "center_theta_rad": 2.04501,
+    "orientation_rad": 0.523599,
+    "prefer_edge": false,
+    "radial_bucket": "off_center",
+    "azimuth_bucket": "high",
+    "height_bucket": "lower",
+    "size_bucket": "small",
+    "density_bucket": "sparse"
+  },
+  "scatter_rule": {
+    "amplitude_range": [
+      0.55,
+      1.25
+    ],
+    "phase_randomized": false
+  },
+  "point_count": 13,
+  "points": [
+    {
+      "x_m": -0.065,
+      "y_m": 0.105,
+      "z_m": -0.616,
+      "rho_m": 0.123491,
+      "theta_rad": 2.125104,
+      "amplitude": 0.768119,
+      "phase_rad": 0.0,
+      "grid_x": 47,
+      "grid_y": 81,
+      "grid_z": 96
+    },
+    {
+      "x_m": -0.06,
+      "y_m": 0.11,
+      "z_m": -0.616,
+      "rho_m": 0.1253,
+      "theta_rad": 2.070143,
+      "amplitude": 0.865955,
+      "phase_rad": 0.0,
+      "grid_x": 48,
+      "grid_y": 82,
+      "grid_z": 96
+    },
+    {
+      "x_m": -0.055,
+      "y_m": 0.11,
+      "z_m": -0.616,
+      "rho_m": 0.122984,
+      "theta_rad": 2.034444,
+      "amplitude": 0.997153,
+      "phase_rad": 0.0,
+      "grid_x": 49,
+      "grid_y": 82,
+      "grid_z": 96
+    },
+    {
+      "x_m": -0.05,
+      "y_m": 0.11,
+      "z_m": -0.616,
+      "rho_m": 0.12083,
+      "theta_rad": 1.997424,
+      "amplitude": 1.084111,
+      "phase_rad": 0.0,
+      "grid_x": 50,
+      "grid_y": 82,
+      "grid_z": 96
+    },
+    {
+      "x_m": -0.045,
+      "y_m": 0.115,
+      "z_m": -0.616,
+      "rho_m": 0.123491,
+      "theta_rad": 1.943784,
+      "amplitude": 1.202932,
+      "phase_rad": 0.0,
+      "grid_x": 51,
+      "grid_y": 83,
+      "grid_z": 96
+    },
+    {
+      "x_m": -0.045,
+      "y_m": 0.095,
+      "z_m": -0.616,
+      "rho_m": 0.105119,
+      "theta_rad": 2.013171,
+      "amplitude": 0.730221,
+      "phase_rad": 0.0,
+      "grid_x": 51,
+      "grid_y": 79,
+      "grid_z": 96
+    },
+    {
+      "x_m": -0.05,
+      "y_m": 0.095,
+      "z_m": -0.612,
+      "rho_m": 0.107355,
+      "theta_rad": 2.055274,
+      "amplitude": 0.776092,
+      "phase_rad": 0.0,
+      "grid_x": 50,
+      "grid_y": 79,
+      "grid_z": 97
+    },
+    {
+      "x_m": -0.05,
+      "y_m": 0.1,
+      "z_m": -0.612,
+      "rho_m": 0.111803,
+      "theta_rad": 2.034444,
+      "amplitude": 0.825913,
+      "phase_rad": 0.0,
+      "grid_x": 50,
+      "grid_y": 80,
+      "grid_z": 97
+    },
+    {
+      "x_m": -0.05,
+      "y_m": 0.105,
+      "z_m": -0.612,
+      "rho_m": 0.116297,
+      "theta_rad": 2.015216,
+      "amplitude": 0.900032,
+      "phase_rad": 0.0,
+      "grid_x": 50,
+      "grid_y": 81,
+      "grid_z": 97
+    },
+    {
+      "x_m": -0.06,
+      "y_m": 0.115,
+      "z_m": -0.616,
+      "rho_m": 0.129711,
+      "theta_rad": 2.051684,
+      "amplitude": 1.037855,
+      "phase_rad": 0.0,
+      "grid_x": 48,
+      "grid_y": 83,
+      "grid_z": 96
+    },
+    {
+      "x_m": -0.06,
+      "y_m": 0.12,
+      "z_m": -0.612,
+      "rho_m": 0.134164,
+      "theta_rad": 2.034444,
+      "amplitude": 1.028023,
+      "phase_rad": 0.0,
+      "grid_x": 48,
+      "grid_y": 84,
+      "grid_z": 97
+    },
+    {
+      "x_m": -0.06,
+      "y_m": 0.125,
+      "z_m": -0.612,
+      "rho_m": 0.138654,
+      "theta_rad": 2.018316,
+      "amplitude": 1.1745,
+      "phase_rad": 0.0,
+      "grid_x": 48,
+      "grid_y": 85,
+      "grid_z": 97
+    },
+    {
+      "x_m": -0.065,
+      "y_m": 0.125,
+      "z_m": -0.612,
+      "rho_m": 0.14089,
+      "theta_rad": 2.050316,
+      "amplitude": 1.160351,
+      "phase_rad": 0.0,
+      "grid_x": 47,
+      "grid_y": 85,
+      "grid_z": 97
+    }
+  ],
+  "variant": "main"
+}

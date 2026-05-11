@@ -1,0 +1,19 @@
+{
+  "sample_id": "rho_030",
+  "method": "ref7",
+  "tensor_mode": "active",
+  "geom_mode": "sinc",
+  "tensor_shape": [
+    91,
+    181,
+    41
+  ],
+  "active_coverage_ratio": 1.0,
+  "estimated_peak_memory_mb": 11.3861083984375,
+  "quality": {
+    "nmse": 3.1981308460203612,
+    "psnr": 13.701650412767155,
+    "ssim": 0.05012398809032901
+  },
+  "wall_time_sec": 0.204604062018916
+}

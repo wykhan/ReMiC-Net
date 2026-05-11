@@ -1,0 +1,195 @@
+{
+  "sample_id": "L_shape_train_0128",
+  "split": "train",
+  "seed": 20264811,
+  "smoke": false,
+  "scene_type": "shape_family_extended_target",
+  "family": "L-shape",
+  "shape_params": {
+    "family": "L-shape",
+    "arm_x_vox": 8,
+    "arm_y_vox": 5,
+    "width_vox": 1
+  },
+  "placement": {
+    "center_x_m": -0.12,
+    "center_y_m": -0.195,
+    "center_z_m": 0.4,
+    "center_rho_m": 0.228965,
+    "center_theta_rad": -2.118357,
+    "orientation_rad": 0.523599,
+    "prefer_edge": true,
+    "radial_bucket": "boundary",
+    "azimuth_bucket": "low",
+    "height_bucket": "upper",
+    "size_bucket": "small",
+    "density_bucket": "sparse"
+  },
+  "scatter_rule": {
+    "amplitude_range": [
+      0.55,
+      1.25
+    ],
+    "phase_randomized": false
+  },
+  "point_count": 13,
+  "points": [
+    {
+      "x_m": -0.12,
+      "y_m": -0.195,
+      "z_m": 0.4,
+      "rho_m": 0.228965,
+      "theta_rad": -2.122451,
+      "amplitude": 0.844424,
+      "phase_rad": 0.0,
+      "grid_x": 36,
+      "grid_y": 21,
+      "grid_z": 350
+    },
+    {
+      "x_m": -0.115,
+      "y_m": -0.195,
+      "z_m": 0.4,
+      "rho_m": 0.226385,
+      "theta_rad": -2.10364,
+      "amplitude": 0.942854,
+      "phase_rad": 0.0,
+      "grid_x": 37,
+      "grid_y": 21,
+      "grid_z": 350
+    },
+    {
+      "x_m": -0.11,
+      "y_m": -0.19,
+      "z_m": 0.4,
+      "rho_m": 0.219545,
+      "theta_rad": -2.095592,
+      "amplitude": 0.976568,
+      "phase_rad": 0.0,
+      "grid_x": 38,
+      "grid_y": 22,
+      "grid_z": 350
+    },
+    {
+      "x_m": -0.105,
+      "y_m": -0.19,
+      "z_m": 0.4,
+      "rho_m": 0.217083,
+      "theta_rad": -2.075658,
+      "amplitude": 0.965588,
+      "phase_rad": 0.0,
+      "grid_x": 39,
+      "grid_y": 22,
+      "grid_z": 350
+    },
+    {
+      "x_m": -0.105,
+      "y_m": -0.185,
+      "z_m": 0.4,
+      "rho_m": 0.21272,
+      "theta_rad": -2.087027,
+      "amplitude": 0.989345,
+      "phase_rad": 0.0,
+      "grid_x": 39,
+      "grid_y": 23,
+      "grid_z": 350
+    },
+    {
+      "x_m": -0.1,
+      "y_m": -0.185,
+      "z_m": 0.4,
+      "rho_m": 0.210297,
+      "theta_rad": -2.066348,
+      "amplitude": 1.006958,
+      "phase_rad": 0.0,
+      "grid_x": 40,
+      "grid_y": 23,
+      "grid_z": 350
+    },
+    {
+      "x_m": -0.095,
+      "y_m": -0.18,
+      "z_m": 0.4,
+      "rho_m": 0.203531,
+      "theta_rad": -2.056418,
+      "amplitude": 1.104851,
+      "phase_rad": 0.0,
+      "grid_x": 41,
+      "grid_y": 24,
+      "grid_z": 350
+    },
+    {
+      "x_m": -0.09,
+      "y_m": -0.18,
+      "z_m": 0.4,
+      "rho_m": 0.201246,
+      "theta_rad": -2.034444,
+      "amplitude": 1.123672,
+      "phase_rad": 0.0,
+      "grid_x": 42,
+      "grid_y": 24,
+      "grid_z": 350
+    },
+    {
+      "x_m": -0.085,
+      "y_m": -0.175,
+      "z_m": 0.4,
+      "rho_m": 0.194551,
+      "theta_rad": -2.02295,
+      "amplitude": 1.158342,
+      "phase_rad": 0.0,
+      "grid_x": 43,
+      "grid_y": 25,
+      "grid_z": 350
+    },
+    {
+      "x_m": -0.12,
+      "y_m": -0.19,
+      "z_m": 0.4,
+      "rho_m": 0.224722,
+      "theta_rad": -2.134113,
+      "amplitude": 0.8285,
+      "phase_rad": 0.0,
+      "grid_x": 36,
+      "grid_y": 22,
+      "grid_z": 350
+    },
+    {
+      "x_m": -0.125,
+      "y_m": -0.185,
+      "z_m": 0.4,
+      "rho_m": 0.223271,
+      "theta_rad": -2.16501,
+      "amplitude": 0.933706,
+      "phase_rad": 0.0,
+      "grid_x": 35,
+      "grid_y": 23,
+      "grid_z": 350
+    },
+    {
+      "x_m": -0.13,
+      "y_m": -0.18,
+      "z_m": 0.4,
+      "rho_m": 0.222036,
+      "theta_rad": -2.196281,
+      "amplitude": 1.059431,
+      "phase_rad": 0.0,
+      "grid_x": 34,
+      "grid_y": 24,
+      "grid_z": 350
+    },
+    {
+      "x_m": -0.135,
+      "y_m": -0.175,
+      "z_m": 0.4,
+      "rho_m": 0.22102,
+      "theta_rad": -2.227871,
+      "amplitude": 1.105695,
+      "phase_rad": 0.0,
+      "grid_x": 33,
+      "grid_y": 25,
+      "grid_z": 350
+    }
+  ],
+  "variant": "main"
+}

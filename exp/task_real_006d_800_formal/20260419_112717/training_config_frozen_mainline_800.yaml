@@ -1,0 +1,12 @@
+mode: frozen_mainline
+frontend: Variant B
+physics_backbone: ref3
+second_stage: 3D U-Net
+training_data: shape_family_full_only
+epochs: 5
+batch_size: 4
+lr: 0.001
+train_count: 800
+val_count: 100
+test_count: 100
+device: cuda

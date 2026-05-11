@@ -1,0 +1,19 @@
+{
+  "sample_id": "double_outer_seam",
+  "method": "ref5",
+  "tensor_mode": "active",
+  "geom_mode": "sinc",
+  "tensor_shape": [
+    93,
+    181,
+    47
+  ],
+  "active_coverage_ratio": 0.9990848776023793,
+  "estimated_peak_memory_mb": 13.261421203613281,
+  "quality": {
+    "nmse": 9.394359358714672,
+    "psnr": 12.879682112002943,
+    "ssim": 0.006568352431652773
+  },
+  "wall_time_sec": 0.21289552212692797
+}

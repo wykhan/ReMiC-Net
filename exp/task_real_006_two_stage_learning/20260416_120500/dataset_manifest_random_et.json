@@ -1,0 +1,19 @@
+{
+  "dataset_name": "task_real_006_random_et_supplement",
+  "dataset_type": "manisali_style_random_extended_target",
+  "split_sizes": {
+    "train": 192,
+    "val": 48,
+    "test": 48
+  },
+  "counts_by_split": {
+    "train": 192,
+    "val": 48,
+    "test": 48
+  },
+  "total_samples": 288,
+  "index_path": "dataset/index.json",
+  "gt_definition": "voxel truth amplitude volume",
+  "forward_simulator_entry": "workspace.sim.forward_cylindrical_point",
+  "reconstruction_entry": "workspace.recon.cyl_fast_reference_engine.reconstruct_cylindrical_reference(method='ref3')"
+}

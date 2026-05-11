@@ -1,0 +1,15 @@
+{
+  "dataset_name": "task_real_004c_broader_controlled_point_suite",
+  "split_names": [
+    "controlled_broader"
+  ],
+  "counts_by_group": {
+    "rho_sweep": 31,
+    "azimuth_control": 15,
+    "height_control": 10,
+    "double_point_control": 8
+  },
+  "total_samples": 64,
+  "index_path": "dataset/index.json",
+  "default_frontend_variant": "Variant B"
+}

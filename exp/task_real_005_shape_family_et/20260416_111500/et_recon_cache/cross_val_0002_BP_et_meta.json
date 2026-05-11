@@ -1,0 +1,32 @@
+{
+  "sample_id": "cross_val_0002",
+  "family": "cross",
+  "method": "BP",
+  "tensor_mode": "active",
+  "geom_mode": "sinc",
+  "tensor_shape": [
+    117,
+    181,
+    54
+  ],
+  "active_coverage_ratio": 0.9984172206394428,
+  "estimated_peak_memory_mb": 20.4378662109375,
+  "quality": {
+    "nmse": 0.9331844502156991,
+    "psnr": 15.51370647762941,
+    "ssim": 0.26731141029005057
+  },
+  "wall_time_sec": 1.2639211961068213,
+  "failure_tags": [
+    "F2"
+  ],
+  "failure_diagnostics": {
+    "gt_recall": 0.6129032258064516,
+    "recon_precision": 0.30612244897959184,
+    "support_ratio": 1.5806451612903225,
+    "components_gt": 1,
+    "components_recon": 1,
+    "center_shift_vox": 1.223984619754552,
+    "weak_recall": 0.46153846153846156
+  }
+}

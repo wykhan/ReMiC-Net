@@ -1,0 +1,19 @@
+{
+  "sample_id": "double_outer_center",
+  "method": "ref5",
+  "tensor_mode": "active",
+  "geom_mode": "sinc",
+  "tensor_shape": [
+    144,
+    181,
+    47
+  ],
+  "active_coverage_ratio": 0.9686761229314421,
+  "estimated_peak_memory_mb": 20.551025390625,
+  "quality": {
+    "nmse": 10.758462476728486,
+    "psnr": 16.550539088486094,
+    "ssim": 0.006506279907507725
+  },
+  "wall_time_sec": 0.33471949212253094
+}

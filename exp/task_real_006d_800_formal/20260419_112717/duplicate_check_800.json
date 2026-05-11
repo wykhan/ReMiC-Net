@@ -1,0 +1,11 @@
+{
+  "duplicate_scene_hash_count": 0,
+  "duplicate_param_signature_count": 168,
+  "nearest_distance_mean": 1.4458699577549663,
+  "nearest_distance_min": 0.2993410563704885,
+  "main_counts_by_split": {
+    "train": 800,
+    "val": 100,
+    "test": 100
+  }
+}

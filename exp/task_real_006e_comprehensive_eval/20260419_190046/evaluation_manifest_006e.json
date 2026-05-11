@@ -1,0 +1,28 @@
+{
+  "task": "task_real_006e",
+  "source_task": "task_real_006d",
+  "source_root": "exp/task_real_006d_800_formal/20260419_112717",
+  "frozen_checkpoint": "exp/task_real_006d_800_formal/20260419_112717/checkpoints/frozen_mainline/best.pt",
+  "methods": [
+    "Ref3",
+    "Ref5",
+    "Ref7",
+    "Ref9",
+    "BP",
+    "Ours"
+  ],
+  "datasets": [
+    "Main Test",
+    "Unseen-Parameter OOD",
+    "Leave-One-Family-Out Focused OOD",
+    "Random-ET OOD"
+  ],
+  "metrics": [
+    "NMSE",
+    "PSNR",
+    "SSIM",
+    "runtime",
+    "speedup_vs_BP"
+  ],
+  "boundary_statement": "Evaluation only. No retraining, no dataset changes, no protocol changes, no physics-consistency."
+}

@@ -1,0 +1,1602 @@
+[
+  {
+    "sample_id": "random_et_test_00000",
+    "split": "test",
+    "seed": 20260501,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00000.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00000_gt.npz",
+    "point_count": 32,
+    "center_rho_m": 0.052202,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 32,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00001",
+    "split": "test",
+    "seed": 20260502,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00001.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00001_gt.npz",
+    "point_count": 28,
+    "center_rho_m": 0.166208,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 28,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00002",
+    "split": "test",
+    "seed": 20260503,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00002.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00002_gt.npz",
+    "point_count": 38,
+    "center_rho_m": 0.161555,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 38,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00003",
+    "split": "test",
+    "seed": 20260504,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00003.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00003_gt.npz",
+    "point_count": 44,
+    "center_rho_m": 0.205061,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 44,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00004",
+    "split": "test",
+    "seed": 20260505,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00004.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00004_gt.npz",
+    "point_count": 40,
+    "center_rho_m": 0.104043,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 40,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00005",
+    "split": "test",
+    "seed": 20260506,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00005.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00005_gt.npz",
+    "point_count": 22,
+    "center_rho_m": 0.225222,
+    "near_edge": true,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 22,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00006",
+    "split": "test",
+    "seed": 20260507,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00006.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00006_gt.npz",
+    "point_count": 19,
+    "center_rho_m": 0.102956,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 19,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00007",
+    "split": "test",
+    "seed": 20260508,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00007.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00007_gt.npz",
+    "point_count": 29,
+    "center_rho_m": 0.139463,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 29,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00008",
+    "split": "test",
+    "seed": 20260509,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00008.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00008_gt.npz",
+    "point_count": 58,
+    "center_rho_m": 0.079057,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 58,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00009",
+    "split": "test",
+    "seed": 20260510,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00009.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00009_gt.npz",
+    "point_count": 27,
+    "center_rho_m": 0.215407,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 27,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00010",
+    "split": "test",
+    "seed": 20260511,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00010.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00010_gt.npz",
+    "point_count": 33,
+    "center_rho_m": 0.246272,
+    "near_edge": true,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 33,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00011",
+    "split": "test",
+    "seed": 20260512,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00011.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00011_gt.npz",
+    "point_count": 55,
+    "center_rho_m": 0.169189,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 55,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00012",
+    "split": "test",
+    "seed": 20260513,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00012.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00012_gt.npz",
+    "point_count": 32,
+    "center_rho_m": 0.068007,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 32,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00013",
+    "split": "test",
+    "seed": 20260514,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00013.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00013_gt.npz",
+    "point_count": 38,
+    "center_rho_m": 0.172409,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 38,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00014",
+    "split": "test",
+    "seed": 20260515,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00014.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00014_gt.npz",
+    "point_count": 22,
+    "center_rho_m": 0.208147,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 22,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00015",
+    "split": "test",
+    "seed": 20260516,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00015.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00015_gt.npz",
+    "point_count": 63,
+    "center_rho_m": 0.098489,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 63,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00016",
+    "split": "test",
+    "seed": 20260517,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00016.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00016_gt.npz",
+    "point_count": 42,
+    "center_rho_m": 0.145344,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 42,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00017",
+    "split": "test",
+    "seed": 20260518,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00017.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00017_gt.npz",
+    "point_count": 52,
+    "center_rho_m": 0.068007,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 52,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00018",
+    "split": "test",
+    "seed": 20260519,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00018.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00018_gt.npz",
+    "point_count": 45,
+    "center_rho_m": 0.145774,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 45,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00019",
+    "split": "test",
+    "seed": 20260520,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00019.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00019_gt.npz",
+    "point_count": 63,
+    "center_rho_m": 0.145602,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 63,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00020",
+    "split": "test",
+    "seed": 20260521,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00020.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00020_gt.npz",
+    "point_count": 35,
+    "center_rho_m": 0.105948,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 35,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00021",
+    "split": "test",
+    "seed": 20260522,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00021.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00021_gt.npz",
+    "point_count": 48,
+    "center_rho_m": 0.210297,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 48,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00022",
+    "split": "test",
+    "seed": 20260523,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00022.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00022_gt.npz",
+    "point_count": 32,
+    "center_rho_m": 0.218002,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 32,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00023",
+    "split": "test",
+    "seed": 20260524,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00023.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00023_gt.npz",
+    "point_count": 38,
+    "center_rho_m": 0.181728,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 38,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00024",
+    "split": "test",
+    "seed": 20260525,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00024.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00024_gt.npz",
+    "point_count": 19,
+    "center_rho_m": 0.05,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 19,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00025",
+    "split": "test",
+    "seed": 20260526,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00025.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00025_gt.npz",
+    "point_count": 62,
+    "center_rho_m": 0.188481,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 62,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00026",
+    "split": "test",
+    "seed": 20260527,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00026.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00026_gt.npz",
+    "point_count": 53,
+    "center_rho_m": 0.065765,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 53,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00027",
+    "split": "test",
+    "seed": 20260528,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00027.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00027_gt.npz",
+    "point_count": 21,
+    "center_rho_m": 0.158114,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 21,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00028",
+    "split": "test",
+    "seed": 20260529,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00028.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00028_gt.npz",
+    "point_count": 39,
+    "center_rho_m": 0.060828,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 39,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00029",
+    "split": "test",
+    "seed": 20260530,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00029.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00029_gt.npz",
+    "point_count": 35,
+    "center_rho_m": 0.123693,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 35,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00030",
+    "split": "test",
+    "seed": 20260531,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00030.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00030_gt.npz",
+    "point_count": 43,
+    "center_rho_m": 0.169706,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 43,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00031",
+    "split": "test",
+    "seed": 20260532,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00031.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00031_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.085586,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 18,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00032",
+    "split": "test",
+    "seed": 20260533,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00032.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00032_gt.npz",
+    "point_count": 30,
+    "center_rho_m": 0.051478,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 30,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00033",
+    "split": "test",
+    "seed": 20260534,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00033.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00033_gt.npz",
+    "point_count": 20,
+    "center_rho_m": 0.240832,
+    "near_edge": true,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 20,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00034",
+    "split": "test",
+    "seed": 20260535,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00034.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00034_gt.npz",
+    "point_count": 37,
+    "center_rho_m": 0.0886,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 37,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00035",
+    "split": "test",
+    "seed": 20260536,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00035.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00035_gt.npz",
+    "point_count": 49,
+    "center_rho_m": 0.132382,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 49,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00036",
+    "split": "test",
+    "seed": 20260537,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00036.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00036_gt.npz",
+    "point_count": 56,
+    "center_rho_m": 0.167705,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 56,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00037",
+    "split": "test",
+    "seed": 20260538,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00037.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00037_gt.npz",
+    "point_count": 47,
+    "center_rho_m": 0.163783,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 47,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00038",
+    "split": "test",
+    "seed": 20260539,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00038.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00038_gt.npz",
+    "point_count": 32,
+    "center_rho_m": 0.0886,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 32,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00039",
+    "split": "test",
+    "seed": 20260540,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00039.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00039_gt.npz",
+    "point_count": 28,
+    "center_rho_m": 0.121037,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 28,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00040",
+    "split": "test",
+    "seed": 20260541,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00040.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00040_gt.npz",
+    "point_count": 35,
+    "center_rho_m": 0.114018,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 35,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00041",
+    "split": "test",
+    "seed": 20260542,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00041.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00041_gt.npz",
+    "point_count": 36,
+    "center_rho_m": 0.055227,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 36,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00042",
+    "split": "test",
+    "seed": 20260543,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00042.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00042_gt.npz",
+    "point_count": 50,
+    "center_rho_m": 0.17066,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 50,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00043",
+    "split": "test",
+    "seed": 20260544,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00043.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00043_gt.npz",
+    "point_count": 15,
+    "center_rho_m": 0.055227,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 15,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00044",
+    "split": "test",
+    "seed": 20260545,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00044.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00044_gt.npz",
+    "point_count": 29,
+    "center_rho_m": 0.090554,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 29,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00045",
+    "split": "test",
+    "seed": 20260546,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00045.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00045_gt.npz",
+    "point_count": 31,
+    "center_rho_m": 0.132853,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 31,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00046",
+    "split": "test",
+    "seed": 20260547,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00046.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00046_gt.npz",
+    "point_count": 41,
+    "center_rho_m": 0.1251,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 41,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00047",
+    "split": "test",
+    "seed": 20260548,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00047.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00047_gt.npz",
+    "point_count": 43,
+    "center_rho_m": 0.248697,
+    "near_edge": true,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 43,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00048",
+    "split": "test",
+    "seed": 20260549,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00048.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00048_gt.npz",
+    "point_count": 29,
+    "center_rho_m": 0.16568,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 29,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00049",
+    "split": "test",
+    "seed": 20260550,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00049.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00049_gt.npz",
+    "point_count": 45,
+    "center_rho_m": 0.118849,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 45,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00050",
+    "split": "test",
+    "seed": 20260551,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00050.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00050_gt.npz",
+    "point_count": 37,
+    "center_rho_m": 0.205973,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 37,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00051",
+    "split": "test",
+    "seed": 20260552,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00051.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00051_gt.npz",
+    "point_count": 16,
+    "center_rho_m": 0.233077,
+    "near_edge": true,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 16,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00052",
+    "split": "test",
+    "seed": 20260553,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00052.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00052_gt.npz",
+    "point_count": 37,
+    "center_rho_m": 0.123491,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 37,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00053",
+    "split": "test",
+    "seed": 20260554,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00053.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00053_gt.npz",
+    "point_count": 54,
+    "center_rho_m": 0.129035,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 54,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00054",
+    "split": "test",
+    "seed": 20260555,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00054.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00054_gt.npz",
+    "point_count": 20,
+    "center_rho_m": 0.247487,
+    "near_edge": true,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 20,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00055",
+    "split": "test",
+    "seed": 20260556,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00055.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00055_gt.npz",
+    "point_count": 26,
+    "center_rho_m": 0.220227,
+    "near_edge": true,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 26,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00056",
+    "split": "test",
+    "seed": 20260557,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00056.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00056_gt.npz",
+    "point_count": 27,
+    "center_rho_m": 0.190263,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 27,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00057",
+    "split": "test",
+    "seed": 20260558,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00057.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00057_gt.npz",
+    "point_count": 53,
+    "center_rho_m": 0.248697,
+    "near_edge": true,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 53,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00058",
+    "split": "test",
+    "seed": 20260559,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00058.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00058_gt.npz",
+    "point_count": 42,
+    "center_rho_m": 0.188215,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 42,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00059",
+    "split": "test",
+    "seed": 20260560,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00059.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00059_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.096047,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 17,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00060",
+    "split": "test",
+    "seed": 20260561,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00060.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00060_gt.npz",
+    "point_count": 42,
+    "center_rho_m": 0.051478,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 42,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00061",
+    "split": "test",
+    "seed": 20260562,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00061.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00061_gt.npz",
+    "point_count": 64,
+    "center_rho_m": 0.198494,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 64,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00062",
+    "split": "test",
+    "seed": 20260563,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00062.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00062_gt.npz",
+    "point_count": 39,
+    "center_rho_m": 0.100499,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 39,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00063",
+    "split": "test",
+    "seed": 20260564,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00063.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00063_gt.npz",
+    "point_count": 19,
+    "center_rho_m": 0.120208,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 19,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00064",
+    "split": "test",
+    "seed": 20260565,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00064.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00064_gt.npz",
+    "point_count": 23,
+    "center_rho_m": 0.079057,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 23,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00065",
+    "split": "test",
+    "seed": 20260566,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00065.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00065_gt.npz",
+    "point_count": 34,
+    "center_rho_m": 0.181728,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 34,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00066",
+    "split": "test",
+    "seed": 20260567,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00066.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00066_gt.npz",
+    "point_count": 25,
+    "center_rho_m": 0.089022,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 25,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00067",
+    "split": "test",
+    "seed": 20260568,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00067.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00067_gt.npz",
+    "point_count": 61,
+    "center_rho_m": 0.223607,
+    "near_edge": true,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 61,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00068",
+    "split": "test",
+    "seed": 20260569,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00068.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00068_gt.npz",
+    "point_count": 46,
+    "center_rho_m": 0.194743,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 46,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00069",
+    "split": "test",
+    "seed": 20260570,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00069.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00069_gt.npz",
+    "point_count": 31,
+    "center_rho_m": 0.115109,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 31,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00070",
+    "split": "test",
+    "seed": 20260571,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00070.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00070_gt.npz",
+    "point_count": 41,
+    "center_rho_m": 0.083217,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 41,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00071",
+    "split": "test",
+    "seed": 20260572,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00071.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00071_gt.npz",
+    "point_count": 28,
+    "center_rho_m": 0.063246,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 28,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00072",
+    "split": "test",
+    "seed": 20260573,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00072.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00072_gt.npz",
+    "point_count": 31,
+    "center_rho_m": 0.109772,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 31,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00073",
+    "split": "test",
+    "seed": 20260574,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00073.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00073_gt.npz",
+    "point_count": 51,
+    "center_rho_m": 0.078262,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 51,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00074",
+    "split": "test",
+    "seed": 20260575,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00074.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00074_gt.npz",
+    "point_count": 30,
+    "center_rho_m": 0.175071,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 30,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00075",
+    "split": "test",
+    "seed": 20260576,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00075.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00075_gt.npz",
+    "point_count": 35,
+    "center_rho_m": 0.065192,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 35,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00076",
+    "split": "test",
+    "seed": 20260577,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00076.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00076_gt.npz",
+    "point_count": 22,
+    "center_rho_m": 0.195,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 22,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00077",
+    "split": "test",
+    "seed": 20260578,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00077.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00077_gt.npz",
+    "point_count": 29,
+    "center_rho_m": 0.107703,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 29,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00078",
+    "split": "test",
+    "seed": 20260579,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00078.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00078_gt.npz",
+    "point_count": 33,
+    "center_rho_m": 0.061847,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 33,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00079",
+    "split": "test",
+    "seed": 20260580,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00079.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00079_gt.npz",
+    "point_count": 42,
+    "center_rho_m": 0.19906,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 42,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00080",
+    "split": "test",
+    "seed": 20260581,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00080.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00080_gt.npz",
+    "point_count": 47,
+    "center_rho_m": 0.233077,
+    "near_edge": true,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 47,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00081",
+    "split": "test",
+    "seed": 20260582,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00081.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00081_gt.npz",
+    "point_count": 40,
+    "center_rho_m": 0.154434,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 40,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00082",
+    "split": "test",
+    "seed": 20260583,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00082.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00082_gt.npz",
+    "point_count": 36,
+    "center_rho_m": 0.232863,
+    "near_edge": true,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 36,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00083",
+    "split": "test",
+    "seed": 20260584,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00083.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00083_gt.npz",
+    "point_count": 24,
+    "center_rho_m": 0.232433,
+    "near_edge": true,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 24,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00084",
+    "split": "test",
+    "seed": 20260585,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00084.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00084_gt.npz",
+    "point_count": 23,
+    "center_rho_m": 0.06265,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 23,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00085",
+    "split": "test",
+    "seed": 20260586,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00085.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00085_gt.npz",
+    "point_count": 45,
+    "center_rho_m": 0.075,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 45,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00086",
+    "split": "test",
+    "seed": 20260587,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00086.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00086_gt.npz",
+    "point_count": 40,
+    "center_rho_m": 0.156924,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 40,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00087",
+    "split": "test",
+    "seed": 20260588,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00087.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00087_gt.npz",
+    "point_count": 42,
+    "center_rho_m": 0.083217,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 42,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00088",
+    "split": "test",
+    "seed": 20260589,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00088.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00088_gt.npz",
+    "point_count": 21,
+    "center_rho_m": 0.096047,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 21,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00089",
+    "split": "test",
+    "seed": 20260590,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00089.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00089_gt.npz",
+    "point_count": 28,
+    "center_rho_m": 0.195,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 28,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00090",
+    "split": "test",
+    "seed": 20260591,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00090.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00090_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.24026,
+    "near_edge": true,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 17,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00091",
+    "split": "test",
+    "seed": 20260592,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00091.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00091_gt.npz",
+    "point_count": 37,
+    "center_rho_m": 0.208806,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 37,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00092",
+    "split": "test",
+    "seed": 20260593,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00092.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00092_gt.npz",
+    "point_count": 49,
+    "center_rho_m": 0.080623,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 49,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00093",
+    "split": "test",
+    "seed": 20260594,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00093.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00093_gt.npz",
+    "point_count": 32,
+    "center_rho_m": 0.144309,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 32,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00094",
+    "split": "test",
+    "seed": 20260595,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00094.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00094_gt.npz",
+    "point_count": 41,
+    "center_rho_m": 0.22561,
+    "near_edge": true,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 41,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00095",
+    "split": "test",
+    "seed": 20260596,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00095.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00095_gt.npz",
+    "point_count": 52,
+    "center_rho_m": 0.092195,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 52,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00096",
+    "split": "test",
+    "seed": 20260597,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00096.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00096_gt.npz",
+    "point_count": 37,
+    "center_rho_m": 0.175071,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 3,
+      "point_count": 37,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00097",
+    "split": "test",
+    "seed": 20260598,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00097.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00097_gt.npz",
+    "point_count": 32,
+    "center_rho_m": 0.237697,
+    "near_edge": true,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 32,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00098",
+    "split": "test",
+    "seed": 20260599,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00098.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00098_gt.npz",
+    "point_count": 23,
+    "center_rho_m": 0.215058,
+    "near_edge": false,
+    "shape_params": {
+      "local_center_count": 2,
+      "point_count": 23,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  },
+  {
+    "sample_id": "random_et_test_00099",
+    "split": "test",
+    "seed": 20260600,
+    "family": "random_et",
+    "scene_path": "dataset/scenes/test/random_et_test_00099.json",
+    "gt_volume_path": "dataset/gt_volumes/random_et_test_00099_gt.npz",
+    "point_count": 71,
+    "center_rho_m": 0.220057,
+    "near_edge": true,
+    "shape_params": {
+      "local_center_count": 4,
+      "point_count": 71,
+      "generation_style": "local_centers + clustered points + sparse bridges"
+    }
+  }
+]

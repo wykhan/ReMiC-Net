@@ -1,0 +1,19 @@
+{
+  "sample_id": "az_outer_quarter_pi",
+  "method": "ref3",
+  "tensor_mode": "active",
+  "geom_mode": "sinc",
+  "tensor_shape": [
+    91,
+    181,
+    43
+  ],
+  "active_coverage_ratio": 1.0,
+  "estimated_peak_memory_mb": 11.822113037109375,
+  "quality": {
+    "nmse": 13.250768661485772,
+    "psnr": 9.746689261968196,
+    "ssim": 0.0032432533362309426
+  },
+  "wall_time_sec": 0.1280159940943122
+}

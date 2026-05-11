@@ -1,0 +1,7 @@
+{
+  "baseline_source_root": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_006d_800_formal/20260419_112717",
+  "baseline_checkpoint": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_006d_800_formal/20260419_112717/checkpoints/frozen_mainline/best.pt",
+  "baseline_report_006d": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_006d_800_formal/20260419_112717/task_real_006d_report.md",
+  "baseline_report_006e": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_006e_comprehensive_eval/20260419_190046/task_real_006e_report.md",
+  "baseline_all_metrics_006e": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_006e_comprehensive_eval/20260419_190046/mainline_vs_baselines_all_datasets.csv"
+}

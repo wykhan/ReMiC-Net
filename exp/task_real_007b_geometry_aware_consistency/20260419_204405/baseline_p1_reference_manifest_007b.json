@@ -1,0 +1,9 @@
+{
+  "baseline_source_root": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_006d_800_formal/20260419_112717",
+  "baseline_checkpoint": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_006d_800_formal/20260419_112717/checkpoints/frozen_mainline/best.pt",
+  "p1_source_root": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_007_physics_consistency/20260419_201254",
+  "p1_checkpoint": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_007_physics_consistency/20260419_201254/checkpoints/pc_p1/best.pt",
+  "report_006d": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_006d_800_formal/20260419_112717/task_real_006d_report.md",
+  "report_006e": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_006e_comprehensive_eval/20260419_190046/task_real_006e_report.md",
+  "report_007": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_007_physics_consistency/20260419_201254/task_real_007_report.md"
+}

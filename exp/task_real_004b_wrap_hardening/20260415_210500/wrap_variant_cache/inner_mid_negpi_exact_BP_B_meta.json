@@ -1,0 +1,23 @@
+{
+  "sample_id": "inner_mid_negpi_exact",
+  "method": "BP",
+  "variant": "B",
+  "tensor_mode": "active",
+  "geom_mode": "sinc",
+  "tensor_shape": [
+    92,
+    181,
+    73
+  ],
+  "active_coverage_ratio": 1.0,
+  "estimated_peak_memory_mb": 21.70807647705078,
+  "reference_count": 31,
+  "runtime_repeats_sec": [
+    1.3082083510234952
+  ],
+  "quality": {
+    "nmse": 9.07260417937325,
+    "psnr": 11.391780295512696,
+    "ssim": 0.015386292478406826
+  }
+}

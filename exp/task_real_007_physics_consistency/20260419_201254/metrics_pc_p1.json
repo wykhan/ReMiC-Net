@@ -1,0 +1,142 @@
+{
+  "training_config": {
+    "epochs": 3,
+    "batch_size": 2,
+    "lr": 0.0005,
+    "lambda_pc": 0.05,
+    "device": "cuda",
+    "baseline_checkpoint": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_006d_800_formal/20260419_112717/checkpoints/frozen_mainline/best.pt",
+    "consistency": {
+      "lambda_pc": 0.05,
+      "subset_sampling": {
+        "active_cells_per_sample": 12,
+        "frequencies_per_cell": 24,
+        "fixed_subset": true,
+        "subset_seed": 20260419
+      },
+      "physics_consistency": "sampled forward echo consistency on sparse measurement subset"
+    }
+  },
+  "history": {
+    "train_total": [
+      0.13134304048493506,
+      0.12912740187719465,
+      0.12788840712979435
+    ],
+    "train_image": [
+      0.08495170911774039,
+      0.08348948426544667,
+      0.08280266957357525
+    ],
+    "train_echo": [
+      0.9278266099840402,
+      0.9127583391219377,
+      0.9017147353291511
+    ],
+    "val_total": [
+      0.1254815661907196,
+      0.12536004379391671,
+      0.12602876558899878
+    ],
+    "val_image": [
+      0.08136888459324837,
+      0.08021957613527775,
+      0.08010823071002961
+    ],
+    "val_echo": [
+      0.8822536194324493,
+      0.9028093254566193,
+      0.9184106743335724
+    ]
+  },
+  "overall": {
+    "num_test_samples": 100,
+    "ref3_nmse_mean": 5.997081764777547,
+    "ref3_psnr_mean": 23.797283856458293,
+    "ref3_ssim_mean": 0.1851951384937236,
+    "pc_nmse_mean": 0.8035961176805447,
+    "pc_psnr_mean": 31.1601613026806,
+    "pc_ssim_mean": 0.6295322037697896,
+    "nmse_gain_vs_ref3": 5.193485647097003,
+    "psnr_gain_vs_ref3": 7.362877446222309,
+    "ssim_gain_vs_ref3": 0.444337065276066,
+    "avg_inference_time_sec": 0.0010056972038000821
+  },
+  "family_metrics": {
+    "line": {
+      "count": 20,
+      "baseline_nmse_mean": 5.207608052731839,
+      "pc_nmse_mean": 0.7753025123092859,
+      "baseline_psnr_mean": 24.54234403581781,
+      "pc_psnr_mean": 31.831773663909143,
+      "baseline_ssim_mean": 0.2231650669728557,
+      "pc_ssim_mean": 0.657155261128437,
+      "nmse_gain": 4.432305540422552
+    },
+    "cross": {
+      "count": 15,
+      "baseline_nmse_mean": 5.301341320507399,
+      "pc_nmse_mean": 0.8072224421187469,
+      "baseline_psnr_mean": 23.53942937932234,
+      "pc_psnr_mean": 30.92458785619835,
+      "baseline_ssim_mean": 0.18357937610163783,
+      "pc_ssim_mean": 0.6079737915850462,
+      "nmse_gain": 4.494118878388651
+    },
+    "L-shape": {
+      "count": 20,
+      "baseline_nmse_mean": 3.3243850019688863,
+      "pc_nmse_mean": 0.7234320541571618,
+      "baseline_psnr_mean": 23.58883861125389,
+      "pc_psnr_mean": 29.73035130984684,
+      "baseline_ssim_mean": 0.18415931677260383,
+      "pc_ssim_mean": 0.6027355562078234,
+      "nmse_gain": 2.6009529478117246
+    },
+    "double-line": {
+      "count": 15,
+      "baseline_nmse_mean": 3.155882342589904,
+      "pc_nmse_mean": 0.7503206599998932,
+      "baseline_psnr_mean": 23.364330428113572,
+      "pc_psnr_mean": 28.70868969048187,
+      "baseline_ssim_mean": 0.20362625474531704,
+      "pc_ssim_mean": 0.5411831052841259,
+      "nmse_gain": 2.4055616825900112
+    },
+    "small_rect_edge": {
+      "count": 10,
+      "baseline_nmse_mean": 4.158195671827727,
+      "pc_nmse_mean": 0.7748961533273633,
+      "baseline_psnr_mean": 24.174785605585406,
+      "pc_psnr_mean": 30.708456661678486,
+      "baseline_ssim_mean": 0.18880941862326206,
+      "pc_ssim_mean": 0.612799243587219,
+      "nmse_gain": 3.383299518500364
+    },
+    "point_cluster": {
+      "count": 20,
+      "baseline_nmse_mean": 13.031400185950176,
+      "pc_nmse_mean": 0.9636406186836144,
+      "baseline_psnr_mean": 23.590023976850127,
+      "pc_psnr_mean": 34.15949504879761,
+      "baseline_ssim_mean": 0.13384237627631135,
+      "pc_ssim_mean": 0.7195029070671989,
+      "nmse_gain": 12.067759567266563
+    }
+  },
+  "failure_counts": {
+    "baseline": {
+      "F2": 41,
+      "F5": 22,
+      "F6": 12,
+      "F4": 20,
+      "F1": 36,
+      "F3": 23
+    },
+    "pc": {
+      "F2": 8,
+      "F6": 2
+    }
+  },
+  "best_checkpoint": "checkpoints/pc_p1/best.pt"
+}

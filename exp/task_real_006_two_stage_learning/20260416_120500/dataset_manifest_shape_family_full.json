@@ -1,0 +1,79 @@
+{
+  "dataset_name": "task_real_005_shape_family_et_phase1",
+  "dataset_type": "shape_family_extended_target",
+  "protocol_snapshot_source": "CONTEXT/et_dataset_protocol.md",
+  "family_names": [
+    "line",
+    "cross",
+    "L-shape",
+    "double-line",
+    "small_rect_edge",
+    "point_cluster"
+  ],
+  "split_sizes_per_family": {
+    "train": 96,
+    "val": 24,
+    "test": 24
+  },
+  "counts_by_family": {
+    "line": 144,
+    "cross": 144,
+    "L-shape": 144,
+    "double-line": 144,
+    "small_rect_edge": 144,
+    "point_cluster": 144
+  },
+  "counts_by_split": {
+    "train": 576,
+    "val": 144,
+    "test": 144
+  },
+  "counts_by_family_split": {
+    "line": {
+      "train": 96,
+      "val": 24,
+      "test": 24
+    },
+    "cross": {
+      "train": 96,
+      "val": 24,
+      "test": 24
+    },
+    "L-shape": {
+      "train": 96,
+      "val": 24,
+      "test": 24
+    },
+    "double-line": {
+      "train": 96,
+      "val": 24,
+      "test": 24
+    },
+    "small_rect_edge": {
+      "train": 96,
+      "val": 24,
+      "test": 24
+    },
+    "point_cluster": {
+      "train": 96,
+      "val": 24,
+      "test": 24
+    }
+  },
+  "total_samples": 864,
+  "gt_definition": "voxel truth amplitude volume",
+  "forward_simulator_entry": "workspace.sim.forward_cylindrical_point",
+  "reconstruction_entries": {
+    "variantB": "workspace.recon.cyl_fast_reference_engine.reconstruct_cylindrical_reference",
+    "bp": "workspace.recon.cyl_fast_reference_engine.reconstruct_cylindrical_reference(method='BP')"
+  },
+  "baseline_methods": [
+    "ref3",
+    "ref5",
+    "ref7",
+    "ref9",
+    "BP"
+  ],
+  "scale_statement": "Reduced ET-1 executed scale frozen for task_real_005 to keep the first full true-cylindrical ET baseline pass tractable.",
+  "index_path": "dataset/index.json"
+}

@@ -1,0 +1,32 @@
+{
+  "sample_id": "small_rect_edge_train_0008",
+  "family": "small_rect_edge",
+  "method": "ref5",
+  "tensor_mode": "active",
+  "geom_mode": "sinc",
+  "tensor_shape": [
+    109,
+    181,
+    51
+  ],
+  "active_coverage_ratio": 1.0,
+  "estimated_peak_memory_mb": 16.879898071289062,
+  "quality": {
+    "nmse": 2.241627406545103,
+    "psnr": 13.573757841899571,
+    "ssim": 0.065357455501728
+  },
+  "wall_time_sec": 0.3448239411227405,
+  "failure_tags": [
+    "F2"
+  ],
+  "failure_diagnostics": {
+    "gt_recall": 0.6875,
+    "recon_precision": 0.07692307692307693,
+    "support_ratio": 4.875,
+    "components_gt": 1,
+    "components_recon": 1,
+    "center_shift_vox": 1.4195497985298882,
+    "weak_recall": 0.8181818181818182
+  }
+}

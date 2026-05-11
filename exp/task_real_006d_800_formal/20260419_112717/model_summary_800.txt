@@ -1,0 +1,6 @@
+model_summary_800
+model_name: UNet3DSmall
+total_params: 85017
+trainable_params: 85017
+input_tensor_shape: [1, 1, 24, 24, 24]
+output_tensor_shape: [1, 1, 24, 24, 24]

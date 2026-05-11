@@ -1,0 +1,29 @@
+{
+  "formal_scale_completed": false,
+  "counts": {
+    "shape_family": {
+      "train": 576,
+      "val": 144,
+      "test": 144
+    },
+    "random_et": {
+      "train": 192,
+      "val": 48,
+      "test": 48
+    }
+  },
+  "targets": {
+    "shape_family": {
+      "train": 30000,
+      "val": 6000,
+      "test": 6000
+    },
+    "random_et": {
+      "train": 5000,
+      "val": 1000,
+      "test": 1000
+    }
+  },
+  "shape_total_samples": 864,
+  "random_total_samples": 288
+}

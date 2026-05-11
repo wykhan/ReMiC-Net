@@ -1,0 +1,9 @@
+{
+  "total_samples": 100,
+  "splits": {
+    "test": 100
+  },
+  "average_active_measurements": {
+    "test": 7596.47
+  }
+}

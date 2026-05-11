@@ -1,0 +1,131 @@
+{
+  "mode": "frozen_mainline",
+  "config": {
+    "epochs": 5,
+    "batch_size": 4,
+    "lr": 0.001,
+    "train_count": 576,
+    "val_count": 144,
+    "test_count": 144,
+    "device": "cuda"
+  },
+  "history": {
+    "train_losses": [
+      0.3634789605211053,
+      0.09932091780420807,
+      0.08671758380822009,
+      0.08337348156298201,
+      0.07999785917086734
+    ],
+    "val_losses": [
+      0.11206463600198428,
+      0.08985129267805153,
+      0.08445615880191326,
+      0.08060299087729719,
+      0.07954703167908722
+    ],
+    "smoke_train_loss": 5.9078086614608765,
+    "smoke_val_loss": 3.5783462524414062,
+    "best_val_loss": 0.07954703167908722,
+    "epochs": 5
+  },
+  "overall": {
+    "mode": "M2",
+    "num_test_samples": 144,
+    "ref3_nmse_mean": 5.769334643858039,
+    "ref3_psnr_mean": 23.916329171659157,
+    "ref3_ssim_mean": 0.19701909587708774,
+    "learned_nmse_mean": 0.8280702755269052,
+    "learned_psnr_mean": 30.992173700718013,
+    "learned_ssim_mean": 0.6265132262746893,
+    "nmse_gain_vs_ref3": 4.941264368331133,
+    "psnr_gain_vs_ref3": 7.075844529058857,
+    "ssim_gain_vs_ref3": 0.4294941303976015,
+    "avg_inference_time_sec": 0.0011153440152864074
+  },
+  "family_metrics": {
+    "L-shape": {
+      "count": 24,
+      "ref3_nmse_mean": 5.324878338200795,
+      "learned_nmse_mean": 0.7936766503650824,
+      "ref3_psnr_mean": 22.97106558589216,
+      "learned_psnr_mean": 29.826607318252343,
+      "ref3_ssim_mean": 0.16587793065753154,
+      "learned_ssim_mean": 0.6030924611757821,
+      "nmse_gain_vs_ref3": 4.531201687835713
+    },
+    "cross": {
+      "count": 24,
+      "ref3_nmse_mean": 3.7309385264266552,
+      "learned_nmse_mean": 0.7635879244877101,
+      "ref3_psnr_mean": 24.18463756110388,
+      "learned_psnr_mean": 30.0202298798162,
+      "ref3_ssim_mean": 0.22257632954455744,
+      "learned_ssim_mean": 0.5890532660075292,
+      "nmse_gain_vs_ref3": 2.967350601938945
+    },
+    "double-line": {
+      "count": 24,
+      "ref3_nmse_mean": 5.213236955245104,
+      "learned_nmse_mean": 0.8218833508909142,
+      "ref3_psnr_mean": 22.696929467853124,
+      "learned_psnr_mean": 29.55579056690082,
+      "ref3_ssim_mean": 0.15571934939203916,
+      "learned_ssim_mean": 0.5741177896549104,
+      "nmse_gain_vs_ref3": 4.39135360435419
+    },
+    "line": {
+      "count": 24,
+      "ref3_nmse_mean": 5.025149796823082,
+      "learned_nmse_mean": 0.7918820935428394,
+      "ref3_psnr_mean": 24.765705798297773,
+      "learned_psnr_mean": 31.726436351190785,
+      "ref3_ssim_mean": 0.23945566274049682,
+      "learned_ssim_mean": 0.6632771517973007,
+      "nmse_gain_vs_ref3": 4.2332677032802435
+    },
+    "point_cluster": {
+      "count": 24,
+      "ref3_nmse_mean": 11.3377188683045,
+      "learned_nmse_mean": 1.015051589062367,
+      "ref3_psnr_mean": 24.346086873920175,
+      "learned_psnr_mean": 33.986737732341105,
+      "ref3_ssim_mean": 0.1839139881529166,
+      "learned_ssim_mean": 0.7102821686506218,
+      "nmse_gain_vs_ref3": 10.32266727924213
+    },
+    "small_rect_edge": {
+      "count": 24,
+      "ref3_nmse_mean": 3.9840853781480963,
+      "learned_nmse_mean": 0.7823400448125173,
+      "ref3_psnr_mean": 24.53354974288784,
+      "learned_psnr_mean": 30.83724035580683,
+      "ref3_ssim_mean": 0.21457131477498484,
+      "learned_ssim_mean": 0.6192565203619912,
+      "nmse_gain_vs_ref3": 3.2017453333355785
+    }
+  },
+  "failure_counts": {
+    "ref3": {
+      "F2": 66,
+      "F4": 29,
+      "F1": 50,
+      "F3": 37,
+      "F5": 33,
+      "F6": 35
+    },
+    "M2": {
+      "F2": 23,
+      "F5": 1,
+      "F6": 10,
+      "F3": 1
+    }
+  },
+  "best_checkpoint": "checkpoints/frozen_mainline/best.pt",
+  "frozen_mainline_definition": {
+    "frontend": "Variant B",
+    "physics_backbone": "ref3",
+    "second_stage": "3D U-Net",
+    "training_data": "shape_family_full only"
+  }
+}

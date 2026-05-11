@@ -1,0 +1,30 @@
+{
+  "sample_id": "line_train_0002",
+  "family": "line",
+  "method": "ref5",
+  "tensor_mode": "active",
+  "geom_mode": "sinc",
+  "tensor_shape": [
+    148,
+    181,
+    59
+  ],
+  "active_coverage_ratio": 1.0,
+  "estimated_peak_memory_mb": 26.51470947265625,
+  "quality": {
+    "nmse": 2.174003472473336,
+    "psnr": 10.894507333169651,
+    "ssim": 0.08826286084634552
+  },
+  "wall_time_sec": 0.4137620460242033,
+  "failure_tags": [],
+  "failure_diagnostics": {
+    "gt_recall": 0.9090909090909091,
+    "recon_precision": 0.13978494623655913,
+    "support_ratio": 5.636363636363637,
+    "components_gt": 1,
+    "components_recon": 1,
+    "center_shift_vox": 1.3150959646469829,
+    "weak_recall": 1.0
+  }
+}

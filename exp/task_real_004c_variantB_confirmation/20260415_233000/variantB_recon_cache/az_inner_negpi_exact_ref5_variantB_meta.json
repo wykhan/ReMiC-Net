@@ -1,0 +1,19 @@
+{
+  "sample_id": "az_inner_negpi_exact",
+  "method": "ref5",
+  "tensor_mode": "active",
+  "geom_mode": "sinc",
+  "tensor_shape": [
+    92,
+    181,
+    67
+  ],
+  "active_coverage_ratio": 1.0,
+  "estimated_peak_memory_mb": 18.701133728027344,
+  "quality": {
+    "nmse": 14.24213886259562,
+    "psnr": 9.433348016727939,
+    "ssim": 0.00722758465410132
+  },
+  "wall_time_sec": 0.26978819188661873
+}

@@ -1,0 +1,4502 @@
+[
+  {
+    "sample_id": "leave_one_family_out_ood_0000",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260449,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0000.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0000_gt.npz",
+    "point_count": 16,
+    "center_rho_m": 0.214767,
+    "center_theta_rad": 2.700262,
+    "center_z_m": -0.128,
+    "orientation_rad": 0.523599,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.01,
+            0.005
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.9844
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.0,
+            -0.0225
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 1.0544
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "near_seam",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0001",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260448,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0001.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0001_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.140357,
+    "center_theta_rad": 1.652532,
+    "center_z_m": 0.444,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.005,
+            0.005
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 1.0127
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.0075,
+            0.0075
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 1.0991
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "high",
+      "height_bucket": "upper"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0002",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260474,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0002.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0002_gt.npz",
+    "point_count": 16,
+    "center_rho_m": 0.205548,
+    "center_theta_rad": -0.71675,
+    "center_z_m": -0.244,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.01,
+            0.0
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.9469
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.0225,
+            0.0225
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 1.0383
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "mid",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0003",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260492,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0003.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0003_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.201556,
+    "center_theta_rad": 1.036781,
+    "center_z_m": 0.468,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.015,
+            -0.015
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.8464
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.0075,
+            0.0225
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 1.0418
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "high",
+      "height_bucket": "upper"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0004",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260507,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0004.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0004_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.173277,
+    "center_theta_rad": -0.775465,
+    "center_z_m": 0.148,
+    "orientation_rad": 0.0,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 8,
+          "center_offset_xy": [
+            0.015,
+            0.005
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.7692
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.0225,
+            -0.0225
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.8217
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "mid",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0005",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260539,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0005.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0005_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.20025,
+    "center_theta_rad": 1.621252,
+    "center_z_m": -0.392,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.015,
+            -0.005
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.8514
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.015,
+            0.0
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.8893
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "high",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0006",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260650,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0006.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0006_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.166433,
+    "center_theta_rad": 0.571079,
+    "center_z_m": -0.344,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.015,
+            0.005
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.8495
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.0225,
+            0.015
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.9653
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "mid",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0007",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260573,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0007.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0007_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.12855,
+    "center_theta_rad": -1.325215,
+    "center_z_m": -0.552,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.015,
+            -0.01
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.9947
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.0,
+            -0.0075
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.9001
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "low",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0008",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260597,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0008.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0008_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.248244,
+    "center_theta_rad": 1.735004,
+    "center_z_m": -0.028,
+    "orientation_rad": 0.523599,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.005,
+            -0.005
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.9448
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.0075,
+            0.0225
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.9915
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "boundary",
+      "azimuth_bucket": "high",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0009",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260700,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0009.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0009_gt.npz",
+    "point_count": 16,
+    "center_rho_m": 0.1253,
+    "center_theta_rad": 2.074936,
+    "center_z_m": -0.232,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 8,
+          "center_offset_xy": [
+            0.0,
+            -0.01
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.7725
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.0225,
+            0.0225
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.9657
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "high",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0010",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260631,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0010.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0010_gt.npz",
+    "point_count": 15,
+    "center_rho_m": 0.160078,
+    "center_theta_rad": -0.270679,
+    "center_z_m": 0.2,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 8,
+          "center_offset_xy": [
+            0.015,
+            -0.01
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.8278
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.0,
+            -0.015
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.7539
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "mid",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0011",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260617,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0011.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0011_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.2067,
+    "center_theta_rad": 2.146249,
+    "center_z_m": 0.432,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.0,
+            -0.01
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.9508
+        },
+        {
+          "count": 8,
+          "center_offset_xy": [
+            -0.015,
+            -0.015
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.8008
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "high",
+      "height_bucket": "upper"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0012",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260637,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0012.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0012_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.120934,
+    "center_theta_rad": 1.0532,
+    "center_z_m": 0.512,
+    "orientation_rad": 0.523599,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.01,
+            0.0
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.9692
+        },
+        {
+          "count": 8,
+          "center_offset_xy": [
+            0.015,
+            -0.015
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.8298
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "high",
+      "height_bucket": "upper"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0013",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260665,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0013.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0013_gt.npz",
+    "point_count": 19,
+    "center_rho_m": 0.181246,
+    "center_theta_rad": -1.138134,
+    "center_z_m": -0.548,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.015,
+            -0.005
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.8738
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.0,
+            -0.0225
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.9307
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "low",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "dense"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0014",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260725,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0014.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0014_gt.npz",
+    "point_count": 16,
+    "center_rho_m": 0.25318,
+    "center_theta_rad": -0.165216,
+    "center_z_m": -0.332,
+    "orientation_rad": 1.570796,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.01,
+            0.01
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.7622
+        },
+        {
+          "count": 8,
+          "center_offset_xy": [
+            0.015,
+            0.0225
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.9502
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "boundary",
+      "azimuth_bucket": "mid",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0015",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260685,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0015.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0015_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.146373,
+    "center_theta_rad": -1.43539,
+    "center_z_m": 0.156,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.005,
+            -0.015
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.924
+        },
+        {
+          "count": 8,
+          "center_offset_xy": [
+            0.0075,
+            0.0225
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.7512
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "low",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0016",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260746,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0016.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0016_gt.npz",
+    "point_count": 16,
+    "center_rho_m": 0.156924,
+    "center_theta_rad": -1.023025,
+    "center_z_m": 0.504,
+    "orientation_rad": 0.523599,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 8,
+          "center_offset_xy": [
+            -0.01,
+            0.0
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.9817
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.0075,
+            0.0075
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 1.0063
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "low",
+      "height_bucket": "upper"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0017",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260743,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0017.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0017_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.222036,
+    "center_theta_rad": -2.998627,
+    "center_z_m": -0.324,
+    "orientation_rad": 0.785398,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.015,
+            0.005
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.985
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.0075,
+            -0.0075
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.8925
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "boundary",
+      "azimuth_bucket": "near_seam",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0018",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260740,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0018.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0018_gt.npz",
+    "point_count": 19,
+    "center_rho_m": 0.189275,
+    "center_theta_rad": 1.348122,
+    "center_z_m": 0.52,
+    "orientation_rad": 1.047198,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.015,
+            -0.005
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.7581
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.0075,
+            -0.0075
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.9312
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "high",
+      "height_bucket": "upper"
+    },
+    "size_bucket": "large",
+    "density_bucket": "dense"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0019",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260761,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0019.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0019_gt.npz",
+    "point_count": 16,
+    "center_rho_m": 0.123794,
+    "center_theta_rad": 2.373437,
+    "center_z_m": -0.624,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.005,
+            0.005
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.7907
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.015,
+            -0.0075
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.9186
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "high",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0020",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260802,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0020.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0020_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.198305,
+    "center_theta_rad": -2.551486,
+    "center_z_m": 0.088,
+    "orientation_rad": 0.523599,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.005,
+            0.0
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.8683
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.0225,
+            0.0075
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.9095
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "near_seam",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0021",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260823,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0021.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0021_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.132004,
+    "center_theta_rad": -2.234571,
+    "center_z_m": 0.632,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.01,
+            -0.005
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.7858
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.0225,
+            0.0
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.958
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "low",
+      "height_bucket": "upper"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0022",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260814,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0022.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0022_gt.npz",
+    "point_count": 15,
+    "center_rho_m": 0.155,
+    "center_theta_rad": 1.579034,
+    "center_z_m": -0.128,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 8,
+          "center_offset_xy": [
+            0.01,
+            -0.01
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 1.0837
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.0225,
+            -0.0225
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.8758
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "high",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0023",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260822,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0023.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0023_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.239008,
+    "center_theta_rad": -1.835839,
+    "center_z_m": -0.56,
+    "orientation_rad": 2.356194,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.015,
+            0.015
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.774
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.015,
+            -0.0075
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 1.0176
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "boundary",
+      "azimuth_bucket": "low",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0024",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260872,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0024.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0024_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.164469,
+    "center_theta_rad": 2.800848,
+    "center_z_m": 0.128,
+    "orientation_rad": 0.523599,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.005,
+            -0.015
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.9063
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.0225,
+            0.0
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.9277
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "near_seam",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0025",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260863,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0025.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0025_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.158824,
+    "center_theta_rad": 2.048445,
+    "center_z_m": 0.304,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.005,
+            0.005
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 1.0586
+        },
+        {
+          "count": 8,
+          "center_offset_xy": [
+            -0.0225,
+            -0.0075
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.9509
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "high",
+      "height_bucket": "upper"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0026",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260894,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0026.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0026_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.25894,
+    "center_theta_rad": 1.397353,
+    "center_z_m": -0.58,
+    "orientation_rad": 1.570796,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.015,
+            -0.005
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 1.0595
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.0225,
+            -0.0225
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.8974
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "boundary",
+      "azimuth_bucket": "high",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0027",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260912,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0027.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0027_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.157877,
+    "center_theta_rad": -1.753994,
+    "center_z_m": -0.496,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 8,
+          "center_offset_xy": [
+            -0.015,
+            0.01
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.9467
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.015,
+            0.0075
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.8982
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "low",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0028",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260933,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0028.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0028_gt.npz",
+    "point_count": 15,
+    "center_rho_m": 0.186682,
+    "center_theta_rad": 1.701054,
+    "center_z_m": 0.248,
+    "orientation_rad": 0.0,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.005,
+            -0.01
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.7972
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.0225,
+            0.0
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 1.0977
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "high",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0029",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260925,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0029.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0029_gt.npz",
+    "point_count": 15,
+    "center_rho_m": 0.231948,
+    "center_theta_rad": 3.012792,
+    "center_z_m": -0.608,
+    "orientation_rad": 0.785398,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.005,
+            -0.005
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.8391
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.0,
+            -0.0075
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.8254
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "boundary",
+      "azimuth_bucket": "near_seam",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0030",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261003,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0030.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0030_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.198305,
+    "center_theta_rad": -0.977744,
+    "center_z_m": 0.268,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.01,
+            0.005
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 1.0657
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.0,
+            0.0075
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.8893
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "low",
+      "height_bucket": "upper"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0031",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20260965,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0031.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0031_gt.npz",
+    "point_count": 16,
+    "center_rho_m": 0.18868,
+    "center_theta_rad": -0.548434,
+    "center_z_m": -0.02,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.015,
+            -0.005
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 1.0049
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.0225,
+            0.0
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.7907
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "mid",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0032",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261005,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0032.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0032_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.214767,
+    "center_theta_rad": -1.356313,
+    "center_z_m": -0.544,
+    "orientation_rad": 0.0,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.015,
+            0.01
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 1.0056
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.0225,
+            -0.015
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.7743
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "low",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0033",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261115,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0033.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0033_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.134629,
+    "center_theta_rad": -1.942779,
+    "center_z_m": -0.2,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.01,
+            -0.005
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.9358
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.0,
+            0.0225
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 1.0833
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "low",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0034",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261013,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0034.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0034_gt.npz",
+    "point_count": 16,
+    "center_rho_m": 0.211896,
+    "center_theta_rad": -1.233227,
+    "center_z_m": -0.492,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 8,
+          "center_offset_xy": [
+            -0.005,
+            0.01
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.7525
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.0225,
+            -0.0225
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.984
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "low",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0035",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261043,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0035.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0035_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.251446,
+    "center_theta_rad": -0.307524,
+    "center_z_m": 0.492,
+    "orientation_rad": 2.356194,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.015,
+            -0.005
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.9882
+        },
+        {
+          "count": 8,
+          "center_offset_xy": [
+            -0.0225,
+            0.0225
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 1.0543
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "boundary",
+      "azimuth_bucket": "mid",
+      "height_bucket": "upper"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0036",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261053,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0036.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0036_gt.npz",
+    "point_count": 16,
+    "center_rho_m": 0.150748,
+    "center_theta_rad": -1.656573,
+    "center_z_m": -0.456,
+    "orientation_rad": 0.0,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.0,
+            -0.01
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 1.0235
+        },
+        {
+          "count": 8,
+          "center_offset_xy": [
+            0.0075,
+            -0.015
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.8787
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "low",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0037",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261103,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0037.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0037_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.148408,
+    "center_theta_rad": 2.576063,
+    "center_z_m": -0.624,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.01,
+            -0.015
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 1.0301
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.015,
+            0.0075
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.9927
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "near_seam",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0038",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261085,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0038.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0038_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.254951,
+    "center_theta_rad": -2.410653,
+    "center_z_m": -0.176,
+    "orientation_rad": 1.570796,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.015,
+            -0.01
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.9025
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.0075,
+            -0.015
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.8325
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "boundary",
+      "azimuth_bucket": "near_seam",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0039",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261129,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0039.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0039_gt.npz",
+    "point_count": 19,
+    "center_rho_m": 0.147139,
+    "center_theta_rad": 0.174896,
+    "center_z_m": -0.544,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.005,
+            -0.005
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.9383
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.015,
+            -0.015
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 1.0395
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "mid",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "dense"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0040",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261133,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0040.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0040_gt.npz",
+    "point_count": 15,
+    "center_rho_m": 0.206155,
+    "center_theta_rad": -2.740995,
+    "center_z_m": 0.2,
+    "orientation_rad": 0.0,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.015,
+            -0.005
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.9868
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.015,
+            -0.0075
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.8592
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "near_seam",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0041",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261127,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0041.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0041_gt.npz",
+    "point_count": 16,
+    "center_rho_m": 0.230489,
+    "center_theta_rad": -2.921206,
+    "center_z_m": -0.1,
+    "orientation_rad": 0.785398,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.0,
+            -0.005
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 1.0759
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.015,
+            -0.0075
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.8408
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "boundary",
+      "azimuth_bucket": "near_seam",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0042",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261149,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0042.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0042_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.199249,
+    "center_theta_rad": -0.306947,
+    "center_z_m": -0.316,
+    "orientation_rad": 1.047198,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.015,
+            0.015
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.9284
+        },
+        {
+          "count": 8,
+          "center_offset_xy": [
+            0.0225,
+            0.0
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.8578
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "mid",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0043",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261164,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0043.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0043_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.2,
+    "center_theta_rad": 0.930398,
+    "center_z_m": 0.324,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.01,
+            0.01
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.9393
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.0225,
+            -0.0075
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.7688
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "high",
+      "height_bucket": "upper"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0044",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261196,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0044.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0044_gt.npz",
+    "point_count": 15,
+    "center_rho_m": 0.210535,
+    "center_theta_rad": 3.080084,
+    "center_z_m": -0.492,
+    "orientation_rad": 0.0,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.01,
+            0.0
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 1.0277
+        },
+        {
+          "count": 8,
+          "center_offset_xy": [
+            -0.0075,
+            0.0225
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.8239
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "near_seam",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0045",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261204,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0045.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0045_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.214709,
+    "center_theta_rad": 1.09466,
+    "center_z_m": 0.384,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.005,
+            0.005
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.7889
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.0,
+            0.0225
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.7756
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "high",
+      "height_bucket": "upper"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0046",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261223,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0046.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0046_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.214767,
+    "center_theta_rad": 1.137932,
+    "center_z_m": 0.632,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 8,
+          "center_offset_xy": [
+            -0.015,
+            -0.005
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.9965
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.015,
+            -0.0225
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.7707
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "high",
+      "height_bucket": "upper"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0047",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261228,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0047.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0047_gt.npz",
+    "point_count": 19,
+    "center_rho_m": 0.225,
+    "center_theta_rad": -0.637768,
+    "center_z_m": -0.272,
+    "orientation_rad": 2.356194,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.005,
+            0.01
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 1.0994
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.015,
+            -0.015
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 1.0077
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "boundary",
+      "azimuth_bucket": "mid",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "dense"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0048",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261266,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0048.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0048_gt.npz",
+    "point_count": 16,
+    "center_rho_m": 0.19105,
+    "center_theta_rad": -2.315084,
+    "center_z_m": 0.18,
+    "orientation_rad": 0.0,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.005,
+            -0.005
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 1.0184
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.015,
+            -0.0225
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.992
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "low",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0049",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261500,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0049.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0049_gt.npz",
+    "point_count": 19,
+    "center_rho_m": 0.146373,
+    "center_theta_rad": 1.715409,
+    "center_z_m": -0.188,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.01,
+            0.005
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 1.0695
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.015,
+            0.0075
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.7909
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "high",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "dense"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0050",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261290,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0050.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0050_gt.npz",
+    "point_count": 15,
+    "center_rho_m": 0.234307,
+    "center_theta_rad": 0.869742,
+    "center_z_m": -0.452,
+    "orientation_rad": 1.047198,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 8,
+          "center_offset_xy": [
+            0.015,
+            0.0
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.9919
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.015,
+            -0.015
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.7647
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "boundary",
+      "azimuth_bucket": "high",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0051",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261342,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0051.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0051_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.129808,
+    "center_theta_rad": 1.281705,
+    "center_z_m": -0.184,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.0,
+            -0.015
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.8009
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.0225,
+            0.0075
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.8484
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "high",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0052",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261331,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0052.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0052_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.122066,
+    "center_theta_rad": -0.607957,
+    "center_z_m": 0.1,
+    "orientation_rad": 0.523599,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.0,
+            -0.005
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.9459
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.0075,
+            0.015
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.8827
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "mid",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0053",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261346,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0053.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0053_gt.npz",
+    "point_count": 16,
+    "center_rho_m": 0.218002,
+    "center_theta_rad": 2.206655,
+    "center_z_m": -0.368,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.0,
+            0.01
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.8579
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.0075,
+            -0.015
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.7672
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "high",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0054",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261382,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0054.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0054_gt.npz",
+    "point_count": 20,
+    "center_rho_m": 0.124197,
+    "center_theta_rad": -0.885822,
+    "center_z_m": 0.156,
+    "orientation_rad": 1.047198,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.015,
+            -0.01
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 1.0568
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.015,
+            -0.0075
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.7576
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "low",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "dense"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0055",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261449,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0055.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0055_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.190394,
+    "center_theta_rad": 2.081849,
+    "center_z_m": -0.436,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.005,
+            0.0
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.9701
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.0075,
+            0.0075
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 1.0637
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "high",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0056",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261403,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0056.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0056_gt.npz",
+    "point_count": 19,
+    "center_rho_m": 0.264764,
+    "center_theta_rad": 1.389188,
+    "center_z_m": 0.024,
+    "orientation_rad": 0.0,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.01,
+            0.0
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.7825
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.015,
+            -0.0075
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.8325
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "boundary",
+      "azimuth_bucket": "high",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "dense"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0057",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261433,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0057.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0057_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.139014,
+    "center_theta_rad": -0.927876,
+    "center_z_m": 0.02,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.005,
+            -0.015
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.8317
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.015,
+            0.0
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.8729
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "low",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0058",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261429,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0058.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0058_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.132004,
+    "center_theta_rad": 2.493411,
+    "center_z_m": 0.448,
+    "orientation_rad": 1.047198,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.005,
+            0.005
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 1.0553
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.0,
+            0.0
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.913
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "near_seam",
+      "height_bucket": "upper"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0059",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261437,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0059.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0059_gt.npz",
+    "point_count": 16,
+    "center_rho_m": 0.262345,
+    "center_theta_rad": 0.138359,
+    "center_z_m": -0.448,
+    "orientation_rad": 2.356194,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.015,
+            0.005
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 1.0881
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.015,
+            0.0075
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.7566
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "boundary",
+      "azimuth_bucket": "mid",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0060",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261481,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0060.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0060_gt.npz",
+    "point_count": 15,
+    "center_rho_m": 0.150083,
+    "center_theta_rad": -0.529608,
+    "center_z_m": -0.132,
+    "orientation_rad": 0.0,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.015,
+            -0.015
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.9802
+        },
+        {
+          "count": 8,
+          "center_offset_xy": [
+            -0.0075,
+            0.0225
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.7897
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "mid",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0061",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261468,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0061.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0061_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.141421,
+    "center_theta_rad": -0.793544,
+    "center_z_m": 0.14,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.005,
+            0.005
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 1.0419
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.0225,
+            0.015
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.9003
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "mid",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0062",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261522,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0062.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0062_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.230054,
+    "center_theta_rad": -3.119804,
+    "center_z_m": -0.44,
+    "orientation_rad": 1.047198,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.015,
+            -0.005
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.8024
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.0,
+            0.0
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.8132
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "boundary",
+      "azimuth_bucket": "near_seam",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0063",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261544,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0063.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0063_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.125,
+    "center_theta_rad": -2.509848,
+    "center_z_m": 0.372,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.005,
+            0.005
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.8724
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.0,
+            -0.0075
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.7959
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "near_seam",
+      "height_bucket": "upper"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0064",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261547,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0064.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0064_gt.npz",
+    "point_count": 16,
+    "center_rho_m": 0.178885,
+    "center_theta_rad": -2.684656,
+    "center_z_m": 0.22,
+    "orientation_rad": 0.0,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.015,
+            0.0
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.7799
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.015,
+            -0.0075
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 1.0867
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "near_seam",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0065",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261568,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0065.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0065_gt.npz",
+    "point_count": 16,
+    "center_rho_m": 0.21225,
+    "center_theta_rad": -2.321311,
+    "center_z_m": -0.464,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.005,
+            -0.005
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 1.0465
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.0225,
+            -0.0225
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.8177
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "low",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0066",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261551,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0066.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0066_gt.npz",
+    "point_count": 19,
+    "center_rho_m": 0.218403,
+    "center_theta_rad": 2.871404,
+    "center_z_m": -0.132,
+    "orientation_rad": 1.047198,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.005,
+            -0.005
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 1.055
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.0,
+            -0.015
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.8292
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "near_seam",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "dense"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0067",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261653,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0067.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0067_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.14151,
+    "center_theta_rad": -2.577048,
+    "center_z_m": -0.316,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.015,
+            0.01
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.8818
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.0,
+            -0.0225
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.9758
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "near_seam",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0068",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261612,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0068.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0068_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.247032,
+    "center_theta_rad": -0.935402,
+    "center_z_m": -0.36,
+    "orientation_rad": 0.0,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.015,
+            0.0
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.9477
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.015,
+            -0.015
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.9167
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "boundary",
+      "azimuth_bucket": "low",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0069",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261609,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0069.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0069_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.194487,
+    "center_theta_rad": 2.37507,
+    "center_z_m": 0.244,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.005,
+            -0.01
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.872
+        },
+        {
+          "count": 8,
+          "center_offset_xy": [
+            -0.015,
+            0.015
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.9228
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "high",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0070",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261645,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0070.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0070_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.132004,
+    "center_theta_rad": -1.127899,
+    "center_z_m": -0.044,
+    "orientation_rad": 1.047198,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.005,
+            -0.01
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.8121
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.0225,
+            -0.0075
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 1.0487
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "low",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0071",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261642,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0071.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0071_gt.npz",
+    "point_count": 20,
+    "center_rho_m": 0.241506,
+    "center_theta_rad": 2.674122,
+    "center_z_m": -0.256,
+    "orientation_rad": 2.356194,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.005,
+            0.0
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 1.0107
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.0075,
+            -0.015
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.886
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "boundary",
+      "azimuth_bucket": "near_seam",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "dense"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0072",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261672,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0072.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0072_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.187417,
+    "center_theta_rad": -2.370134,
+    "center_z_m": 0.628,
+    "orientation_rad": 0.0,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.01,
+            -0.015
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.8367
+        },
+        {
+          "count": 8,
+          "center_offset_xy": [
+            0.015,
+            -0.0075
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.9954
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "low",
+      "height_bucket": "upper"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0073",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261724,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0073.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0073_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.137931,
+    "center_theta_rad": 2.378044,
+    "center_z_m": 0.256,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.015,
+            -0.005
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.8975
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.015,
+            0.0075
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 1.014
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "high",
+      "height_bucket": "upper"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0074",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261693,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0074.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0074_gt.npz",
+    "point_count": 19,
+    "center_rho_m": 0.242539,
+    "center_theta_rad": 1.327112,
+    "center_z_m": -0.228,
+    "orientation_rad": 1.570796,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.005,
+            0.0
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.8071
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.015,
+            0.015
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.9866
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "boundary",
+      "azimuth_bucket": "high",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "dense"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0075",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261759,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0075.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0075_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.13435,
+    "center_theta_rad": -0.780224,
+    "center_z_m": -0.516,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.0,
+            0.015
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.7708
+        },
+        {
+          "count": 8,
+          "center_offset_xy": [
+            0.015,
+            0.015
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.9255
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "mid",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0076",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261729,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0076.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0076_gt.npz",
+    "point_count": 19,
+    "center_rho_m": 0.209344,
+    "center_theta_rad": 2.428597,
+    "center_z_m": -0.048,
+    "orientation_rad": 0.0,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.015,
+            -0.01
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 1.0798
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.0075,
+            0.0
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.9798
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "near_seam",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "dense"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0077",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261749,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0077.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0077_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.220511,
+    "center_theta_rad": -2.5761,
+    "center_z_m": 0.388,
+    "orientation_rad": 0.785398,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 8,
+          "center_offset_xy": [
+            0.0,
+            -0.015
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 1.0797
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.015,
+            -0.0075
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.9283
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "boundary",
+      "azimuth_bucket": "near_seam",
+      "height_bucket": "upper"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0078",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261784,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0078.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0078_gt.npz",
+    "point_count": 15,
+    "center_rho_m": 0.134629,
+    "center_theta_rad": 2.112417,
+    "center_z_m": -0.32,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.005,
+            0.01
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 1.0876
+        },
+        {
+          "count": 8,
+          "center_offset_xy": [
+            0.0,
+            0.0225
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.8016
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "high",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0079",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261780,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0079.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0079_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.205,
+    "center_theta_rad": -0.217477,
+    "center_z_m": 0.36,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 8,
+          "center_offset_xy": [
+            0.015,
+            0.0
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.8861
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.0075,
+            0.0
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.9468
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "mid",
+      "height_bucket": "upper"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0080",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261809,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0080.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0080_gt.npz",
+    "point_count": 19,
+    "center_rho_m": 0.231138,
+    "center_theta_rad": 0.885375,
+    "center_z_m": 0.508,
+    "orientation_rad": 0.0,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.005,
+            0.0
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 1.0875
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.015,
+            0.0
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.9841
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "boundary",
+      "azimuth_bucket": "high",
+      "height_bucket": "upper"
+    },
+    "size_bucket": "large",
+    "density_bucket": "dense"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0081",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261812,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0081.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0081_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.120208,
+    "center_theta_rad": -2.830906,
+    "center_z_m": -0.448,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 8,
+          "center_offset_xy": [
+            -0.015,
+            -0.005
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.8658
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.0075,
+            0.0
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.9017
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "near_seam",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0082",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261824,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0082.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0082_gt.npz",
+    "point_count": 20,
+    "center_rho_m": 0.161245,
+    "center_theta_rad": 2.621097,
+    "center_z_m": -0.184,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.005,
+            0.0
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 1.0885
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.015,
+            0.0075
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 1.0522
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "near_seam",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "dense"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0083",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261847,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0083.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0083_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.217313,
+    "center_theta_rad": 0.413849,
+    "center_z_m": 0.392,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.0,
+            -0.01
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.9434
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.0075,
+            -0.0225
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.8585
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "mid",
+      "height_bucket": "upper"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0084",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261864,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0084.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0084_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.146031,
+    "center_theta_rad": 2.243176,
+    "center_z_m": 0.268,
+    "orientation_rad": 0.523599,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.01,
+            0.01
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.7735
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.0075,
+            0.0225
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.7507
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "high",
+      "height_bucket": "upper"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0085",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261882,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0085.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0085_gt.npz",
+    "point_count": 15,
+    "center_rho_m": 0.130863,
+    "center_theta_rad": -1.672569,
+    "center_z_m": 0.516,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 8,
+          "center_offset_xy": [
+            0.005,
+            0.01
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.9822
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.0225,
+            0.0
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.7628
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "low",
+      "height_bucket": "upper"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0086",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261915,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0086.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0086_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.249098,
+    "center_theta_rad": 0.17765,
+    "center_z_m": -0.552,
+    "orientation_rad": 1.047198,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.015,
+            0.005
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 1.0961
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.0225,
+            0.0
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.7566
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "boundary",
+      "azimuth_bucket": "mid",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0087",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261943,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0087.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0087_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.218002,
+    "center_theta_rad": 2.218909,
+    "center_z_m": -0.028,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.005,
+            0.0
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.7973
+        },
+        {
+          "count": 8,
+          "center_offset_xy": [
+            -0.015,
+            0.015
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.9775
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "high",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0088",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261927,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0088.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0088_gt.npz",
+    "point_count": 16,
+    "center_rho_m": 0.144309,
+    "center_theta_rad": -1.827891,
+    "center_z_m": -0.128,
+    "orientation_rad": 0.523599,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.005,
+            -0.015
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 1.0311
+        },
+        {
+          "count": 8,
+          "center_offset_xy": [
+            -0.015,
+            0.0225
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.9279
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "low",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0089",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261949,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0089.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0089_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.233077,
+    "center_theta_rad": -2.517011,
+    "center_z_m": 0.112,
+    "orientation_rad": 0.785398,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.0,
+            -0.01
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.8779
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.0075,
+            0.0225
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 1.0082
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "boundary",
+      "azimuth_bucket": "near_seam",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0090",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20262025,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0090.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0090_gt.npz",
+    "point_count": 16,
+    "center_rho_m": 0.134629,
+    "center_theta_rad": 1.842861,
+    "center_z_m": -0.012,
+    "orientation_rad": 1.047198,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.005,
+            -0.015
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 1.0821
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.0225,
+            -0.0225
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.9951
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "high",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0091",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261979,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0091.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0091_gt.npz",
+    "point_count": 19,
+    "center_rho_m": 0.192354,
+    "center_theta_rad": -1.07328,
+    "center_z_m": 0.072,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.0,
+            0.01
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.8616
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.0,
+            -0.0075
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 1.0371
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "low",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "dense"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0092",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20261995,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0092.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0092_gt.npz",
+    "point_count": 19,
+    "center_rho_m": 0.235213,
+    "center_theta_rad": 0.040827,
+    "center_z_m": 0.436,
+    "orientation_rad": 0.0,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.015,
+            0.015
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 1.0632
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.0075,
+            -0.0225
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.8723
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "boundary",
+      "azimuth_bucket": "mid",
+      "height_bucket": "upper"
+    },
+    "size_bucket": "large",
+    "density_bucket": "dense"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0093",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20262012,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0093.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0093_gt.npz",
+    "point_count": 19,
+    "center_rho_m": 0.176139,
+    "center_theta_rad": 0.125397,
+    "center_z_m": -0.556,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.005,
+            -0.01
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.976
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.0225,
+            -0.0075
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.8038
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "mid",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "dense"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0094",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20262047,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0094.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0094_gt.npz",
+    "point_count": 14,
+    "center_rho_m": 0.151162,
+    "center_theta_rad": 0.95528,
+    "center_z_m": 0.032,
+    "orientation_rad": 1.570796,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.015,
+            0.015
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 0.8573
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            0.0075,
+            -0.0225
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 1.0213
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "high",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0095",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20262075,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0095.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0095_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.217083,
+    "center_theta_rad": 1.063781,
+    "center_z_m": 0.108,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.01,
+            0.01
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.9146
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.0225,
+            0.0225
+          ],
+          "center_offset_z": 0.008,
+          "amp_scale": 0.8497
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "high",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0096",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20262073,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0096.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0096_gt.npz",
+    "point_count": 17,
+    "center_rho_m": 0.195256,
+    "center_theta_rad": 0.228758,
+    "center_z_m": 0.148,
+    "orientation_rad": 0.0,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.01,
+            -0.01
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.8711
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.0225,
+            0.015
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.9962
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "mid",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0097",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20262081,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0097.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0097_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.155724,
+    "center_theta_rad": 2.394256,
+    "center_z_m": -0.336,
+    "orientation_rad": 0.785398,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            -0.005,
+            -0.005
+          ],
+          "center_offset_z": -0.008,
+          "amp_scale": 0.8722
+        },
+        {
+          "count": 9,
+          "center_offset_xy": [
+            -0.0075,
+            -0.0075
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.9781
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "high",
+      "height_bucket": "lower"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0098",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20262097,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0098.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0098_gt.npz",
+    "point_count": 16,
+    "center_rho_m": 0.245459,
+    "center_theta_rad": -0.572249,
+    "center_z_m": -0.196,
+    "orientation_rad": 1.047198,
+    "near_edge": true,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 8,
+          "center_offset_xy": [
+            0.0,
+            0.005
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.7878
+        },
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.015,
+            0.0
+          ],
+          "center_offset_z": 0.0,
+          "amp_scale": 1.0927
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "boundary",
+      "azimuth_bucket": "mid",
+      "height_bucket": "mid"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  },
+  {
+    "sample_id": "leave_one_family_out_ood_0099",
+    "split": "test",
+    "family": "point_cluster",
+    "seed": 20262149,
+    "scene_path": "dataset/scenes/test/point_cluster/leave_one_family_out_ood_0099.json",
+    "gt_volume_path": "dataset/gt_volumes/leave_one_family_out_ood_0099_gt.npz",
+    "point_count": 18,
+    "center_rho_m": 0.18554,
+    "center_theta_rad": 0.233648,
+    "center_z_m": 0.54,
+    "orientation_rad": 2.356194,
+    "near_edge": false,
+    "shape_params": {
+      "family": "point_cluster",
+      "cluster_count": 2,
+      "cluster_specs": [
+        {
+          "count": 10,
+          "center_offset_xy": [
+            0.0,
+            0.005
+          ],
+          "center_offset_z": 0.004,
+          "amp_scale": 0.932
+        },
+        {
+          "count": 8,
+          "center_offset_xy": [
+            0.0225,
+            0.0
+          ],
+          "center_offset_z": -0.004,
+          "amp_scale": 0.8007
+        }
+      ]
+    },
+    "placement_buckets": {
+      "radial_bucket": "off_center",
+      "azimuth_bucket": "mid",
+      "height_bucket": "upper"
+    },
+    "size_bucket": "large",
+    "density_bucket": "medium"
+  }
+]

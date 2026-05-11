@@ -1,0 +1,19 @@
+{
+  "sample_id": "z_outer_mid",
+  "method": "ref9",
+  "tensor_mode": "active",
+  "geom_mode": "sinc",
+  "tensor_shape": [
+    91,
+    181,
+    43
+  ],
+  "active_coverage_ratio": 1.0,
+  "estimated_peak_memory_mb": 12.001235961914062,
+  "quality": {
+    "nmse": 10.631441116322375,
+    "psnr": 10.70317873963948,
+    "ssim": 0.005826708009354306
+  },
+  "wall_time_sec": 0.26401946507394314
+}

@@ -1,0 +1,195 @@
+{
+  "sample_id": "L_shape_train_0107",
+  "split": "train",
+  "seed": 20264646,
+  "smoke": false,
+  "scene_type": "shape_family_extended_target",
+  "family": "L-shape",
+  "shape_params": {
+    "family": "L-shape",
+    "arm_x_vox": 8,
+    "arm_y_vox": 8,
+    "width_vox": 1
+  },
+  "placement": {
+    "center_x_m": -0.215,
+    "center_y_m": 0.055,
+    "center_z_m": 0.648,
+    "center_rho_m": 0.221923,
+    "center_theta_rad": 2.88175,
+    "orientation_rad": 2.356194,
+    "prefer_edge": true,
+    "radial_bucket": "boundary",
+    "azimuth_bucket": "near_seam",
+    "height_bucket": "upper",
+    "size_bucket": "medium",
+    "density_bucket": "sparse"
+  },
+  "scatter_rule": {
+    "amplitude_range": [
+      0.55,
+      1.25
+    ],
+    "phase_randomized": false
+  },
+  "point_count": 13,
+  "points": [
+    {
+      "x_m": -0.215,
+      "y_m": 0.055,
+      "z_m": 0.648,
+      "rho_m": 0.221923,
+      "theta_rad": 2.89115,
+      "amplitude": 0.679315,
+      "phase_rad": 0.0,
+      "grid_x": 17,
+      "grid_y": 71,
+      "grid_z": 412
+    },
+    {
+      "x_m": -0.22,
+      "y_m": 0.06,
+      "z_m": 0.648,
+      "rho_m": 0.228035,
+      "theta_rad": 2.875341,
+      "amplitude": 0.779103,
+      "phase_rad": 0.0,
+      "grid_x": 16,
+      "grid_y": 72,
+      "grid_z": 412
+    },
+    {
+      "x_m": -0.225,
+      "y_m": 0.065,
+      "z_m": 0.648,
+      "rho_m": 0.234201,
+      "theta_rad": 2.86036,
+      "amplitude": 0.819777,
+      "phase_rad": 0.0,
+      "grid_x": 15,
+      "grid_y": 73,
+      "grid_z": 412
+    },
+    {
+      "x_m": -0.23,
+      "y_m": 0.07,
+      "z_m": 0.648,
+      "rho_m": 0.240416,
+      "theta_rad": 2.846152,
+      "amplitude": 0.984603,
+      "phase_rad": 0.0,
+      "grid_x": 14,
+      "grid_y": 74,
+      "grid_z": 412
+    },
+    {
+      "x_m": -0.235,
+      "y_m": 0.075,
+      "z_m": 0.648,
+      "rho_m": 0.246678,
+      "theta_rad": 2.832662,
+      "amplitude": 1.098271,
+      "phase_rad": 0.0,
+      "grid_x": 13,
+      "grid_y": 75,
+      "grid_z": 412
+    },
+    {
+      "x_m": -0.24,
+      "y_m": 0.08,
+      "z_m": 0.648,
+      "rho_m": 0.252982,
+      "theta_rad": 2.819842,
+      "amplitude": 1.058192,
+      "phase_rad": 0.0,
+      "grid_x": 12,
+      "grid_y": 76,
+      "grid_z": 412
+    },
+    {
+      "x_m": -0.245,
+      "y_m": 0.085,
+      "z_m": 0.648,
+      "rho_m": 0.259326,
+      "theta_rad": 2.807648,
+      "amplitude": 1.174871,
+      "phase_rad": 0.0,
+      "grid_x": 11,
+      "grid_y": 77,
+      "grid_z": 412
+    },
+    {
+      "x_m": -0.22,
+      "y_m": 0.05,
+      "z_m": 0.648,
+      "rho_m": 0.22561,
+      "theta_rad": 2.918116,
+      "amplitude": 0.764295,
+      "phase_rad": 0.0,
+      "grid_x": 16,
+      "grid_y": 70,
+      "grid_z": 412
+    },
+    {
+      "x_m": -0.225,
+      "y_m": 0.045,
+      "z_m": 0.648,
+      "rho_m": 0.229456,
+      "theta_rad": 2.944197,
+      "amplitude": 0.823436,
+      "phase_rad": 0.0,
+      "grid_x": 15,
+      "grid_y": 69,
+      "grid_z": 412
+    },
+    {
+      "x_m": -0.23,
+      "y_m": 0.04,
+      "z_m": 0.648,
+      "rho_m": 0.233452,
+      "theta_rad": 2.969402,
+      "amplitude": 0.865002,
+      "phase_rad": 0.0,
+      "grid_x": 14,
+      "grid_y": 68,
+      "grid_z": 412
+    },
+    {
+      "x_m": -0.235,
+      "y_m": 0.035,
+      "z_m": 0.648,
+      "rho_m": 0.237592,
+      "theta_rad": 2.993743,
+      "amplitude": 0.913709,
+      "phase_rad": 0.0,
+      "grid_x": 13,
+      "grid_y": 67,
+      "grid_z": 412
+    },
+    {
+      "x_m": -0.24,
+      "y_m": 0.03,
+      "z_m": 0.648,
+      "rho_m": 0.241868,
+      "theta_rad": 3.017238,
+      "amplitude": 0.941984,
+      "phase_rad": 0.0,
+      "grid_x": 12,
+      "grid_y": 66,
+      "grid_z": 412
+    },
+    {
+      "x_m": -0.245,
+      "y_m": 0.025,
+      "z_m": 0.648,
+      "rho_m": 0.246272,
+      "theta_rad": 3.039904,
+      "amplitude": 0.982888,
+      "phase_rad": 0.0,
+      "grid_x": 11,
+      "grid_y": 65,
+      "grid_z": 412
+    }
+  ],
+  "variant": "main"
+}

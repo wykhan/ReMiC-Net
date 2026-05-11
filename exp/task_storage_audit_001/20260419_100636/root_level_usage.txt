@@ -1,0 +1,15 @@
+4.0K	/cdrom
+4.0K	/mnt
+4.0K	/root
+4.0K	/srv
+8.0K	/media
+16K	/lost+found
+80K	/snap
+19M	/etc
+210M	/boot
+615M	/tmp
+2.8G	/opt
+14G	/var
+20G	/usr
+853G	/home
+892G	/

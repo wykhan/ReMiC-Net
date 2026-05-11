@@ -1,0 +1,33 @@
+{
+  "sample_id": "L_shape_train_0006",
+  "family": "L-shape",
+  "method": "ref3",
+  "tensor_mode": "active",
+  "geom_mode": "sinc",
+  "tensor_shape": [
+    142,
+    181,
+    67
+  ],
+  "active_coverage_ratio": 0.9808702964052974,
+  "estimated_peak_memory_mb": 28.74407958984375,
+  "quality": {
+    "nmse": 3.5799379608848927,
+    "psnr": 12.514885373437505,
+    "ssim": 0.012635745986454757
+  },
+  "wall_time_sec": 0.3758813659660518,
+  "failure_tags": [
+    "F2",
+    "F3"
+  ],
+  "failure_diagnostics": {
+    "gt_recall": 0.4166666666666667,
+    "recon_precision": 0.03409090909090909,
+    "support_ratio": 7.333333333333333,
+    "components_gt": 1,
+    "components_recon": 1,
+    "center_shift_vox": 1.2666363089011103,
+    "weak_recall": 0.6
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "sample_id": "az_outer_pi_m1",
+  "method": "ref9",
+  "tensor_mode": "active",
+  "geom_mode": "sinc",
+  "tensor_shape": [
+    92,
+    181,
+    43
+  ],
+  "active_coverage_ratio": 1.0,
+  "estimated_peak_memory_mb": 12.122947692871094,
+  "quality": {
+    "nmse": 10.283807754506316,
+    "psnr": 10.847560831695757,
+    "ssim": 0.005899324803287142
+  },
+  "wall_time_sec": 0.276245994027704
+}

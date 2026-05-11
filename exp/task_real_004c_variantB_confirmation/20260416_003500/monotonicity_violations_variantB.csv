@@ -1,0 +1,8 @@
+subset,nmse_violation_count,psnr_violation_count,total_samples
+all_samples,16,16,70
+seam_subset,4,4,20
+non_seam_subset,12,12,50
+inner_radius_subset,3,3,25
+outer_radius_subset,9,9,23
+height_edge_subset,1,1,5
+double_point_subset,4,4,8

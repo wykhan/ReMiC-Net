@@ -1,0 +1,15 @@
+metric,value
+num_samples,100
+ref3_nmse_mean,6.70495840641621
+learned_nmse_mean,0.9775761767232864
+ref3_psnr_mean,23.634634061604924
+learned_psnr_mean,31.595202354938646
+ref3_ssim_mean,0.12995631577621114
+learned_ssim_mean,0.5898914518756383
+nmse_gain_vs_ref3,5.7273822296929255
+ref3_F2_count,0
+learned_F2_count,0
+ref3_F3_count,0
+learned_F3_count,0
+ref3_F4_count,1
+learned_F4_count,0

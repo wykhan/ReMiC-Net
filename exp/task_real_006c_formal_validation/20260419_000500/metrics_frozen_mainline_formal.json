@@ -1,0 +1,4 @@
+{
+  "status": "not_run",
+  "reason": "formal-scale dataset completion failed; training forbidden by task_real_006c hard constraint 1"
+}

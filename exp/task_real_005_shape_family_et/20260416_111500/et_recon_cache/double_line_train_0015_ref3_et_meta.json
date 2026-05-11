@@ -1,0 +1,30 @@
+{
+  "sample_id": "double_line_train_0015",
+  "family": "double-line",
+  "method": "ref3",
+  "tensor_mode": "active",
+  "geom_mode": "sinc",
+  "tensor_shape": [
+    152,
+    181,
+    57
+  ],
+  "active_coverage_ratio": 1.0,
+  "estimated_peak_memory_mb": 26.16254425048828,
+  "quality": {
+    "nmse": 2.2835082632685397,
+    "psnr": 9.000517731056362,
+    "ssim": 0.07832108453306458
+  },
+  "wall_time_sec": 0.31292019900865853,
+  "failure_tags": [],
+  "failure_diagnostics": {
+    "gt_recall": 0.9615384615384616,
+    "recon_precision": 0.1172566371681416,
+    "support_ratio": 5.794871794871795,
+    "components_gt": 1,
+    "components_recon": 2,
+    "center_shift_vox": 1.3705140622179892,
+    "weak_recall": 1.0
+  }
+}

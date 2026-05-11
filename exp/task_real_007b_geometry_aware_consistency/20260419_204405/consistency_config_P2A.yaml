@@ -1,0 +1,15 @@
+mode: Ours-PC-P2A
+epochs: 2
+batch_size: 2
+lr: 0.0002
+lambda_pc: 0.06
+active_cells_per_sample: 12
+frequencies_per_cell: 24
+fixed_subset: True
+subset_seed: 20260419
+support_threshold_ratio: 0.18
+dilation_radius: 1
+support_weight: 2.0
+boundary_weight: 1.35
+use_boundary: false
+mask_mode: dynamic_prediction_support

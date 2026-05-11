@@ -1,0 +1,108 @@
+{
+  "sample_id": "point_cluster_train_0072",
+  "split": "train",
+  "seed": 20268031,
+  "smoke": false,
+  "scene_type": "shape_family_extended_target",
+  "family": "point_cluster",
+  "shape_params": {
+    "family": "point_cluster",
+    "cluster_count": 1,
+    "cluster_specs": [
+      {
+        "count": 5,
+        "center_offset_xy": [
+          -0.015,
+          0.01
+        ],
+        "center_offset_z": 0.004,
+        "amp_scale": 0.9497
+      }
+    ]
+  },
+  "placement": {
+    "center_x_m": -0.055,
+    "center_y_m": 0.21,
+    "center_z_m": -0.424,
+    "center_rho_m": 0.217083,
+    "center_theta_rad": 1.833943,
+    "orientation_rad": 0.0,
+    "prefer_edge": false,
+    "radial_bucket": "off_center",
+    "azimuth_bucket": "high",
+    "height_bucket": "lower",
+    "size_bucket": "small",
+    "density_bucket": "sparse"
+  },
+  "scatter_rule": {
+    "amplitude_range": [
+      0.55,
+      1.25
+    ],
+    "phase_randomized": false
+  },
+  "point_count": 5,
+  "points": [
+    {
+      "x_m": -0.07,
+      "y_m": 0.21,
+      "z_m": -0.424,
+      "rho_m": 0.221359,
+      "theta_rad": 1.892547,
+      "amplitude": 0.611812,
+      "phase_rad": 0.0,
+      "grid_x": 46,
+      "grid_y": 102,
+      "grid_z": 144
+    },
+    {
+      "x_m": -0.07,
+      "y_m": 0.22,
+      "z_m": -0.42,
+      "rho_m": 0.230868,
+      "theta_rad": 1.878849,
+      "amplitude": 0.83798,
+      "phase_rad": 0.0,
+      "grid_x": 46,
+      "grid_y": 104,
+      "grid_z": 145
+    },
+    {
+      "x_m": -0.06,
+      "y_m": 0.225,
+      "z_m": -0.424,
+      "rho_m": 0.232863,
+      "theta_rad": 1.831399,
+      "amplitude": 0.596983,
+      "phase_rad": 0.0,
+      "grid_x": 48,
+      "grid_y": 105,
+      "grid_z": 144
+    },
+    {
+      "x_m": -0.065,
+      "y_m": 0.215,
+      "z_m": -0.424,
+      "rho_m": 0.224611,
+      "theta_rad": 1.864385,
+      "amplitude": 1.08303,
+      "phase_rad": 0.0,
+      "grid_x": 47,
+      "grid_y": 103,
+      "grid_z": 144
+    },
+    {
+      "x_m": -0.08,
+      "y_m": 0.21,
+      "z_m": -0.424,
+      "rho_m": 0.224722,
+      "theta_rad": 1.934775,
+      "amplitude": 1.07378,
+      "phase_rad": 0.0,
+      "grid_x": 44,
+      "grid_y": 102,
+      "grid_z": 144
+    }
+  ],
+  "variant": "main"
+}

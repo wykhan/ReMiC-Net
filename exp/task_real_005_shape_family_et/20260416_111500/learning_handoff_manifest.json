@@ -1,0 +1,1494 @@
+{
+  "task": "task_real_005",
+  "learning_interface": "RED_ref3 -> 3D U-Net -> GT amplitude",
+  "input_representation": "ref3 coarse amplitude volume",
+  "target_representation": "GT amplitude volume",
+  "samples": [
+    {
+      "sample_id": "line_train_0000",
+      "split": "train",
+      "family": "line",
+      "ref3_path": "et_recon_cache/line_train_0000_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/line_train_0000_gt.npz",
+      "center_rho_m": 0.235053,
+      "near_edge": true
+    },
+    {
+      "sample_id": "line_train_0001",
+      "split": "train",
+      "family": "line",
+      "ref3_path": "et_recon_cache/line_train_0001_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/line_train_0001_gt.npz",
+      "center_rho_m": 0.141421,
+      "near_edge": false
+    },
+    {
+      "sample_id": "line_train_0002",
+      "split": "train",
+      "family": "line",
+      "ref3_path": "et_recon_cache/line_train_0002_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/line_train_0002_gt.npz",
+      "center_rho_m": 0.160078,
+      "near_edge": false
+    },
+    {
+      "sample_id": "line_train_0003",
+      "split": "train",
+      "family": "line",
+      "ref3_path": "et_recon_cache/line_train_0003_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/line_train_0003_gt.npz",
+      "center_rho_m": 0.079057,
+      "near_edge": false
+    },
+    {
+      "sample_id": "line_train_0004",
+      "split": "train",
+      "family": "line",
+      "ref3_path": "et_recon_cache/line_train_0004_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/line_train_0004_gt.npz",
+      "center_rho_m": 0.17,
+      "near_edge": false
+    },
+    {
+      "sample_id": "line_train_0005",
+      "split": "train",
+      "family": "line",
+      "ref3_path": "et_recon_cache/line_train_0005_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/line_train_0005_gt.npz",
+      "center_rho_m": 0.248847,
+      "near_edge": true
+    },
+    {
+      "sample_id": "line_train_0006",
+      "split": "train",
+      "family": "line",
+      "ref3_path": "et_recon_cache/line_train_0006_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/line_train_0006_gt.npz",
+      "center_rho_m": 0.219146,
+      "near_edge": false
+    },
+    {
+      "sample_id": "line_train_0007",
+      "split": "train",
+      "family": "line",
+      "ref3_path": "et_recon_cache/line_train_0007_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/line_train_0007_gt.npz",
+      "center_rho_m": 0.096047,
+      "near_edge": false
+    },
+    {
+      "sample_id": "line_train_0008",
+      "split": "train",
+      "family": "line",
+      "ref3_path": "et_recon_cache/line_train_0008_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/line_train_0008_gt.npz",
+      "center_rho_m": 0.194165,
+      "near_edge": false
+    },
+    {
+      "sample_id": "line_train_0009",
+      "split": "train",
+      "family": "line",
+      "ref3_path": "et_recon_cache/line_train_0009_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/line_train_0009_gt.npz",
+      "center_rho_m": 0.136473,
+      "near_edge": false
+    },
+    {
+      "sample_id": "line_train_0010",
+      "split": "train",
+      "family": "line",
+      "ref3_path": "et_recon_cache/line_train_0010_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/line_train_0010_gt.npz",
+      "center_rho_m": 0.066708,
+      "near_edge": false
+    },
+    {
+      "sample_id": "line_train_0011",
+      "split": "train",
+      "family": "line",
+      "ref3_path": "et_recon_cache/line_train_0011_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/line_train_0011_gt.npz",
+      "center_rho_m": 0.205183,
+      "near_edge": false
+    },
+    {
+      "sample_id": "line_train_0012",
+      "split": "train",
+      "family": "line",
+      "ref3_path": "et_recon_cache/line_train_0012_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/line_train_0012_gt.npz",
+      "center_rho_m": 0.075166,
+      "near_edge": false
+    },
+    {
+      "sample_id": "line_train_0013",
+      "split": "train",
+      "family": "line",
+      "ref3_path": "et_recon_cache/line_train_0013_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/line_train_0013_gt.npz",
+      "center_rho_m": 0.230217,
+      "near_edge": true
+    },
+    {
+      "sample_id": "line_train_0014",
+      "split": "train",
+      "family": "line",
+      "ref3_path": "et_recon_cache/line_train_0014_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/line_train_0014_gt.npz",
+      "center_rho_m": 0.096177,
+      "near_edge": false
+    },
+    {
+      "sample_id": "line_train_0015",
+      "split": "train",
+      "family": "line",
+      "ref3_path": "et_recon_cache/line_train_0015_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/line_train_0015_gt.npz",
+      "center_rho_m": 0.224722,
+      "near_edge": true
+    },
+    {
+      "sample_id": "line_val_0000",
+      "split": "val",
+      "family": "line",
+      "ref3_path": "et_recon_cache/line_val_0000_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/line_val_0000_gt.npz",
+      "center_rho_m": 0.208866,
+      "near_edge": false
+    },
+    {
+      "sample_id": "line_val_0001",
+      "split": "val",
+      "family": "line",
+      "ref3_path": "et_recon_cache/line_val_0001_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/line_val_0001_gt.npz",
+      "center_rho_m": 0.087464,
+      "near_edge": false
+    },
+    {
+      "sample_id": "line_val_0002",
+      "split": "val",
+      "family": "line",
+      "ref3_path": "et_recon_cache/line_val_0002_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/line_val_0002_gt.npz",
+      "center_rho_m": 0.057009,
+      "near_edge": false
+    },
+    {
+      "sample_id": "line_val_0003",
+      "split": "val",
+      "family": "line",
+      "ref3_path": "et_recon_cache/line_val_0003_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/line_val_0003_gt.npz",
+      "center_rho_m": 0.174929,
+      "near_edge": false
+    },
+    {
+      "sample_id": "line_test_0000",
+      "split": "test",
+      "family": "line",
+      "ref3_path": "et_recon_cache/line_test_0000_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/line_test_0000_gt.npz",
+      "center_rho_m": 0.200562,
+      "near_edge": false
+    },
+    {
+      "sample_id": "line_test_0001",
+      "split": "test",
+      "family": "line",
+      "ref3_path": "et_recon_cache/line_test_0001_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/line_test_0001_gt.npz",
+      "center_rho_m": 0.122577,
+      "near_edge": false
+    },
+    {
+      "sample_id": "line_test_0002",
+      "split": "test",
+      "family": "line",
+      "ref3_path": "et_recon_cache/line_test_0002_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/line_test_0002_gt.npz",
+      "center_rho_m": 0.233452,
+      "near_edge": true
+    },
+    {
+      "sample_id": "line_test_0003",
+      "split": "test",
+      "family": "line",
+      "ref3_path": "et_recon_cache/line_test_0003_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/line_test_0003_gt.npz",
+      "center_rho_m": 0.132004,
+      "near_edge": false
+    },
+    {
+      "sample_id": "cross_train_0000",
+      "split": "train",
+      "family": "cross",
+      "ref3_path": "et_recon_cache/cross_train_0000_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/cross_train_0000_gt.npz",
+      "center_rho_m": 0.071589,
+      "near_edge": false
+    },
+    {
+      "sample_id": "cross_train_0001",
+      "split": "train",
+      "family": "cross",
+      "ref3_path": "et_recon_cache/cross_train_0001_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/cross_train_0001_gt.npz",
+      "center_rho_m": 0.149164,
+      "near_edge": false
+    },
+    {
+      "sample_id": "cross_train_0002",
+      "split": "train",
+      "family": "cross",
+      "ref3_path": "et_recon_cache/cross_train_0002_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/cross_train_0002_gt.npz",
+      "center_rho_m": 0.216333,
+      "near_edge": false
+    },
+    {
+      "sample_id": "cross_train_0003",
+      "split": "train",
+      "family": "cross",
+      "ref3_path": "et_recon_cache/cross_train_0003_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/cross_train_0003_gt.npz",
+      "center_rho_m": 0.23817,
+      "near_edge": true
+    },
+    {
+      "sample_id": "cross_train_0004",
+      "split": "train",
+      "family": "cross",
+      "ref3_path": "et_recon_cache/cross_train_0004_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/cross_train_0004_gt.npz",
+      "center_rho_m": 0.202485,
+      "near_edge": false
+    },
+    {
+      "sample_id": "cross_train_0005",
+      "split": "train",
+      "family": "cross",
+      "ref3_path": "et_recon_cache/cross_train_0005_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/cross_train_0005_gt.npz",
+      "center_rho_m": 0.20573,
+      "near_edge": false
+    },
+    {
+      "sample_id": "cross_train_0006",
+      "split": "train",
+      "family": "cross",
+      "ref3_path": "et_recon_cache/cross_train_0006_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/cross_train_0006_gt.npz",
+      "center_rho_m": 0.115974,
+      "near_edge": false
+    },
+    {
+      "sample_id": "cross_train_0007",
+      "split": "train",
+      "family": "cross",
+      "ref3_path": "et_recon_cache/cross_train_0007_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/cross_train_0007_gt.npz",
+      "center_rho_m": 0.134629,
+      "near_edge": false
+    },
+    {
+      "sample_id": "cross_train_0008",
+      "split": "train",
+      "family": "cross",
+      "ref3_path": "et_recon_cache/cross_train_0008_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/cross_train_0008_gt.npz",
+      "center_rho_m": 0.132382,
+      "near_edge": false
+    },
+    {
+      "sample_id": "cross_train_0009",
+      "split": "train",
+      "family": "cross",
+      "ref3_path": "et_recon_cache/cross_train_0009_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/cross_train_0009_gt.npz",
+      "center_rho_m": 0.117686,
+      "near_edge": false
+    },
+    {
+      "sample_id": "cross_train_0010",
+      "split": "train",
+      "family": "cross",
+      "ref3_path": "et_recon_cache/cross_train_0010_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/cross_train_0010_gt.npz",
+      "center_rho_m": 0.240832,
+      "near_edge": true
+    },
+    {
+      "sample_id": "cross_train_0011",
+      "split": "train",
+      "family": "cross",
+      "ref3_path": "et_recon_cache/cross_train_0011_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/cross_train_0011_gt.npz",
+      "center_rho_m": 0.096566,
+      "near_edge": false
+    },
+    {
+      "sample_id": "cross_train_0012",
+      "split": "train",
+      "family": "cross",
+      "ref3_path": "et_recon_cache/cross_train_0012_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/cross_train_0012_gt.npz",
+      "center_rho_m": 0.056569,
+      "near_edge": false
+    },
+    {
+      "sample_id": "cross_train_0013",
+      "split": "train",
+      "family": "cross",
+      "ref3_path": "et_recon_cache/cross_train_0013_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/cross_train_0013_gt.npz",
+      "center_rho_m": 0.256125,
+      "near_edge": true
+    },
+    {
+      "sample_id": "cross_train_0014",
+      "split": "train",
+      "family": "cross",
+      "ref3_path": "et_recon_cache/cross_train_0014_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/cross_train_0014_gt.npz",
+      "center_rho_m": 0.243977,
+      "near_edge": true
+    },
+    {
+      "sample_id": "cross_train_0015",
+      "split": "train",
+      "family": "cross",
+      "ref3_path": "et_recon_cache/cross_train_0015_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/cross_train_0015_gt.npz",
+      "center_rho_m": 0.199812,
+      "near_edge": false
+    },
+    {
+      "sample_id": "cross_val_0000",
+      "split": "val",
+      "family": "cross",
+      "ref3_path": "et_recon_cache/cross_val_0000_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/cross_val_0000_gt.npz",
+      "center_rho_m": 0.207183,
+      "near_edge": false
+    },
+    {
+      "sample_id": "cross_val_0001",
+      "split": "val",
+      "family": "cross",
+      "ref3_path": "et_recon_cache/cross_val_0001_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/cross_val_0001_gt.npz",
+      "center_rho_m": 0.173925,
+      "near_edge": false
+    },
+    {
+      "sample_id": "cross_val_0002",
+      "split": "val",
+      "family": "cross",
+      "ref3_path": "et_recon_cache/cross_val_0002_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/cross_val_0002_gt.npz",
+      "center_rho_m": 0.212191,
+      "near_edge": false
+    },
+    {
+      "sample_id": "cross_val_0003",
+      "split": "val",
+      "family": "cross",
+      "ref3_path": "et_recon_cache/cross_val_0003_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/cross_val_0003_gt.npz",
+      "center_rho_m": 0.210238,
+      "near_edge": false
+    },
+    {
+      "sample_id": "cross_test_0000",
+      "split": "test",
+      "family": "cross",
+      "ref3_path": "et_recon_cache/cross_test_0000_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/cross_test_0000_gt.npz",
+      "center_rho_m": 0.203531,
+      "near_edge": false
+    },
+    {
+      "sample_id": "cross_test_0001",
+      "split": "test",
+      "family": "cross",
+      "ref3_path": "et_recon_cache/cross_test_0001_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/cross_test_0001_gt.npz",
+      "center_rho_m": 0.087321,
+      "near_edge": false
+    },
+    {
+      "sample_id": "cross_test_0002",
+      "split": "test",
+      "family": "cross",
+      "ref3_path": "et_recon_cache/cross_test_0002_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/cross_test_0002_gt.npz",
+      "center_rho_m": 0.260768,
+      "near_edge": true
+    },
+    {
+      "sample_id": "cross_test_0003",
+      "split": "test",
+      "family": "cross",
+      "ref3_path": "et_recon_cache/cross_test_0003_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/cross_test_0003_gt.npz",
+      "center_rho_m": 0.251645,
+      "near_edge": true
+    },
+    {
+      "sample_id": "L_shape_train_0000",
+      "split": "train",
+      "family": "L-shape",
+      "ref3_path": "et_recon_cache/L_shape_train_0000_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/L_shape_train_0000_gt.npz",
+      "center_rho_m": 0.180278,
+      "near_edge": false
+    },
+    {
+      "sample_id": "L_shape_train_0001",
+      "split": "train",
+      "family": "L-shape",
+      "ref3_path": "et_recon_cache/L_shape_train_0001_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/L_shape_train_0001_gt.npz",
+      "center_rho_m": 0.060415,
+      "near_edge": false
+    },
+    {
+      "sample_id": "L_shape_train_0002",
+      "split": "train",
+      "family": "L-shape",
+      "ref3_path": "et_recon_cache/L_shape_train_0002_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/L_shape_train_0002_gt.npz",
+      "center_rho_m": 0.140801,
+      "near_edge": false
+    },
+    {
+      "sample_id": "L_shape_train_0003",
+      "split": "train",
+      "family": "L-shape",
+      "ref3_path": "et_recon_cache/L_shape_train_0003_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/L_shape_train_0003_gt.npz",
+      "center_rho_m": 0.241661,
+      "near_edge": true
+    },
+    {
+      "sample_id": "L_shape_train_0004",
+      "split": "train",
+      "family": "L-shape",
+      "ref3_path": "et_recon_cache/L_shape_train_0004_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/L_shape_train_0004_gt.npz",
+      "center_rho_m": 0.219146,
+      "near_edge": false
+    },
+    {
+      "sample_id": "L_shape_train_0005",
+      "split": "train",
+      "family": "L-shape",
+      "ref3_path": "et_recon_cache/L_shape_train_0005_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/L_shape_train_0005_gt.npz",
+      "center_rho_m": 0.226108,
+      "near_edge": true
+    },
+    {
+      "sample_id": "L_shape_train_0006",
+      "split": "train",
+      "family": "L-shape",
+      "ref3_path": "et_recon_cache/L_shape_train_0006_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/L_shape_train_0006_gt.npz",
+      "center_rho_m": 0.139014,
+      "near_edge": false
+    },
+    {
+      "sample_id": "L_shape_train_0007",
+      "split": "train",
+      "family": "L-shape",
+      "ref3_path": "et_recon_cache/L_shape_train_0007_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/L_shape_train_0007_gt.npz",
+      "center_rho_m": 0.216449,
+      "near_edge": false
+    },
+    {
+      "sample_id": "L_shape_train_0008",
+      "split": "train",
+      "family": "L-shape",
+      "ref3_path": "et_recon_cache/L_shape_train_0008_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/L_shape_train_0008_gt.npz",
+      "center_rho_m": 0.101119,
+      "near_edge": false
+    },
+    {
+      "sample_id": "L_shape_train_0009",
+      "split": "train",
+      "family": "L-shape",
+      "ref3_path": "et_recon_cache/L_shape_train_0009_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/L_shape_train_0009_gt.npz",
+      "center_rho_m": 0.222036,
+      "near_edge": true
+    },
+    {
+      "sample_id": "L_shape_train_0010",
+      "split": "train",
+      "family": "L-shape",
+      "ref3_path": "et_recon_cache/L_shape_train_0010_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/L_shape_train_0010_gt.npz",
+      "center_rho_m": 0.258118,
+      "near_edge": true
+    },
+    {
+      "sample_id": "L_shape_train_0011",
+      "split": "train",
+      "family": "L-shape",
+      "ref3_path": "et_recon_cache/L_shape_train_0011_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/L_shape_train_0011_gt.npz",
+      "center_rho_m": 0.102956,
+      "near_edge": false
+    },
+    {
+      "sample_id": "L_shape_train_0012",
+      "split": "train",
+      "family": "L-shape",
+      "ref3_path": "et_recon_cache/L_shape_train_0012_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/L_shape_train_0012_gt.npz",
+      "center_rho_m": 0.21225,
+      "near_edge": false
+    },
+    {
+      "sample_id": "L_shape_train_0013",
+      "split": "train",
+      "family": "L-shape",
+      "ref3_path": "et_recon_cache/L_shape_train_0013_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/L_shape_train_0013_gt.npz",
+      "center_rho_m": 0.065,
+      "near_edge": false
+    },
+    {
+      "sample_id": "L_shape_train_0014",
+      "split": "train",
+      "family": "L-shape",
+      "ref3_path": "et_recon_cache/L_shape_train_0014_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/L_shape_train_0014_gt.npz",
+      "center_rho_m": 0.135093,
+      "near_edge": false
+    },
+    {
+      "sample_id": "L_shape_train_0015",
+      "split": "train",
+      "family": "L-shape",
+      "ref3_path": "et_recon_cache/L_shape_train_0015_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/L_shape_train_0015_gt.npz",
+      "center_rho_m": 0.21006,
+      "near_edge": false
+    },
+    {
+      "sample_id": "L_shape_val_0000",
+      "split": "val",
+      "family": "L-shape",
+      "ref3_path": "et_recon_cache/L_shape_val_0000_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/L_shape_val_0000_gt.npz",
+      "center_rho_m": 0.215232,
+      "near_edge": false
+    },
+    {
+      "sample_id": "L_shape_val_0001",
+      "split": "val",
+      "family": "L-shape",
+      "ref3_path": "et_recon_cache/L_shape_val_0001_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/L_shape_val_0001_gt.npz",
+      "center_rho_m": 0.158902,
+      "near_edge": false
+    },
+    {
+      "sample_id": "L_shape_val_0002",
+      "split": "val",
+      "family": "L-shape",
+      "ref3_path": "et_recon_cache/L_shape_val_0002_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/L_shape_val_0002_gt.npz",
+      "center_rho_m": 0.165605,
+      "near_edge": false
+    },
+    {
+      "sample_id": "L_shape_val_0003",
+      "split": "val",
+      "family": "L-shape",
+      "ref3_path": "et_recon_cache/L_shape_val_0003_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/L_shape_val_0003_gt.npz",
+      "center_rho_m": 0.118533,
+      "near_edge": false
+    },
+    {
+      "sample_id": "L_shape_test_0000",
+      "split": "test",
+      "family": "L-shape",
+      "ref3_path": "et_recon_cache/L_shape_test_0000_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/L_shape_test_0000_gt.npz",
+      "center_rho_m": 0.270416,
+      "near_edge": true
+    },
+    {
+      "sample_id": "L_shape_test_0001",
+      "split": "test",
+      "family": "L-shape",
+      "ref3_path": "et_recon_cache/L_shape_test_0001_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/L_shape_test_0001_gt.npz",
+      "center_rho_m": 0.077621,
+      "near_edge": false
+    },
+    {
+      "sample_id": "L_shape_test_0002",
+      "split": "test",
+      "family": "L-shape",
+      "ref3_path": "et_recon_cache/L_shape_test_0002_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/L_shape_test_0002_gt.npz",
+      "center_rho_m": 0.257148,
+      "near_edge": true
+    },
+    {
+      "sample_id": "L_shape_test_0003",
+      "split": "test",
+      "family": "L-shape",
+      "ref3_path": "et_recon_cache/L_shape_test_0003_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/L_shape_test_0003_gt.npz",
+      "center_rho_m": 0.105119,
+      "near_edge": false
+    },
+    {
+      "sample_id": "double_line_train_0000",
+      "split": "train",
+      "family": "double-line",
+      "ref3_path": "et_recon_cache/double_line_train_0000_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/double_line_train_0000_gt.npz",
+      "center_rho_m": 0.155081,
+      "near_edge": false
+    },
+    {
+      "sample_id": "double_line_train_0001",
+      "split": "train",
+      "family": "double-line",
+      "ref3_path": "et_recon_cache/double_line_train_0001_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/double_line_train_0001_gt.npz",
+      "center_rho_m": 0.099247,
+      "near_edge": false
+    },
+    {
+      "sample_id": "double_line_train_0002",
+      "split": "train",
+      "family": "double-line",
+      "ref3_path": "et_recon_cache/double_line_train_0002_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/double_line_train_0002_gt.npz",
+      "center_rho_m": 0.176777,
+      "near_edge": false
+    },
+    {
+      "sample_id": "double_line_train_0003",
+      "split": "train",
+      "family": "double-line",
+      "ref3_path": "et_recon_cache/double_line_train_0003_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/double_line_train_0003_gt.npz",
+      "center_rho_m": 0.218689,
+      "near_edge": false
+    },
+    {
+      "sample_id": "double_line_train_0004",
+      "split": "train",
+      "family": "double-line",
+      "ref3_path": "et_recon_cache/double_line_train_0004_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/double_line_train_0004_gt.npz",
+      "center_rho_m": 0.175855,
+      "near_edge": false
+    },
+    {
+      "sample_id": "double_line_train_0005",
+      "split": "train",
+      "family": "double-line",
+      "ref3_path": "et_recon_cache/double_line_train_0005_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/double_line_train_0005_gt.npz",
+      "center_rho_m": 0.186078,
+      "near_edge": false
+    },
+    {
+      "sample_id": "double_line_train_0006",
+      "split": "train",
+      "family": "double-line",
+      "ref3_path": "et_recon_cache/double_line_train_0006_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/double_line_train_0006_gt.npz",
+      "center_rho_m": 0.080777,
+      "near_edge": false
+    },
+    {
+      "sample_id": "double_line_train_0007",
+      "split": "train",
+      "family": "double-line",
+      "ref3_path": "et_recon_cache/double_line_train_0007_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/double_line_train_0007_gt.npz",
+      "center_rho_m": 0.130384,
+      "near_edge": false
+    },
+    {
+      "sample_id": "double_line_train_0008",
+      "split": "train",
+      "family": "double-line",
+      "ref3_path": "et_recon_cache/double_line_train_0008_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/double_line_train_0008_gt.npz",
+      "center_rho_m": 0.070711,
+      "near_edge": false
+    },
+    {
+      "sample_id": "double_line_train_0009",
+      "split": "train",
+      "family": "double-line",
+      "ref3_path": "et_recon_cache/double_line_train_0009_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/double_line_train_0009_gt.npz",
+      "center_rho_m": 0.185607,
+      "near_edge": false
+    },
+    {
+      "sample_id": "double_line_train_0010",
+      "split": "train",
+      "family": "double-line",
+      "ref3_path": "et_recon_cache/double_line_train_0010_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/double_line_train_0010_gt.npz",
+      "center_rho_m": 0.208866,
+      "near_edge": false
+    },
+    {
+      "sample_id": "double_line_train_0011",
+      "split": "train",
+      "family": "double-line",
+      "ref3_path": "et_recon_cache/double_line_train_0011_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/double_line_train_0011_gt.npz",
+      "center_rho_m": 0.206155,
+      "near_edge": false
+    },
+    {
+      "sample_id": "double_line_train_0012",
+      "split": "train",
+      "family": "double-line",
+      "ref3_path": "et_recon_cache/double_line_train_0012_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/double_line_train_0012_gt.npz",
+      "center_rho_m": 0.161941,
+      "near_edge": false
+    },
+    {
+      "sample_id": "double_line_train_0013",
+      "split": "train",
+      "family": "double-line",
+      "ref3_path": "et_recon_cache/double_line_train_0013_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/double_line_train_0013_gt.npz",
+      "center_rho_m": 0.228254,
+      "near_edge": true
+    },
+    {
+      "sample_id": "double_line_train_0014",
+      "split": "train",
+      "family": "double-line",
+      "ref3_path": "et_recon_cache/double_line_train_0014_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/double_line_train_0014_gt.npz",
+      "center_rho_m": 0.170294,
+      "near_edge": false
+    },
+    {
+      "sample_id": "double_line_train_0015",
+      "split": "train",
+      "family": "double-line",
+      "ref3_path": "et_recon_cache/double_line_train_0015_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/double_line_train_0015_gt.npz",
+      "center_rho_m": 0.185068,
+      "near_edge": false
+    },
+    {
+      "sample_id": "double_line_val_0000",
+      "split": "val",
+      "family": "double-line",
+      "ref3_path": "et_recon_cache/double_line_val_0000_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/double_line_val_0000_gt.npz",
+      "center_rho_m": 0.091241,
+      "near_edge": false
+    },
+    {
+      "sample_id": "double_line_val_0001",
+      "split": "val",
+      "family": "double-line",
+      "ref3_path": "et_recon_cache/double_line_val_0001_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/double_line_val_0001_gt.npz",
+      "center_rho_m": 0.22,
+      "near_edge": false
+    },
+    {
+      "sample_id": "double_line_val_0002",
+      "split": "val",
+      "family": "double-line",
+      "ref3_path": "et_recon_cache/double_line_val_0002_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/double_line_val_0002_gt.npz",
+      "center_rho_m": 0.103078,
+      "near_edge": false
+    },
+    {
+      "sample_id": "double_line_val_0003",
+      "split": "val",
+      "family": "double-line",
+      "ref3_path": "et_recon_cache/double_line_val_0003_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/double_line_val_0003_gt.npz",
+      "center_rho_m": 0.213776,
+      "near_edge": false
+    },
+    {
+      "sample_id": "double_line_test_0000",
+      "split": "test",
+      "family": "double-line",
+      "ref3_path": "et_recon_cache/double_line_test_0000_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/double_line_test_0000_gt.npz",
+      "center_rho_m": 0.095,
+      "near_edge": false
+    },
+    {
+      "sample_id": "double_line_test_0001",
+      "split": "test",
+      "family": "double-line",
+      "ref3_path": "et_recon_cache/double_line_test_0001_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/double_line_test_0001_gt.npz",
+      "center_rho_m": 0.269119,
+      "near_edge": true
+    },
+    {
+      "sample_id": "double_line_test_0002",
+      "split": "test",
+      "family": "double-line",
+      "ref3_path": "et_recon_cache/double_line_test_0002_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/double_line_test_0002_gt.npz",
+      "center_rho_m": 0.116726,
+      "near_edge": false
+    },
+    {
+      "sample_id": "double_line_test_0003",
+      "split": "test",
+      "family": "double-line",
+      "ref3_path": "et_recon_cache/double_line_test_0003_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/double_line_test_0003_gt.npz",
+      "center_rho_m": 0.198116,
+      "near_edge": false
+    },
+    {
+      "sample_id": "small_rect_edge_train_0000",
+      "split": "train",
+      "family": "small_rect_edge",
+      "ref3_path": "et_recon_cache/small_rect_edge_train_0000_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/small_rect_edge_train_0000_gt.npz",
+      "center_rho_m": 0.257391,
+      "near_edge": true
+    },
+    {
+      "sample_id": "small_rect_edge_train_0001",
+      "split": "train",
+      "family": "small_rect_edge",
+      "ref3_path": "et_recon_cache/small_rect_edge_train_0001_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/small_rect_edge_train_0001_gt.npz",
+      "center_rho_m": 0.231138,
+      "near_edge": true
+    },
+    {
+      "sample_id": "small_rect_edge_train_0002",
+      "split": "train",
+      "family": "small_rect_edge",
+      "ref3_path": "et_recon_cache/small_rect_edge_train_0002_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/small_rect_edge_train_0002_gt.npz",
+      "center_rho_m": 0.264008,
+      "near_edge": true
+    },
+    {
+      "sample_id": "small_rect_edge_train_0003",
+      "split": "train",
+      "family": "small_rect_edge",
+      "ref3_path": "et_recon_cache/small_rect_edge_train_0003_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/small_rect_edge_train_0003_gt.npz",
+      "center_rho_m": 0.201804,
+      "near_edge": true
+    },
+    {
+      "sample_id": "small_rect_edge_train_0004",
+      "split": "train",
+      "family": "small_rect_edge",
+      "ref3_path": "et_recon_cache/small_rect_edge_train_0004_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/small_rect_edge_train_0004_gt.npz",
+      "center_rho_m": 0.254804,
+      "near_edge": true
+    },
+    {
+      "sample_id": "small_rect_edge_train_0005",
+      "split": "train",
+      "family": "small_rect_edge",
+      "ref3_path": "et_recon_cache/small_rect_edge_train_0005_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/small_rect_edge_train_0005_gt.npz",
+      "center_rho_m": 0.258118,
+      "near_edge": true
+    },
+    {
+      "sample_id": "small_rect_edge_train_0006",
+      "split": "train",
+      "family": "small_rect_edge",
+      "ref3_path": "et_recon_cache/small_rect_edge_train_0006_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/small_rect_edge_train_0006_gt.npz",
+      "center_rho_m": 0.242332,
+      "near_edge": true
+    },
+    {
+      "sample_id": "small_rect_edge_train_0007",
+      "split": "train",
+      "family": "small_rect_edge",
+      "ref3_path": "et_recon_cache/small_rect_edge_train_0007_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/small_rect_edge_train_0007_gt.npz",
+      "center_rho_m": 0.201308,
+      "near_edge": true
+    },
+    {
+      "sample_id": "small_rect_edge_train_0008",
+      "split": "train",
+      "family": "small_rect_edge",
+      "ref3_path": "et_recon_cache/small_rect_edge_train_0008_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/small_rect_edge_train_0008_gt.npz",
+      "center_rho_m": 0.237118,
+      "near_edge": true
+    },
+    {
+      "sample_id": "small_rect_edge_train_0009",
+      "split": "train",
+      "family": "small_rect_edge",
+      "ref3_path": "et_recon_cache/small_rect_edge_train_0009_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/small_rect_edge_train_0009_gt.npz",
+      "center_rho_m": 0.235637,
+      "near_edge": true
+    },
+    {
+      "sample_id": "small_rect_edge_train_0010",
+      "split": "train",
+      "family": "small_rect_edge",
+      "ref3_path": "et_recon_cache/small_rect_edge_train_0010_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/small_rect_edge_train_0010_gt.npz",
+      "center_rho_m": 0.264433,
+      "near_edge": true
+    },
+    {
+      "sample_id": "small_rect_edge_train_0011",
+      "split": "train",
+      "family": "small_rect_edge",
+      "ref3_path": "et_recon_cache/small_rect_edge_train_0011_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/small_rect_edge_train_0011_gt.npz",
+      "center_rho_m": 0.234094,
+      "near_edge": true
+    },
+    {
+      "sample_id": "small_rect_edge_train_0012",
+      "split": "train",
+      "family": "small_rect_edge",
+      "ref3_path": "et_recon_cache/small_rect_edge_train_0012_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/small_rect_edge_train_0012_gt.npz",
+      "center_rho_m": 0.255441,
+      "near_edge": true
+    },
+    {
+      "sample_id": "small_rect_edge_train_0013",
+      "split": "train",
+      "family": "small_rect_edge",
+      "ref3_path": "et_recon_cache/small_rect_edge_train_0013_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/small_rect_edge_train_0013_gt.npz",
+      "center_rho_m": 0.245815,
+      "near_edge": true
+    },
+    {
+      "sample_id": "small_rect_edge_train_0014",
+      "split": "train",
+      "family": "small_rect_edge",
+      "ref3_path": "et_recon_cache/small_rect_edge_train_0014_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/small_rect_edge_train_0014_gt.npz",
+      "center_rho_m": 0.251247,
+      "near_edge": true
+    },
+    {
+      "sample_id": "small_rect_edge_train_0015",
+      "split": "train",
+      "family": "small_rect_edge",
+      "ref3_path": "et_recon_cache/small_rect_edge_train_0015_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/small_rect_edge_train_0015_gt.npz",
+      "center_rho_m": 0.251098,
+      "near_edge": true
+    },
+    {
+      "sample_id": "small_rect_edge_val_0000",
+      "split": "val",
+      "family": "small_rect_edge",
+      "ref3_path": "et_recon_cache/small_rect_edge_val_0000_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/small_rect_edge_val_0000_gt.npz",
+      "center_rho_m": 0.258699,
+      "near_edge": true
+    },
+    {
+      "sample_id": "small_rect_edge_val_0001",
+      "split": "val",
+      "family": "small_rect_edge",
+      "ref3_path": "et_recon_cache/small_rect_edge_val_0001_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/small_rect_edge_val_0001_gt.npz",
+      "center_rho_m": 0.258118,
+      "near_edge": true
+    },
+    {
+      "sample_id": "small_rect_edge_val_0002",
+      "split": "val",
+      "family": "small_rect_edge",
+      "ref3_path": "et_recon_cache/small_rect_edge_val_0002_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/small_rect_edge_val_0002_gt.npz",
+      "center_rho_m": 0.227431,
+      "near_edge": true
+    },
+    {
+      "sample_id": "small_rect_edge_val_0003",
+      "split": "val",
+      "family": "small_rect_edge",
+      "ref3_path": "et_recon_cache/small_rect_edge_val_0003_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/small_rect_edge_val_0003_gt.npz",
+      "center_rho_m": 0.230489,
+      "near_edge": true
+    },
+    {
+      "sample_id": "small_rect_edge_test_0000",
+      "split": "test",
+      "family": "small_rect_edge",
+      "ref3_path": "et_recon_cache/small_rect_edge_test_0000_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/small_rect_edge_test_0000_gt.npz",
+      "center_rho_m": 0.205244,
+      "near_edge": true
+    },
+    {
+      "sample_id": "small_rect_edge_test_0001",
+      "split": "test",
+      "family": "small_rect_edge",
+      "ref3_path": "et_recon_cache/small_rect_edge_test_0001_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/small_rect_edge_test_0001_gt.npz",
+      "center_rho_m": 0.234361,
+      "near_edge": true
+    },
+    {
+      "sample_id": "small_rect_edge_test_0002",
+      "split": "test",
+      "family": "small_rect_edge",
+      "ref3_path": "et_recon_cache/small_rect_edge_test_0002_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/small_rect_edge_test_0002_gt.npz",
+      "center_rho_m": 0.2136,
+      "near_edge": true
+    },
+    {
+      "sample_id": "small_rect_edge_test_0003",
+      "split": "test",
+      "family": "small_rect_edge",
+      "ref3_path": "et_recon_cache/small_rect_edge_test_0003_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/small_rect_edge_test_0003_gt.npz",
+      "center_rho_m": 0.205548,
+      "near_edge": true
+    },
+    {
+      "sample_id": "point_cluster_train_0000",
+      "split": "train",
+      "family": "point_cluster",
+      "ref3_path": "et_recon_cache/point_cluster_train_0000_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/point_cluster_train_0000_gt.npz",
+      "center_rho_m": 0.056569,
+      "near_edge": false
+    },
+    {
+      "sample_id": "point_cluster_train_0001",
+      "split": "train",
+      "family": "point_cluster",
+      "ref3_path": "et_recon_cache/point_cluster_train_0001_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/point_cluster_train_0001_gt.npz",
+      "center_rho_m": 0.093941,
+      "near_edge": false
+    },
+    {
+      "sample_id": "point_cluster_train_0002",
+      "split": "train",
+      "family": "point_cluster",
+      "ref3_path": "et_recon_cache/point_cluster_train_0002_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/point_cluster_train_0002_gt.npz",
+      "center_rho_m": 0.120934,
+      "near_edge": false
+    },
+    {
+      "sample_id": "point_cluster_train_0003",
+      "split": "train",
+      "family": "point_cluster",
+      "ref3_path": "et_recon_cache/point_cluster_train_0003_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/point_cluster_train_0003_gt.npz",
+      "center_rho_m": 0.214009,
+      "near_edge": false
+    },
+    {
+      "sample_id": "point_cluster_train_0004",
+      "split": "train",
+      "family": "point_cluster",
+      "ref3_path": "et_recon_cache/point_cluster_train_0004_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/point_cluster_train_0004_gt.npz",
+      "center_rho_m": 0.247032,
+      "near_edge": true
+    },
+    {
+      "sample_id": "point_cluster_train_0005",
+      "split": "train",
+      "family": "point_cluster",
+      "ref3_path": "et_recon_cache/point_cluster_train_0005_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/point_cluster_train_0005_gt.npz",
+      "center_rho_m": 0.219146,
+      "near_edge": false
+    },
+    {
+      "sample_id": "point_cluster_train_0006",
+      "split": "train",
+      "family": "point_cluster",
+      "ref3_path": "et_recon_cache/point_cluster_train_0006_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/point_cluster_train_0006_gt.npz",
+      "center_rho_m": 0.23927,
+      "near_edge": true
+    },
+    {
+      "sample_id": "point_cluster_train_0007",
+      "split": "train",
+      "family": "point_cluster",
+      "ref3_path": "et_recon_cache/point_cluster_train_0007_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/point_cluster_train_0007_gt.npz",
+      "center_rho_m": 0.184391,
+      "near_edge": false
+    },
+    {
+      "sample_id": "point_cluster_train_0008",
+      "split": "train",
+      "family": "point_cluster",
+      "ref3_path": "et_recon_cache/point_cluster_train_0008_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/point_cluster_train_0008_gt.npz",
+      "center_rho_m": 0.257002,
+      "near_edge": true
+    },
+    {
+      "sample_id": "point_cluster_train_0009",
+      "split": "train",
+      "family": "point_cluster",
+      "ref3_path": "et_recon_cache/point_cluster_train_0009_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/point_cluster_train_0009_gt.npz",
+      "center_rho_m": 0.257099,
+      "near_edge": true
+    },
+    {
+      "sample_id": "point_cluster_train_0010",
+      "split": "train",
+      "family": "point_cluster",
+      "ref3_path": "et_recon_cache/point_cluster_train_0010_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/point_cluster_train_0010_gt.npz",
+      "center_rho_m": 0.211009,
+      "near_edge": false
+    },
+    {
+      "sample_id": "point_cluster_train_0011",
+      "split": "train",
+      "family": "point_cluster",
+      "ref3_path": "et_recon_cache/point_cluster_train_0011_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/point_cluster_train_0011_gt.npz",
+      "center_rho_m": 0.156924,
+      "near_edge": false
+    },
+    {
+      "sample_id": "point_cluster_train_0012",
+      "split": "train",
+      "family": "point_cluster",
+      "ref3_path": "et_recon_cache/point_cluster_train_0012_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/point_cluster_train_0012_gt.npz",
+      "center_rho_m": 0.093005,
+      "near_edge": false
+    },
+    {
+      "sample_id": "point_cluster_train_0013",
+      "split": "train",
+      "family": "point_cluster",
+      "ref3_path": "et_recon_cache/point_cluster_train_0013_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/point_cluster_train_0013_gt.npz",
+      "center_rho_m": 0.083815,
+      "near_edge": false
+    },
+    {
+      "sample_id": "point_cluster_train_0014",
+      "split": "train",
+      "family": "point_cluster",
+      "ref3_path": "et_recon_cache/point_cluster_train_0014_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/point_cluster_train_0014_gt.npz",
+      "center_rho_m": 0.226385,
+      "near_edge": true
+    },
+    {
+      "sample_id": "point_cluster_train_0015",
+      "split": "train",
+      "family": "point_cluster",
+      "ref3_path": "et_recon_cache/point_cluster_train_0015_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/point_cluster_train_0015_gt.npz",
+      "center_rho_m": 0.112805,
+      "near_edge": false
+    },
+    {
+      "sample_id": "point_cluster_val_0000",
+      "split": "val",
+      "family": "point_cluster",
+      "ref3_path": "et_recon_cache/point_cluster_val_0000_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/point_cluster_val_0000_gt.npz",
+      "center_rho_m": 0.196023,
+      "near_edge": false
+    },
+    {
+      "sample_id": "point_cluster_val_0001",
+      "split": "val",
+      "family": "point_cluster",
+      "ref3_path": "et_recon_cache/point_cluster_val_0001_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/point_cluster_val_0001_gt.npz",
+      "center_rho_m": 0.098234,
+      "near_edge": false
+    },
+    {
+      "sample_id": "point_cluster_val_0002",
+      "split": "val",
+      "family": "point_cluster",
+      "ref3_path": "et_recon_cache/point_cluster_val_0002_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/point_cluster_val_0002_gt.npz",
+      "center_rho_m": 0.090139,
+      "near_edge": false
+    },
+    {
+      "sample_id": "point_cluster_val_0003",
+      "split": "val",
+      "family": "point_cluster",
+      "ref3_path": "et_recon_cache/point_cluster_val_0003_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/point_cluster_val_0003_gt.npz",
+      "center_rho_m": 0.16225,
+      "near_edge": false
+    },
+    {
+      "sample_id": "point_cluster_test_0000",
+      "split": "test",
+      "family": "point_cluster",
+      "ref3_path": "et_recon_cache/point_cluster_test_0000_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/point_cluster_test_0000_gt.npz",
+      "center_rho_m": 0.072111,
+      "near_edge": false
+    },
+    {
+      "sample_id": "point_cluster_test_0001",
+      "split": "test",
+      "family": "point_cluster",
+      "ref3_path": "et_recon_cache/point_cluster_test_0001_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/point_cluster_test_0001_gt.npz",
+      "center_rho_m": 0.17066,
+      "near_edge": false
+    },
+    {
+      "sample_id": "point_cluster_test_0002",
+      "split": "test",
+      "family": "point_cluster",
+      "ref3_path": "et_recon_cache/point_cluster_test_0002_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/point_cluster_test_0002_gt.npz",
+      "center_rho_m": 0.18527,
+      "near_edge": false
+    },
+    {
+      "sample_id": "point_cluster_test_0003",
+      "split": "test",
+      "family": "point_cluster",
+      "ref3_path": "et_recon_cache/point_cluster_test_0003_ref3_et.npz",
+      "gt_path": "dataset/gt_volumes/point_cluster_test_0003_gt.npz",
+      "center_rho_m": 0.085147,
+      "near_edge": false
+    }
+  ],
+  "split_index": {
+    "train": [
+      "line_train_0000",
+      "line_train_0001",
+      "line_train_0002",
+      "line_train_0003",
+      "line_train_0004",
+      "line_train_0005",
+      "line_train_0006",
+      "line_train_0007",
+      "line_train_0008",
+      "line_train_0009",
+      "line_train_0010",
+      "line_train_0011",
+      "line_train_0012",
+      "line_train_0013",
+      "line_train_0014",
+      "line_train_0015",
+      "cross_train_0000",
+      "cross_train_0001",
+      "cross_train_0002",
+      "cross_train_0003",
+      "cross_train_0004",
+      "cross_train_0005",
+      "cross_train_0006",
+      "cross_train_0007",
+      "cross_train_0008",
+      "cross_train_0009",
+      "cross_train_0010",
+      "cross_train_0011",
+      "cross_train_0012",
+      "cross_train_0013",
+      "cross_train_0014",
+      "cross_train_0015",
+      "L_shape_train_0000",
+      "L_shape_train_0001",
+      "L_shape_train_0002",
+      "L_shape_train_0003",
+      "L_shape_train_0004",
+      "L_shape_train_0005",
+      "L_shape_train_0006",
+      "L_shape_train_0007",
+      "L_shape_train_0008",
+      "L_shape_train_0009",
+      "L_shape_train_0010",
+      "L_shape_train_0011",
+      "L_shape_train_0012",
+      "L_shape_train_0013",
+      "L_shape_train_0014",
+      "L_shape_train_0015",
+      "double_line_train_0000",
+      "double_line_train_0001",
+      "double_line_train_0002",
+      "double_line_train_0003",
+      "double_line_train_0004",
+      "double_line_train_0005",
+      "double_line_train_0006",
+      "double_line_train_0007",
+      "double_line_train_0008",
+      "double_line_train_0009",
+      "double_line_train_0010",
+      "double_line_train_0011",
+      "double_line_train_0012",
+      "double_line_train_0013",
+      "double_line_train_0014",
+      "double_line_train_0015",
+      "small_rect_edge_train_0000",
+      "small_rect_edge_train_0001",
+      "small_rect_edge_train_0002",
+      "small_rect_edge_train_0003",
+      "small_rect_edge_train_0004",
+      "small_rect_edge_train_0005",
+      "small_rect_edge_train_0006",
+      "small_rect_edge_train_0007",
+      "small_rect_edge_train_0008",
+      "small_rect_edge_train_0009",
+      "small_rect_edge_train_0010",
+      "small_rect_edge_train_0011",
+      "small_rect_edge_train_0012",
+      "small_rect_edge_train_0013",
+      "small_rect_edge_train_0014",
+      "small_rect_edge_train_0015",
+      "point_cluster_train_0000",
+      "point_cluster_train_0001",
+      "point_cluster_train_0002",
+      "point_cluster_train_0003",
+      "point_cluster_train_0004",
+      "point_cluster_train_0005",
+      "point_cluster_train_0006",
+      "point_cluster_train_0007",
+      "point_cluster_train_0008",
+      "point_cluster_train_0009",
+      "point_cluster_train_0010",
+      "point_cluster_train_0011",
+      "point_cluster_train_0012",
+      "point_cluster_train_0013",
+      "point_cluster_train_0014",
+      "point_cluster_train_0015"
+    ],
+    "val": [
+      "line_val_0000",
+      "line_val_0001",
+      "line_val_0002",
+      "line_val_0003",
+      "cross_val_0000",
+      "cross_val_0001",
+      "cross_val_0002",
+      "cross_val_0003",
+      "L_shape_val_0000",
+      "L_shape_val_0001",
+      "L_shape_val_0002",
+      "L_shape_val_0003",
+      "double_line_val_0000",
+      "double_line_val_0001",
+      "double_line_val_0002",
+      "double_line_val_0003",
+      "small_rect_edge_val_0000",
+      "small_rect_edge_val_0001",
+      "small_rect_edge_val_0002",
+      "small_rect_edge_val_0003",
+      "point_cluster_val_0000",
+      "point_cluster_val_0001",
+      "point_cluster_val_0002",
+      "point_cluster_val_0003"
+    ],
+    "test": [
+      "line_test_0000",
+      "line_test_0001",
+      "line_test_0002",
+      "line_test_0003",
+      "cross_test_0000",
+      "cross_test_0001",
+      "cross_test_0002",
+      "cross_test_0003",
+      "L_shape_test_0000",
+      "L_shape_test_0001",
+      "L_shape_test_0002",
+      "L_shape_test_0003",
+      "double_line_test_0000",
+      "double_line_test_0001",
+      "double_line_test_0002",
+      "double_line_test_0003",
+      "small_rect_edge_test_0000",
+      "small_rect_edge_test_0001",
+      "small_rect_edge_test_0002",
+      "small_rect_edge_test_0003",
+      "point_cluster_test_0000",
+      "point_cluster_test_0001",
+      "point_cluster_test_0002",
+      "point_cluster_test_0003"
+    ]
+  },
+  "family_priority_for_learning": [
+    {
+      "family": "point_cluster",
+      "ref3_nmse_mean": 16.003850520254165,
+      "sample_count": 24
+    },
+    {
+      "family": "line",
+      "ref3_nmse_mean": 6.035648058017601,
+      "sample_count": 24
+    },
+    {
+      "family": "L-shape",
+      "ref3_nmse_mean": 4.730284141031983,
+      "sample_count": 24
+    },
+    {
+      "family": "cross",
+      "ref3_nmse_mean": 4.213809869276427,
+      "sample_count": 24
+    },
+    {
+      "family": "double-line",
+      "ref3_nmse_mean": 4.137325438191021,
+      "sample_count": 24
+    },
+    {
+      "family": "small_rect_edge",
+      "ref3_nmse_mean": 3.6346141408826633,
+      "sample_count": 24
+    }
+  ],
+  "recommended_primary_families": [
+    "point_cluster",
+    "line",
+    "L-shape"
+  ],
+  "sampling_balance_note": "The hardest ref3 families should be up-weighted first if ET-1 is expanded. Current ET-1 scale is already balanced by family count."
+}

@@ -1,0 +1,96 @@
+{
+  "sample_id": "point_cluster_train_0132",
+  "split": "train",
+  "seed": 20268691,
+  "smoke": false,
+  "scene_type": "shape_family_extended_target",
+  "family": "point_cluster",
+  "shape_params": {
+    "family": "point_cluster",
+    "cluster_count": 1,
+    "cluster_specs": [
+      {
+        "count": 6,
+        "center_offset_xy": [
+          0.0,
+          -0.015
+        ],
+        "center_offset_z": 0.008,
+        "amp_scale": 1.0632
+      }
+    ]
+  },
+  "placement": {
+    "center_x_m": 0.01,
+    "center_y_m": -0.185,
+    "center_z_m": -0.44,
+    "center_rho_m": 0.18527,
+    "center_theta_rad": -1.524982,
+    "orientation_rad": 0.0,
+    "prefer_edge": false,
+    "radial_bucket": "off_center",
+    "azimuth_bucket": "low",
+    "height_bucket": "lower",
+    "size_bucket": "small",
+    "density_bucket": "sparse"
+  },
+  "scatter_rule": {
+    "amplitude_range": [
+      0.55,
+      1.25
+    ],
+    "phase_randomized": false
+  },
+  "point_count": 4,
+  "points": [
+    {
+      "x_m": 0.01,
+      "y_m": -0.205,
+      "z_m": -0.428,
+      "rho_m": 0.205244,
+      "theta_rad": -1.522054,
+      "amplitude": 1.019496,
+      "phase_rad": 0.0,
+      "grid_x": 62,
+      "grid_y": 19,
+      "grid_z": 143
+    },
+    {
+      "x_m": 0.01,
+      "y_m": -0.195,
+      "z_m": -0.428,
+      "rho_m": 0.195256,
+      "theta_rad": -1.519559,
+      "amplitude": 0.892434,
+      "phase_rad": 0.0,
+      "grid_x": 62,
+      "grid_y": 21,
+      "grid_z": 143
+    },
+    {
+      "x_m": 0.015,
+      "y_m": -0.2,
+      "z_m": -0.432,
+      "rho_m": 0.200562,
+      "theta_rad": -1.495936,
+      "amplitude": 0.88723,
+      "phase_rad": 0.0,
+      "grid_x": 63,
+      "grid_y": 20,
+      "grid_z": 142
+    },
+    {
+      "x_m": 0.01,
+      "y_m": -0.195,
+      "z_m": -0.436,
+      "rho_m": 0.195256,
+      "theta_rad": -1.519559,
+      "amplitude": 0.963504,
+      "phase_rad": 0.0,
+      "grid_x": 62,
+      "grid_y": 21,
+      "grid_z": 141
+    }
+  ],
+  "variant": "main"
+}

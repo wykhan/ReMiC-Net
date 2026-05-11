@@ -1,0 +1,40 @@
+{
+  "sample_id": "double_mixed_diag",
+  "split": "controlled_broader",
+  "seed": 5163,
+  "smoke": true,
+  "scatter_rule": {
+    "amplitude_range": [
+      0.8,
+      1.2
+    ],
+    "phase_randomized": false
+  },
+  "point_count": 2,
+  "points": [
+    {
+      "x_m": 0.0,
+      "y_m": 0.1,
+      "z_m": -0.36,
+      "rho_m": 0.1,
+      "theta_rad": 1.570796,
+      "amplitude": 1.0,
+      "phase_rad": 0.0,
+      "grid_x": 60,
+      "grid_y": 80,
+      "grid_z": 160
+    },
+    {
+      "x_m": 0.26,
+      "y_m": 0.0,
+      "z_m": 0.36,
+      "rho_m": 0.26,
+      "theta_rad": 0.0,
+      "amplitude": 0.9,
+      "phase_rad": 0.0,
+      "grid_x": 112,
+      "grid_y": 60,
+      "grid_z": 340
+    }
+  ]
+}

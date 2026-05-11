@@ -1,0 +1,195 @@
+{
+  "sample_id": "cross_val_0010",
+  "split": "val",
+  "seed": 20269549,
+  "smoke": false,
+  "scene_type": "shape_family_extended_target",
+  "family": "cross",
+  "shape_params": {
+    "family": "cross",
+    "arm_a_vox": 6,
+    "arm_b_vox": 7,
+    "width_vox": 1
+  },
+  "placement": {
+    "center_x_m": -0.13,
+    "center_y_m": 0.155,
+    "center_z_m": 0.6,
+    "center_rho_m": 0.202299,
+    "center_theta_rad": 2.269587,
+    "orientation_rad": 1.047198,
+    "prefer_edge": false,
+    "radial_bucket": "off_center",
+    "azimuth_bucket": "high",
+    "height_bucket": "upper",
+    "size_bucket": "small",
+    "density_bucket": "sparse"
+  },
+  "scatter_rule": {
+    "amplitude_range": [
+      0.55,
+      1.25
+    ],
+    "phase_randomized": false
+  },
+  "point_count": 13,
+  "points": [
+    {
+      "x_m": -0.14,
+      "y_m": 0.14,
+      "z_m": 0.6,
+      "rho_m": 0.19799,
+      "theta_rad": 2.356194,
+      "amplitude": 0.714176,
+      "phase_rad": 0.0,
+      "grid_x": 32,
+      "grid_y": 88,
+      "grid_z": 400
+    },
+    {
+      "x_m": -0.135,
+      "y_m": 0.145,
+      "z_m": 0.6,
+      "rho_m": 0.198116,
+      "theta_rad": 2.320495,
+      "amplitude": 0.784435,
+      "phase_rad": 0.0,
+      "grid_x": 33,
+      "grid_y": 89,
+      "grid_z": 400
+    },
+    {
+      "x_m": -0.13,
+      "y_m": 0.15,
+      "z_m": 0.6,
+      "rho_m": 0.198494,
+      "theta_rad": 2.284887,
+      "amplitude": 0.873598,
+      "phase_rad": 0.0,
+      "grid_x": 34,
+      "grid_y": 90,
+      "grid_z": 400
+    },
+    {
+      "x_m": -0.13,
+      "y_m": 0.155,
+      "z_m": 0.6,
+      "rho_m": 0.202299,
+      "theta_rad": 2.268699,
+      "amplitude": 0.996056,
+      "phase_rad": 0.0,
+      "grid_x": 34,
+      "grid_y": 91,
+      "grid_z": 400
+    },
+    {
+      "x_m": -0.13,
+      "y_m": 0.16,
+      "z_m": 0.6,
+      "rho_m": 0.206155,
+      "theta_rad": 2.253113,
+      "amplitude": 1.029739,
+      "phase_rad": 0.0,
+      "grid_x": 34,
+      "grid_y": 92,
+      "grid_z": 400
+    },
+    {
+      "x_m": -0.125,
+      "y_m": 0.165,
+      "z_m": 0.6,
+      "rho_m": 0.207002,
+      "theta_rad": 2.219128,
+      "amplitude": 1.10518,
+      "phase_rad": 0.0,
+      "grid_x": 35,
+      "grid_y": 93,
+      "grid_z": 400
+    },
+    {
+      "x_m": -0.12,
+      "y_m": 0.17,
+      "z_m": 0.6,
+      "rho_m": 0.208087,
+      "theta_rad": 2.185459,
+      "amplitude": 1.185485,
+      "phase_rad": 0.0,
+      "grid_x": 36,
+      "grid_y": 94,
+      "grid_z": 400
+    },
+    {
+      "x_m": -0.115,
+      "y_m": 0.15,
+      "z_m": 0.6,
+      "rho_m": 0.189011,
+      "theta_rad": 2.224879,
+      "amplitude": 0.724368,
+      "phase_rad": 0.0,
+      "grid_x": 37,
+      "grid_y": 90,
+      "grid_z": 400
+    },
+    {
+      "x_m": -0.12,
+      "y_m": 0.15,
+      "z_m": 0.6,
+      "rho_m": 0.192094,
+      "theta_rad": 2.245537,
+      "amplitude": 0.778085,
+      "phase_rad": 0.0,
+      "grid_x": 36,
+      "grid_y": 90,
+      "grid_z": 400
+    },
+    {
+      "x_m": -0.125,
+      "y_m": 0.15,
+      "z_m": 0.604,
+      "rho_m": 0.195256,
+      "theta_rad": 2.265535,
+      "amplitude": 0.774627,
+      "phase_rad": 0.0,
+      "grid_x": 35,
+      "grid_y": 90,
+      "grid_z": 401
+    },
+    {
+      "x_m": -0.135,
+      "y_m": 0.16,
+      "z_m": 0.604,
+      "rho_m": 0.209344,
+      "theta_rad": 2.271651,
+      "amplitude": 0.912363,
+      "phase_rad": 0.0,
+      "grid_x": 33,
+      "grid_y": 92,
+      "grid_z": 401
+    },
+    {
+      "x_m": -0.14,
+      "y_m": 0.16,
+      "z_m": 0.604,
+      "rho_m": 0.212603,
+      "theta_rad": 2.289626,
+      "amplitude": 1.003934,
+      "phase_rad": 0.0,
+      "grid_x": 32,
+      "grid_y": 92,
+      "grid_z": 401
+    },
+    {
+      "x_m": -0.145,
+      "y_m": 0.16,
+      "z_m": 0.604,
+      "rho_m": 0.215928,
+      "theta_rad": 2.307054,
+      "amplitude": 1.046971,
+      "phase_rad": 0.0,
+      "grid_x": 31,
+      "grid_y": 92,
+      "grid_z": 401
+    }
+  ],
+  "variant": "main"
+}

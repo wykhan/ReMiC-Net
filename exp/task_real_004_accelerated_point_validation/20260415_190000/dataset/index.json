@@ -1,0 +1,416 @@
+[
+  {
+    "sample_id": "rho_000",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_000.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.0,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_001",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_001.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.01,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_002",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_002.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.02,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_003",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_003.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.03,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_004",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_004.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.04,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_005",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_005.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.05,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_006",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_006.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.06,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_007",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_007.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.07,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_008",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_008.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.08,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_009",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_009.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.09,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_010",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_010.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.1,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_011",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_011.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.11,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_012",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_012.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.12,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_013",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_013.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.13,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_014",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_014.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.14,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_015",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_015.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.15,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_016",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_016.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.16,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_017",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_017.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.17,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_018",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_018.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.18,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_019",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_019.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.19,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_020",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_020.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.2,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_021",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_021.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.21,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_022",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_022.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.22,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_023",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_023.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.23,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_024",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_024.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.24,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_025",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_025.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.25,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_026",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_026.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.26,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_027",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_027.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.27,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_028",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_028.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.28,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_029",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_029.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.29,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "rho_030",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/rho_030.json",
+    "control_group": "rho_sweep",
+    "rho_target_m": 0.3,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "az_inner_negpi",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/az_inner_negpi.json",
+    "control_group": "azimuth_control",
+    "rho_target_m": 0.1,
+    "theta_target_rad": -3.05,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "az_inner_zero",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/az_inner_zero.json",
+    "control_group": "azimuth_control",
+    "rho_target_m": 0.1,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "az_inner_halfpi",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/az_inner_halfpi.json",
+    "control_group": "azimuth_control",
+    "rho_target_m": 0.1,
+    "theta_target_rad": 1.57,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "az_mid_negpi",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/az_mid_negpi.json",
+    "control_group": "azimuth_control",
+    "rho_target_m": 0.2,
+    "theta_target_rad": -3.05,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "az_mid_zero",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/az_mid_zero.json",
+    "control_group": "azimuth_control",
+    "rho_target_m": 0.2,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "az_mid_halfpi",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/az_mid_halfpi.json",
+    "control_group": "azimuth_control",
+    "rho_target_m": 0.2,
+    "theta_target_rad": 1.57,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "az_outer_negpi",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/az_outer_negpi.json",
+    "control_group": "azimuth_control",
+    "rho_target_m": 0.28,
+    "theta_target_rad": -3.05,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "az_outer_zero",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/az_outer_zero.json",
+    "control_group": "azimuth_control",
+    "rho_target_m": 0.28,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "az_outer_halfpi",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/az_outer_halfpi.json",
+    "control_group": "azimuth_control",
+    "rho_target_m": 0.28,
+    "theta_target_rad": 1.57,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "z_inner_low",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/z_inner_low.json",
+    "control_group": "height_control",
+    "rho_target_m": 0.1,
+    "theta_target_rad": 0.0,
+    "z_target_m": -0.72
+  },
+  {
+    "sample_id": "z_inner_mid",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/z_inner_mid.json",
+    "control_group": "height_control",
+    "rho_target_m": 0.1,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "z_inner_high",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/z_inner_high.json",
+    "control_group": "height_control",
+    "rho_target_m": 0.1,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.72
+  },
+  {
+    "sample_id": "z_outer_low",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/z_outer_low.json",
+    "control_group": "height_control",
+    "rho_target_m": 0.28,
+    "theta_target_rad": 0.0,
+    "z_target_m": -0.72
+  },
+  {
+    "sample_id": "z_outer_mid",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/z_outer_mid.json",
+    "control_group": "height_control",
+    "rho_target_m": 0.28,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.0
+  },
+  {
+    "sample_id": "z_outer_high",
+    "split": "controlled",
+    "scene_path": "dataset/scenes/controlled/z_outer_high.json",
+    "control_group": "height_control",
+    "rho_target_m": 0.28,
+    "theta_target_rad": 0.0,
+    "z_target_m": 0.72
+  }
+]

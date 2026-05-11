@@ -1,0 +1,23 @@
+{
+  "sample_id": "mid_high_negpi_p1",
+  "method": "BP",
+  "variant": "D",
+  "tensor_mode": "dense_global",
+  "geom_mode": "sinc",
+  "tensor_shape": [
+    1101,
+    181,
+    501
+  ],
+  "active_coverage_ratio": 0.010174020714248161,
+  "estimated_peak_memory_mb": 1784.3538208007812,
+  "reference_count": 31,
+  "runtime_repeats_sec": [
+    165.23581474390812
+  ],
+  "quality": {
+    "nmse": 47.61523437495238,
+    "psnr": 4.19164091786981,
+    "ssim": -0.002502190605861054
+  }
+}

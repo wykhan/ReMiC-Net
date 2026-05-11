@@ -1,0 +1,132 @@
+# git_update_summary_007b
+
+- commit_hash: `8940642bbad38f4ea9bfd30b114e5e58d96a59a1`
+- push_result: `local commit only`
+
+## git status
+
+```text
+ M CONTEXT/experiment_matrix.md
+ M CONTEXT/project_brief.md
+ M workspace/recon/faithful_cylindrical_fast_recon.py
+ M workspace/sim/forward_cylindrical_point.py
+?? CONTEXT/et_dataset_protocol.md
+?? CONTEXT/et_dataset_protocol_800.md
+?? CONTEXT/visualization_protocol.md
+?? doc/matlab_to_python_mapping.md
+?? doc/task_real_004_algorithm_audit.md
+?? exp/task_real_004_accelerated_point_validation/
+?? exp/task_real_004b_wrap_hardening/
+?? exp/task_real_004c_variantB_confirmation/
+?? exp/task_real_005_shape_family_et/
+?? exp/task_real_006_two_stage_learning/
+?? exp/task_real_006b_fullscale_mainline/
+?? exp/task_real_006c_formal_validation/
+?? exp/task_real_006d_800_formal/
+?? exp/task_real_006e_comprehensive_eval/
+?? exp/task_real_007_physics_consistency/
+?? exp/task_real_007b_geometry_aware_consistency/
+?? exp/task_storage_audit_001/
+?? reference_plane_matlab_Tan/
+?? scripts/build_formal_frozen_mainline_handoff.sh
+?? scripts/build_frozen_mainline_handoff.sh
+?? scripts/build_frozen_mainline_handoff_800.sh
+?? scripts/build_learning_handoff.sh
+?? scripts/build_learning_handoff_full.sh
+?? scripts/complete_formal_scale_datasets.sh
+?? scripts/generate_et_fullscale_dataset.sh
+?? scripts/generate_et_shape_family_dataset.sh
+?? scripts/generate_main_800_dataset.sh
+?? scripts/generate_ood_leave_one_family_out_set.sh
+?? scripts/generate_ood_random_et_set.sh
+?? scripts/generate_ood_unseen_param_set.sh
+?? scripts/generate_random_et_dataset.sh
+?? scripts/generate_random_et_fullscale.sh
+?? scripts/generate_shape_family_fullscale.sh
+?? scripts/matlab_reference_plane_audit.m
+?? scripts/merge_all_dataset_metrics.sh
+?? scripts/render_006e_comprehensive_eval_viz.sh
+?? scripts/render_800_validation_viz.sh
+?? scripts/render_et_viz.sh
+?? scripts/render_formal_validation_viz.sh
+?? scripts/render_learning_viz.sh
+?? scripts/render_mainline_vs_baselines_viz.sh
+?? scripts/render_point_viz_accelerated.sh
+?? scripts/render_variantB_confirmation_viz.sh
+?? scripts/render_wrap_viz.sh
+?? scripts/run_accelerated_radial_mismatch_analysis.sh
+?? scripts/run_azimuth_edge_stress_set.sh
+?? scripts/run_et_baselines_variantB.sh
+?? scripts/run_formal_mainline_vs_baselines.sh
+?? scripts/run_frozen_mainline_formal_training.sh
+?? scripts/run_frozen_mainline_training.sh
+?? scripts/run_frozen_mainline_training_800.sh
+?? scripts/run_main_test_all_methods_eval.sh
+?? scripts/run_mainline_vs_baselines_800.sh
+?? scripts/run_mainline_vs_baselines_comparison.sh
+?? scripts/run_matlab_reference_plane_audit.sh
+?? scripts/run_model_audit.sh
+?? scripts/run_model_audit_800.sh
+?? scripts/run_ood_generalization_suite.sh
+?? scripts/run_ood_leave_one_family_all_methods_eval.sh
+?? scripts/run_ood_random_et_all_methods_eval.sh
+?? scripts/run_ood_suite_800.sh
+?? scripts/run_ood_unseen_param_all_methods_eval.sh
+?? scripts/run_point_accelerated_baselines.sh
+?? scripts/run_split_integrity_check.sh
+?? scripts/run_split_integrity_check_800.sh
+?? scripts/run_two_stage_training_M1.sh
+?? scripts/run_two_stage_training_M2.sh
+?? scripts/run_two_stage_training_M3.sh
+?? scripts/run_variantB_broader_point_suite.sh
+?? scripts/run_variantB_stability_analysis.sh
+?? scripts/run_wrap_ablation_variants.sh
+?? scripts/run_wrap_stability_analysis.sh
+?? task_real_004.md
+?? task_real_004b.md
+?? task_real_004c.md
+?? task_real_005.md
+?? task_real_006.md
+?? task_real_006b.md
+?? task_real_006c.md
+?? task_real_006d.md
+?? task_real_006e.md
+?? task_real_007.md
+?? task_real_007b.md
+?? task_storage_audit_001.md
+?? workspace/data/azimuth_edge_stress_builder.py
+?? workspace/data/broader_controlled_point_builder.py
+?? workspace/data/et_shape_family_builder.py
+?? workspace/data/radial_control_dataset_builder_accelerated.py
+?? workspace/data/random_et_builder.py
+?? workspace/eval/build_frozen_mainline_handoff.py
+?? workspace/eval/build_learning_handoff.py
+?? workspace/eval/build_learning_handoff_full.py
+?? workspace/eval/compare_frozen_mainline_vs_baselines.py
+?? workspace/eval/eval_accelerated_point_baselines.py
+?? workspace/eval/eval_et_baselines_variantB.py
+?? workspace/eval/eval_variantB_broader_suite.py
+?? workspace/eval/formal_scale_validation.py
+?? workspace/eval/generate_task_real_004b_report.py
+?? workspace/eval/generate_task_real_004c_report.py
+?? workspace/eval/generate_task_real_005_report.py
+?? workspace/eval/generate_task_real_006_report.py
+?? workspace/eval/generate_task_real_006b_report.py
+?? workspace/eval/radial_mismatch_analysis_accelerated.py
+?? workspace/eval/render_et_viz.py
+?? workspace/eval/render_learning_viz.py
+?? workspace/eval/render_mainline_vs_baselines_viz.py
+?? workspace/eval/render_point_viz_accelerated.py
+?? workspace/eval/render_variantB_confirmation_viz.py
+?? workspace/eval/render_wrap_viz.py
+?? workspace/eval/task_real_006d_pipeline.py
+?? workspace/eval/task_real_006e_comprehensive_eval.py
+?? workspace/eval/variantB_stability_analysis.py
+?? workspace/eval/wrap_ablation_variants.py
+?? workspace/eval/wrap_stability_analysis.py
+?? workspace/recon/cyl_fast_reference_engine.py
+?? workspace/recon/engine_modes.md
+?? workspace/recon/geometry_correction.py
+?? workspace/train/train_frozen_mainline.py
+?? workspace/train/train_two_stage_et.py
+```

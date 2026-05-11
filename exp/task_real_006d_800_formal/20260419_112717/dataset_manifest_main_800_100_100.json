@@ -1,0 +1,64 @@
+{
+  "dataset_name": "task_real_006d_main_800_100_100",
+  "dataset_type": "true_3d_cylindrical_extended_target",
+  "protocol_snapshot_source": "CONTEXT/et_dataset_protocol_800.md",
+  "family_names": [
+    "L-shape",
+    "cross",
+    "double-line",
+    "line",
+    "point_cluster",
+    "small_rect_edge"
+  ],
+  "counts_by_family": {
+    "line": 200,
+    "cross": 140,
+    "L-shape": 200,
+    "double-line": 130,
+    "small_rect_edge": 110,
+    "point_cluster": 220
+  },
+  "counts_by_split": {
+    "train": 800,
+    "val": 100,
+    "test": 100
+  },
+  "counts_by_family_split": {
+    "line": {
+      "train": 160,
+      "val": 20,
+      "test": 20
+    },
+    "cross": {
+      "train": 110,
+      "val": 15,
+      "test": 15
+    },
+    "L-shape": {
+      "train": 160,
+      "val": 20,
+      "test": 20
+    },
+    "double-line": {
+      "train": 100,
+      "val": 15,
+      "test": 15
+    },
+    "small_rect_edge": {
+      "train": 90,
+      "val": 10,
+      "test": 10
+    },
+    "point_cluster": {
+      "train": 180,
+      "val": 20,
+      "test": 20
+    }
+  },
+  "total_samples": 1000,
+  "gt_definition": "voxel truth amplitude volume",
+  "forward_simulator_entry": "workspace.sim.forward_cylindrical_point",
+  "reconstruction_entry": "workspace.recon.cyl_fast_reference_engine.reconstruct_cylindrical_reference(method='ref3')",
+  "index_path": "dataset/index.json",
+  "ood_statement": "Main family-aware train/val/test set for task_real_006d."
+}

@@ -1,0 +1,33 @@
+{
+  "sample_id": "L_shape_test_0002",
+  "family": "L-shape",
+  "method": "ref9",
+  "tensor_mode": "active",
+  "geom_mode": "sinc",
+  "tensor_shape": [
+    110,
+    181,
+    51
+  ],
+  "active_coverage_ratio": 0.9846702317290552,
+  "estimated_peak_memory_mb": 17.205963134765625,
+  "quality": {
+    "nmse": 3.591465880535331,
+    "psnr": 13.656814482091352,
+    "ssim": 0.02646541847721377
+  },
+  "wall_time_sec": 0.39994493196718395,
+  "failure_tags": [
+    "F2",
+    "F4"
+  ],
+  "failure_diagnostics": {
+    "gt_recall": 0.7,
+    "recon_precision": 0.042105263157894736,
+    "support_ratio": 9.5,
+    "components_gt": 1,
+    "components_recon": 3,
+    "center_shift_vox": 2.3727329170905174,
+    "weak_recall": 0.75
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "sample_id": "mid_high_pi_m1",
+  "method": "BP",
+  "variant": "B",
+  "tensor_mode": "active",
+  "geom_mode": "sinc",
+  "tensor_shape": [
+    92,
+    181,
+    61
+  ],
+  "active_coverage_ratio": 1.0,
+  "estimated_peak_memory_mb": 18.139625549316406,
+  "reference_count": 31,
+  "runtime_repeats_sec": [
+    1.1081047020852566
+  ],
+  "quality": {
+    "nmse": 6.445348739617578,
+    "psnr": 12.876635929876052,
+    "ssim": 0.02491587813756148
+  }
+}

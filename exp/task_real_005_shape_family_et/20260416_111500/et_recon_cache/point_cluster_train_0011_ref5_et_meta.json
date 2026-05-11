@@ -1,0 +1,32 @@
+{
+  "sample_id": "point_cluster_train_0011",
+  "family": "point_cluster",
+  "method": "ref5",
+  "tensor_mode": "active",
+  "geom_mode": "sinc",
+  "tensor_shape": [
+    114,
+    181,
+    61
+  ],
+  "active_coverage_ratio": 0.9941041127408685,
+  "estimated_peak_memory_mb": 21.115814208984375,
+  "quality": {
+    "nmse": 5.863493790326659,
+    "psnr": 12.840728993533935,
+    "ssim": 0.008111113342596631
+  },
+  "wall_time_sec": 0.33019396499730647,
+  "failure_tags": [
+    "F6"
+  ],
+  "failure_diagnostics": {
+    "gt_recall": 0.16666666666666666,
+    "recon_precision": 0.0125,
+    "support_ratio": 13.333333333333334,
+    "components_gt": 2,
+    "components_recon": 1,
+    "center_shift_vox": 1.8640327399366017,
+    "weak_recall": 0.3333333333333333
+  }
+}

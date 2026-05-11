@@ -1,0 +1,32 @@
+{
+  "sample_id": "small_rect_edge_val_0001",
+  "family": "small_rect_edge",
+  "method": "ref5",
+  "tensor_mode": "active",
+  "geom_mode": "sinc",
+  "tensor_shape": [
+    109,
+    181,
+    47
+  ],
+  "active_coverage_ratio": 0.999219207495608,
+  "estimated_peak_memory_mb": 15.555984497070312,
+  "quality": {
+    "nmse": 3.0262413656981026,
+    "psnr": 12.660953033412603,
+    "ssim": 0.019659206432669548
+  },
+  "wall_time_sec": 0.3219120849389583,
+  "failure_tags": [
+    "F2"
+  ],
+  "failure_diagnostics": {
+    "gt_recall": 0.6923076923076923,
+    "recon_precision": 0.043859649122807015,
+    "support_ratio": 8.76923076923077,
+    "components_gt": 1,
+    "components_recon": 2,
+    "center_shift_vox": 1.4980299621790627,
+    "weak_recall": 1.0
+  }
+}

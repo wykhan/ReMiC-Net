@@ -1,0 +1,19 @@
+{
+  "sample_id": "double_outer_height",
+  "method": "ref9",
+  "tensor_mode": "active",
+  "geom_mode": "sinc",
+  "tensor_shape": [
+    91,
+    181,
+    405
+  ],
+  "active_coverage_ratio": 0.2222222222222222,
+  "estimated_peak_memory_mb": 113.03489685058594,
+  "quality": {
+    "nmse": 11.685671042936551,
+    "psnr": 29.773233304376554,
+    "ssim": 0.3617955443768719
+  },
+  "wall_time_sec": 3.6574471609201282
+}
