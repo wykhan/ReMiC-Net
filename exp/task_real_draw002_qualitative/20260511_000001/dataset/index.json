@@ -1,0 +1,18 @@
+[
+  {
+    "target_key": "y",
+    "sample_id": "draw002_y_target",
+    "scene_path": "dataset/scenes/draw002_y_target.json",
+    "gt_path": "dataset/gt_volumes/draw002_y_target_gt.npz",
+    "echo_path": "dataset/echoes/draw002_y_target_echo_sparse.npz",
+    "point_count": 34
+  },
+  {
+    "target_key": "random_ext",
+    "sample_id": "draw002_random_extended",
+    "scene_path": "dataset/scenes/draw002_random_extended.json",
+    "gt_path": "dataset/gt_volumes/draw002_random_extended_gt.npz",
+    "echo_path": "dataset/echoes/draw002_random_extended_echo_sparse.npz",
+    "point_count": 45
+  }
+]

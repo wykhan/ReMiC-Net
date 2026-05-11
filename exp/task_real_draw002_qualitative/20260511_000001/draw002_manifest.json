@@ -1,0 +1,33 @@
+{
+  "task": "task_real_draw002",
+  "created_at": "2026-05-11T11:06:28",
+  "prompt": "PROMPTS/task_real_draw002.md",
+  "source_draw001": "exp/task_real_draw001_qualitative/20260511_000001",
+  "methods": [
+    "ref3",
+    "ref9",
+    "BP",
+    "U-Net"
+  ],
+  "unet_definition": "ordinary residual 3D U-Net baseline checkpoint from task_real_008; not RSB-FiLM/ReMiC-Net",
+  "unet_checkpoint": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_008_remicnet_eval/20260511_082329/checkpoints/baseline/best.pt",
+  "primary_targets": [
+    "y",
+    "random_ext"
+  ],
+  "familyA": "viz/paper_candidates/familyA",
+  "familyB": "viz/paper_candidates/familyB",
+  "familyC": "viz/paper_candidates/familyC",
+  "roi_y": {
+    "rho_min": 0.195,
+    "rho_max": 0.255,
+    "z_min": -0.03,
+    "z_max": 0.095
+  },
+  "roi_random_ext": {
+    "rho_min": 0.185,
+    "rho_max": 0.265,
+    "z_min": -0.155,
+    "z_max": 0.155
+  }
+}
