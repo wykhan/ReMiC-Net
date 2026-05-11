@@ -1744,6 +1744,7 @@
 ./remicnet_config_008.yaml
 ./remicnet_input_manifest_008.json
 ./task_real_008_report.md
+./tree.txt
 ./viz
 ./viz/manifest
 ./viz/paper_candidates
