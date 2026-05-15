@@ -1,0 +1,79 @@
+[
+  {
+    "key": "S01_ref3",
+    "description": "No learning: ref3 physical reconstruction directly.",
+    "kind": "ref3",
+    "image_channels": 1,
+    "geom_mode": "scalar"
+  },
+  {
+    "key": "S02_plain_residual_unet",
+    "description": "Residual 3D U-Net with X_ref3 only.",
+    "kind": "concat_unet",
+    "image_channels": 1,
+    "geom_mode": "scalar"
+  },
+  {
+    "key": "S03_concat_Mshell",
+    "description": "Residual 3D U-Net with [X_ref3, Mshell].",
+    "kind": "concat_unet",
+    "image_channels": 1,
+    "geom_mode": "scalar"
+  },
+  {
+    "key": "S04_concat_Mshell_delta",
+    "description": "Residual 3D U-Net with [X_ref3, Mshell, delta_rho].",
+    "kind": "concat_unet",
+    "image_channels": 1,
+    "geom_mode": "scalar"
+  },
+  {
+    "key": "S05_concat_Mshell_delta_Pcyc",
+    "description": "Residual 3D U-Net with [X_ref3, Mshell, delta_rho, Pcyc].",
+    "kind": "concat_unet",
+    "image_channels": 1,
+    "geom_mode": "scalar"
+  },
+  {
+    "key": "S06_geometry_branch_bottleneck_concat",
+    "description": "Image branch plus geometry branch with bottleneck concat.",
+    "kind": "bottleneck_concat",
+    "image_channels": 1,
+    "geom_mode": "scalar"
+  },
+  {
+    "key": "S07_generic_film_middeep",
+    "description": "Geometry branch plus generic FiLM.",
+    "kind": "generic_film",
+    "image_channels": 1,
+    "geom_mode": "scalar"
+  },
+  {
+    "key": "S08_rsbfilm_middeep_default",
+    "description": "Geometry branch plus RSB-FiLM default envelope.",
+    "kind": "rsb_film",
+    "image_channels": 1,
+    "geom_mode": "scalar"
+  },
+  {
+    "key": "S09_concat_Mshell_delta_Pcyc_sincos",
+    "description": "Concat with periodic Pcyc sin/cos.",
+    "kind": "concat_unet",
+    "image_channels": 1,
+    "geom_mode": "sincos"
+  },
+  {
+    "key": "S10_geometry_branch_bottleneck_concat_Pcyc_sincos",
+    "description": "Geometry branch bottleneck concat with periodic Pcyc.",
+    "kind": "bottleneck_concat",
+    "image_channels": 1,
+    "geom_mode": "sincos"
+  },
+  {
+    "key": "S11_rsbfilm_Pcyc_sincos",
+    "description": "RSB-FiLM with periodic Pcyc geometry input and scalar envelope.",
+    "kind": "rsb_film",
+    "image_channels": 1,
+    "geom_mode": "sincos"
+  }
+]

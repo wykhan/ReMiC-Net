@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE",
+  "best_overall_model": "S09_concat_Mshell_delta_Pcyc_sincos",
+  "best_SSIM_model": "S08_rsbfilm_middeep_default",
+  "S03_failure_status": "see failure_audit_S03_S05.md",
+  "S05_failure_status": "see failure_audit_S03_S05.md",
+  "Pcyc_scalar_status": "compare S05 vs S09",
+  "Pcyc_sincos_status": "compare S09/S10/S11",
+  "RSBFiLM_status": "compare S08/S11 against S07/S06 and hard-region metrics",
+  "recommendation_for_task_real_struc_002": "use OOD and seed-stability review before tuning periodic Pcyc or RSB envelope strength"
+}
