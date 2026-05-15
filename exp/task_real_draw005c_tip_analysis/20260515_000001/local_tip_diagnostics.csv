@@ -1,0 +1,19 @@
+tip,method,local_peak_r2,support_ge_0p10_r2,retained_ge_0p22_local_peak
+left upper tip,GT,0.5527622699737549,18,True
+left upper tip,ref3,0.5841825008392334,59,True
+left upper tip,ref9,0.09262831509113312,0,False
+left upper tip,BP,0.5050793886184692,23,True
+left upper tip,U-Net residual,0.17662526667118073,4,False
+left upper tip,ref3+U-Net,0.5490453839302063,20,True
+right upper tip,GT,0.49199509620666504,10,True
+right upper tip,ref3,0.05063812434673309,0,False
+right upper tip,ref9,0.1883644461631775,7,True
+right upper tip,BP,0.2956011891365051,9,True
+right upper tip,U-Net residual,0.4657960832118988,11,True
+right upper tip,ref3+U-Net,0.4818321764469147,12,True
+lower tip,GT,0.6022735834121704,32,True
+lower tip,ref3,0.1362611949443817,41,True
+lower tip,ref9,0.271037220954895,21,True
+lower tip,BP,0.5475252270698547,63,True
+lower tip,U-Net residual,0.5149484872817993,29,True
+lower tip,ref3+U-Net,0.5933449268341064,35,True

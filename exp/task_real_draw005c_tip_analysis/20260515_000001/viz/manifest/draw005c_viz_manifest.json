@@ -1,0 +1,277 @@
+{
+  "task": "task_real_draw005c",
+  "created_at": "2026-05-15T09:47:25",
+  "prompt": "PROMPTS/task_real_draw005c.md",
+  "source_draw005": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_draw005_dense_volume/20260511_000001",
+  "source_draw005b": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_draw005b_ref3_plus_unet/20260511_175843",
+  "columns_4x6": [
+    "GT",
+    "ref3",
+    "ref9",
+    "BP",
+    "U-Net residual",
+    "ref3+U-Net"
+  ],
+  "columns_clean_4x5": [
+    "GT",
+    "ref3",
+    "ref9",
+    "BP",
+    "ref3+U-Net"
+  ],
+  "view_rows": [
+    "3D volumetric rendering",
+    "x-y projection",
+    "z-y projection",
+    "x-z projection"
+  ],
+  "main_composite": "viz/paper_candidates/manisali_style/dense_y_manisali_4x6_with_xz_and_ref3_plus_unet.png",
+  "main_composite_pdf": "viz/paper_candidates/manisali_style/dense_y_manisali_4x6_with_xz_and_ref3_plus_unet.pdf",
+  "clean_composite": "viz/paper_candidates/manisali_style/dense_y_manisali_4x5_clean_with_xz_and_ref3_plus_unet.png",
+  "clean_composite_pdf": "viz/paper_candidates/manisali_style/dense_y_manisali_4x5_clean_with_xz_and_ref3_plus_unet.pdf",
+  "tip_reference_surface_analysis_csv": "tip_reference_surface_analysis.csv",
+  "tip_reference_surface_analysis_json": "tip_reference_surface_analysis.json",
+  "local_tip_diagnostics_csv": "local_tip_diagnostics.csv",
+  "trans_level_interpretation": "trans_level_figure_interpretation.md",
+  "metrics": [
+    {
+      "target": "dense_manisali_y",
+      "method": "ref3",
+      "role": "displayed_reconstruction",
+      "nmse": 1.8607035449661204,
+      "psnr": 23.959379417070497,
+      "ssim": 0.2136947333079582,
+      "peak_value": 0.6069861650466919,
+      "support_voxels_ge_0p10": 1062,
+      "support_voxels_ge_0p22_local_peak": 681
+    },
+    {
+      "target": "dense_manisali_y",
+      "method": "ref9",
+      "role": "displayed_reconstruction",
+      "nmse": 1.0348304704997662,
+      "psnr": 26.507459045693736,
+      "ssim": 0.47309811642208127,
+      "peak_value": 0.6069861650466919,
+      "support_voxels_ge_0p10": 476,
+      "support_voxels_ge_0p22_local_peak": 370
+    },
+    {
+      "target": "dense_manisali_y",
+      "method": "BP",
+      "role": "displayed_reconstruction",
+      "nmse": 0.6284297494472619,
+      "psnr": 28.67358355408882,
+      "ssim": 0.5821627779776055,
+      "peak_value": 0.6069861650466919,
+      "support_voxels_ge_0p10": 454,
+      "support_voxels_ge_0p22_local_peak": 354
+    },
+    {
+      "target": "dense_manisali_y",
+      "method": "U-Net residual",
+      "role": "positive_part_of_calibrated_residual_delta",
+      "nmse": 0.2788512045928928,
+      "psnr": 32.20242593145814,
+      "ssim": 0.8086710631247037,
+      "peak_value": 0.8197925686836243,
+      "support_voxels_ge_0p10": 125,
+      "support_voxels_ge_0p22_local_peak": 83
+    },
+    {
+      "target": "dense_manisali_y",
+      "method": "ref3+U-Net",
+      "role": "displayed_reconstruction",
+      "nmse": 0.014693349080482499,
+      "psnr": 44.984943262321806,
+      "ssim": 0.9917695504744036,
+      "peak_value": 0.9897807836532593,
+      "support_voxels_ge_0p10": 215,
+      "support_voxels_ge_0p22_local_peak": 146
+    }
+  ],
+  "tip_rows": [
+    {
+      "tip": "left upper tip",
+      "x_m": 0.17431703727083475,
+      "y_m": 0.007616566256710502,
+      "z_m": 0.02789635042234408,
+      "rho_m": 0.17448335612437207,
+      "theta_rad": 0.04366598284912193,
+      "theta_deg": 2.5018765255453244,
+      "nearest_voxel_x": 5,
+      "nearest_voxel_y": 9,
+      "nearest_voxel_z": 18,
+      "nearest_ref3_index": 1,
+      "nearest_ref3_radius_m": 0.15,
+      "dist_to_ref3_m": 0.02448335612437208,
+      "nearest_ref9_index": 5,
+      "nearest_ref9_radius_m": 0.19,
+      "dist_to_ref9_m": 0.015516643875627928
+    },
+    {
+      "tip": "right upper tip",
+      "x_m": 0.22798462471407197,
+      "y_m": 0.020997398651344597,
+      "z_m": 0.03665668046459701,
+      "rho_m": 0.22894951377135467,
+      "theta_rad": 0.09184097137982894,
+      "theta_deg": 5.262100046445983,
+      "nearest_voxel_x": 16,
+      "nearest_voxel_y": 12,
+      "nearest_voxel_z": 21,
+      "nearest_ref3_index": 2,
+      "nearest_ref3_radius_m": 0.3,
+      "dist_to_ref3_m": 0.07105048622864532,
+      "nearest_ref9_index": 6,
+      "nearest_ref9_radius_m": 0.22,
+      "dist_to_ref9_m": 0.008949513771354667
+    },
+    {
+      "tip": "lower tip",
+      "x_m": 0.2084992445523151,
+      "y_m": 0.025175470496338594,
+      "z_m": -0.0293422867667914,
+      "rho_m": 0.2100136645401868,
+      "theta_rad": 0.12016436900546612,
+      "theta_deg": 6.88491119186585,
+      "nearest_voxel_x": 12,
+      "nearest_voxel_y": 13,
+      "nearest_voxel_z": 4,
+      "nearest_ref3_index": 1,
+      "nearest_ref3_radius_m": 0.15,
+      "dist_to_ref3_m": 0.060013664540186806,
+      "nearest_ref9_index": 6,
+      "nearest_ref9_radius_m": 0.22,
+      "dist_to_ref9_m": 0.0099863354598132
+    }
+  ],
+  "local_tip_diagnostics": [
+    {
+      "tip": "left upper tip",
+      "method": "GT",
+      "local_peak_r2": 0.5527622699737549,
+      "support_ge_0p10_r2": 18,
+      "retained_ge_0p22_local_peak": true
+    },
+    {
+      "tip": "left upper tip",
+      "method": "ref3",
+      "local_peak_r2": 0.5841825008392334,
+      "support_ge_0p10_r2": 59,
+      "retained_ge_0p22_local_peak": true
+    },
+    {
+      "tip": "left upper tip",
+      "method": "ref9",
+      "local_peak_r2": 0.09262831509113312,
+      "support_ge_0p10_r2": 0,
+      "retained_ge_0p22_local_peak": false
+    },
+    {
+      "tip": "left upper tip",
+      "method": "BP",
+      "local_peak_r2": 0.5050793886184692,
+      "support_ge_0p10_r2": 23,
+      "retained_ge_0p22_local_peak": true
+    },
+    {
+      "tip": "left upper tip",
+      "method": "U-Net residual",
+      "local_peak_r2": 0.17662526667118073,
+      "support_ge_0p10_r2": 4,
+      "retained_ge_0p22_local_peak": false
+    },
+    {
+      "tip": "left upper tip",
+      "method": "ref3+U-Net",
+      "local_peak_r2": 0.5490453839302063,
+      "support_ge_0p10_r2": 20,
+      "retained_ge_0p22_local_peak": true
+    },
+    {
+      "tip": "right upper tip",
+      "method": "GT",
+      "local_peak_r2": 0.49199509620666504,
+      "support_ge_0p10_r2": 10,
+      "retained_ge_0p22_local_peak": true
+    },
+    {
+      "tip": "right upper tip",
+      "method": "ref3",
+      "local_peak_r2": 0.05063812434673309,
+      "support_ge_0p10_r2": 0,
+      "retained_ge_0p22_local_peak": false
+    },
+    {
+      "tip": "right upper tip",
+      "method": "ref9",
+      "local_peak_r2": 0.1883644461631775,
+      "support_ge_0p10_r2": 7,
+      "retained_ge_0p22_local_peak": true
+    },
+    {
+      "tip": "right upper tip",
+      "method": "BP",
+      "local_peak_r2": 0.2956011891365051,
+      "support_ge_0p10_r2": 9,
+      "retained_ge_0p22_local_peak": true
+    },
+    {
+      "tip": "right upper tip",
+      "method": "U-Net residual",
+      "local_peak_r2": 0.4657960832118988,
+      "support_ge_0p10_r2": 11,
+      "retained_ge_0p22_local_peak": true
+    },
+    {
+      "tip": "right upper tip",
+      "method": "ref3+U-Net",
+      "local_peak_r2": 0.4818321764469147,
+      "support_ge_0p10_r2": 12,
+      "retained_ge_0p22_local_peak": true
+    },
+    {
+      "tip": "lower tip",
+      "method": "GT",
+      "local_peak_r2": 0.6022735834121704,
+      "support_ge_0p10_r2": 32,
+      "retained_ge_0p22_local_peak": true
+    },
+    {
+      "tip": "lower tip",
+      "method": "ref3",
+      "local_peak_r2": 0.1362611949443817,
+      "support_ge_0p10_r2": 41,
+      "retained_ge_0p22_local_peak": true
+    },
+    {
+      "tip": "lower tip",
+      "method": "ref9",
+      "local_peak_r2": 0.271037220954895,
+      "support_ge_0p10_r2": 21,
+      "retained_ge_0p22_local_peak": true
+    },
+    {
+      "tip": "lower tip",
+      "method": "BP",
+      "local_peak_r2": 0.5475252270698547,
+      "support_ge_0p10_r2": 63,
+      "retained_ge_0p22_local_peak": true
+    },
+    {
+      "tip": "lower tip",
+      "method": "U-Net residual",
+      "local_peak_r2": 0.5149484872817993,
+      "support_ge_0p10_r2": 29,
+      "retained_ge_0p22_local_peak": true
+    },
+    {
+      "tip": "lower tip",
+      "method": "ref3+U-Net",
+      "local_peak_r2": 0.5933449268341064,
+      "support_ge_0p10_r2": 35,
+      "retained_ge_0p22_local_peak": true
+    }
+  ]
+}
