@@ -185,22 +185,22 @@
     {
       "tip": "left upper tip",
       "method": "true BP",
-      "local_peak_r2": 0.32703566551208496,
-      "support_ge_0p10_r2": 42,
+      "local_peak_r2": 0.37415292859077454,
+      "support_ge_0p10_r2": 28,
       "retained_ge_0p22_local_peak": true
     },
     {
       "tip": "right upper tip",
       "method": "true BP",
-      "local_peak_r2": 0.2325402796268463,
-      "support_ge_0p10_r2": 24,
+      "local_peak_r2": 0.25192078948020935,
+      "support_ge_0p10_r2": 12,
       "retained_ge_0p22_local_peak": true
     },
     {
       "tip": "lower tip",
       "method": "true BP",
-      "local_peak_r2": 0.26681360602378845,
-      "support_ge_0p10_r2": 36,
+      "local_peak_r2": 0.32275256514549255,
+      "support_ge_0p10_r2": 51,
       "retained_ge_0p22_local_peak": true
     }
   ]

@@ -10,6 +10,7 @@ import numpy as np
 
 from workspace.common.io_utils import ensure_dir, write_json, write_text
 from workspace.eval.metrics_3d import nmse, psnr, ssim_global
+from workspace.eval.task_real_draw001_qualitative import _fit_volume
 from workspace.eval.task_real_draw005c_tip_analysis import (
     SOURCE_DRAW005B_ROOT,
     _db_image,
@@ -189,13 +190,18 @@ def validate_one_voxel(output_root: Path) -> dict[str, Any]:
 
 
 def run_true_bp(output_root: Path, gt: np.ndarray) -> tuple[np.ndarray, dict[str, Any]]:
-    x_values, y_values, z_values = _voxel_grid_values()
+    source_axes = np.load(SOURCE_ROOT / "recon_cache" / "dense_y_ref3.npz")
+    x_values = source_axes["x_values"].astype(np.float64)
+    y_values = source_axes["y_values"].astype(np.float64)
+    z_values = source_axes["z_values"].astype(np.float64)
     recon = true_backproject_sparse_echo(ECHO_PATH, x_values, y_values, z_values, voxel_chunk=384, measurement_chunk=512, n_fft=4096)
-    aligned, scale = _align_to_gt(recon["volume"], gt)
+    fitted = _fit_volume(recon["volume"].astype(np.float32))
+    aligned, scale = _align_to_gt(fitted, gt)
     np.savez_compressed(
         output_root / "recon_cache" / "dense_y_true_bp_display.npz",
         volume=aligned.astype(np.float32),
         raw_volume=recon["volume"].astype(np.float32),
+        fitted_volume=fitted.astype(np.float32),
         amplitude_alignment_scale=np.array(scale, dtype=np.float32),
         x_values=x_values,
         y_values=y_values,
@@ -204,6 +210,8 @@ def run_true_bp(output_root: Path, gt: np.ndarray) -> tuple[np.ndarray, dict[str
     meta = {k: v for k, v in recon.items() if k not in {"volume", "x_values", "y_values", "z_values"}}
     meta["amplitude_alignment"] = "least_squares_to_GT_for_display_and_metrics"
     meta["amplitude_alignment_scale"] = scale
+    meta["display_grid_alignment"] = "true BP reconstructed on the same source patch axes as ref3/ref9/pseudo-BP, then centered with _fit_volume to the shared 24^3 display grid"
+    meta["source_patch_shape"] = [int(len(x_values)), int(len(y_values)), int(len(z_values))]
     return aligned, meta
 
 
@@ -295,6 +303,8 @@ def write_report(
         "## True BP implementation",
         "",
         "`workspace/recon/cyl_true_bp_engine.py::true_backproject_sparse_echo` directly evaluates the project-consistent phase-compensated sum `sum y(a,h,k) exp(+j k R(a,h,p))` for each Cartesian voxel. It uses the sparse active echo cells written by the dense-volume forward simulator, the protocol-v1 azimuth/height/frequency samples, and the same `measurement_range` helper. A zero-padded inverse FFT over frequency is used only to interpolate the same k-domain summation as a range profile; no reference surfaces or geometry-correction stack are used.",
+        "",
+        "For visual alignment, true BP is reconstructed on the same source patch axes stored with the draw005 ref3 result and then centered with `_fit_volume` onto the shared 24^3 display grid. This matches the display convention already used by ref3, ref9, pseudo-BP, GT, and ref3+U-Net.",
         "",
         f"- Dense-Y runtime: `{bp_meta['runtime_sec']:.2f}` sec",
         f"- Active measurement cells: `{bp_meta['active_measurement_count']}`",

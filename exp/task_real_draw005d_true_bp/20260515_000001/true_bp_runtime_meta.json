@@ -1,8 +1,8 @@
 {
-  "runtime_sec": 7.276094075000401,
+  "runtime_sec": 2.661096218000239,
   "active_measurement_count": 8294,
   "num_freq": 181,
-  "reconstructed_voxels": 13824,
+  "reconstructed_voxels": 4301,
   "voxel_chunk": 384,
   "measurement_chunk": 512,
   "n_fft": 4096,
@@ -10,5 +10,11 @@
   "estimated_peak_memory_mb": 268.1875,
   "phase_convention": "sum y(a,h,k) * exp(+j*k*R(a,h,p)); range-profile FFT interpolates the same k-domain sum",
   "amplitude_alignment": "least_squares_to_GT_for_display_and_metrics",
-  "amplitude_alignment_scale": 7.850823518007217e-08
+  "amplitude_alignment_scale": 8.723748036510203e-08,
+  "display_grid_alignment": "true BP reconstructed on the same source patch axes as ref3/ref9/pseudo-BP, then centered with _fit_volume to the shared 24^3 display grid",
+  "source_patch_shape": [
+    17,
+    11,
+    23
+  ]
 }

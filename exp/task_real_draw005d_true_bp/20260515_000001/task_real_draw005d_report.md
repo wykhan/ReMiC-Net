@@ -16,10 +16,12 @@ The draw005c x-z projection showed a visibly thick BP result. Because the existi
 
 `workspace/recon/cyl_true_bp_engine.py::true_backproject_sparse_echo` directly evaluates the project-consistent phase-compensated sum `sum y(a,h,k) exp(+j k R(a,h,p))` for each Cartesian voxel. It uses the sparse active echo cells written by the dense-volume forward simulator, the protocol-v1 azimuth/height/frequency samples, and the same `measurement_range` helper. A zero-padded inverse FFT over frequency is used only to interpolate the same k-domain summation as a range profile; no reference surfaces or geometry-correction stack are used.
 
-- Dense-Y runtime: `7.28` sec
+For visual alignment, true BP is reconstructed on the same source patch axes stored with the draw005 ref3 result and then centered with `_fit_volume` onto the shared 24^3 display grid. This matches the display convention already used by ref3, ref9, pseudo-BP, GT, and ref3+U-Net.
+
+- Dense-Y runtime: `2.66` sec
 - Active measurement cells: `8294`
 - Frequencies: `181`
-- Reconstructed voxels: `13824`
+- Reconstructed voxels: `4301`
 - Voxel chunk / measurement chunk: `384` / `512`
 - FFT range bins: `4096`
 - Estimated peak memory: `268.19` MB
@@ -37,7 +39,7 @@ The one-voxel sanity check used target coordinate `(0.2075, 0.0225, 0.002)` m. T
 
 ## x-z bloating analysis
 
-At the fixed -20 dB x-z projection threshold, pseudo-BP has support area `270` pixels and bounding box `17x21`. True BP has support area `293` pixels and bounding box `22x21`. In the 3D volume, true BP uses fewer voxels above 0.10 (`282`) than pseudo-BP (`454`), but the x-z projection support at this dB threshold is not smaller.
+At the fixed -20 dB x-z projection threshold, pseudo-BP has support area `270` pixels and bounding box `17x21`. True BP has support area `256` pixels and bounding box `17x21`. In the 3D volume, true BP uses fewer voxels above 0.10 (`320`) than pseudo-BP (`454`), but the x-z projection support at this dB threshold is not smaller.
 
 Therefore, the previous x-z bloating should not be attributed solely to the dense-reference pseudo-BP approximation. True BP improves the physics baseline and reduces volumetric support, but the x-z projection still broadens under the finite aperture, finite tube radius, projection collapse, and the chosen dB threshold. The dense-reference pseudo-BP label remains necessary for correctness, but the x-z thickness is a mixed effect rather than a pure pseudo-BP artifact.
 
@@ -46,7 +48,7 @@ Therefore, the previous x-z bloating should not be attributed solely to the dens
 | ref3 | 327 | 17 | 21 | 357 | 0.9160 |
 | ref9 | 249 | 17 | 20 | 340 | 0.7324 |
 | pseudo-BP | 270 | 17 | 21 | 357 | 0.7563 |
-| true BP | 293 | 22 | 21 | 462 | 0.6342 |
+| true BP | 256 | 17 | 21 | 357 | 0.7171 |
 | ref3+U-Net | 91 | 14 | 19 | 266 | 0.3421 |
 
 ## Tip-level analysis
@@ -77,9 +79,9 @@ Therefore, the previous x-z bloating should not be attributed solely to the dens
 | lower tip | pseudo-BP | 0.5475 | 63 | True |
 | lower tip | U-Net residual | 0.5149 | 29 | True |
 | lower tip | ref3+U-Net | 0.5933 | 35 | True |
-| left upper tip | true BP | 0.3270 | 42 | True |
-| right upper tip | true BP | 0.2325 | 24 | True |
-| lower tip | true BP | 0.2668 | 36 | True |
+| left upper tip | true BP | 0.3742 | 28 | True |
+| right upper tip | true BP | 0.2519 | 12 | True |
+| lower tip | true BP | 0.3228 | 51 | True |
 
 True BP is added to the same local-tip diagnostic used in draw005c. The result should be interpreted together with the x-z diagnostic: true BP provides a direct physical baseline for whether each Y terminal is locally focused, while ref3/ref9 expose reference-radius mismatch and ref3+U-Net shows learned compensation.
 
@@ -90,7 +92,7 @@ True BP is added to the same local-tip diagnostic used in draw005c. The result s
 | ref3 | displayed_reconstruction | 1.8607 | 23.9594 | 0.2137 | 0.6070 | 1062 | 681 |
 | ref9 | displayed_reconstruction | 1.0348 | 26.5075 | 0.4731 | 0.6070 | 476 | 370 |
 | pseudo-BP | dense_reference_pseudo_bp | 0.6284 | 28.6736 | 0.5822 | 0.6070 | 454 | 354 |
-| true BP | voxelwise_phase_compensated_backprojection | 0.5703 | 29.0952 | 0.5904 | 0.3270 | 282 | 371 |
+| true BP | voxelwise_phase_compensated_backprojection | 0.4911 | 29.7442 | 0.6918 | 0.3742 | 320 | 377 |
 | U-Net residual | positive_part_of_calibrated_residual_delta | 0.2789 | 32.2024 | 0.8087 | 0.8198 | 125 | 83 |
 | ref3+U-Net | displayed_reconstruction | 0.0147 | 44.9849 | 0.9918 | 0.9898 | 215 | 146 |
 

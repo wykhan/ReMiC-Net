@@ -1,6 +1,6 @@
 {
   "task": "task_real_draw005d",
-  "created_at": "2026-05-15T10:12:22",
+  "created_at": "2026-05-15T10:19:40",
   "prompt": "PROMPTS/task_real_draw005d.md",
   "source_draw005c": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_draw005c_tip_analysis/20260515_000001",
   "source_echo": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_draw005_dense_volume/20260511_000001/dataset/echoes/draw005_dense_manisali_y_echo_sparse.npz",
@@ -47,16 +47,16 @@
     ],
     "localization_error_m": 0.0,
     "peak_to_second_largest_ratio": 1.1873596906661987,
-    "runtime_sec": 0.687948267000138,
+    "runtime_sec": 0.6845878929998435,
     "active_measurement_count": 4732,
     "num_freq": 181,
     "reconstructed_voxels": 729
   },
   "true_bp_meta": {
-    "runtime_sec": 7.276094075000401,
+    "runtime_sec": 2.661096218000239,
     "active_measurement_count": 8294,
     "num_freq": 181,
-    "reconstructed_voxels": 13824,
+    "reconstructed_voxels": 4301,
     "voxel_chunk": 384,
     "measurement_chunk": 512,
     "n_fft": 4096,
@@ -64,7 +64,13 @@
     "estimated_peak_memory_mb": 268.1875,
     "phase_convention": "sum y(a,h,k) * exp(+j*k*R(a,h,p)); range-profile FFT interpolates the same k-domain sum",
     "amplitude_alignment": "least_squares_to_GT_for_display_and_metrics",
-    "amplitude_alignment_scale": 7.850823518007217e-08
+    "amplitude_alignment_scale": 8.723748036510203e-08,
+    "display_grid_alignment": "true BP reconstructed on the same source patch axes as ref3/ref9/pseudo-BP, then centered with _fit_volume to the shared 24^3 display grid",
+    "source_patch_shape": [
+      17,
+      11,
+      23
+    ]
   },
   "metrics": [
     {
@@ -122,18 +128,18 @@
       "target": "dense_manisali_y",
       "method": "true BP",
       "role": "voxelwise_phase_compensated_backprojection",
-      "nmse": 0.5702897792415341,
-      "psnr": 29.09519500620279,
-      "ssim": 0.5904443249819767,
-      "peak_value": 0.32703566551208496,
-      "support_voxels_ge_0p10": 282,
-      "support_voxels_ge_0p22_local_peak": 371,
+      "nmse": 0.49113247359523,
+      "psnr": 29.7441646960997,
+      "ssim": 0.6917736961956222,
+      "peak_value": 0.37415292859077454,
+      "support_voxels_ge_0p10": 320,
+      "support_voxels_ge_0p22_local_peak": 377,
       "xz_threshold_db": -20.0,
-      "xz_support_area": 293,
-      "xz_bbox_width_px": 22,
+      "xz_support_area": 256,
+      "xz_bbox_width_px": 17,
       "xz_bbox_height_px": 21,
-      "xz_bbox_area_px": 462,
-      "xz_fill_ratio": 0.6341991341991342
+      "xz_bbox_area_px": 357,
+      "xz_fill_ratio": 0.7170868347338936
     },
     {
       "target": "dense_manisali_y",
