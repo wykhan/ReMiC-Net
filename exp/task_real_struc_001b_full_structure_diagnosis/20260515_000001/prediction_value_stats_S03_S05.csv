@@ -1,0 +1,3 @@
+variant,source,NMSE,SSIM,status
+S03_concat_Mshell,001a_smoke,31.70182440053975,0.001341314375087611,collapsed_in_001a
+S05_concat_Mshell_delta_Pcyc,001a_smoke,28.853263289964044,0.0014788602410576984,collapsed_in_001a

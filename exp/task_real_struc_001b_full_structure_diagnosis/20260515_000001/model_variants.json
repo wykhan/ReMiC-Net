@@ -1,0 +1,46 @@
+[
+  {
+    "variant": "S01_ref3",
+    "description": "ref3 physical baseline"
+  },
+  {
+    "variant": "S02_plain_residual_unet",
+    "description": "plain residual 3D U-Net"
+  },
+  {
+    "variant": "S03_concat_Mshell",
+    "description": "concat [X_ref3, Mshell]"
+  },
+  {
+    "variant": "S04_concat_Mshell_delta",
+    "description": "concat [X_ref3, Mshell, delta_rho]"
+  },
+  {
+    "variant": "S05_concat_Mshell_delta_Pcyc",
+    "description": "concat [X_ref3, Mshell, delta_rho, Pcyc]"
+  },
+  {
+    "variant": "S06_geometry_branch_bottleneck_concat",
+    "description": "geometry branch bottleneck concat"
+  },
+  {
+    "variant": "S07_generic_film_middeep",
+    "description": "generic FiLM"
+  },
+  {
+    "variant": "S08_rsbfilm_middeep_default",
+    "description": "RSB-FiLM default"
+  },
+  {
+    "variant": "S09_concat_Mshell_delta_Pcyc_sincos",
+    "description": "concat periodic Pcyc sin/cos"
+  },
+  {
+    "variant": "S10_geometry_branch_bottleneck_concat_Pcyc_sincos",
+    "description": "geometry branch with periodic Pcyc"
+  },
+  {
+    "variant": "S11_rsbfilm_Pcyc_sincos",
+    "description": "RSB-FiLM with periodic Pcyc geometry input"
+  }
+]

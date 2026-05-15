@@ -1,0 +1,9 @@
+{
+  "available": true,
+  "counts": {
+    "train": 800,
+    "val": 100,
+    "test": 100
+  },
+  "manifest": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_006d_800_formal/20260419_112717/learning_handoff_manifest_main_800_100_100.json"
+}

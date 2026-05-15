@@ -1,0 +1,15 @@
+{
+  "task": "task_real_struc_001b",
+  "status": "INCOMPLETE",
+  "required_epochs": ">=50",
+  "required_full_split": "800/100/100",
+  "required_multiseed_variants": [
+    "S02",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08"
+  ],
+  "source_dataset": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_006d_800_formal/20260419_112717"
+}

@@ -1,0 +1,6 @@
+channel,scale,range_expected
+X_ref3,"normalized per sample by max(ref3, GT)","[0, 1]"
+Mshell,one-hot,"{0, 1}"
+delta_rho,"meters, signed","approximately [-0.075, 0.075]"
+Pcyc,wrapped phase / pi,"[-1, 1] with wrap discontinuity"
+"sin(pi*Pcyc), cos(pi*Pcyc)",periodic corrective encoding,"[-1, 1]"
