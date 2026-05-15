@@ -1,0 +1,173 @@
+{
+  "task": "task_real_draw005d",
+  "created_at": "2026-05-15T10:12:22",
+  "prompt": "PROMPTS/task_real_draw005d.md",
+  "source_draw005c": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_draw005c_tip_analysis/20260515_000001",
+  "source_echo": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_draw005_dense_volume/20260511_000001/dataset/echoes/draw005_dense_manisali_y_echo_sparse.npz",
+  "main_composite": "viz/paper_candidates/manisali_style/dense_y_manisali_4x7_with_true_bp.png",
+  "main_composite_pdf": "viz/paper_candidates/manisali_style/dense_y_manisali_4x7_with_true_bp.pdf",
+  "clean_composite": "viz/paper_candidates/manisali_style/dense_y_manisali_4x5_clean_true_bp.png",
+  "clean_composite_pdf": "viz/paper_candidates/manisali_style/dense_y_manisali_4x5_clean_true_bp.pdf",
+  "true_bp_cache": "recon_cache/dense_y_true_bp_display.npz",
+  "columns_4x7": [
+    "GT",
+    "ref3",
+    "ref9",
+    "pseudo-BP",
+    "true BP",
+    "U-Net residual",
+    "ref3+U-Net"
+  ],
+  "view_rows": [
+    "3D volumetric rendering",
+    "x-y projection",
+    "z-y projection",
+    "x-z projection"
+  ],
+  "validation": {
+    "true_voxel_index_full_grid": [
+      12,
+      12,
+      12
+    ],
+    "true_coordinate_m": [
+      0.2075,
+      0.0225,
+      0.002
+    ],
+    "peak_index_local_grid": [
+      4,
+      4,
+      4
+    ],
+    "peak_coordinate_m": [
+      0.2075,
+      0.0225,
+      0.002
+    ],
+    "localization_error_m": 0.0,
+    "peak_to_second_largest_ratio": 1.1873596906661987,
+    "runtime_sec": 0.687948267000138,
+    "active_measurement_count": 4732,
+    "num_freq": 181,
+    "reconstructed_voxels": 729
+  },
+  "true_bp_meta": {
+    "runtime_sec": 7.276094075000401,
+    "active_measurement_count": 8294,
+    "num_freq": 181,
+    "reconstructed_voxels": 13824,
+    "voxel_chunk": 384,
+    "measurement_chunk": 512,
+    "n_fft": 4096,
+    "range_bin_spacing_m": 0.0007324218749999759,
+    "estimated_peak_memory_mb": 268.1875,
+    "phase_convention": "sum y(a,h,k) * exp(+j*k*R(a,h,p)); range-profile FFT interpolates the same k-domain sum",
+    "amplitude_alignment": "least_squares_to_GT_for_display_and_metrics",
+    "amplitude_alignment_scale": 7.850823518007217e-08
+  },
+  "metrics": [
+    {
+      "target": "dense_manisali_y",
+      "method": "ref3",
+      "role": "displayed_reconstruction",
+      "nmse": 1.8607035449661204,
+      "psnr": 23.959379417070497,
+      "ssim": 0.2136947333079582,
+      "peak_value": 0.6069861650466919,
+      "support_voxels_ge_0p10": 1062,
+      "support_voxels_ge_0p22_local_peak": 681,
+      "xz_threshold_db": -20.0,
+      "xz_support_area": 327,
+      "xz_bbox_width_px": 17,
+      "xz_bbox_height_px": 21,
+      "xz_bbox_area_px": 357,
+      "xz_fill_ratio": 0.9159663865546218
+    },
+    {
+      "target": "dense_manisali_y",
+      "method": "ref9",
+      "role": "displayed_reconstruction",
+      "nmse": 1.0348304704997662,
+      "psnr": 26.507459045693736,
+      "ssim": 0.47309811642208127,
+      "peak_value": 0.6069861650466919,
+      "support_voxels_ge_0p10": 476,
+      "support_voxels_ge_0p22_local_peak": 370,
+      "xz_threshold_db": -20.0,
+      "xz_support_area": 249,
+      "xz_bbox_width_px": 17,
+      "xz_bbox_height_px": 20,
+      "xz_bbox_area_px": 340,
+      "xz_fill_ratio": 0.7323529411764705
+    },
+    {
+      "target": "dense_manisali_y",
+      "method": "pseudo-BP",
+      "role": "dense_reference_pseudo_bp",
+      "nmse": 0.6284297494472619,
+      "psnr": 28.67358355408882,
+      "ssim": 0.5821627779776055,
+      "peak_value": 0.6069861650466919,
+      "support_voxels_ge_0p10": 454,
+      "support_voxels_ge_0p22_local_peak": 354,
+      "xz_threshold_db": -20.0,
+      "xz_support_area": 270,
+      "xz_bbox_width_px": 17,
+      "xz_bbox_height_px": 21,
+      "xz_bbox_area_px": 357,
+      "xz_fill_ratio": 0.7563025210084033
+    },
+    {
+      "target": "dense_manisali_y",
+      "method": "true BP",
+      "role": "voxelwise_phase_compensated_backprojection",
+      "nmse": 0.5702897792415341,
+      "psnr": 29.09519500620279,
+      "ssim": 0.5904443249819767,
+      "peak_value": 0.32703566551208496,
+      "support_voxels_ge_0p10": 282,
+      "support_voxels_ge_0p22_local_peak": 371,
+      "xz_threshold_db": -20.0,
+      "xz_support_area": 293,
+      "xz_bbox_width_px": 22,
+      "xz_bbox_height_px": 21,
+      "xz_bbox_area_px": 462,
+      "xz_fill_ratio": 0.6341991341991342
+    },
+    {
+      "target": "dense_manisali_y",
+      "method": "U-Net residual",
+      "role": "positive_part_of_calibrated_residual_delta",
+      "nmse": 0.2788512045928928,
+      "psnr": 32.20242593145814,
+      "ssim": 0.8086710631247037,
+      "peak_value": 0.8197925686836243,
+      "support_voxels_ge_0p10": 125,
+      "support_voxels_ge_0p22_local_peak": 83,
+      "xz_threshold_db": -20.0,
+      "xz_support_area": 69,
+      "xz_bbox_width_px": 13,
+      "xz_bbox_height_px": 19,
+      "xz_bbox_area_px": 247,
+      "xz_fill_ratio": 0.2793522267206478
+    },
+    {
+      "target": "dense_manisali_y",
+      "method": "ref3+U-Net",
+      "role": "displayed_reconstruction",
+      "nmse": 0.014693349080482499,
+      "psnr": 44.984943262321806,
+      "ssim": 0.9917695504744036,
+      "peak_value": 0.9897807836532593,
+      "support_voxels_ge_0p10": 215,
+      "support_voxels_ge_0p22_local_peak": 146,
+      "xz_threshold_db": -20.0,
+      "xz_support_area": 91,
+      "xz_bbox_width_px": 14,
+      "xz_bbox_height_px": 19,
+      "xz_bbox_area_px": 266,
+      "xz_fill_ratio": 0.34210526315789475
+    }
+  ]
+}

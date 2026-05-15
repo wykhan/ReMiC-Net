@@ -1,0 +1,14 @@
+{
+  "runtime_sec": 7.276094075000401,
+  "active_measurement_count": 8294,
+  "num_freq": 181,
+  "reconstructed_voxels": 13824,
+  "voxel_chunk": 384,
+  "measurement_chunk": 512,
+  "n_fft": 4096,
+  "range_bin_spacing_m": 0.0007324218749999759,
+  "estimated_peak_memory_mb": 268.1875,
+  "phase_convention": "sum y(a,h,k) * exp(+j*k*R(a,h,p)); range-profile FFT interpolates the same k-domain sum",
+  "amplitude_alignment": "least_squares_to_GT_for_display_and_metrics",
+  "amplitude_alignment_scale": 7.850823518007217e-08
+}

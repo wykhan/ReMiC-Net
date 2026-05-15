@@ -1,0 +1,28 @@
+{
+  "true_voxel_index_full_grid": [
+    12,
+    12,
+    12
+  ],
+  "true_coordinate_m": [
+    0.2075,
+    0.0225,
+    0.002
+  ],
+  "peak_index_local_grid": [
+    4,
+    4,
+    4
+  ],
+  "peak_coordinate_m": [
+    0.2075,
+    0.0225,
+    0.002
+  ],
+  "localization_error_m": 0.0,
+  "peak_to_second_largest_ratio": 1.1873596906661987,
+  "runtime_sec": 0.687948267000138,
+  "active_measurement_count": 4732,
+  "num_freq": 181,
+  "reconstructed_voxels": 729
+}
