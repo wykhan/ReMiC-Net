@@ -1,0 +1,9 @@
+variant,number_of_parameters
+S01_ref3,0
+S02_plain_residual_unet,21357
+S03_concat_Mshell,21681
+S04_concat_Mshell_delta,21789
+S05_concat_Mshell_delta_Pcyc,21897
+S06_geometry_branch_bottleneck_concat,56113
+S07_generic_film_middeep,36177
+S08_rsbfilm_middeep_default,36177

@@ -1,0 +1,7 @@
+{
+  "failure_case": "double_line_test_0002",
+  "median_case": "L_shape_test_0000",
+  "best_case": "line_test_0003",
+  "hard_large_delta_rho_case": "L_shape_test_0000",
+  "hard_high_Pcyc_case": "L_shape_test_0000"
+}

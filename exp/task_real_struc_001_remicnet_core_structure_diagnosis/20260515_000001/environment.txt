@@ -1,0 +1,5 @@
+python: 3.11.9
+platform: Linux-6.8.0-111-generic-x86_64-with-glibc2.35
+torch: 2.2.2+cu121
+cuda_available: True
+numpy: 1.23.5

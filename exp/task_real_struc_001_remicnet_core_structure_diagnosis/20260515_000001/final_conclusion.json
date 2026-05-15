@@ -1,0 +1,8 @@
+{
+  "S02 vs S05": "S05 does not improve over S02",
+  "S05 vs S07": "S07 improves over S05",
+  "S07 vs S08": "S08 improves over S07",
+  "Best current candidate": "S06_geometry_branch_bottleneck_concat",
+  "Main bottleneck": "first-pass limited training; likely metadata scaling/FiLM placement if structured variants do not beat S02",
+  "Recommendation for task_real_struc_002": "Continue with the best structured variant and validate on OOD in task_real_struc_002."
+}

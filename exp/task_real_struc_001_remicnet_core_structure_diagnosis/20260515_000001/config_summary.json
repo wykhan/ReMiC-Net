@@ -1,0 +1,32 @@
+{
+  "task": "task_real_struc_001",
+  "seed": 0,
+  "source_dataset": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_006d_800_formal/20260419_112717",
+  "target_shape": [
+    24,
+    24,
+    24
+  ],
+  "ref3_radii_m": [
+    0.0,
+    0.15000000596046448,
+    0.30000001192092896
+  ],
+  "metadata": {
+    "Mshell": "3-channel ref3 nearest-surface allocation",
+    "delta_rho": "signed rho-rho_ref_star in meters",
+    "Pcyc": "wrapped 2-way phase mismatch divided by pi"
+  },
+  "training": {
+    "output_root": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_001_remicnet_core_structure_diagnosis/20260515_000001",
+    "epochs": 2,
+    "batch_size": 4,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "base_channels": 4,
+    "train_limit": 48,
+    "val_limit": 12,
+    "test_limit": 24
+  },
+  "first_pass_diagnostic": true
+}

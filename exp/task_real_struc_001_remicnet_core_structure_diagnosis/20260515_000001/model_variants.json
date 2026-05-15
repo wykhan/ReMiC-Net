@@ -1,0 +1,58 @@
+[
+  {
+    "key": "S01_ref3",
+    "description": "No learning: ref3 physical reconstruction directly.",
+    "kind": "ref3",
+    "input_channels": 1,
+    "geom_channels": 5
+  },
+  {
+    "key": "S02_plain_residual_unet",
+    "description": "Residual 3D U-Net with X_ref3 only.",
+    "kind": "concat_unet",
+    "input_channels": 1,
+    "geom_channels": 5
+  },
+  {
+    "key": "S03_concat_Mshell",
+    "description": "Residual 3D U-Net with [X_ref3, Mshell].",
+    "kind": "concat_unet",
+    "input_channels": 4,
+    "geom_channels": 5
+  },
+  {
+    "key": "S04_concat_Mshell_delta",
+    "description": "Residual 3D U-Net with [X_ref3, Mshell, delta_rho].",
+    "kind": "concat_unet",
+    "input_channels": 5,
+    "geom_channels": 5
+  },
+  {
+    "key": "S05_concat_Mshell_delta_Pcyc",
+    "description": "Residual 3D U-Net with [X_ref3, Mshell, delta_rho, Pcyc].",
+    "kind": "concat_unet",
+    "input_channels": 6,
+    "geom_channels": 5
+  },
+  {
+    "key": "S06_geometry_branch_bottleneck_concat",
+    "description": "Image branch plus geometry branch with bottleneck concat.",
+    "kind": "bottleneck_concat",
+    "input_channels": 1,
+    "geom_channels": 5
+  },
+  {
+    "key": "S07_generic_film_middeep",
+    "description": "Geometry branch plus generic FiLM at available mid/deep stages.",
+    "kind": "generic_film",
+    "input_channels": 1,
+    "geom_channels": 5
+  },
+  {
+    "key": "S08_rsbfilm_middeep_default",
+    "description": "Geometry branch plus RSB-FiLM envelope and bounded gamma/beta.",
+    "kind": "rsb_film",
+    "input_channels": 1,
+    "geom_channels": 5
+  }
+]

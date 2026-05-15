@@ -1,0 +1,133 @@
+[
+  {
+    "variant": "S01_ref3",
+    "executed": true,
+    "training": "not_applicable"
+  },
+  {
+    "variant": "S02_plain_residual_unet",
+    "executed": true,
+    "best_val_l1": 0.03990871335069338,
+    "history": [
+      {
+        "epoch": 1,
+        "train_l1": 0.15116344764828682,
+        "val_l1": 0.12400888154904048
+      },
+      {
+        "epoch": 2,
+        "train_l1": 0.07259083321938913,
+        "val_l1": 0.03990871335069338
+      }
+    ],
+    "parameter_count": 21357
+  },
+  {
+    "variant": "S03_concat_Mshell",
+    "executed": true,
+    "best_val_l1": 0.1672538568576177,
+    "history": [
+      {
+        "epoch": 1,
+        "train_l1": 0.398275983830293,
+        "val_l1": 0.37609440088272095
+      },
+      {
+        "epoch": 2,
+        "train_l1": 0.27485959852735203,
+        "val_l1": 0.1672538568576177
+      }
+    ],
+    "parameter_count": 21681
+  },
+  {
+    "variant": "S04_concat_Mshell_delta",
+    "executed": true,
+    "best_val_l1": 0.058334006617466606,
+    "history": [
+      {
+        "epoch": 1,
+        "train_l1": 0.1955484226346016,
+        "val_l1": 0.10102417320013046
+      },
+      {
+        "epoch": 2,
+        "train_l1": 0.07100730451444785,
+        "val_l1": 0.058334006617466606
+      }
+    ],
+    "parameter_count": 21789
+  },
+  {
+    "variant": "S05_concat_Mshell_delta_Pcyc",
+    "executed": true,
+    "best_val_l1": 0.16904825468858084,
+    "history": [
+      {
+        "epoch": 1,
+        "train_l1": 0.4043705811103185,
+        "val_l1": 0.3700902958710988
+      },
+      {
+        "epoch": 2,
+        "train_l1": 0.2697416990995407,
+        "val_l1": 0.16904825468858084
+      }
+    ],
+    "parameter_count": 21897
+  },
+  {
+    "variant": "S06_geometry_branch_bottleneck_concat",
+    "executed": true,
+    "best_val_l1": 0.016004164703190327,
+    "history": [
+      {
+        "epoch": 1,
+        "train_l1": 0.02944443343828122,
+        "val_l1": 0.021603307376305263
+      },
+      {
+        "epoch": 2,
+        "train_l1": 0.015082649498557052,
+        "val_l1": 0.016004164703190327
+      }
+    ],
+    "parameter_count": 56113
+  },
+  {
+    "variant": "S07_generic_film_middeep",
+    "executed": true,
+    "best_val_l1": 0.0530120978752772,
+    "history": [
+      {
+        "epoch": 1,
+        "train_l1": 0.16664582739273706,
+        "val_l1": 0.14667623241742453
+      },
+      {
+        "epoch": 2,
+        "train_l1": 0.09213531700273354,
+        "val_l1": 0.0530120978752772
+      }
+    ],
+    "parameter_count": 36177
+  },
+  {
+    "variant": "S08_rsbfilm_middeep_default",
+    "executed": true,
+    "best_val_l1": 0.05397922918200493,
+    "history": [
+      {
+        "epoch": 1,
+        "train_l1": 0.1666523056725661,
+        "val_l1": 0.14671522875626883
+      },
+      {
+        "epoch": 2,
+        "train_l1": 0.09225424627463023,
+        "val_l1": 0.05397922918200493
+      }
+    ],
+    "parameter_count": 36177
+  }
+]

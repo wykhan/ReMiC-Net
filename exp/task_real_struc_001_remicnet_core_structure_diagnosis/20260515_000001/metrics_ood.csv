@@ -1,0 +1,4 @@
+ood_split,status,reason
+Leave-One-Family-Out OOD,not_evaluated_in_struc_001_first_pass,interface exists in prior task_real_008; S01-S08 OOD evaluation not run in this bounded first-pass diagnosis
+Random-ET OOD,not_evaluated_in_struc_001_first_pass,interface exists in prior task_real_008; S01-S08 OOD evaluation not run in this bounded first-pass diagnosis
+Unseen-Parameter OOD,not_evaluated_in_struc_001_first_pass,interface exists in prior task_real_008; S01-S08 OOD evaluation not run in this bounded first-pass diagnosis
