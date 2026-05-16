@@ -1,0 +1,6 @@
+channel,range
+X_ref3,"[0,1] per sample"
+Mshell,"{0,1}, one-hot including padding fill"
+delta_rho,"meters, approx [-0.075,0.075]"
+Pcyc,"[-1,1] wrapped scalar"
+sin/cos(pi*Pcyc),"[-1,1] periodic"

@@ -1,0 +1,16 @@
+{
+  "task": "task_real_struc_002b",
+  "epochs": 50,
+  "min_epochs": 50,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "batch_size": 8,
+  "base_channels": 4,
+  "source": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_006d_800_formal/20260419_112717",
+  "previous_002a": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_002a_pcyc_encoding_ablation/20260516_094012",
+  "target_branch": "task_struc_series",
+  "stage_b_policy": "all F01-F05 run with seeds 0,1,2"
+}

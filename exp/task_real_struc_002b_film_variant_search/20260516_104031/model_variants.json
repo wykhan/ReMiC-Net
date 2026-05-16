@@ -1,0 +1,106 @@
+[
+  {
+    "key": "G00_generic_film_sincos_Pcyc",
+    "description": "Generic FiLM with geometry [Mshell, delta_rho, sin(pi*Pcyc), cos(pi*Pcyc)]; primary baseline.",
+    "kind": "generic_film",
+    "image_channels": 1,
+    "geom_mode": "sincos",
+    "envelope_mode": "none"
+  },
+  {
+    "key": "G01_generic_film_scalar_Pcyc",
+    "description": "Generic FiLM with geometry [Mshell, delta_rho, Pcyc]; secondary SSIM-strong baseline.",
+    "kind": "generic_film",
+    "image_channels": 1,
+    "geom_mode": "scalar",
+    "envelope_mode": "none"
+  },
+  {
+    "key": "R00_rsbfilm_sincos_env_absPcyc",
+    "description": "RSB-FiLM with sin-cos Pcyc geometry and abs(Pcyc) envelope.",
+    "kind": "rsb_film",
+    "image_channels": 1,
+    "geom_mode": "sincos",
+    "envelope_mode": "abs_pcyc"
+  },
+  {
+    "key": "R01_rsbfilm_env_absDelta",
+    "description": "RSB-FiLM with abs(delta_rho)/0.075 envelope.",
+    "kind": "rsb_film",
+    "image_channels": 1,
+    "geom_mode": "sincos",
+    "envelope_mode": "abs_delta"
+  },
+  {
+    "key": "R02_rsbfilm_env_maxPcycDelta",
+    "description": "RSB-FiLM with max(abs(Pcyc), abs(delta_rho)/0.075) envelope.",
+    "kind": "rsb_film",
+    "image_channels": 1,
+    "geom_mode": "sincos",
+    "envelope_mode": "max_pcyc_delta"
+  },
+  {
+    "key": "R03_rsbfilm_env_avgPcycDelta",
+    "description": "RSB-FiLM with average abs(Pcyc) and normalized abs(delta_rho) envelope.",
+    "kind": "rsb_film",
+    "image_channels": 1,
+    "geom_mode": "sincos",
+    "envelope_mode": "avg_pcyc_delta"
+  },
+  {
+    "key": "R04_rsbfilm_env_productPcycDelta",
+    "description": "RSB-FiLM with sqrt(abs(Pcyc)*normalized abs(delta_rho)) envelope.",
+    "kind": "rsb_film",
+    "image_channels": 1,
+    "geom_mode": "sincos",
+    "envelope_mode": "product_pcyc_delta"
+  },
+  {
+    "key": "R05_rsbfilm_env_softPcyc",
+    "description": "RSB-FiLM with sigmoid soft high-Pcyc envelope.",
+    "kind": "rsb_film",
+    "image_channels": 1,
+    "geom_mode": "sincos",
+    "envelope_mode": "soft_pcyc"
+  },
+  {
+    "key": "F01_bounded_generic_film",
+    "description": "Generic FiLM with bounded gamma and beta and no physical envelope.",
+    "kind": "bounded_generic_film",
+    "image_channels": 1,
+    "geom_mode": "sincos",
+    "envelope_mode": "none"
+  },
+  {
+    "key": "F02_residual_film_gate",
+    "description": "Bounded generic FiLM blended with original features by a learned gate.",
+    "kind": "residual_film_gate",
+    "image_channels": 1,
+    "geom_mode": "sincos",
+    "envelope_mode": "none"
+  },
+  {
+    "key": "F03_reference_surface_gated_film",
+    "description": "Bounded FiLM with physical abs(Pcyc) envelope and learned gate.",
+    "kind": "reference_surface_gated_film",
+    "image_channels": 1,
+    "geom_mode": "sincos",
+    "envelope_mode": "abs_pcyc"
+  },
+  {
+    "key": "F04_dual_path_film",
+    "description": "Dual generic/RSB FiLM paths blended by a learned gate.",
+    "kind": "dual_path_film",
+    "image_channels": 1,
+    "geom_mode": "sincos",
+    "envelope_mode": "abs_pcyc"
+  },
+  {
+    "key": "F05_delta_conditioned_film",
+    "description": "Bounded FiLM controlled by normalized abs(delta_rho) envelope.",
+    "kind": "delta_conditioned_film",
+    "image_channels": 1,
+    "geom_mode": "sincos",
+    "envelope_mode": "abs_delta"
+  }
+]

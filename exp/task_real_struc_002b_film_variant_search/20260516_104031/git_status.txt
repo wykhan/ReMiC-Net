@@ -1,0 +1,14 @@
+## task_struc_series...origin/task_struc_series
+?? PROMPTS/task_real_struc_002b.md
+?? exp/task_real_struc_002b_film_variant_search/
+?? workspace/eval/task_real_struc_002b_film_variant_search.py
+
+current_branch:
+task_struc_series
+
+recent_log:
+797fb82 Add struc 002a Pcyc encoding ablation
+517446b Add full struc 001b runner and results
+90e5fca Add incomplete struc 001b audit
+e761121 Add struc 001 ReMiC-Net core diagnosis
+a7e55ef Add draw005 freeze prompt

@@ -1,0 +1,8 @@
+{
+  "failure_case": "line_test_0013",
+  "median_case": "L_shape_test_0005",
+  "best_case": "point_cluster_test_0018",
+  "hard_high_Pcyc_case": "point_cluster_test_0018",
+  "hard_large_delta_rho_case": "point_cluster_test_0018",
+  "shell_boundary_hard_case": "line_test_0013"
+}

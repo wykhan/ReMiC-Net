@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETE",
+  "best_main_metric_model": "F04_dual_path_film",
+  "best_SSIM_model": "F04_dual_path_film",
+  "best_OOD_model": "F02_residual_film_gate",
+  "best_RSB_FiLM_variant": "R00_rsbfilm_sincos_env_absPcyc",
+  "best_successful_RSB_FiLM_variant": "R04_rsbfilm_env_productPcycDelta",
+  "best_alternative_FiLM_variant": "F04_dual_path_film",
+  "did_RSB_beat_generic_FiLM": "yes",
+  "did_any_variant_beat_generic_FiLM": "yes",
+  "recommended_main_method": "R04_rsbfilm_env_productPcycDelta",
+  "recommendation_for_next_task": "Freeze the successful RSB-FiLM variant and run broader confirmation in task_real_struc_002c or 003."
+}
