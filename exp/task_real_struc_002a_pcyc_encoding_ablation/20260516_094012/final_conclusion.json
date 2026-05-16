@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE",
+  "best_main_metric_model": "P05_generic_film_sincos_Pcyc",
+  "best_SSIM_model": "P04_generic_film_scalar_Pcyc",
+  "best_OOD_model": "P02_rsbfilm_sincos_Pcyc",
+  "Pcyc_scalar_status": "baseline P00",
+  "Pcyc_sincos_status": "adopt",
+  "Pcyc_scalar_plus_sincos_status": "do_not_adopt_over_P00",
+  "Pcyc_no_input_status": "not_comparable_to_P00",
+  "recommendation_for_task_real_struc_002b": "optimize RSB envelope if P00 remains unbeaten; otherwise freeze the adopted Pcyc encoding first"
+}

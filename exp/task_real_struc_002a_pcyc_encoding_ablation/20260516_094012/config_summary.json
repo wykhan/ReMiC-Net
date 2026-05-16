@@ -1,0 +1,15 @@
+{
+  "task": "task_real_struc_002a",
+  "epochs": 50,
+  "min_epochs": 50,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "batch_size": 8,
+  "base_channels": 4,
+  "source": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_006d_800_formal/20260419_112717",
+  "previous_001b": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_001b_full_structure_diagnosis/20260515_001000_fullrunner",
+  "target_branch": "task_struc_series"
+}

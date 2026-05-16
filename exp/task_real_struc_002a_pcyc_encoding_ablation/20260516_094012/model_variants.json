@@ -1,0 +1,51 @@
+[
+  {
+    "key": "P00_rsbfilm_scalar_Pcyc",
+    "description": "RSB-FiLM with geometry [Mshell, delta_rho, Pcyc]; 001b S08 equivalent.",
+    "kind": "rsb_film",
+    "image_channels": 1,
+    "geom_mode": "scalar"
+  },
+  {
+    "key": "P01_rsbfilm_no_Pcyc",
+    "description": "RSB-FiLM with geometry [Mshell, delta_rho] and scalar Pcyc only for fixed envelope.",
+    "kind": "rsb_film",
+    "image_channels": 1,
+    "geom_mode": "none"
+  },
+  {
+    "key": "P02_rsbfilm_sincos_Pcyc",
+    "description": "RSB-FiLM with geometry [Mshell, delta_rho, sin(pi*Pcyc), cos(pi*Pcyc)].",
+    "kind": "rsb_film",
+    "image_channels": 1,
+    "geom_mode": "sincos"
+  },
+  {
+    "key": "P03_rsbfilm_scalar_plus_sincos_Pcyc",
+    "description": "RSB-FiLM with geometry [Mshell, delta_rho, Pcyc, sin(pi*Pcyc), cos(pi*Pcyc)].",
+    "kind": "rsb_film",
+    "image_channels": 1,
+    "geom_mode": "scalar_sincos"
+  },
+  {
+    "key": "P04_generic_film_scalar_Pcyc",
+    "description": "Generic FiLM with geometry [Mshell, delta_rho, Pcyc]; 001b S07 equivalent.",
+    "kind": "generic_film",
+    "image_channels": 1,
+    "geom_mode": "scalar"
+  },
+  {
+    "key": "P05_generic_film_sincos_Pcyc",
+    "description": "Generic FiLM with geometry [Mshell, delta_rho, sin(pi*Pcyc), cos(pi*Pcyc)].",
+    "kind": "generic_film",
+    "image_channels": 1,
+    "geom_mode": "sincos"
+  },
+  {
+    "key": "P06_concat_scalar_plus_sincos_Pcyc",
+    "description": "Residual 3D U-Net with concatenated [X_ref3, Mshell, delta_rho, Pcyc, sin(pi*Pcyc), cos(pi*Pcyc)].",
+    "kind": "concat_unet",
+    "image_channels": 1,
+    "geom_mode": "scalar_sincos"
+  }
+]
