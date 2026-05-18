@@ -1,0 +1,20 @@
+{
+  "task": "task_real_struc_003b",
+  "status": "COMPLETE",
+  "dataset_source": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_006d_800_formal/20260419_112717",
+  "train_val_test": [
+    800,
+    100,
+    100
+  ],
+  "epochs": 50,
+  "min_epochs": 50,
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "batch_size": 8,
+  "loss": "residual/image L1",
+  "ref3_runtime_source": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_003a_table1_main_baselines/20260518_103251/runtime_table.csv",
+  "current_branch": "task_struc_series",
+  "remote_branch": "origin/task_struc_series"
+}

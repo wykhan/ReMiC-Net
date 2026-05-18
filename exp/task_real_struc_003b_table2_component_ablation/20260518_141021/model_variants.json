@@ -1,0 +1,38 @@
+{
+  "A00_ref3_residual_UNet": {
+    "table_label": "ref3 + residual U-Net",
+    "source_variant": "S02_plain_residual_unet",
+    "source_root": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_001b_full_structure_diagnosis/20260515_001000_fullrunner",
+    "metadata": "none",
+    "modulation": "none",
+    "rsb_envelope": "none",
+    "source_note": "reused S02_plain_residual_unet from 001b"
+  },
+  "A01_ref3_metadata_concat_sincos": {
+    "table_label": "ref3 + metadata concat",
+    "source_variant": "S09_concat_Mshell_delta_Pcyc_sincos",
+    "source_root": null,
+    "metadata": "sin-cos metadata concat",
+    "modulation": "none",
+    "rsb_envelope": "none",
+    "source_note": "seed 0 reused from 001b S09; seeds 1/2 rerun in this 003b root"
+  },
+  "A02_ref3_metadata_generic_FiLM_sincos": {
+    "table_label": "ref3 + metadata + generic FiLM",
+    "source_variant": "G00_generic_film_sincos_Pcyc",
+    "source_root": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_002b_film_variant_search/20260516_104031",
+    "metadata": "sin-cos metadata branch",
+    "modulation": "generic FiLM",
+    "rsb_envelope": "none",
+    "source_note": "reused G00_generic_film_sincos_Pcyc from 002b"
+  },
+  "A03_ref3_metadata_RSB_FiLM_R04": {
+    "table_label": "ref3 + metadata + RSB-FiLM R04",
+    "source_variant": "R04_rsbfilm_env_productPcycDelta",
+    "source_root": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_002b_film_variant_search/20260516_104031",
+    "metadata": "sin-cos metadata branch",
+    "modulation": "RSB-FiLM",
+    "rsb_envelope": "product sqrt(|Pcyc|*|delta_rho_norm|)",
+    "source_note": "reused R04_rsbfilm_env_productPcycDelta from 002b"
+  }
+}

@@ -1,0 +1,13 @@
+variant_id,table_label,seed,network_runtime_per_sample,end_to_end_runtime_per_sample
+A00_ref3_residual_UNet,ref3 + residual U-Net,0,0.0010790022200308157,0.3351002456392962
+A00_ref3_residual_UNet,ref3 + residual U-Net,1,0.0008965415300917812,0.33491778494935714
+A00_ref3_residual_UNet,ref3 + residual U-Net,2,0.0008997607000856079,0.334921004119351
+A01_ref3_metadata_concat_sincos,ref3 + metadata concat,0,0.0010011544898952706,0.33502239790916066
+A01_ref3_metadata_concat_sincos,ref3 + metadata concat,1,0.0011497721157502382,0.3351710155350156
+A01_ref3_metadata_concat_sincos,ref3 + metadata concat,2,0.0009648248314624653,0.33498606825072785
+A02_ref3_metadata_generic_FiLM_sincos,ref3 + metadata + generic FiLM,0,0.002016861700685695,0.3360381051199511
+A02_ref3_metadata_generic_FiLM_sincos,ref3 + metadata + generic FiLM,1,0.001778583839914063,0.33579982725917945
+A02_ref3_metadata_generic_FiLM_sincos,ref3 + metadata + generic FiLM,2,0.0017474678695725743,0.33576871128883795
+A03_ref3_metadata_RSB_FiLM_R04,ref3 + metadata + RSB-FiLM R04,0,0.001934655739896698,0.3359558991591621
+A03_ref3_metadata_RSB_FiLM_R04,ref3 + metadata + RSB-FiLM R04,1,0.0019403902406338602,0.33596163365989923
+A03_ref3_metadata_RSB_FiLM_R04,ref3 + metadata + RSB-FiLM R04,2,0.0019408387498697265,0.3359620821691351

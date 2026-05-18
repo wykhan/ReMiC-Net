@@ -1,0 +1,10 @@
+## task_struc_series...origin/task_struc_series
+?? PROMPTS/task_real_struc_003b.md
+?? exp/task_real_struc_003b_table2_component_ablation/
+?? workspace/eval/task_real_struc_003b_table2.py
+
+ae304d4 Use exact BP runtime for struc 003a table
+9205c42 Add ref5 ref7 to struc 003a table
+9438472 Correct struc 003a true BP baseline
+eb7b5a8 Add struc 003a table1 main baseline results
+7259e88 Add struc 002b FiLM variant search

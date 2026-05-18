@@ -1,0 +1,14 @@
+{
+  "A00_ref3_residual_UNet_seed0": "exp/task_real_struc_001b_full_structure_diagnosis/20260515_001000_fullrunner/checkpoints/S02_plain_residual_unet/seed_0/checkpoint_best.pt",
+  "A00_ref3_residual_UNet_seed1": "exp/task_real_struc_001b_full_structure_diagnosis/20260515_001000_fullrunner/checkpoints/S02_plain_residual_unet/seed_1/checkpoint_best.pt",
+  "A00_ref3_residual_UNet_seed2": "exp/task_real_struc_001b_full_structure_diagnosis/20260515_001000_fullrunner/checkpoints/S02_plain_residual_unet/seed_2/checkpoint_best.pt",
+  "A01_ref3_metadata_concat_sincos_seed0": "exp/task_real_struc_001b_full_structure_diagnosis/20260515_001000_fullrunner/checkpoints/S09_concat_Mshell_delta_Pcyc_sincos/seed_0/checkpoint_best.pt",
+  "A01_ref3_metadata_concat_sincos_seed1": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_003b_table2_component_ablation/20260518_141021/checkpoints/S09_concat_Mshell_delta_Pcyc_sincos/seed_1/checkpoint_best.pt",
+  "A01_ref3_metadata_concat_sincos_seed2": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_003b_table2_component_ablation/20260518_141021/checkpoints/S09_concat_Mshell_delta_Pcyc_sincos/seed_2/checkpoint_best.pt",
+  "A02_ref3_metadata_generic_FiLM_sincos_seed0": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_002b_film_variant_search/20260516_104031/checkpoints/G00_generic_film_sincos_Pcyc/seed_0/checkpoint_best.pt",
+  "A02_ref3_metadata_generic_FiLM_sincos_seed1": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_002b_film_variant_search/20260516_104031/checkpoints/G00_generic_film_sincos_Pcyc/seed_1/checkpoint_best.pt",
+  "A02_ref3_metadata_generic_FiLM_sincos_seed2": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_002b_film_variant_search/20260516_104031/checkpoints/G00_generic_film_sincos_Pcyc/seed_2/checkpoint_best.pt",
+  "A03_ref3_metadata_RSB_FiLM_R04_seed0": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_002b_film_variant_search/20260516_104031/checkpoints/R04_rsbfilm_env_productPcycDelta/seed_0/checkpoint_best.pt",
+  "A03_ref3_metadata_RSB_FiLM_R04_seed1": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_002b_film_variant_search/20260516_104031/checkpoints/R04_rsbfilm_env_productPcycDelta/seed_1/checkpoint_best.pt",
+  "A03_ref3_metadata_RSB_FiLM_R04_seed2": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_002b_film_variant_search/20260516_104031/checkpoints/R04_rsbfilm_env_productPcycDelta/seed_2/checkpoint_best.pt"
+}
