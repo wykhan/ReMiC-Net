@@ -5,6 +5,7 @@ import csv
 import json
 import platform
 import subprocess
+import time
 from datetime import datetime
 from pathlib import Path
 from typing import Any
@@ -14,18 +15,17 @@ import numpy as np
 from workspace.common.protocol import PROTOCOL_V1
 from workspace.common.io_utils import ensure_dir, read_json, write_json, write_text
 from workspace.eval.metrics_3d import nmse, psnr, ssim_global
-from workspace.recon.cyl_fast_reference_engine import _scene_patch_axes
-from workspace.recon.cyl_true_bp_engine import true_backproject_sparse_echo
-from workspace.train.train_two_stage_et import TARGET_SHAPE, _fit_to_shape
+from workspace.recon.cyl_fast_reference_engine import _scene_patch_axes, load_sparse_echo, reconstruct_cylindrical_reference
+from workspace.sim.sim_utils import measurement_range
+from workspace.train.train_two_stage_et import TARGET_SHAPE, _fit_to_shape, _normalize_pair
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 SOURCE_006D = PROJECT_ROOT / "exp" / "task_real_006d_800_formal" / "20260419_112717"
 SOURCE_001B = PROJECT_ROOT / "exp" / "task_real_struc_001b_full_structure_diagnosis" / "20260515_001000_fullrunner"
 SOURCE_002B = PROJECT_ROOT / "exp" / "task_real_struc_002b_film_variant_search" / "20260516_104031"
-TRUE_BP_N_FFT = 4096
-TRUE_BP_VOXEL_CHUNK = 384
-TRUE_BP_MEASUREMENT_CHUNK = 512
+TRUE_BP_EXACT_VOXEL_CHUNK = 128
+TRUE_BP_EXACT_MEASUREMENT_CHUNK = 64
 
 
 def write_csv(path: Path, rows: list[dict[str, Any]]) -> None:
@@ -133,9 +133,62 @@ def peak_normalize(volume: np.ndarray) -> np.ndarray:
     return (volume.astype(np.float32) / max(float(np.max(volume)), 1.0e-6)).astype(np.float32)
 
 
+def true_bp_exact_k_domain(
+    echo_path: Path,
+    x_values: np.ndarray,
+    y_values: np.ndarray,
+    z_values: np.ndarray,
+    *,
+    voxel_chunk: int = TRUE_BP_EXACT_VOXEL_CHUNK,
+    measurement_chunk: int = TRUE_BP_EXACT_MEASUREMENT_CHUNK,
+) -> dict[str, Any]:
+    """Exact k-domain BP: sum active measurements and all frequencies per voxel."""
+
+    started = time.perf_counter()
+    sparse = load_sparse_echo(echo_path)
+    echo = sparse["echo"].astype(np.complex64)
+    azimuth = PROTOCOL_V1.azimuth_values[sparse["azimuth_idx"]].astype(np.float64)
+    height = PROTOCOL_V1.height_values[sparse["height_idx"]].astype(np.float64)
+    k_values = PROTOCOL_V1.k_values.astype(np.float32)
+
+    xg, yg, zg = np.meshgrid(x_values.astype(np.float64), y_values.astype(np.float64), z_values.astype(np.float64), indexing="ij")
+    xyz = np.stack([xg.ravel(), yg.ravel(), zg.ravel()], axis=1)
+    rho = np.hypot(xyz[:, 0], xyz[:, 1])
+    theta = np.arctan2(xyz[:, 1], xyz[:, 0])
+    z_v = xyz[:, 2]
+    out = np.zeros(xyz.shape[0], dtype=np.complex64)
+
+    for v_start in range(0, xyz.shape[0], voxel_chunk):
+        v_stop = min(v_start + voxel_chunk, xyz.shape[0])
+        accum = np.zeros(v_stop - v_start, dtype=np.complex64)
+        for m_start in range(0, echo.shape[0], measurement_chunk):
+            m_stop = min(m_start + measurement_chunk, echo.shape[0])
+            ranges = measurement_range(
+                rho_target=rho[v_start:v_stop][None, :],
+                theta_target=theta[v_start:v_stop][None, :],
+                z_target=z_v[v_start:v_stop][None, :],
+                azimuth=azimuth[m_start:m_stop, None],
+                height=height[m_start:m_stop, None],
+            ).astype(np.float32)
+            phase = np.exp(1j * ranges[:, :, None] * k_values[None, None, :]).astype(np.complex64)
+            accum += np.einsum("mk,mvk->v", echo[m_start:m_stop], phase, optimize=True).astype(np.complex64)
+        out[v_start:v_stop] = accum
+
+    volume = np.abs(out.reshape((len(x_values), len(y_values), len(z_values)))).astype(np.float32)
+    runtime = float(time.perf_counter() - started)
+    return {
+        "volume": volume,
+        "runtime_sec": runtime,
+        "active_measurement_count": int(echo.shape[0]),
+        "num_freq": int(echo.shape[1]),
+        "reconstructed_voxels": int(volume.size),
+        "voxel_chunk": int(voxel_chunk),
+        "measurement_chunk": int(measurement_chunk),
+        "phase_convention": "exact sum y(a,h,k) * exp(+j*k*R(a,h,p)) over active sparse measurements and all frequencies",
+    }
+
+
 def physical_rows(test_rows: list[dict[str, Any]], output_root: Path) -> tuple[list[dict[str, Any]], dict[str, str]]:
-    metric_rows = read_json(SOURCE_006D / "mainline_vs_baselines_metrics.json")["per_sample"]
-    metric_lookup = {(r["sample_id"], r["method"]): r for r in metric_rows}
     rows: list[dict[str, Any]] = []
     sources: dict[str, str] = {}
     method_map = {
@@ -145,20 +198,16 @@ def physical_rows(test_rows: list[dict[str, Any]], output_root: Path) -> tuple[l
         "T05_ref9": ("ref9", "ref9"),
         "T06_ref31": ("BP", "ref31"),
     }
-    cache_root = SOURCE_006D / "comparison_cache" / "baselines"
     true_bp_audit_rows: list[dict[str, Any]] = []
     for row in test_rows:
         sample_id = row["sample_id"]
         scene = read_json(SOURCE_006D / row["scene_path"])
         x_idx, y_idx, z_idx = _scene_patch_axes(scene)
-        recon = true_backproject_sparse_echo(
+        recon = true_bp_exact_k_domain(
             SOURCE_006D / row["echo_path"],
             PROTOCOL_V1.x_values[x_idx],
             PROTOCOL_V1.y_values[y_idx],
             PROTOCOL_V1.height_values[z_idx],
-            voxel_chunk=TRUE_BP_VOXEL_CHUNK,
-            measurement_chunk=TRUE_BP_MEASUREMENT_CHUNK,
-            n_fft=TRUE_BP_N_FFT,
         )
         pred = peak_normalize(_fit_to_shape(recon["volume"], TARGET_SHAPE))
         gt_payload = np.load(SOURCE_006D / row["gt_path"])
@@ -177,7 +226,7 @@ def physical_rows(test_rows: list[dict[str, Any]], output_root: Path) -> tuple[l
                 "runtime_per_sample": float(recon["runtime_sec"]),
                 "network_runtime_per_sample": "",
                 "end_to_end_runtime_per_sample": float(recon["runtime_sec"]),
-                "source": "workspace.recon.cyl_true_bp_engine.true_backproject_sparse_echo",
+                "source": "workspace.eval.task_real_struc_003a_table1.true_bp_exact_k_domain",
             }
         )
         true_bp_audit_rows.append(
@@ -190,26 +239,21 @@ def physical_rows(test_rows: list[dict[str, Any]], output_root: Path) -> tuple[l
                 "x_size": int(len(x_idx)),
                 "y_size": int(len(y_idx)),
                 "z_size": int(len(z_idx)),
-                "n_fft": int(recon["n_fft"]),
+                "num_freq": int(recon["num_freq"]),
                 "voxel_chunk": int(recon["voxel_chunk"]),
                 "measurement_chunk": int(recon["measurement_chunk"]),
+                "phase_convention": recon["phase_convention"],
                 "normalization": "independent peak normalization after fitting to 24^3",
             }
         )
     write_csv(output_root / "true_bp_audit.csv", true_bp_audit_rows)
-    sources["BP"] = "workspace.recon.cyl_true_bp_engine.true_backproject_sparse_echo"
+    sources["BP"] = "workspace.eval.task_real_struc_003a_table1.true_bp_exact_k_domain"
     for table_method, (cache_method, out_method) in method_map.items():
         for row in test_rows:
             sample_id = row["sample_id"]
-            metric = metric_lookup.get((sample_id, cache_method))
-            if metric is None:
-                raise RuntimeError(f"Missing cached metric for {cache_method} {sample_id}")
-            npz_path = cache_root / f"{sample_id}_{cache_method}.npz"
-            if not npz_path.exists():
-                raise RuntimeError(f"Missing cached reconstruction {npz_path}")
-            payload = np.load(npz_path)
-            pred = payload["volume"].astype(np.float32)
-            gt = payload["gt"].astype(np.float32)
+            recon = reconstruct_cylindrical_reference(SOURCE_006D / row["scene_path"], SOURCE_006D / row["echo_path"], cache_method)
+            gt_payload = np.load(SOURCE_006D / row["gt_path"])
+            pred, gt = _normalize_pair(_fit_to_shape(recon["volume"], TARGET_SHAPE), _fit_to_shape(gt_payload["volume"], TARGET_SHAPE))
             rows.append(
                 {
                     "table_method": table_method,
@@ -217,17 +261,17 @@ def physical_rows(test_rows: list[dict[str, Any]], output_root: Path) -> tuple[l
                     "seed": 0,
                     "sample_id": sample_id,
                     "family": row["family"],
-                    "NMSE": float(metric.get("nmse", nmse(pred, gt))),
-                    "PSNR": float(metric.get("psnr", psnr(pred, gt))),
-                    "SSIM": float(metric.get("ssim", ssim_global(pred, gt))),
+                    "NMSE": nmse(pred, gt),
+                    "PSNR": psnr(pred, gt),
+                    "SSIM": ssim_global(pred, gt),
                     "MAE": float(np.mean(np.abs(pred - gt))),
-                    "runtime_per_sample": float(metric["wall_time_sec"]),
+                    "runtime_per_sample": float(recon["wall_time_sec"]),
                     "network_runtime_per_sample": "",
-                    "end_to_end_runtime_per_sample": float(metric["wall_time_sec"]),
-                    "source": str(SOURCE_006D / "mainline_vs_baselines_metrics.json"),
+                    "end_to_end_runtime_per_sample": float(recon["wall_time_sec"]),
+                    "source": "workspace.recon.cyl_fast_reference_engine.reconstruct_cylindrical_reference",
                 }
             )
-        sources[out_method] = str(SOURCE_006D / "comparison_cache" / "baselines" / f"*_ {cache_method}.npz").replace("*_ ", "*_")
+        sources[out_method] = f"workspace.recon.cyl_fast_reference_engine.reconstruct_cylindrical_reference(method='{cache_method}')"
     return rows, sources
 
 
@@ -329,7 +373,7 @@ def write_reports(output_root: Path, summary_rows: list[dict[str, Any]], status:
         "",
         "## 6. Metric Definitions",
         "",
-        "NMSE, PSNR, SSIM, and MAE are computed on normalized magnitude 24^3 volumes using the frozen project metric implementations. True BP is independently peak-normalized after fitting to 24^3 because direct voxel-wise BP has an arbitrary summation scale; no GT structure is used for this normalization.",
+        "NMSE, PSNR, SSIM, and MAE are computed on normalized magnitude 24^3 volumes using the frozen project metric implementations. Exact true BP is independently peak-normalized after fitting to 24^3 because direct k-domain summation has an arbitrary amplitude scale; no GT structure is used for this normalization.",
         "",
         "## 7. Runtime and Speedup Definition",
         "",
@@ -337,7 +381,7 @@ def write_reports(output_root: Path, summary_rows: list[dict[str, Any]], status:
         "",
         "## 8. BP Baseline",
         "",
-        f"BP uses `workspace.recon.cyl_true_bp_engine.true_backproject_sparse_echo`, not the reference-surface cache. BP runtime mean is {float(bp['runtime_per_sample_mean']):.6f} s/sample and speedup is fixed to 1.0.",
+        f"BP uses exact k-domain voxel-wise backprojection in `workspace.eval.task_real_struc_003a_table1.true_bp_exact_k_domain`, not the reference-surface cache and not the range-profile accelerated helper. BP runtime mean is {float(bp['runtime_per_sample_mean']):.6f} s/sample and speedup is fixed to 1.0.",
         "",
         "## 9. Physical Reference-Surface Baselines: ref3 / ref5 / ref7 / ref9 / ref31",
         "",
@@ -359,7 +403,7 @@ def write_reports(output_root: Path, summary_rows: list[dict[str, Any]], status:
         f"4. ReMiC-Net R04 compared with ref31: NMSE {float(r04['NMSE_mean']):.6f} vs {float(ref31['NMSE_mean']):.6f}.",
         f"5. Runtime cost relative to ref3: {float(r04['runtime_per_sample_mean']) / max(float(ref3['runtime_per_sample_mean']), 1e-12):.4f}x.",
         f"6. Speedup relative to BP: {float(r04['speedup_vs_BP_mean']):.4f}x.",
-        "7. Table 1 is ready for paper drafting. BP and ref31 are distinct: BP is direct voxel-wise backprojection; ref31 is the dense reference-surface baseline.",
+        "7. Table 1 is ready for paper drafting. BP and ref31 are distinct: BP is exact k-domain voxel-wise backprojection; ref31 is the dense reference-surface baseline.",
         "",
         "## 13. Limitations and Items Deferred to 003b / 003c",
         "",
@@ -425,20 +469,20 @@ def main() -> None:
         }
         sources = {
             "BP": phys_sources["BP"],
-            "ref3": str(SOURCE_006D / "mainline_vs_baselines_metrics.json"),
-            "ref5": str(SOURCE_006D / "mainline_vs_baselines_metrics.json"),
-            "ref7": str(SOURCE_006D / "mainline_vs_baselines_metrics.json"),
-            "ref9": str(SOURCE_006D / "mainline_vs_baselines_metrics.json"),
-            "ref31": "reused 31-reference full reference-surface cache from BP entries; see ref31_implementation_note.md",
+            "ref3": phys_sources["ref3"],
+            "ref5": phys_sources["ref5"],
+            "ref7": phys_sources["ref7"],
+            "ref9": phys_sources["ref9"],
+            "ref31": phys_sources["ref31"],
             **learned_sources,
         }
         notes = {
-            "BP": "True direct voxel-wise BP recomputed with cyl_true_bp_engine; independently peak-normalized after fitting to 24^3.",
-            "ref3": "Existing frozen ref3 cache.",
-            "ref5": "Existing frozen ref5 cache.",
-            "ref7": "Existing frozen ref7 cache.",
-            "ref9": "Existing frozen ref9 cache.",
-            "ref31": "Dense 31-reference physical baseline using the full 0.00-0.30 m reference grid; numerically sourced from the existing full-reference cache.",
+            "BP": "Exact true k-domain voxel-wise BP recomputed in this run; independently peak-normalized after fitting to 24^3.",
+            "ref3": "Reference-surface reconstruction recomputed in this run.",
+            "ref5": "Reference-surface reconstruction recomputed in this run.",
+            "ref7": "Reference-surface reconstruction recomputed in this run.",
+            "ref9": "Reference-surface reconstruction recomputed in this run.",
+            "ref31": "Dense 31-reference physical baseline using the full 0.00-0.30 m reference grid, recomputed in this run.",
             "ref3 + residual U-Net": "S02 checkpoints reused from 001b; runtime is ref3 plus network inference.",
             "ref3 + ReMiC-Net R04": "R04 checkpoints reused from 002b; runtime is ref3 plus network inference.",
         }
@@ -461,20 +505,20 @@ def main() -> None:
                 "num_test_samples": 100,
                 "methods": order,
                 "true_bp": {
-                    "implementation": "workspace.recon.cyl_true_bp_engine.true_backproject_sparse_echo",
-                    "n_fft": TRUE_BP_N_FFT,
-                    "voxel_chunk": TRUE_BP_VOXEL_CHUNK,
-                    "measurement_chunk": TRUE_BP_MEASUREMENT_CHUNK,
+                    "implementation": "workspace.eval.task_real_struc_003a_table1.true_bp_exact_k_domain",
+                    "voxel_chunk": TRUE_BP_EXACT_VOXEL_CHUNK,
+                    "measurement_chunk": TRUE_BP_EXACT_MEASUREMENT_CHUNK,
                     "normalization": "independent peak normalization after fitting to 24^3",
+                    "phase_convention": "exact sum y(a,h,k) * exp(+j*k*R(a,h,p)) over active sparse measurements and all frequencies",
                 },
                 "ref31": {
-                    "implementation": "historical 31-reference reference-surface cache from comparison_cache/baselines/*_BP.npz",
+                    "implementation": "workspace.recon.cyl_fast_reference_engine.reconstruct_cylindrical_reference(method='BP')",
                     "note": "separate from true BP",
                 },
             },
         )
-        write_text(output_root / "ref31_implementation_note.md", "# ref31_implementation_note\n\n`ref31` is the dense-reference physical baseline inside the reference-surface family. It uses the full 31-radius reference grid over 0.00-0.30 m with 0.01 m spacing. In the existing frozen comparison cache, this same 31-reference reference-surface reconstruction is stored under the historical `BP` method key. For this corrected Table 1, `T01_BP` is recomputed with true direct voxel-wise backprojection via `workspace.recon.cyl_true_bp_engine.true_backproject_sparse_echo`, while `T04_ref31` reports the historical full-reference reference-surface cache explicitly as `ref31`.\n")
-        write_text(output_root / "bp_ref31_separation_audit.md", "# bp_ref31_separation_audit\n\nThe earlier 003a output incorrectly mapped the historical frozen cache key `BP` to both Table 1 `BP` and `ref31`. Code inspection shows that historical cache was produced by `reconstruct_cylindrical_reference(method='BP')`, where `PROTOCOL_V1.reference_sets['BP']` is the 31-radius reference-surface grid. The corrected output recomputes `BP` with `true_backproject_sparse_echo` and reserves the historical cache for `ref31` only.\n\nGenerated files carrying corrected BP data:\n\n- `true_bp_audit.csv`: direct-BP runtime and reconstruction-grid audit per sample.\n- `per_sample_metrics.csv`: corrected per-sample Table 1 metrics; rows with `method=BP` are true BP.\n- `table1_main_results_mean_std.csv`: corrected aggregate Table 1 values.\n")
+        write_text(output_root / "ref31_implementation_note.md", "# ref31_implementation_note\n\n`ref31` is the dense-reference physical baseline inside the reference-surface family. It uses the full 31-radius reference grid over 0.00-0.30 m with 0.01 m spacing. In the codebase this path is still invoked as `reconstruct_cylindrical_reference(method='BP')` because `PROTOCOL_V1.reference_sets['BP']` maps to the 31-radius grid. For Table 1, `T01_BP` is exact k-domain voxel-wise BP, while `T06_ref31` is this full-reference reference-surface approximation explicitly labeled as `ref31`.\n")
+        write_text(output_root / "bp_ref31_separation_audit.md", "# bp_ref31_separation_audit\n\nThe earlier 003a output had two runtime problems: it mapped the historical frozen cache key `BP` to both Table 1 `BP` and `ref31`, and then mixed newly measured BP wall time with historical reference-surface cache wall times. The corrected output recomputes all physical runtimes in one run. `BP` is exact k-domain voxel-wise backprojection with an explicit sum over active sparse measurements and all frequencies. `ref31` is the 31-reference reference-surface approximation produced by `reconstruct_cylindrical_reference(method='BP')` and labeled as `ref31`.\n\nGenerated files carrying corrected BP data:\n\n- `true_bp_audit.csv`: exact-BP runtime and reconstruction-grid audit per sample.\n- `per_sample_metrics.csv`: corrected per-sample Table 1 metrics; rows with `method=BP` are exact true BP.\n- `table1_main_results_mean_std.csv`: corrected aggregate Table 1 values.\n")
         write_text(output_root / "table1_ready.md", "# table1_ready\n\nstatus: yes\n\nAll eight Table 1 methods were evaluated on the frozen 100-sample main test split, including the requested ref5 and ref7 additions.\n")
         write_text(output_root / "table1_ready_latex.tex", latex_table(summary))
     except Exception as exc:
