@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE",
+  "BP_available": "yes",
+  "ref3_available": "yes",
+  "ref5_available": "yes",
+  "ref7_available": "yes",
+  "ref9_available": "yes",
+  "ref31_available": "yes",
+  "U-Net_available": "yes",
+  "ReMiCNet_R04_available": "yes",
+  "best_quality_method_by_NMSE": "ref3 + ReMiC-Net R04",
+  "fastest_method": "ref3",
+  "best_speed_quality_tradeoff": "ref3 + ReMiC-Net R04",
+  "table1_ready": "yes",
+  "recommendation_for_task_real_struc_003b": "prepare Table 2 component ablations without changing Table 1 methods"
+}

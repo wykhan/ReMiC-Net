@@ -1,0 +1,28 @@
+{
+  "task": "task_real_struc_003a",
+  "source_006d": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_006d_800_formal/20260419_112717",
+  "source_001b": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_001b_full_structure_diagnosis/20260515_001000_fullrunner",
+  "source_002b": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_002b_film_variant_search/20260516_104031",
+  "num_test_samples": 100,
+  "methods": [
+    "BP",
+    "ref3",
+    "ref5",
+    "ref7",
+    "ref9",
+    "ref31",
+    "ref3 + residual U-Net",
+    "ref3 + ReMiC-Net R04"
+  ],
+  "true_bp": {
+    "implementation": "workspace.recon.cyl_true_bp_engine.true_backproject_sparse_echo",
+    "n_fft": 4096,
+    "voxel_chunk": 384,
+    "measurement_chunk": 512,
+    "normalization": "independent peak normalization after fitting to 24^3"
+  },
+  "ref31": {
+    "implementation": "historical 31-reference reference-surface cache from comparison_cache/baselines/*_BP.npz",
+    "note": "separate from true BP"
+  }
+}

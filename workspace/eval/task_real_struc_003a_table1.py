@@ -140,8 +140,10 @@ def physical_rows(test_rows: list[dict[str, Any]], output_root: Path) -> tuple[l
     sources: dict[str, str] = {}
     method_map = {
         "T02_ref3": ("ref3", "ref3"),
-        "T03_ref9": ("ref9", "ref9"),
-        "T04_ref31": ("BP", "ref31"),
+        "T03_ref5": ("ref5", "ref5"),
+        "T04_ref7": ("ref7", "ref7"),
+        "T05_ref9": ("ref9", "ref9"),
+        "T06_ref31": ("BP", "ref31"),
     }
     cache_root = SOURCE_006D / "comparison_cache" / "baselines"
     true_bp_audit_rows: list[dict[str, Any]] = []
@@ -237,8 +239,8 @@ def learned_rows(test_rows: list[dict[str, Any]], ref3_runtime_by_sample: dict[s
     }
     test_ids = {r["sample_id"] for r in test_rows}
     src_specs = [
-        (SOURCE_001B / "per_sample_metrics.csv", "S02_plain_residual_unet", "T05_ref3_plus_residual_UNet", "ref3 + residual U-Net"),
-        (SOURCE_002B / "per_sample_metrics.csv", "R04_rsbfilm_env_productPcycDelta", "T06_ref3_plus_ReMiCNet_R04", "ref3 + ReMiC-Net R04"),
+        (SOURCE_001B / "per_sample_metrics.csv", "S02_plain_residual_unet", "T07_ref3_plus_residual_UNet", "ref3 + residual U-Net"),
+        (SOURCE_002B / "per_sample_metrics.csv", "R04_rsbfilm_env_productPcycDelta", "T08_ref3_plus_ReMiCNet_R04", "ref3 + ReMiC-Net R04"),
     ]
     for path, variant, table_method, method in src_specs:
         rows = [r for r in read_csv(path) if r["variant"] == variant and r["sample_id"] in test_ids]
@@ -291,6 +293,8 @@ def write_reports(output_root: Path, summary_rows: list[dict[str, Any]], status:
     r04 = lookup["ref3 + ReMiC-Net R04"]
     ref3 = lookup["ref3"]
     unet = lookup["ref3 + residual U-Net"]
+    ref5 = lookup["ref5"]
+    ref7 = lookup["ref7"]
     ref9 = lookup["ref9"]
     ref31 = lookup["ref31"]
     bp = lookup["BP"]
@@ -304,7 +308,7 @@ def write_reports(output_root: Path, summary_rows: list[dict[str, Any]], status:
         "",
         "## 1. Executive Summary",
         "",
-        "Table 1 collection completed for BP, ref3, ref9, ref31, ref3+residual U-Net, and ref3+ReMiC-Net R04 on the frozen 100-sample main test split.",
+        "Table 1 collection completed for BP, ref3, ref5, ref7, ref9, ref31, ref3+residual U-Net, and ref3+ReMiC-Net R04 on the frozen 100-sample main test split.",
         f"Best quality by NMSE: `{best_quality['method']}`. Fastest method: `{fastest['method']}`.",
         "",
         "## 2. Purpose: Table 1 Data Collection Only",
@@ -317,11 +321,11 @@ def write_reports(output_root: Path, summary_rows: list[dict[str, Any]], status:
         "",
         "## 4. Methods Included in Table 1",
         "",
-        "T01 BP, T02 ref3, T03 ref9, T04 ref31, T05 ref3 + residual U-Net, T06 ref3 + ReMiC-Net R04.",
+        "T01 BP, T02 ref3, T03 ref5, T04 ref7, T05 ref9, T06 ref31, T07 ref3 + residual U-Net, T08 ref3 + ReMiC-Net R04.",
         "",
         "## 5. Methods Excluded From This Task",
         "",
-        "ref5, ref7, generic FiLM, metadata concat, R00, F02, F04, RMA, PFA, support-mask variants, hard-region losses, and OOD splits are excluded.",
+        "Generic FiLM, metadata concat, R00, F02, F04, RMA, PFA, support-mask variants, hard-region losses, and OOD splits are excluded.",
         "",
         "## 6. Metric Definitions",
         "",
@@ -335,7 +339,7 @@ def write_reports(output_root: Path, summary_rows: list[dict[str, Any]], status:
         "",
         f"BP uses `workspace.recon.cyl_true_bp_engine.true_backproject_sparse_echo`, not the reference-surface cache. BP runtime mean is {float(bp['runtime_per_sample_mean']):.6f} s/sample and speedup is fixed to 1.0.",
         "",
-        "## 9. Physical Reference-Surface Baselines: ref3 / ref9 / ref31",
+        "## 9. Physical Reference-Surface Baselines: ref3 / ref5 / ref7 / ref9 / ref31",
         "",
         "ref31 is reported as the dense-reference physical baseline using the 31-radius full reference-surface set. It is sourced from the historical `method='BP'` reference-surface cache and is intentionally separated from true BP. See `ref31_implementation_note.md`.",
         "",
@@ -351,11 +355,11 @@ def write_reports(output_root: Path, summary_rows: list[dict[str, Any]], status:
         "",
         f"1. ReMiC-Net R04 improves over ref3: {float(r04['NMSE_mean']) < float(ref3['NMSE_mean'])}.",
         f"2. ReMiC-Net R04 improves over ref3 + residual U-Net: {float(r04['NMSE_mean']) < float(unet['NMSE_mean'])}.",
-        f"3. ReMiC-Net R04 compared with ref9: NMSE {float(r04['NMSE_mean']):.6f} vs {float(ref9['NMSE_mean']):.6f}.",
+        f"3. ReMiC-Net R04 compared with ref5/ref7/ref9: NMSE {float(r04['NMSE_mean']):.6f} vs {float(ref5['NMSE_mean']):.6f}/{float(ref7['NMSE_mean']):.6f}/{float(ref9['NMSE_mean']):.6f}.",
         f"4. ReMiC-Net R04 compared with ref31: NMSE {float(r04['NMSE_mean']):.6f} vs {float(ref31['NMSE_mean']):.6f}.",
         f"5. Runtime cost relative to ref3: {float(r04['runtime_per_sample_mean']) / max(float(ref3['runtime_per_sample_mean']), 1e-12):.4f}x.",
         f"6. Speedup relative to BP: {float(r04['speedup_vs_BP_mean']):.4f}x.",
-        "7. Table 1 is ready for paper drafting. BP and ref31 are now distinct: BP is direct voxel-wise backprojection; ref31 is the dense reference-surface baseline.",
+        "7. Table 1 is ready for paper drafting. BP and ref31 are distinct: BP is direct voxel-wise backprojection; ref31 is the dense reference-surface baseline.",
         "",
         "## 13. Limitations and Items Deferred to 003b / 003c",
         "",
@@ -374,6 +378,8 @@ def write_reports(output_root: Path, summary_rows: list[dict[str, Any]], status:
         "status": status,
         "BP_available": "yes",
         "ref3_available": "yes",
+        "ref5_available": "yes",
+        "ref7_available": "yes",
         "ref9_available": "yes",
         "ref31_available": "yes",
         "U-Net_available": "yes",
@@ -410,6 +416,8 @@ def main() -> None:
         categories = {
             "BP": "Exact / high-quality physical baseline",
             "ref3": "Fast physical backbone",
+            "ref5": "Reduced-reference physical baseline",
+            "ref7": "Reduced-reference physical baseline",
             "ref9": "Intermediate-reference physical baseline",
             "ref31": "Dense-reference physical baseline",
             "ref3 + residual U-Net": "Learned compensation baseline",
@@ -418,6 +426,8 @@ def main() -> None:
         sources = {
             "BP": phys_sources["BP"],
             "ref3": str(SOURCE_006D / "mainline_vs_baselines_metrics.json"),
+            "ref5": str(SOURCE_006D / "mainline_vs_baselines_metrics.json"),
+            "ref7": str(SOURCE_006D / "mainline_vs_baselines_metrics.json"),
             "ref9": str(SOURCE_006D / "mainline_vs_baselines_metrics.json"),
             "ref31": "reused 31-reference full reference-surface cache from BP entries; see ref31_implementation_note.md",
             **learned_sources,
@@ -425,12 +435,14 @@ def main() -> None:
         notes = {
             "BP": "True direct voxel-wise BP recomputed with cyl_true_bp_engine; independently peak-normalized after fitting to 24^3.",
             "ref3": "Existing frozen ref3 cache.",
+            "ref5": "Existing frozen ref5 cache.",
+            "ref7": "Existing frozen ref7 cache.",
             "ref9": "Existing frozen ref9 cache.",
             "ref31": "Dense 31-reference physical baseline using the full 0.00-0.30 m reference grid; numerically sourced from the existing full-reference cache.",
             "ref3 + residual U-Net": "S02 checkpoints reused from 001b; runtime is ref3 plus network inference.",
             "ref3 + ReMiC-Net R04": "R04 checkpoints reused from 002b; runtime is ref3 plus network inference.",
         }
-        order = ["BP", "ref3", "ref9", "ref31", "ref3 + residual U-Net", "ref3 + ReMiC-Net R04"]
+        order = ["BP", "ref3", "ref5", "ref7", "ref9", "ref31", "ref3 + residual U-Net", "ref3 + ReMiC-Net R04"]
         summary = [method_summary(all_rows, m, categories[m], sources[m], notes[m], bp_runtime) for m in order]
         write_csv(output_root / "per_sample_metrics.csv", all_rows)
         write_csv(output_root / "table1_main_results.csv", all_rows)
@@ -463,7 +475,7 @@ def main() -> None:
         )
         write_text(output_root / "ref31_implementation_note.md", "# ref31_implementation_note\n\n`ref31` is the dense-reference physical baseline inside the reference-surface family. It uses the full 31-radius reference grid over 0.00-0.30 m with 0.01 m spacing. In the existing frozen comparison cache, this same 31-reference reference-surface reconstruction is stored under the historical `BP` method key. For this corrected Table 1, `T01_BP` is recomputed with true direct voxel-wise backprojection via `workspace.recon.cyl_true_bp_engine.true_backproject_sparse_echo`, while `T04_ref31` reports the historical full-reference reference-surface cache explicitly as `ref31`.\n")
         write_text(output_root / "bp_ref31_separation_audit.md", "# bp_ref31_separation_audit\n\nThe earlier 003a output incorrectly mapped the historical frozen cache key `BP` to both Table 1 `BP` and `ref31`. Code inspection shows that historical cache was produced by `reconstruct_cylindrical_reference(method='BP')`, where `PROTOCOL_V1.reference_sets['BP']` is the 31-radius reference-surface grid. The corrected output recomputes `BP` with `true_backproject_sparse_echo` and reserves the historical cache for `ref31` only.\n\nGenerated files carrying corrected BP data:\n\n- `true_bp_audit.csv`: direct-BP runtime and reconstruction-grid audit per sample.\n- `per_sample_metrics.csv`: corrected per-sample Table 1 metrics; rows with `method=BP` are true BP.\n- `table1_main_results_mean_std.csv`: corrected aggregate Table 1 values.\n")
-        write_text(output_root / "table1_ready.md", "# table1_ready\n\nstatus: yes\n\nAll six requested Table 1 methods were evaluated on the frozen 100-sample main test split.\n")
+        write_text(output_root / "table1_ready.md", "# table1_ready\n\nstatus: yes\n\nAll eight Table 1 methods were evaluated on the frozen 100-sample main test split, including the requested ref5 and ref7 additions.\n")
         write_text(output_root / "table1_ready_latex.tex", latex_table(summary))
     except Exception as exc:
         status = "INCOMPLETE"
@@ -483,7 +495,7 @@ def main() -> None:
     print(f"experiment_root: {output_root}")
     print("current_branch: task_struc_series")
     print("remote_push_status: pending")
-    for key in ["BP_available", "ref3_available", "ref9_available", "ref31_available", "U-Net_available", "ReMiCNet_R04_available", "best_quality_method_by_NMSE", "fastest_method", "best_speed_quality_tradeoff", "table1_ready", "recommendation_for_task_real_struc_003b"]:
+    for key in ["BP_available", "ref3_available", "ref5_available", "ref7_available", "ref9_available", "ref31_available", "U-Net_available", "ReMiCNet_R04_available", "best_quality_method_by_NMSE", "fastest_method", "best_speed_quality_tradeoff", "table1_ready", "recommendation_for_task_real_struc_003b"]:
         print(f"{key}: {conclusion.get(key, 'no' if status != 'COMPLETE' else '')}")
 
 

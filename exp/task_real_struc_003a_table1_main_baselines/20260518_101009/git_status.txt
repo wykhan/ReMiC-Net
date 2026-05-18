@@ -1,0 +1,13 @@
+## task_struc_series...origin/task_struc_series
+ M workspace/eval/task_real_struc_003a_table1.py
+?? exp/task_real_struc_003a_table1_main_baselines/20260518_101009/
+
+current_branch:
+task_struc_series
+
+recent_log:
+9438472 Correct struc 003a true BP baseline
+eb7b5a8 Add struc 003a table1 main baseline results
+7259e88 Add struc 002b FiLM variant search
+797fb82 Add struc 002a Pcyc encoding ablation
+517446b Add full struc 001b runner and results
