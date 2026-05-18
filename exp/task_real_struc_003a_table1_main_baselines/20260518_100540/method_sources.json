@@ -1,0 +1,8 @@
+{
+  "BP": "workspace.recon.cyl_true_bp_engine.true_backproject_sparse_echo",
+  "ref3": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_006d_800_formal/20260419_112717/mainline_vs_baselines_metrics.json",
+  "ref9": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_006d_800_formal/20260419_112717/mainline_vs_baselines_metrics.json",
+  "ref31": "reused 31-reference full reference-surface cache from BP entries; see ref31_implementation_note.md",
+  "ref3 + residual U-Net": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_001b_full_structure_diagnosis/20260515_001000_fullrunner/checkpoints/S02_plain_residual_unet",
+  "ref3 + ReMiC-Net R04": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_002b_film_variant_search/20260516_104031/checkpoints/R04_rsbfilm_env_productPcycDelta"
+}
