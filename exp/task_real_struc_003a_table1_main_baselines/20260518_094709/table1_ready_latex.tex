@@ -1,0 +1,12 @@
+\begin{tabular}{lrrrrr}
+\toprule
+Method & NMSE $\downarrow$ & PSNR $\uparrow$ & SSIM $\uparrow$ & Runtime (s) $\downarrow$ & Speedup $\uparrow$ \\
+\midrule
+BP & 2.5939 $\pm$ 1.7759 & 26.70 $\pm$ 2.07 & 0.378 $\pm$ 0.102 & 1.9740 & 1.00 \\
+ref3 & 5.9971 $\pm$ 5.6281 & 23.80 $\pm$ 2.27 & 0.185 $\pm$ 0.102 & 0.3793 & 5.20 \\
+ref9 & 2.8038 $\pm$ 1.7689 & 26.31 $\pm$ 2.16 & 0.339 $\pm$ 0.101 & 0.7195 & 2.74 \\
+ref31 & 2.5939 $\pm$ 1.7759 & 26.70 $\pm$ 2.07 & 0.378 $\pm$ 0.102 & 1.9740 & 1.00 \\
+ref3 + residual U-Net & 1.4304 $\pm$ 0.6034 & 29.24 $\pm$ 1.28 & 0.450 $\pm$ 0.051 & 0.3803 & 5.19 \\
+ref3 + ReMiC-Net R04 & 1.0011 $\pm$ 0.0156 & 30.15 $\pm$ 0.07 & 0.485 $\pm$ 0.003 & 0.3813 & 5.18 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,15 @@
+{
+  "task": "task_real_struc_003a",
+  "source_006d": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_006d_800_formal/20260419_112717",
+  "source_001b": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_001b_full_structure_diagnosis/20260515_001000_fullrunner",
+  "source_002b": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_002b_film_variant_search/20260516_104031",
+  "num_test_samples": 100,
+  "methods": [
+    "BP",
+    "ref3",
+    "ref9",
+    "ref31",
+    "ref3 + residual U-Net",
+    "ref3 + ReMiC-Net R04"
+  ]
+}

@@ -1,0 +1,7 @@
+method,speedup_vs_BP_mean
+BP,1.0
+ref3,5.203755007069577
+ref9,2.7435494091053387
+ref31,1.0
+ref3 + residual U-Net,5.190640600340708
+ref3 + ReMiC-Net R04,5.177296660915552
