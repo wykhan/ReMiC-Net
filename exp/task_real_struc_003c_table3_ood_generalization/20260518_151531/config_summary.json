@@ -1,0 +1,32 @@
+{
+  "task": "task_real_struc_003c",
+  "status": "COMPLETE",
+  "dataset_source": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_006d_800_formal/20260419_112717",
+  "ood_splits": [
+    {
+      "ood_split": "Leave-One-Family-Out OOD",
+      "expected_path": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_006d_800_formal/20260419_112717/datasets/leave_one_family_out_ood/dataset/index.json",
+      "files_exist": true,
+      "status": "available"
+    },
+    {
+      "ood_split": "Random-ET OOD",
+      "expected_path": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_006d_800_formal/20260419_112717/datasets/random_et_ood/dataset/index.json",
+      "files_exist": true,
+      "status": "available"
+    },
+    {
+      "ood_split": "Unseen-Parameter OOD",
+      "expected_path": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_006d_800_formal/20260419_112717/datasets/unseen_param_ood/dataset/index.json",
+      "files_exist": true,
+      "status": "available"
+    }
+  ],
+  "source_001b": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_001b_full_structure_diagnosis/20260515_001000_fullrunner",
+  "source_002b": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_002b_film_variant_search/20260516_104031",
+  "source_003a": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_003a_table1_main_baselines/20260518_103251",
+  "source_003b": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_003b_table2_component_ablation/20260518_141021",
+  "num_bootstrap": 1000,
+  "current_branch": "task_struc_series",
+  "remote_branch": "origin/task_struc_series"
+}

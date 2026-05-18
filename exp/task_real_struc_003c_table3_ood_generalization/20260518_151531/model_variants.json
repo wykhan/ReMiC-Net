@@ -1,0 +1,44 @@
+{
+  "O00_ref3": {
+    "table_label": "ref3",
+    "source_variant": "S01_ref3",
+    "source_root": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_001b_full_structure_diagnosis/20260515_001000_fullrunner",
+    "seeds": [
+      0
+    ],
+    "notes": "physical ref3 backbone; no learned seed"
+  },
+  "O01_ref3_residual_UNet": {
+    "table_label": "ref3 + residual U-Net",
+    "source_variant": "S02_plain_residual_unet",
+    "source_root": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_001b_full_structure_diagnosis/20260515_001000_fullrunner",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "notes": "reused S02_plain_residual_unet checkpoints from 001b"
+  },
+  "O02_ref3_metadata_generic_FiLM": {
+    "table_label": "ref3 + metadata + generic FiLM",
+    "source_variant": "G00_generic_film_sincos_Pcyc",
+    "source_root": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_002b_film_variant_search/20260516_104031",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "notes": "reused G00_generic_film_sincos_Pcyc checkpoints from 002b"
+  },
+  "O03_ref3_metadata_RSB_FiLM_R04": {
+    "table_label": "ref3 + metadata + RSB-FiLM R04",
+    "source_variant": "R04_rsbfilm_env_productPcycDelta",
+    "source_root": "/home/superws/2026_Projects/Codex_reference_plane_real/exp/task_real_struc_002b_film_variant_search/20260516_104031",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "notes": "reused R04_rsbfilm_env_productPcycDelta checkpoints from 002b"
+  }
+}

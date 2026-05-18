@@ -1,0 +1,12 @@
+\begin{tabular}{lccc}
+\toprule
+Method & Leave-One-Family-Out & Random-ET & Unseen-Parameter \\
+\midrule
+ref3 & 6.705 / 23.63 / 0.130 & 7.052 / 22.27 / 0.065 & 2.896 / 22.94 / 0.196 \\
+ref3 + residual U-Net & 1.410 / 30.39 / 0.507 & 1.569 / 27.78 / 0.325 & 1.128 / 26.58 / 0.315 \\
+ref3 + metadata + generic FiLM & 1.006 / 31.47 / 0.560 & 1.157 / 28.74 / 0.376 & 0.993 / 27.03 / 0.312 \\
+ref3 + metadata + RSB-FiLM R04 & 1.004 / 31.48 / 0.562 & 1.157 / 28.75 / 0.386 & 0.993 / 27.02 / 0.311 \\
+\bottomrule
+\end{tabular}
+
+\noindent\emph{Note:} Cells are NMSE / PSNR / SSIM. All learned methods use ref3 as the physical backbone. Metadata-based variants use the finalized sin-cos Pcyc encoding.
